@@ -1,0 +1,853 @@
+[
+  {
+    "label": "Municipal office",
+    "number": "+914222390261",
+    "email": "commr.coimbatore@tn.gov.in",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Municipal office alternate line",
+    "number": "+914222390262",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Municipal office alternate line",
+    "number": "+914222390263",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "WhatsApp grievance line",
+    "number": "8190000200",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Deputy commissioner",
+    "email": "dc@ccmc.gov.in",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Executive engineer, main office",
+    "number": "9442504590",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "East zone assistant commissioner",
+    "number": "9443799207",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "East zone executive engineer",
+    "number": "9894674574",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "East zone assistant executive engineer",
+    "number": "9489206022",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "East zone assistant town planning officer",
+    "number": "9442104125",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "East zone administrative officer",
+    "number": "8925975928",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "East zone assistant revenue officer",
+    "number": "8925975903",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "East zone zonal sanitary officer",
+    "number": "9443754100",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "West zone assistant commissioner",
+    "number": "9489206055",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "West zone executive engineer",
+    "number": "9443799219",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "West zone assistant executive engineer",
+    "number": "9442104103",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "West zone assistant town planning officer",
+    "number": "9489046640",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "West zone administrative officer",
+    "number": "9443799218",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "West zone assistant revenue officer",
+    "number": "8925975923",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "West zone zonal sanitary officer",
+    "number": "9442104156",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "North zone assistant commissioner",
+    "number": "9489206045",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "North zone executive engineer",
+    "number": "9894674574",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "North zone assistant executive engineer",
+    "number": "9489206000",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "North zone assistant town planning officer",
+    "number": "9489903386",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "North zone administrative officer",
+    "number": "8754900683",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "North zone assistant revenue officer",
+    "number": "8925968022",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "North zone zonal sanitary officer",
+    "number": "8925968042",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "South zone assistant commissioner",
+    "number": "9894099024",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "South zone executive engineer",
+    "number": "9443799211",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "South zone assistant executive engineer",
+    "number": "9442501794",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "South zone assistant town planning officer",
+    "number": "9489046640",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "South zone administrative officer",
+    "number": "8925975869",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "South zone assistant revenue officer",
+    "number": "8925975836",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "South zone zonal sanitary officer",
+    "number": "9442104144",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Central zone assistant commissioner",
+    "number": "9443799236",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Central zone executive engineer",
+    "number": "9443799219",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Central zone assistant executive engineer",
+    "number": "9976982121",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Central zone assistant town planning officer",
+    "number": "9442104125",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Central zone administrative officer",
+    "number": "8925975800",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Central zone assistant revenue officer",
+    "number": "8925975838",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Central zone zonal sanitary officer",
+    "number": "9442104151",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 5, 7: assistant/junior engineer",
+    "number": "8925893936",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 5: water supply assistant/junior engineer",
+    "number": "8925893936",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 5, 6, 7, 8, 23, 55, 56, 57, 58: sanitary inspector",
+    "number": "7598031333",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 5, 7, 8: bill collector",
+    "number": "9787722081",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 6, 8, 23: assistant/junior engineer",
+    "number": "9489206013",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 6, 7, 8, 23: water supply assistant/junior engineer",
+    "number": "9489206013",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 1, 6, 9, 15, 56: bill collector",
+    "number": "9443446149",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 9, 22: assistant/junior engineer",
+    "number": "9442104122",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 9, 22, 24: water supply assistant/junior engineer",
+    "number": "9489206048",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 9, 22, 24, 52, 54: sanitary inspector",
+    "number": "9442504589",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 22, 23: bill collector",
+    "number": "7448573321",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 24, 52, 53: assistant/junior engineer",
+    "number": "9489206048",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 11, 14, 18, 24, 54: bill collector",
+    "number": "8072093076",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 50, 60, 61: assistant/junior engineer",
+    "number": "9442504594",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61: water supply assistant/junior engineer",
+    "number": "9489206051",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 50, 51, 53, 60, 61: sanitary inspector",
+    "number": "9489457403",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 50, 52: bill collector",
+    "number": "8015202221",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 51: assistant/junior engineer",
+    "number": "8925893940",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 51, 53: bill collector",
+    "number": "7862287041",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 54, 55: assistant/junior engineer",
+    "number": "9384092679",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 55: bill collector",
+    "number": "7708654528",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 56, 57: assistant/junior engineer",
+    "number": "9384092671",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 57, 60: bill collector",
+    "number": "8870125004",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 58: assistant/junior engineer",
+    "number": "8438078548",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 58, 61: bill collector",
+    "number": "9500242472",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 59: assistant/junior engineer",
+    "number": "9489206022",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 59: sanitary inspector",
+    "number": "9842915687",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 59: bill collector",
+    "number": "9489046615",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 16: assistant/junior engineer",
+    "number": "8838286880",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 16, 17, 33, 34, 35: water supply assistant/junior engineer",
+    "number": "9489206016",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 16, 17, 33, 34, 35, 36: sanitary inspector",
+    "number": "8925968002",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 16: bill collector",
+    "number": "8428198586",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 17: assistant/junior engineer",
+    "number": "9489206012",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 17, 73, 74: bill collector",
+    "number": "9123516882",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 33, 34: assistant/junior engineer",
+    "number": "9952121576",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 33, 34, 75: bill collector",
+    "number": "7598444437",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 35, 42: assistant/junior engineer",
+    "number": "9489206016",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 35, 36: bill collector",
+    "number": "9003655099",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 36, 37, 39: assistant/junior engineer",
+    "number": "9443799232",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 36, 37, 38, 39, 40, 41, 71, 72, 73, 74, 75: water supply assistant/junior engineer",
+    "number": "9442104131",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 37, 38, 39, 40, 41, 75: sanitary inspector",
+    "number": "9629612973",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 37, 41, 42: bill collector",
+    "number": "8610024930",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 38: assistant/junior engineer",
+    "number": "8925893944",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 38, 39, 71: bill collector",
+    "number": "9944277006",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 40, 74, 75: assistant/junior engineer",
+    "number": "9442104129",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 40, 72: bill collector",
+    "number": "9865533246",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 41, 43, 44, 45: assistant/junior engineer",
+    "number": "9489206004",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 42, 43, 44, 45, 70, 76, 77, 78, 79, 80, 81, 82, 86: water supply assistant/junior engineer",
+    "number": "9442104106",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 42, 43, 44, 45, 73, 74: sanitary inspector",
+    "number": "8925968030",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 43, 44: bill collector",
+    "number": "9384783871",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 45: bill collector",
+    "number": "9486824306",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 71, 72, 73: assistant/junior engineer",
+    "number": "9442104147",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 71, 72: sanitary inspector",
+    "number": "9442104156",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 1, 2: assistant/junior engineer",
+    "number": "7904192365",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 1, 2, 3, 12, 13, 14, 15: water supply assistant/junior engineer",
+    "number": "9442104112",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 1, 2, 12, 13, 14, 15: sanitary inspector",
+    "number": "8925975855",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 2: bill collector",
+    "number": "9597502329",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 3, 12: assistant/junior engineer",
+    "number": "9489206049",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 3, 4, 10, 11, 21: sanitary inspector",
+    "number": "9442104133",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 3, 4: bill collector",
+    "number": "9442256888",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 4, 10, 11: assistant/junior engineer",
+    "number": "9442104134",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 4, 10, 11, 21: water supply assistant/junior engineer",
+    "number": "9489206006",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 10, 13: bill collector",
+    "number": "9092997766",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 12: bill collector",
+    "number": "9500623573",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 13, 14: assistant/junior engineer",
+    "number": "8925893935",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 15, 18: assistant/junior engineer",
+    "number": "9489206020",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 18, 19, 20, 25, 26, 27, 28, 29, 30: water supply assistant/junior engineer",
+    "number": "9489206000",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 18, 19, 20: sanitary inspector",
+    "number": "9384092684",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 19, 20, 29, 30: assistant/junior engineer",
+    "number": "8925975890",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 19: bill collector",
+    "number": "9976038006",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 20: bill collector",
+    "number": "9003457750",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 21: assistant/junior engineer",
+    "number": "9489046672",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 21, 29: bill collector",
+    "number": "9944075365",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 25, 26, 27: assistant/junior engineer",
+    "number": "9489206007",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 25, 26, 27, 28: sanitary inspector",
+    "number": "9442504588",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 25: bill collector",
+    "number": "9080296741",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 26: bill collector",
+    "number": "9585836868",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 27, 30: bill collector",
+    "number": "9003314747",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 28: assistant/junior engineer",
+    "number": "9489046700",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 28: bill collector",
+    "number": "9843020701",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 29, 30: sanitary inspector",
+    "number": "6382236837",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 76, 78, 79: assistant/junior engineer",
+    "number": "9489206005",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 76, 77, 78, 79, 85: sanitary inspector",
+    "number": "9442104153",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 76, 77, 78, 79: bill collector",
+    "number": "9043009761",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 77, 86, 87: assistant/junior engineer",
+    "number": "9489206002",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 85: assistant/junior engineer",
+    "number": "8925893441",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 85, 94, 95, 96, 97, 98, 99, 100: water supply assistant/junior engineer",
+    "number": "9442501794",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 85, 86, 92: bill collector",
+    "number": "9789197841",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 86, 87: sanitary inspector",
+    "number": "7339404132",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 87, 88, 89, 90, 91, 92, 93: water supply assistant/junior engineer",
+    "number": "9489206003",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 87, 91, 97: bill collector",
+    "number": "9994097999",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 88, 93: assistant/junior engineer",
+    "number": "9488703705",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 88, 89, 90, 91, 92, 99: sanitary inspector",
+    "number": "9489206054",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 88, 89, 96: bill collector",
+    "number": "9585314312",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 89, 90, 91, 92: assistant/junior engineer",
+    "number": "9489206019",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 90, 93, 94: bill collector",
+    "number": "9944560654",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 93, 94, 95, 96, 97, 98, 100: sanitary inspector",
+    "number": "9442104144",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 94, 95: assistant/junior engineer",
+    "number": "9442504593",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 95: bill collector",
+    "number": "9894813434",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 96: assistant/junior engineer",
+    "number": "8925893938",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 97, 98: assistant/junior engineer",
+    "number": "9489206003",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 98, 99, 100: bill collector",
+    "number": "9843446254",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 99: assistant/junior engineer",
+    "number": "6381237833",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 100: assistant/junior engineer",
+    "number": "9442104115",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 31, 32, 46: assistant/junior engineer",
+    "number": "9489206010",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 31, 32, 46, 47, 48, 49, 62, 63, 64, 65, 66, 67, 68, 69, 83, 84: water supply assistant/junior engineer",
+    "number": "9489206030",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 31, 32, 67, 69: sanitary inspector",
+    "number": "9489046675",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 31: bill collector",
+    "number": "9943586654",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 32: bill collector",
+    "number": "7598249490",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 46, 47, 48, 68: sanitary inspector",
+    "number": "8072337673",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 46, 47: bill collector",
+    "number": "7010156733",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 47, 48, 49: assistant/junior engineer",
+    "number": "9976982121",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 48, 63: bill collector",
+    "number": "9942947140",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 49, 82, 83, 84: sanitary inspector",
+    "number": "9489206052",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 49, 67: bill collector",
+    "number": "9952639696",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 62, 64, 66: assistant/junior engineer",
+    "number": "9442104101",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 62, 63, 64, 65, 66: sanitary inspector",
+    "number": "9442104150",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 62: bill collector",
+    "number": "7540052132",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 63, 84: assistant/junior engineer",
+    "number": "6380756353",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 65, 67: assistant/junior engineer",
+    "number": "9489206024",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 66: bill collector",
+    "number": "7871981000",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 68, 69: assistant/junior engineer",
+    "number": "8925893947",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 68: bill collector",
+    "number": "9994628821",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 70, 82, 83: assistant/junior engineer",
+    "number": "9442272924",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 70, 80, 81: sanitary inspector",
+    "number": "9442104151",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 80, 81: assistant/junior engineer",
+    "number": "9025551230",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 80, 81: bill collector",
+    "number": "9790118841",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Wards 82, 83: bill collector",
+    "number": "9944439672",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  },
+  {
+    "label": "Ward 84: bill collector",
+    "number": "9524941202",
+    "source_url": "https://ccmc.gov.in/index.php/contact-us"
+  }
+]
