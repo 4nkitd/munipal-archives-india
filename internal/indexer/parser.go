@@ -113,8 +113,12 @@ func LoadMunicipalityOfficers(muniDir string) ([]model.OfficerRecord, error) {
 	return loadRecords[model.OfficerRecord](muniDir, "officers.json", "officers")
 }
 
+func LoadMunicipalityWardRows(muniDir string) ([]model.WardRecord, error) {
+	return loadRecords[model.WardRecord](muniDir, "wards.json", "wards")
+}
+
 func LoadMunicipalityWards(muniDir string) ([]model.WardRecord, error) {
-	wards, err := loadRecords[model.WardRecord](muniDir, "wards.json", "wards")
+	wards, err := LoadMunicipalityWardRows(muniDir)
 	if err != nil || len(wards) == 0 {
 		return wards, err
 	}

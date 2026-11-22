@@ -1,14 +1,16 @@
 #!/bin/sh
 set -eu
 
-if [ "$#" -ne 3 ]; then
-  echo "Usage: sh deploy/cloudflare/stage.sh DATA_DIR MODEL_DIR NEW_STAGE_DIR" >&2
+if [ "$#" -ne 4 ]; then
+  echo "Usage: sh deploy/cloudflare/stage.sh PUBLIC_ARCHIVES DATA_DIR MODEL_DIR NEW_STAGE_DIR" >&2
   exit 2
 fi
 
-data=$(cd "$1" && pwd -P)
-models=$(cd "$2" && pwd -P)
-stage=$3
+public=$(cd "$1" && pwd -P)
+data=$(cd "$2" && pwd -P)
+models=$(cd "$3" && pwd -P)
+stage=$4
+sh deploy/cloudflare/verify.sh "$public" "$data"
 generation=$(cat "$data/CURRENT")
 case "$generation" in
   generations/gen-[0-9]*) ;;
@@ -26,9 +28,9 @@ test -d "$source/vectors"
 for asset in model.onnx tokenizer.json tokenizer_config.json special_tokens_map.json config.json vocab.txt; do
   test -s "$models/$model/$asset"
 done
-test "$(sqlite3 -readonly "$source/archive.db" "SELECT value FROM index_meta WHERE key='fts_tokenizer'")" = porter-unicode61-nfc-marks
-test "$(sqlite3 -readonly "$source/archive.db" "SELECT value FROM index_meta WHERE key='embedding_model'")" = BAAI/bge-small-en-v1.5
-test "$(sqlite3 -readonly "$source/archive.db" "SELECT value FROM index_meta WHERE key='embedding_dimensions'")" = 384
+test "$(sqlite3 "$source/archive.db" "SELECT value FROM index_meta WHERE key='fts_tokenizer'")" = porter-unicode61-nfc-marks
+test "$(sqlite3 "$source/archive.db" "SELECT value FROM index_meta WHERE key='embedding_model'")" = BAAI/bge-small-en-v1.5
+test "$(sqlite3 "$source/archive.db" "SELECT value FROM index_meta WHERE key='embedding_dimensions'")" = 384
 
 mkdir "$stage"
 cp deploy/cloudflare/cloudflare.config.ts deploy/cloudflare/worker.js deploy/cloudflare/Dockerfile deploy/cloudflare/.dockerignore "$stage/"
@@ -43,7 +45,7 @@ done
 printf '%s\n' "$generation" > "$stage/data/CURRENT"
 (
   cd "$stage/data/$generation"
-  sqlite3 -readonly "$source/archive.db" '.backup archive.db'
+  sqlite3 "$source/archive.db" '.backup archive.db'
   test "$(sqlite3 archive.db 'PRAGMA journal_mode=DELETE')" = delete
   test "$(sqlite3 -readonly archive.db 'PRAGMA integrity_check')" = ok
   chunks=$(sqlite3 -readonly archive.db 'SELECT count(*) FROM chunks')
@@ -56,4 +58,9 @@ printf '%s\n' "$generation" > "$stage/data/CURRENT"
   test "$vectors" -eq "$((chunks + 1))"
 )
 CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GOAMD64=v1 go build -trimpath -o "$stage/archive" ./cmd/archive
+CGO_ENABLED=0 go run ./cmd/public-corpus audit "$public" "$stage/data" > "$stage/records.tsv"
+(
+  cd "$stage"
+  find archive data models -type f -exec shasum -a 256 {} + | LC_ALL=C sort > release.sha256
+)
 printf 'Staged %s in %s\n' "$generation" "$stage"

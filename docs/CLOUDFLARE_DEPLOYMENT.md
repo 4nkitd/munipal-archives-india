@@ -4,22 +4,30 @@ Deploy only after [nationwide coverage](INDIA_COVERAGE.md) passes its checks. Th
 
 ## Build the candidate
 
-Run this from the repository root. Use the national candidate's data directory, not the currently served regional generation. `STAGE` must be a new directory outside the checkout. The staging script uses SQLite's backup command so it includes committed data still in the source WAL without copying that WAL into the image.
+Run this from the repository root. Set `RELEASE` to a new empty directory outside the checkout and build `bin/archive` from the release source. The public export removes direct contact fields and screens prose while keeping citations, municipal records and directory roles. The screen is not a guarantee: review the export for contact details and material text loss before indexing it. Do not use the private, currently served index. The staging script uses SQLite's backup command to include committed data still in the source WAL without copying that WAL into the image.
 
 ```sh
-./bin/archive index --archives archives --data /path/to/national-data --models .cache/hugot-models
-sh deploy/cloudflare/stage.sh /path/to/national-data .cache/hugot-models "$STAGE"
+go run ./cmd/public-corpus archives "$RELEASE/public"
+```
+
+```sh
+./bin/archive index --archives "$RELEASE/public" --data "$RELEASE/data" --models .cache/hugot-models &&
+sh deploy/cloudflare/verify.sh "$RELEASE/public" "$RELEASE/data" &&
+sh deploy/cloudflare/stage.sh "$RELEASE/public" "$RELEASE/data" .cache/hugot-models "$RELEASE/worker" &&
+sh deploy/cloudflare/verify.sh "$RELEASE/public" "$RELEASE/worker/data"
 ```
 
 On a Linux builder, build the staged `linux/amd64` image and run it with outbound access disabled. The image runs as a non-root user. The generation directory must be writable for SQLite's WAL. Benchmark cold startup and concurrent hybrid requests at the container's configured CPU and memory before deciding on the instance size. Confirm that `/api/stats`, `/api/municipalities`, and queries return the expected generation and records. Check the public release for contact details that are not designated office or service channels.
+
+Before publication, send a cold `/api/health` request through a local Worker with a container runtime, then a second request for an actual search through the same binding. The direct container check and deployment dry run do not exercise the Worker proxy.
 
 ## Publish and verify
 
 Cloudflare Containers require Workers Paid and a working Docker builder. Use the installed `cf` CLI. Check the deployment account and whether `nagar-archive` already exists before creating or replacing anything. Do not deploy the sandbox Worker or upload the repository.
 
 ```sh
-cd "$STAGE"
-cf deploy --dry-run
+cd "$RELEASE/worker" &&
+cf deploy --dry-run &&
 cf deploy
 ```
 
