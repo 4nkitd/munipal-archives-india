@@ -281,7 +281,9 @@ func fixture(t *testing.T) *search.Engine {
 		write("municipality.json", fmt.Sprintf(`{"slug":%q,"name":%q,"shortName":%q}`, m, m, m))
 		if m == "manesar" {
 			write("wards.json", `[{"ward_number":9,"name":"Bhangrola","villages":["Bhangrola"],"sectors":["83"]}]`)
-			write("officers.json", `[{"sr_no":1,"name":"Asha Fixture","designation":"Junior Engineer","wards":[9]}]`)
+			write("officers.json", `[{"sr_no":1,"name":"Asha Fixture","designation":"Junior Engineer","wards":[9]},{"sr_no":2,"name":"Leela Dummyfield","designation":"Commissioner","wards":[]}]`)
+		} else {
+			write("officers.json", `[{"sr_no":1,"name":"Leela Dummyfield","designation":"Commissioner","wards":[]}]`)
 		}
 		for _, d := range []struct{ id, title, metadata, body string }{
 			{"pond", "Bhangrola pond tender", "wards: [9]\nvillages: [Bhangrola]\nsectors: ['83']\naction_url: https://etenders.hry.nic.in/pond", "Bhangrola pond tender bids for ward 9 must arrive within 14 days.\n\n" + scriptTag},
@@ -433,6 +435,19 @@ func TestHTTPServerRoutesAndSecurity(t *testing.T) {
 		if !strings.Contains(html, `href="/doc/`+m+`/`+m+`-pond"`) {
 			t.Errorf("all-city results missing %s pond document", m)
 		}
+	}
+	var byName, byRole model.AskResponse
+	check(t, json.Unmarshal([]byte(get("/api/ask?municipality=all&mode=keyword&q=Leela+Dummyfield", 200, "application/json")), &byName))
+	check(t, json.Unmarshal([]byte(get("/api/ask?municipality=all&mode=keyword&q=junior+engineer", 200, "application/json")), &byRole))
+	if byName.Total != 0 || !slices.ContainsFunc(byName.Brief.Citations, func(c model.PromptedCitation) bool {
+		return c.Municipality == "manesar" && strings.Contains(c.Title, "Leela Dummyfield")
+	}) || !slices.ContainsFunc(byName.Brief.Citations, func(c model.PromptedCitation) bool {
+		return c.Municipality == "gurugram" && strings.Contains(c.Title, "Leela Dummyfield")
+	}) {
+		t.Errorf("named official should remain searchable without a matching document: %+v", byName.Brief)
+	}
+	if byRole.Total != 0 || len(byRole.Brief.Citations) != 0 {
+		t.Errorf("a role alone should not pick an arbitrary city: %+v", byRole.Brief)
 	}
 }
 

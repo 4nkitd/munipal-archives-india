@@ -608,7 +608,17 @@ func (e *Engine) Ask(ctx context.Context, req model.SearchRequest) (*model.AskRe
 		return nil, err
 	}
 	m := r.Municipality
-	if m == "all" && len(evidence) > 0 {
+	if m == "all" {
+		if len(evidence) == 0 {
+			officers, err := e.ListOfficers(ctx, m)
+			if err != nil {
+				return nil, err
+			}
+			return &model.AskResponse{
+				SearchResponse: *r,
+				Brief:          BuildPromptedAnswerForMunicipality(req.Query, m, nil, model.DetectedEntities{}, nil, officers),
+			}, nil
+		}
 		m = evidence[0].Municipality
 	}
 	w, err := e.ListWards(ctx, m)

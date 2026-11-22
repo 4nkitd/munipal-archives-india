@@ -156,8 +156,15 @@ func BuildPromptedAnswerForMunicipality(query, requestedMuni string, hits []mode
 			a.Facts = append(a.Facts, ef)
 		}
 	}
-	contact := func(c model.ContactInfo, i int) {
+	contactKey := func(c model.ContactInfo, scope string) string {
 		key := strings.ToLower(c.Name + "|" + cmp.Or(c.Phone, c.Email, c.Role))
+		if scope != "" {
+			key = scope + "|" + key
+		}
+		return key
+	}
+	contact := func(c model.ContactInfo, i int, scope string) {
+		key := contactKey(c, scope)
 		if !seenContacts[key] && (c.Name != "" || c.Phone != "" || c.Email != "") {
 			seenContacts[key] = true
 			a.Contacts = append(a.Contacts, model.CitedContact{ContactInfo: c, CitationIndex: i})
@@ -175,7 +182,7 @@ func BuildPromptedAnswerForMunicipality(query, requestedMuni string, hits []mode
 		body := cmp.Or(h.MatchedChunkText, h.Snippet, h.Summary)
 		a.Citations = append(a.Citations, model.PromptedCitation{Index: i, DocID: h.DocID, Municipality: h.Municipality, Title: h.Title, Category: h.Category, Heading: h.Heading, Excerpt: shorten(cleanMarkdownLine(cmp.Or(h.Snippet, body)), 340), SourceURL: h.SourceURL, Date: h.Date})
 		for _, c := range h.Contacts {
-			contact(c, i)
+			contact(c, i, "")
 		}
 		for _, raw := range append([]string{h.ActionURL}, linkPattern.FindAllString(body, -1)...) {
 			if u, ok := official(raw); raw != "" && ok && !seenLinks[u] {
@@ -276,7 +283,7 @@ func BuildPromptedAnswerForMunicipality(query, requestedMuni string, hits []mode
 		if w.Councillor != nil {
 			c := model.ContactInfo{Name: w.Councillor.Name, Phone: w.Councillor.Phone, Role: "Councillor"}
 			parts = append(parts, contactText(c))
-			contact(c, i)
+			contact(c, i, "")
 			directAnswer = directAnswer || c.Name != "" && roleMatches(c.Role)
 		}
 		for _, entry := range []struct {
@@ -287,7 +294,7 @@ func BuildPromptedAnswerForMunicipality(query, requestedMuni string, hits []mode
 				c := *entry.c
 				c.Role = cmp.Or(c.Role, entry.role)
 				parts = append(parts, contactText(c))
-				contact(c, i)
+				contact(c, i, "")
 				directAnswer = directAnswer || c.Name != "" && roleMatches(entry.role)
 			}
 		}
@@ -299,17 +306,26 @@ func BuildPromptedAnswerForMunicipality(query, requestedMuni string, hits []mode
 			c := je
 			c.Role = cmp.Or(c.Role, "Junior Engineer")
 			parts = append(parts, contactText(c))
-			contact(c, i)
+			contact(c, i, "")
 			directAnswer = directAnswer || c.Name != "" && roleMatches("junior engineer")
 		}
 		record := strings.Join(parts, "; ")
 		a.Citations[i-1].Excerpt = record
 		structured = append(structured, record+fmt.Sprintf(". [%d]", i))
 	}
+	unscopedDirectory := requestedMuni == "all" && len(hits) == 0
+	nameQuery := " " + normalized(query) + " "
 	for _, o := range officers {
 		role := strings.ToLower(o.Designation)
 		inWard := slices.ContainsFunc(o.Wards, func(w int) bool { return slices.Contains(entities.Wards, w) })
 		byName := o.Name != "" && strings.Contains(q, strings.ToLower(o.Name))
+		if unscopedDirectory {
+			name := normalized(o.Name)
+			byName = name != "" && strings.Contains(nameQuery, " "+name+" ")
+			if !byName {
+				continue
+			}
+		}
 		byRole := false
 		for _, r := range []string{"junior engineer", "assistant engineer", "executive engineer", "commissioner"} {
 			if strings.Contains(q, r) && strings.Contains(role, r) {
@@ -320,14 +336,20 @@ func BuildPromptedAnswerForMunicipality(query, requestedMuni string, hits []mode
 			continue
 		}
 		c := model.ContactInfo{Name: o.Name, Role: o.Designation, Phone: o.Phone, Email: o.Email}
-		key := strings.ToLower(c.Name + "|" + cmp.Or(c.Phone, c.Email, c.Role))
-		if seenContacts[key] {
+		var scope string
+		if unscopedDirectory {
+			scope = o.Municipality
+		}
+		if seenContacts[contactKey(c, scope)] {
 			continue
 		}
 		t := contactText(c)
 		rowMuni := cmp.Or(o.Municipality, muni)
+		if unscopedDirectory && o.Municipality != "" {
+			t += " (" + strings.ReplaceAll(o.Municipality, "-", " ") + ")"
+		}
 		i := citeFor(rowMuni, "Officer directory: "+o.Name, "/wards?municipality="+url.QueryEscape(rowMuni), t)
-		contact(c, i)
+		contact(c, i, scope)
 		directAnswer = directAnswer || byName || (inWard && roleMatches(c.Role))
 		if byName || byRole || (inWard && wantsDirectory) {
 			structured = append(structured, fmt.Sprintf("%s. [%d]", t, i))
