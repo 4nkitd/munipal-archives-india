@@ -47,7 +47,7 @@ func TestExport(t *testing.T) {
 		t.Fatal(err)
 	}
 	for name, data := range map[string]string{
-		"municipality.json": `{"slug":"demo","name":"Demo City","helpdeskPhone":"7000000000","email":"example@invalid.example","officialWebsite":"https://example.org"}`,
+		"municipality.json": `{"slug":"demo","name":"Demo City","helpdeskPhone":"02020000000","email":"example@invalid.example","officialWebsite":"https://example.org"}`,
 		"wards.json":        `[{"ward_number":1,"name":"First Ward","councillor":{"name":"Demo Councillor","phone":"7000000000"}}]`,
 		"officers.json":     `[{"sr_no":1,"name":"Demo Officer","designation":"Junior Engineer","email":"example@invalid.example","phone":"2345678","wards":[1]}]`,
 		"record.md": `---
@@ -57,6 +57,7 @@ title: Ward evidence
 category: governance
 doc_type: report
 source_url: https://example.org/notices
+tags: ["02020000000", "ward-record"]
 contacts:
   - name: Demo Officer
     email: example@invalid.example
@@ -66,6 +67,7 @@ contacts:
 There are 15 territorial wards.
 Contact the officer at example [at] invalid.example.
 Demo Officer | 234-5678
+Local desk | 2020000000
 `,
 	} {
 		if err := os.WriteFile(filepath.Join(city, name), []byte(data), 0644); err != nil {
@@ -79,7 +81,8 @@ Demo Officer | 234-5678
 	out := filepath.Join(target, "demo")
 	doc, err := indexer.ParseMarkdownFile(filepath.Join(out, "record.md"), target)
 	if err != nil || len(doc.Contacts) != 0 || !strings.Contains(doc.Content, "15 territorial wards") ||
-		strings.Contains(doc.Content, "[at]") || strings.Contains(doc.Content, "234-5678") {
+		strings.Contains(doc.Content, "[at]") || strings.Contains(doc.Content, "234-5678") || strings.Contains(doc.Content, "2020000000") ||
+		len(doc.Tags) != 1 || doc.Tags[0] != "ward-record" {
 		t.Fatalf("unexpected public record: %+v, %v", doc, err)
 	}
 	wards, err := indexer.LoadMunicipalityWards(out)

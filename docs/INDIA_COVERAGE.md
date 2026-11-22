@@ -16,10 +16,12 @@ The [national roster](india-roster.tsv) dated 22 November 2026 lists **279 corpo
 - [Tamil Nadu Gazette 257](https://www.stationeryprinting.tn.gov.in/extraordinary/2024/257_Ex_II_2_2024.pdf) was published on 10 August 2024 and took effect on 12 August. LGD has Karaikudi and Pudukkottai as corporations but still shows Namakkal and Tiruvannamalai as municipalities.
 - Jharkhand's [state directory](https://udhd.jharkhand.gov.in/ULB/Hariharganj/Hariharganj.aspx) and [2026 Palamu election gazette index](https://palamu.nic.in/municipal-election-2020-3/) classify Hariharganj as a Nagar Panchayat. Its LGD type-4 entry is not legal evidence that it is a corporation. Jamshedpur's industrial township is separate from Mango Municipal Corporation.
 - Maharashtra's [final 2025–26 election statement](https://mahasec.maharashtra.gov.in/Site/Upload/PDF/Municipal%20Corporations%20final%20party%20wise%20position.pdf) includes all 29 corporations. City Finance still classifies Jalna as a council.
-- The Assam Gazette established both Silchar and Dibrugarh. They count alongside Guwahati although the LGD snapshot lists only Guwahati as a corporation.
+- The Assam Gazette established both [Silchar](https://dpns.assam.gov.in/document-details/no-737-e-228921-508-dated-28-11-2022) and [Dibrugarh](https://dpns.assam.gov.in/document-details/no-116-e-242733-125-dated-06-03-24). They count alongside Guwahati although the LGD snapshot lists only Guwahati as a corporation.
 - Karnataka's [Greater Bengaluru Authority](https://gba.karnataka.gov.in/) coordinates five city corporations constituted under Gazette No. 522 on 2 September 2025. BBMP was their predecessor. GBA is not a sixth corporation.
 - [Telangana's acts and gazettes](https://law.telangana.gov.in/actsNew) establish 12 corporations. Three of LGD's 11 rows are absorbed predecessors, and four newer corporations are still typed as municipalities there. The later CURE Act preserves Greater Hyderabad, Cyberabad and Malkajgiri as separate corporations.
 - Punjab's Barnala took effect as a corporation on 18 November 2025. Both national directories still classify it as a council; the [Punjab election gazette](https://sec.punjab.gov.in/media/documents/Gazette_Notification_of_Election.pdf) names it as a corporation.
+
+The seven jurisdictions without a statutory municipal corporation are Andaman and Nicobar Islands, Dadra and Nagar Haveli and Daman and Diu, Ladakh, Lakshadweep, Meghalaya, Nagaland, and Puducherry. They can have other kinds of local authorities. For example, Sri Vijaya Puram is a municipal council, and Shillong is a municipal board.
 
 ## What qualifies as covered
 

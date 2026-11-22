@@ -105,6 +105,9 @@ func (c contactSet) add(phone, email string) {
 		if len(number) == 12 && strings.HasPrefix(number, "91") {
 			c.phones[number[2:]] = true
 		}
+		if len(number) == 11 && strings.HasPrefix(number, "0") {
+			c.phones[number[1:]] = true
+		}
 	}
 	if email = strings.ToLower(strings.TrimSpace(screenText(email))); strings.Contains(email, "@") {
 		c.emails[email] = true
@@ -241,6 +244,13 @@ func exportDocuments(root, src, dst, slug string, known contactSet) (count int, 
 		path := doc.FilePath
 		doc.Contacts = nil
 		doc.Summary, doc.OriginalFilename = safeText(doc.Summary), safeText(doc.OriginalFilename)
+		var tags []string
+		for _, tag := range doc.Tags {
+			if !known.matches(tag) {
+				tags = append(tags, tag)
+			}
+		}
+		doc.Tags = tags
 		if known.matches(doc.Summary) {
 			doc.Summary = ""
 		}

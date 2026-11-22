@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"database/sql"
+	"encoding/json"
 	"errors"
 	"fmt"
 	"io"
@@ -10,8 +11,10 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
+	"slices"
 
 	"github.com/municipal-archives-india/manesar/internal/indexer"
+	"golang.org/x/text/unicode/norm"
 )
 
 func audit(root, data string, manifest io.Writer) error {
@@ -52,24 +55,28 @@ func audit(root, data string, manifest io.Writer) error {
 		if len(chunks) == 0 || len(doc.Contacts) != 0 || contactLike(doc.Content) {
 			return fmt.Errorf("%s: public document failed the contact or searchability check", doc.FilePath)
 		}
-		var indexedPath, title, body, summary, source string
+		var indexedPath, title, body, summary, source, tagsJSON string
 		var count, contactCount int
-		err = db.QueryRowContext(ctx, `SELECT file_path, title, content, summary, source_url, chunk_count, json_array_length(contacts_json)
+		err = db.QueryRowContext(ctx, `SELECT file_path, title, content, summary, source_url, tags_json, chunk_count, json_array_length(contacts_json)
 			FROM documents WHERE municipality=? AND id=?`, doc.Municipality, doc.ID).
-			Scan(&indexedPath, &title, &body, &summary, &source, &count, &contactCount)
+			Scan(&indexedPath, &title, &body, &summary, &source, &tagsJSON, &count, &contactCount)
 		if err != nil {
 			return fmt.Errorf("%s: %w", doc.FilePath, err)
 		}
+		var tags []string
+		if err := json.Unmarshal([]byte(tagsJSON), &tags); err != nil {
+			return fmt.Errorf("%s: %w", doc.FilePath, err)
+		}
 		if indexedPath != doc.FilePath || title != doc.Title || body != doc.Content || summary != doc.Summary ||
-			source != doc.SourceURL || count != len(chunks) || contactCount != 0 {
+			source != doc.SourceURL || count != len(chunks) || contactCount != 0 || !slices.Equal(tags, doc.Tags) {
 			return fmt.Errorf("%s: index differs from public record", doc.FilePath)
 		}
 		for _, chunk := range chunks {
-			var body, municipality, docID string
-			var ftsCount int
-			err := db.QueryRowContext(ctx, `SELECT body, municipality, doc_id,
-				(SELECT count(*) FROM chunks_fts f WHERE f.chunk_id=c.chunk_id AND f.doc_id=c.doc_id AND f.municipality=c.municipality)
-				FROM chunks c WHERE chunk_id=?`, chunk.ChunkID).Scan(&body, &municipality, &docID, &ftsCount)
+			var body, municipality, docID, ftsTitle, ftsHeading, ftsBody, ftsEntities string
+			err := db.QueryRowContext(ctx, `SELECT c.body,c.municipality,c.doc_id,f.title,f.heading,f.body,f.entities
+				FROM chunks c JOIN chunks_fts f USING(chunk_id)
+				WHERE c.chunk_id=? AND c.municipality=f.municipality AND c.doc_id=f.doc_id`, chunk.ChunkID).
+				Scan(&body, &municipality, &docID, &ftsTitle, &ftsHeading, &ftsBody, &ftsEntities)
 			if err != nil {
 				return fmt.Errorf("%s: %w", chunk.ChunkID, err)
 			}
@@ -78,7 +85,9 @@ func audit(root, data string, manifest io.Writer) error {
 				return fmt.Errorf("%s: %w", chunk.ChunkID, err)
 			}
 			if body != chunk.Body || vector.Content != body || municipality != doc.Municipality || docID != doc.ID ||
-				vector.Metadata["municipality"] != municipality || vector.Metadata["doc_id"] != docID || len(vector.Embedding) != 384 || ftsCount != 1 {
+				vector.Metadata["municipality"] != municipality || vector.Metadata["doc_id"] != docID || len(vector.Embedding) != 384 ||
+				ftsTitle != norm.NFC.String(doc.Title) || ftsHeading != norm.NFC.String(chunk.Heading) ||
+				ftsBody != norm.NFC.String(body) || contactLike(ftsEntities) {
 				return fmt.Errorf("%s: passage differs between source, full-text and vector stores", chunk.ChunkID)
 			}
 		}
