@@ -8,7 +8,7 @@ doc_type: "public-notice"
 date: ""
 source_url: "https://madhubani.nic.in/notice/teacher-selection-list-of-nagar-nigam-madhubani-year-2019-2020-6th-phase/"
 source_portal: "madhubani.nic.in"
-original_filename: "2022022274.pdf"
+original_filename: ""
 department: "Madhubani Nagar Nigam"
 wards: []
 sectors: []

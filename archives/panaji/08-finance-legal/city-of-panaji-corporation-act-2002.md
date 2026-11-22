@@ -21,7 +21,7 @@ verified_at: "2026-11-22"
 
 ## Enactment and territory
 
-The *Manual of Goa Laws* identifies this law as Goa Act 1 of 2003, assented to on 21 January 2003 and published in the *Official Gazette*, Series I No. 43, on 23 January 2003. The short title says 2002. The notification reproduced in the manual has a 2002 dateline that conflicts with the manual's Gazette citation and the stated assent date. The archive uses the Gazette publication date listed by the manual.
+Goa Act 1 of 2003 received assent on 21 January 2003 and appeared in the [*Official Gazette*, Series I No. 43, Extraordinary](https://goaprintingpress.gov.in/downloads/0203/0203-43-SI-EOG-1.pdf), on 23 January 2003. The short title says 2002. The notification's signature line also says 2002, but the Gazette masthead and the closing date of the enacted text both say 23 January 2003. The archive uses the issue date.
 
 Sections 1 and 2 refer to Schedule I, allow commencement by notification and set out the transition from municipal council or panchayat law. Schedule I starts with the former Panaji municipal area and specifies exceptions, including Durgawadi survey numbers 1 to 7 and most Taleigao survey numbers, with specified Taleigao parcels retained. It also lists other areas. The manual includes a separate 13 February 2003 notice inviting views before the government issued a notification under section 1. Neither the proposed application of the Act in that notice nor the Schedule I place names alone establish today's limits. Section 360 provides a Gazette process for additions, with consideration of objections.
 
