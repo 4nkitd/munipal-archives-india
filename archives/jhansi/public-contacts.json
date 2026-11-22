@@ -1,0 +1,508 @@
+[
+  {
+    "label": "Municipal helpline (24 hours)",
+    "number": "05103500700",
+    "source_url": "https://jnnjhansi.com/"
+  },
+  {
+    "label": "Cleanliness complaints and suggestions",
+    "number": "1533",
+    "source_url": "https://jnnjhansi.com/"
+  },
+  {
+    "label": "Septic tank emptying helpline",
+    "number": "14420",
+    "source_url": "https://jnnjhansi.com/"
+  },
+  {
+    "label": "Municipal commissioner (Mr. Anna Sudhan (I.A.S.))",
+    "number": "8808053861",
+    "email": "nagarayukta@jnnjhansi.com",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Additional Municipal commissioner (Shri Rahul Kumar Yadav P.C.S)",
+    "number": "8808053862",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Additional Municipal commissioner (Smt Roli Gupta)",
+    "number": "8808053868",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Deputy Municipal Commissioner (Shri Virendra Kumar Shrivastava)",
+    "number": "8808053867",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Assistant Municipal Commissioner (Mr. Gaurav Kumar)",
+    "number": "6394566084",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Assistant Municipal Commissioner (Smt. Tanya P.C.S)",
+    "number": "8808053865",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "MNLP (Shri Narendra Singh Garkhal)",
+    "number": "8171604252",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Chief Engineer (Civil) (Shri Rajveer Singh)",
+    "number": "9838087024",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Nagar Swasthya Adhikari (Dr. Vineet Kumar)",
+    "number": "6386036751",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Veterinary Officer (Shri Dr. Raghvendra Singh)",
+    "number": "8303710756",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Chief Tax Assessment Officer (Shri Awdhesh Kumar)",
+    "number": "9319911023",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Executive Engineer (Civil) (Smt. Neena Singh)",
+    "number": "9910067088",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Tax Assessment Officer (Shri Radheshyam Patel)",
+    "number": "8604626907",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Nagar Lekha Parikshak (Shri Vijay Krishna Maurya)",
+    "number": "9792889555",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Assistant Engineer (Civil) (Shri Vipin Kumar)",
+    "number": "8303710723",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Assistant Engineer (Civil) (Shri Shashank Singh)",
+    "number": "7000591951",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Assistant Account Officer (Raj Kishore)",
+    "number": "9336028410",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Junior Engineer (E/M) (Shri Kalyan Singh)",
+    "number": "9140769042",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Junior Engineer (Civil) (Shri Devi lal Sharma)",
+    "number": "8303710732",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Junior Engineer (Civil) (Shri Pankaj Yadav)",
+    "number": "7905063167",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Junior Engineer (Civil) (Mohit Garg)",
+    "number": "9899715958",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Chief Sanitary and Food Inspector (Shri Abhilash Raikwar)",
+    "number": "9568002436",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Chief Sanitary and Food Inspector (Shri Raghuraj Singh Niranjan)",
+    "number": "8303710755",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Sanitary and Food Inspector (Shri Manoj Kumar Srivastava)",
+    "number": "9935888279",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Sanitary and Food Inspector (Shri Pradeep Agnihotri)",
+    "number": "8303710740",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Sanitary and Food Inspector (Shri Anoop Kumar Sahu)",
+    "number": "6394057696",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Sanitary and Food Inspector (Smt. Sneh Lata)",
+    "number": "6306488942",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Sanitary and Food Inspector (Shri Omveer Singh)",
+    "number": "8171697474",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Tax Superintendent (Shri Devendra Yadav)",
+    "number": "7068927008",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Tax Superintendent (Shri Hemant Singh Rajput)",
+    "number": "9415588079",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Tax Superintendent (Shri Kaushal Kishore)",
+    "number": "8858647814",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Revenue Inspector (Shri Yogesh Shukla)",
+    "number": "8303710754",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Revenue Inspector (Shri Ashok Kumar)",
+    "number": "9411241088",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Revenue Inspector (Smt Shikha)",
+    "number": "8564945610",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Revenue Inspector (Shri Vinod Kumar Gupta)",
+    "number": "8303710752",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Revenue Inspector (Shri Jitendra Kushwaha)",
+    "number": "8707323673",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Revenue Inspector (Smt. Ritu Kushwaha)",
+    "number": "8299045490",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Steno Municipal Commissioner (Shri Jitendra Bhatia)",
+    "number": "7348488989",
+    "source_url": "https://jnnjhansi.com/administration.php"
+  },
+  {
+    "label": "Councillor, Ward 1",
+    "number": "9616339653",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 2",
+    "number": "7007566450",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 3",
+    "number": "7007593184",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 4",
+    "number": "7007754105",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 5",
+    "number": "9455259892",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 6",
+    "number": "9598361399",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 7",
+    "number": "9935115829",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 8",
+    "number": "8299563736",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 9",
+    "number": "6393573022",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 10",
+    "number": "8303367309",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 11",
+    "number": "7355614742",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 12",
+    "number": "7860754011",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 13",
+    "number": "7007592904",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 14",
+    "number": "7860333829",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 15",
+    "number": "9451659693",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 16",
+    "number": "9415194582",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 17",
+    "number": "9795706455",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 18",
+    "number": "9452211003",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 19",
+    "number": "7376862032",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 20",
+    "number": "9455423322",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 21",
+    "number": "8808356190",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 22",
+    "number": "7388263923",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 23",
+    "number": "7355044722",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 24",
+    "number": "8299539297",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 25",
+    "number": "9651255974",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 26",
+    "number": "8808501411",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 27",
+    "number": "9935734450",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 28",
+    "number": "9415942561",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 29",
+    "number": "9151357803",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 30",
+    "number": "9889113005",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 31",
+    "number": "7905177036",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 32",
+    "number": "9956031163",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 33",
+    "number": "8707051114",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 34",
+    "number": "7800333355",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 35",
+    "number": "7376992799",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 36",
+    "number": "9889288403",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 37",
+    "number": "8573060783",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 38",
+    "number": "9415505391",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 39",
+    "number": "6394836037",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 40",
+    "number": "9889923834",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 41",
+    "number": "9415587364",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 42",
+    "number": "8840565144",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 43",
+    "number": "9415588156",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 44",
+    "number": "9236935152",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 45",
+    "number": "7905344519",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 46",
+    "number": "9451170101",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 47",
+    "number": "8299031252",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 48",
+    "number": "8948406672",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 49",
+    "number": "9453031024",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 50",
+    "number": "9598920206",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 51",
+    "number": "9415588933",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 52",
+    "number": "9935332827",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 53",
+    "number": "9506464634",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 54",
+    "number": "9450077300",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 55",
+    "number": "9935209493",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 56",
+    "number": "9451937135",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 57",
+    "number": "9616249332",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 58",
+    "number": "9532011111",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 59",
+    "number": "9452741316",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  },
+  {
+    "label": "Councillor, Ward 60",
+    "number": "9935447511",
+    "source_url": "https://jnnjhansi.com/docs/Mayor%20Parshad.pdf"
+  }
+]

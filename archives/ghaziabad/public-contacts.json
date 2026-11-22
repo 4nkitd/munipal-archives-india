@@ -1,0 +1,828 @@
+[
+  {
+    "label": "Municipal helpline",
+    "number": "18001803012",
+    "source_url": "https://ghaziabadnagarnigam.in/contact-us.aspx"
+  },
+  {
+    "label": "Municipal office",
+    "number": "01202790369",
+    "email": "gzb.nagar.nigam@gmail.com",
+    "source_url": "https://ghaziabadnagarnigam.in/contact-us.aspx"
+  },
+  {
+    "label": "Municipal office",
+    "number": "01202791418",
+    "source_url": "https://ghaziabadnagarnigam.in/contact-us.aspx"
+  },
+  {
+    "label": "Municipal grievance helpline",
+    "number": "1533",
+    "source_url": "https://ghaziabadnagarnigam.in/contact-us.aspx"
+  },
+  {
+    "label": "Sewer and septic tank cleaning helpline",
+    "number": "14420",
+    "source_url": "https://ghaziabadnagarnigam.in/contact-us.aspx"
+  },
+  {
+    "label": "मा0 महापौर जी (श्रीमती सुनीता दयाल)",
+    "number": "9873060805",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "नगर आयुक्त (श्री हिमांशु नागपाल)",
+    "number": "8178016900",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "अपर नगर आयुक्त (श्रीमती रेनू)",
+    "number": "8178016943",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "अपर नगर आयुक्त (श्री अवनीन्द्र कुमार)",
+    "number": "7011649136",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "मुख्य वित्तीय अधिकारी (श्री जितेन्द्र प्रताप सिंह यादव)",
+    "number": "9412015763",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "लेखाधिकारी (श्री अनुराग सिंह)",
+    "number": "8178016805",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "मु0न0ले0प (श्री विवेक सिंह)",
+    "number": "8178016809",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "सहायक नगर आयुक्त/प्रभारी संपत्ति/जोनल प्रभारी-कविनगर (श्रीमती चन्द्रकान्ता)",
+    "number": "8178016804",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "मुख्य कर-निर्धारण अधिकारी (श्री अनीरुद्ध)",
+    "number": "8178016898",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "उप मुख्य पशु चिकित्सा एवं कल्याण अधिकारी (डॉ. अनुज कुमार सिंह)",
+    "number": "8178018376",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "संपत्ति अधीक्षक (श्री राम शंकर)",
+    "number": "8178016819",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "विधि अधीक्षक (श्री विशाल गौरव)",
+    "number": "9810004089",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "प्रधानाचार्या-एमबी गर्ल्स (श्रीमती अंतिमा चौधरी)",
+    "number": "8191866768",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "परियोजना अधिकारी - डूडा विभाग (श्रीमती)",
+    "number": "8573002276",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "आई.टी. ऑफिसर (बा.स्रो.) (श्री मुबारक हुसैन सिद्दीकी)",
+    "number": "8178018385",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "नगर स्वास्थ्य अधिकारी (डॉ. मिथलेश कुमार)",
+    "number": "8178016808",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "जोनल सैनिटरी अधिकारी - समस्त जोन (श्री ओम पाल)",
+    "number": "8604284053",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "चीफ सैनिटरी ऑफिसर (श्री विनोद कुमार)",
+    "number": "8178016842",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "एस0एफ0आई0 - सिटी नगर (श्री संजीव कुमार)",
+    "number": "8178016838",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "एस0एफ0आई0 - वसुंधरा जोन (श्री अशोक कुमार)",
+    "number": "8178016837",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "एस0एफ0आई0 - कविनगर जोन (श्री नरेश कुमार)",
+    "number": "8178016840",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "एस0एफ0आई0 - विजय नगर जोन (कु. हृदेश)",
+    "number": "9634107006",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "एस0एफ0आई0 - मोहन नगर जोन (श्री हिमांशु भारद्वाज)",
+    "number": "8178016921",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "सहायक नगर आयुक्त / जोनल प्रभारी - सिटी जोन (श्री सुशील प्रताप सिंह)",
+    "number": "8178016803",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "सहायक नगर आयुक्त / प्रभारी संपत्ति / जोनल प्रभारी - कविनगर (श्रीमती चन्द्रकान्ता)",
+    "number": "8178016804",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "जोनल प्रभारी - वसुंधरा (श्री राजेश गुप्ता)",
+    "number": "8178016814",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "जोनल प्रभारी - विजय नगर जोन (श्रीमती सुकुल सोलंकी)",
+    "number": "9810472783",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "जोनल प्रभारी - मोहन नगर (डॉ. आशीष त्रिपाठी)",
+    "number": "8178016878",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "कर अधीक्षक - मोहन नगर जोन (श्री रामबली पाल)",
+    "number": "8178018397",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "कर अधीक्षक - सिटी जोन (श्री रिछपाल)",
+    "number": "8178016817",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "कर अधीक्षक - विजय नगर जोन (श्री संतोष)",
+    "number": "9721517528",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "कर अधीक्षक - वसुंधरा (श्री बी.के.लाल)",
+    "number": "8178016880",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "कर अधीक्षक - कविनगर जोन (श्री विपुल)",
+    "number": "8178016848",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "मुख्य अभि0 (श्री नरेन्द्र कुमार चौधरी)",
+    "number": "8178016833",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "अधिशासी अभियन्ता (श्री विपुल कुमार)",
+    "number": "8178016825",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "सहायक अभियन्ता - वसुंधरा (श्री अनुप कुमार)",
+    "number": "8178016806",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "सहायक अभियन्ता - सिटी जोन (श्री कुलदीप तंवर)",
+    "number": "8859573995",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "सहायक अभियन्ता - मोहननगर जोन (श्री गणेशी लाल)",
+    "number": "8178016823",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "सहायक अभियन्ता - विजयनगर (श्री श्याम सिंह)",
+    "number": "8178016820",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "सहायक अभियन्ता - कविनगर (श्री राजेन्द्र कुमार)",
+    "number": "8178016904",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "अवर अभियन्ता - इंदिरापुरम एवं वसुंधरा (श्रीमती पूजा सिंह)",
+    "number": "7607565623",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "अवर अभियन्ता - सिटी जोन (श्रीमती प्रीति बंसल)",
+    "number": "8433403327",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "अवर अभियन्ता - वसुंधरा जोन (श्री संजय गंगवार)",
+    "number": "8178016821",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "अवर अभियन्ता - मोहननगर जोन (श्री विनोद कुमार)",
+    "number": "8707888423",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "महाप्रबंधक (जल) (श्री कामाख्या प्रसाद आनंद)",
+    "number": "8178016857",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "अधि0 अभि0 (श्री सुनील कुमार)",
+    "number": "8178016835",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "अ0अभि0 - मोहन नगर जोन (श्री सोमेन्द्र प्रताप सिंह)",
+    "number": "8178016856",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "सहायक अभियंता (श्री शेषमणि यादव)",
+    "number": "8178018395",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "अवर अभियंता - सिटी जोन (श्रीमती पूजा राय)",
+    "number": "8178016854",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "सहायक अभियन्ता प्रकाश (श्री शेषमणि यादव)",
+    "number": "8178016835",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "प्रकाश निरीक्षक - विजय नगर (श्री तरून्नुम नकवी)",
+    "number": "8178016850",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "प्रकाश निरीक्षक (कार्यवाहक) - सिटी जोन (श्री प्रदीप कुमार)",
+    "number": "8178016903",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "प्रकाश निरीक्षक मोहन नगर जोन (श्री अनिल कुमार त्यागी)",
+    "number": "8130086524",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "प्रकाश निरीक्षक (कार्यवाहक) - वसुंधरा जोन (श्री जय प्रकाश गिरी)",
+    "number": "9015100626",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "कार्यवाहक प्रकाश निरीक्षक - वसुंधरा जोन (श्री रविश त्यागी)",
+    "number": "8178016872",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "प्रभारी उद्यान (श्री अनुज कुमार)",
+    "number": "8178018376",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "उद्यान सुपरवाइजर जोन (श्री अजय कुमार)",
+    "number": "9891329234",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "उप मुख्य पशु चिकित्सा अधिकारी (श्री अनुज कुमार)",
+    "number": "8178018376",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "पशु चिकित्सा अधिकारी (श्री आशीष कुमार)",
+    "number": "8178016878",
+    "source_url": "https://ghaziabadnagarnigam.in/staffList.aspx"
+  },
+  {
+    "label": "Councillor, Ward 1",
+    "number": "9999950190",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 2",
+    "number": "8700078208",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 3",
+    "number": "8588882101",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 4",
+    "number": "7530834452",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 5",
+    "number": "9971587203",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 6",
+    "number": "9871029905",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 7",
+    "number": "7042123508",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 8",
+    "number": "9354429605",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 9",
+    "number": "9990055054",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 10",
+    "number": "9958730730",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 11",
+    "number": "9990781480",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 12",
+    "number": "9250030700",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 13",
+    "number": "7838017804",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 14",
+    "number": "9213206691",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 15",
+    "number": "9873343159",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 16",
+    "number": "9873104374",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 17",
+    "number": "9810438814",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 18",
+    "number": "7982015077",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 19",
+    "number": "9540403080",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 20",
+    "number": "9899627060",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 21",
+    "number": "9971078878",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 22",
+    "number": "9990800855",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 23",
+    "number": "7011589276",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 24",
+    "number": "9871273131",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 25",
+    "number": "9015579971",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 26",
+    "number": "8510944126",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 27",
+    "number": "9810641204",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 28",
+    "number": "9910541147",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 29",
+    "number": "9871498471",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 30",
+    "number": "9871433160",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 31",
+    "number": "9868078678",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 32",
+    "number": "9910558225",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 33",
+    "number": "9811201046",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 34",
+    "number": "9582869470",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 35",
+    "number": "9971693805",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 36",
+    "number": "8448417207",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 36",
+    "number": "9313678557",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 37",
+    "number": "9971660071",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 38",
+    "number": "9810378713",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 39",
+    "number": "9999009098",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 40",
+    "number": "9958552222",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 41",
+    "number": "9891846787",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 42",
+    "number": "9911331142",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 43",
+    "number": "9917184561",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 44",
+    "number": "9871641237",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 45",
+    "number": "9910087961",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 46",
+    "number": "9999499899",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 47",
+    "number": "9910923928",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 48",
+    "number": "8750853575",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 49",
+    "number": "9310971780",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 50",
+    "number": "7838549271",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 51",
+    "number": "9899984256",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 52",
+    "number": "9350505801",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 53",
+    "number": "9871935323",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 54",
+    "number": "9350581675",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 55",
+    "number": "9968899182",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 56",
+    "number": "9810080269",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 57",
+    "number": "9312505726",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 58",
+    "number": "9312370418",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 59",
+    "number": "9810741610",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 60",
+    "number": "9818396900",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 61",
+    "number": "9911111606",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 62",
+    "number": "9810822374",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 63",
+    "number": "9911345050",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 64",
+    "number": "9818879376",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 65",
+    "number": "9871296747",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 66",
+    "number": "9910123100",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 67",
+    "number": "9312732520",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 68",
+    "number": "9891215100",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 69",
+    "number": "9810971848",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 70",
+    "number": "9582832626",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 71",
+    "number": "9911115934",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 72",
+    "number": "9810287506",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 73",
+    "number": "9310346016",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 74",
+    "number": "9899552703",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 75",
+    "number": "9654638111",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 76",
+    "number": "9911396677",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 77",
+    "number": "9811273990",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 78",
+    "number": "8076402832",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 79",
+    "number": "9818527743",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 80",
+    "number": "8368015718",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 81",
+    "number": "9810044454",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 82",
+    "number": "8368441414",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 83",
+    "number": "9810474342",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 84",
+    "number": "9818388918",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 85",
+    "number": "7840038986",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 86",
+    "number": "9891176991",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 87",
+    "number": "9999922418",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 88",
+    "number": "9213320123",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 89",
+    "number": "9410042727",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 90",
+    "number": "9811798786",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 91",
+    "number": "8375854888",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 92",
+    "number": "9818501497",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 93",
+    "number": "9971200080",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 94",
+    "number": "9810424888",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 95",
+    "number": "9560116970",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 96",
+    "number": "9311359898",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 97",
+    "number": "9810533398",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 98",
+    "number": "9560339952",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 99",
+    "number": "8285000332",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  },
+  {
+    "label": "Councillor, Ward 100",
+    "number": "9810749815",
+    "source_url": "https://ghaziabadnagarnigam.in/assets/pdf/parshad-list.pdf"
+  }
+]
