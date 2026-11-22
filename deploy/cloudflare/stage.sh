@@ -48,6 +48,7 @@ printf '%s\n' "$generation" > "$stage/data/CURRENT"
   cd "$stage/data/$generation"
   sqlite3 "$source/archive.db" '.backup archive.db'
   test "$(sqlite3 archive.db 'PRAGMA journal_mode=DELETE')" = delete
+  test ! -s archive.db-wal
   test "$(sqlite3 -readonly archive.db 'PRAGMA integrity_check')" = ok
   chunks=$(sqlite3 -readonly archive.db 'SELECT count(*) FROM chunks')
   test "$chunks" -gt 0
@@ -63,6 +64,6 @@ CGO_ENABLED=0 go run ./cmd/public-corpus audit "$public" "$stage/data" > "$stage
 (
   cd "$stage"
   find archive data models cloudflare.config.ts worker.js Dockerfile .dockerignore package.json records.tsv \
-    -type f -exec shasum -a 256 {} + | LC_ALL=C sort > release.sha256
+    -type f ! -name '*-shm' ! -name '*-wal' -exec shasum -a 256 {} + | LC_ALL=C sort > release.sha256
 )
 printf 'Staged %s in %s\n' "$generation" "$stage"

@@ -4,3 +4,5 @@
 !data/**
 !models/
 !models/**
+data/**/*-shm
+data/**/*-wal
