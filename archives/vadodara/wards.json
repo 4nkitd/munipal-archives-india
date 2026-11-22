@@ -1,0 +1,21 @@
+[
+  {"ward_number":1,"name":"Ward 1","zone":"North","villages":[],"sectors":[]},
+  {"ward_number":2,"name":"Ward 2","zone":"North","villages":[],"sectors":[]},
+  {"ward_number":3,"name":"Ward 3","zone":"North","villages":[],"sectors":[]},
+  {"ward_number":4,"name":"Ward 4","zone":"East","villages":[],"sectors":[]},
+  {"ward_number":5,"name":"Ward 5","zone":"East","villages":[],"sectors":[]},
+  {"ward_number":6,"name":"Ward 6","zone":"East","villages":[],"sectors":[]},
+  {"ward_number":7,"name":"Ward 7","zone":"North","villages":[],"sectors":[]},
+  {"ward_number":8,"name":"Ward 8","zone":"West","villages":[],"sectors":[]},
+  {"ward_number":9,"name":"Ward 9","zone":"West","villages":[],"sectors":[]},
+  {"ward_number":10,"name":"Ward 10","zone":"West","villages":[],"sectors":[]},
+  {"ward_number":11,"name":"Ward 11","zone":"West","villages":[],"sectors":[]},
+  {"ward_number":12,"name":"Ward 12","zone":"West","villages":[],"sectors":[]},
+  {"ward_number":13,"name":"Ward 13","zone":"North","villages":[],"sectors":[]},
+  {"ward_number":14,"name":"Ward 14","zone":"East","villages":[],"sectors":[]},
+  {"ward_number":15,"name":"Ward 15","zone":"East","villages":[],"sectors":[]},
+  {"ward_number":16,"name":"Ward 16","zone":"South","villages":[],"sectors":[]},
+  {"ward_number":17,"name":"Ward 17","zone":"South","villages":[],"sectors":[]},
+  {"ward_number":18,"name":"Ward 18","zone":"South","villages":[],"sectors":[]},
+  {"ward_number":19,"name":"Ward 19","zone":"South","villages":[],"sectors":[]}
+]

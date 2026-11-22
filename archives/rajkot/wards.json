@@ -1,0 +1,20 @@
+[
+  {"ward_number": 1, "name": "Ward-1", "villages": [], "sectors": []},
+  {"ward_number": 2, "name": "Ward-2", "villages": [], "sectors": []},
+  {"ward_number": 3, "name": "Ward-3", "villages": [], "sectors": []},
+  {"ward_number": 4, "name": "Ward-4", "villages": [], "sectors": []},
+  {"ward_number": 5, "name": "Ward-5", "villages": [], "sectors": []},
+  {"ward_number": 6, "name": "Ward-6", "villages": [], "sectors": []},
+  {"ward_number": 7, "name": "Ward-7", "villages": [], "sectors": []},
+  {"ward_number": 8, "name": "Ward-8", "villages": [], "sectors": []},
+  {"ward_number": 9, "name": "Ward-9", "villages": [], "sectors": []},
+  {"ward_number": 10, "name": "Ward-10", "villages": [], "sectors": []},
+  {"ward_number": 11, "name": "Ward-11", "villages": [], "sectors": []},
+  {"ward_number": 12, "name": "Ward-12", "villages": [], "sectors": []},
+  {"ward_number": 13, "name": "Ward-13", "villages": [], "sectors": []},
+  {"ward_number": 14, "name": "Ward-14", "villages": [], "sectors": []},
+  {"ward_number": 15, "name": "Ward-15", "villages": [], "sectors": []},
+  {"ward_number": 16, "name": "Ward-16", "villages": [], "sectors": []},
+  {"ward_number": 17, "name": "Ward-17", "villages": [], "sectors": []},
+  {"ward_number": 18, "name": "Ward-18", "villages": [], "sectors": []}
+]
