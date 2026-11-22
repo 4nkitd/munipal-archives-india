@@ -1,0 +1,57 @@
+{{define "index.html"}}{{template "header" .}}
+<main id="main" class="wrap page" data-filter-page>
+  <h1>Archive corpus index</h1>
+  <p class="lead">Browse {{.Municipality.ShortName}} municipal records by title, collection, or publication date.</p>
+  {{with .Stats}}
+  <div class="telemetry-strip">
+    <span class="telemetry-pill">Vector DB: {{.VectorDBEngine}}</span>
+    <span class="telemetry-pill">Embedding model: {{.EmbeddingModel}} <abbr title="{{.EmbeddingDimensions}} dimensions">{{.EmbeddingDimensions}}d</abbr></span>
+    <span class="telemetry-pill">Full-text engine: {{.FTSEngine}}</span>
+    <span class="telemetry-pill">Docs: {{.TotalDocuments}}</span>
+    <span class="telemetry-pill">Chunks: {{.TotalChunks}}</span>
+    <span class="telemetry-pill">Words: {{.TotalWords}}</span>
+  </div>
+  {{end}}
+  <form class="index-toolbar" method="get" action="/index" data-index-form>
+    <input type="hidden" name="municipality" value="{{.Municipality.Slug}}">
+    {{with .SelectedDocType}}<input type="hidden" name="doc_type" value="{{.}}">{{end}}
+    {{with .SelectedWard}}<input type="hidden" name="ward" value="{{.}}">{{end}}
+    <div class="filter-input-wrap"><input type="search" name="q" value="{{.Query}}" data-filter data-focus placeholder="Filter by title, collection, or tag..." aria-label="Search the index"><button type="button" class="clear-btn" data-clear-filter aria-label="Clear filter" hidden>×</button></div>
+    <select name="category" data-collection aria-label="Filter by collection">
+      <option value="">All collections</option>
+      {{$selectedFound := false}}
+      {{range .Categories}}{{if eq $.SelectedCat .Category}}{{$selectedFound = true}}{{end}}<option value="{{.Category}}"{{if eq $.SelectedCat .Category}} selected{{end}}>{{categoryLabel .Category}} ({{.Count}})</option>{{end}}
+      {{if and .SelectedCat (not $selectedFound)}}<option value="{{.SelectedCat}}" selected>{{categoryLabel .SelectedCat}}</option>{{end}}
+    </select>
+    <select name="sort" data-index-sort aria-label="Sort records by">
+      <option value="date_desc"{{if eq .Sort "date_desc"}} selected{{end}}>Newest first</option>
+      <option value="date_asc"{{if eq .Sort "date_asc"}} selected{{end}}>Oldest first</option>
+      <option value="title"{{if eq .Sort "title"}} selected{{end}}>Title A–Z</option>
+    </select>
+    <button type="submit" class="btn-secondary" data-nojs-only>Apply</button>
+  </form>
+  <div class="section-head">
+    <h2>Document register</h2>
+    <span class="match-pill" role="status" data-filter-status>{{len .Documents}} records</span>
+    <span data-sort-indicator>{{if eq .Sort "title"}}Title A–Z{{else if eq .Sort "date_asc"}}Oldest first{{else}}Newest first{{end}}</span>
+  </div>
+  <div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable document register">
+    <table class="register-table" aria-label="Document register">
+      <thead><tr><th scope="col">Record title</th>{{if eq $.Municipality.Slug "all"}}<th scope="col">Municipality</th>{{end}}<th scope="col">Collection</th><th scope="col">Type</th><th scope="col">Date</th><th scope="col" class="numeric">Words</th></tr></thead>
+      <tbody data-index-rows>{{template "index-rows" (dict "Documents" .Documents "ShowCity" (eq .Municipality.Slug "all"))}}</tbody>
+    </table>
+  </div>
+  {{if .OtherDocuments}}<template data-index-other><table><tbody>{{template "index-rows" (dict "Documents" .OtherDocuments "ShowCity" (eq .Municipality.Slug "all"))}}</tbody></table></template>{{end}}
+  <p class="empty-inline" data-empty-index{{if .Documents}} hidden{{end}}>No records match these filters.</p>
+</main>{{template "footer" .}}{{end}}
+
+{{define "index-rows"}}
+  {{range .Documents}}
+    <tr data-row data-category="{{.Category}}" data-date="{{publicationDay .Date}}" data-undated="{{not .Date}}" data-title="{{lowerTitle .Title}}" data-muni="{{.Municipality}}" data-id="{{.ID}}" data-terms="{{registerTerms .}}">
+      <td><a class="record-link" data-open-doc href="/doc/{{.Municipality}}/{{.ID}}">{{.Title}}</a></td>
+      {{if $.ShowCity}}<td><span class="pill pill-city">{{categoryLabel .Municipality}}</span></td>{{end}}
+      <td><span class="pill">{{categoryLabel .Category}}</span></td><td>{{.DocType}}</td>
+      <td>{{if .Date}}<time datetime="{{.Date}}">{{formatDate .Date}}</time>{{else}}Undated{{end}}</td><td class="numeric">{{.WordCount}}</td>
+    </tr>
+  {{end}}
+{{end}}

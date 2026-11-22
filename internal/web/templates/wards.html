@@ -1,0 +1,79 @@
+{{define "ward-engineer"}}
+<div class="contact-card">
+  <dt>{{.Label}}</dt>
+  <dd>{{with .Person}}<strong>{{.Name}}</strong>
+    {{if and .Role (ne .Role $.Label)}}<span>{{.Role}}</span>{{end}}
+    {{with .Phone}}<a href="tel:{{.}}">{{.}}</a>{{end}}
+    {{with .Email}}<a href="mailto:{{.}}">{{.}}</a>{{end}}
+  {{else}}Not recorded{{end}}</dd>
+</div>
+{{end}}
+{{define "wards.html"}}{{template "header" .}}
+<main id="main" class="wrap page" data-filter-page>
+  <h1>Wards, localities &amp; officers</h1>
+  <p class="lead">Find the councillor and engineering team responsible for localities in {{.Municipality.ShortName}}.</p>
+  <div class="filter-bar-row" data-js hidden>
+    <div class="filter-input-wrap"><input type="search" data-filter data-focus placeholder="Search ward number, village, sector, or officer name..." aria-label="Find a ward or officer"><button type="button" class="clear-btn" data-clear-filter aria-label="Clear filter" hidden>×</button></div>
+    <span class="match-pill" role="status" data-filter-status>{{len .Wards}} wards · {{len .Officers}} officers</span>
+  </div>
+  <noscript><nav aria-label="Directory views"><a href="#panel-wards">Ward register</a> · <a href="#panel-officers">Officers directory</a></nav></noscript>
+  <div class="tab-bar" role="tablist" aria-label="Directory views" data-tab-list data-js hidden>
+    <button type="button" role="tab" id="tab-wards" aria-selected="true" aria-controls="panel-wards" data-tab="wards">Ward register <span class="tab-count" data-count-wards>{{len .Wards}}</span></button>
+    <button type="button" role="tab" id="tab-officers" aria-selected="false" aria-controls="panel-officers" data-tab="officers" tabindex="-1">Officers directory <span class="tab-count" data-count-officers>{{len .Officers}}</span></button>
+  </div>
+  <section id="panel-wards" aria-labelledby="heading-wards" data-tab-panel="wards">
+    <h2 id="heading-wards">Ward register</h2>
+    <div class="ward-list">{{range .Wards}}
+      <details class="ward-card" data-row data-panel="wards" data-ward-num="{{.WardNumber}}" data-sectors="{{join .Sectors ","}}" data-terms="{{.Municipality}} {{.Name}} {{.Zone}} {{.Division}} {{join .Villages " "}} {{join .Sectors " "}} {{join .Colonies " "}} {{with .Councillor}}{{.Name}} {{.Party}}{{end}} {{with .ExecutiveEngineer}}{{.Name}}{{end}} {{with .AssistantEngineer}}{{.Name}}{{end}} {{range .JuniorEngineers}}{{.Name}} {{end}}{{with .JuniorEngineer}}{{.Name}}{{end}}">
+        <summary>
+          <span class="ward-badge">Ward {{.WardNumber}}</span>
+          {{if eq $.Municipality.Slug "all"}}<span class="pill pill-city">{{categoryLabel .Municipality}}</span>{{end}}
+          <span class="ward-name">{{or .Name "Ward boundary"}}</span>
+          <span class="ward-councillor">{{with .Councillor}}{{.Name}}{{else}}Councillor not recorded{{end}}</span>
+          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m4 6 4 4 4-4"/></svg>
+        </summary>
+        <div class="ward-body">
+          <section><h3>Geography</h3>
+            <dl class="meta-card">
+              <div><dt>Zone</dt><dd>{{or .Zone "Not recorded"}}</dd></div>
+              <div><dt>Division</dt><dd>{{or .Division "Not recorded"}}</dd></div>
+              {{with .Villages}}<div><dt>Villages</dt><dd>{{join . ", "}}</dd></div>{{end}}
+              {{with .Sectors}}<div><dt>Sectors</dt><dd>{{join . ", "}}</dd></div>{{end}}
+              {{with .Colonies}}<div><dt>Colonies</dt><dd>{{join . ", "}}</dd></div>{{end}}
+              {{with .BoundarySummary}}<div><dt>Boundary summary</dt><dd>{{.}}</dd></div>{{end}}
+            </dl>
+          </section>
+          <section><h3>Officials</h3>
+            <dl class="ward-officials">
+              <div class="contact-card"><dt>Elected councillor</dt><dd>{{with .Councillor}}<strong>{{.Name}}</strong>
+                {{with .Party}}<span>{{.}}</span>{{end}} {{with .Phone}}<a href="tel:{{.}}">{{.}}</a>{{end}}
+                {{with .Notes}}<p>{{.}}</p>{{end}}{{else}}Not recorded{{end}}</dd></div>
+              {{template "ward-engineer" (dict "Label" "Executive engineer" "Person" .ExecutiveEngineer)}}
+              {{template "ward-engineer" (dict "Label" "Assistant engineer" "Person" .AssistantEngineer)}}
+              {{range .JuniorEngineers}}{{template "ward-engineer" (dict "Label" "Junior engineer" "Person" .)}}
+              {{else}}{{template "ward-engineer" (dict "Label" "Junior engineer" "Person" .JuniorEngineer)}}{{end}}
+            </dl>
+          </section>
+        </div>
+        <footer class="ward-footer"><a class="btn-secondary" href="/search?q=Ward+{{.WardNumber}}&amp;ward={{.WardNumber}}&amp;municipality={{if .Municipality}}{{.Municipality}}{{else}}{{$.Municipality.Slug}}{{end}}">Search Ward {{.WardNumber}} records</a></footer>
+      </details>
+    {{end}}</div>
+    <p class="empty-inline" data-empty-wards{{if .Wards}} hidden{{end}}>No wards match this search.</p>
+  </section>
+  <section id="panel-officers" aria-labelledby="heading-officers" data-tab-panel="officers">
+    <h2 id="heading-officers">Officers directory</h2>
+    <div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable officers directory">
+      <table class="register-table" aria-label="Officers directory">
+        <thead><tr>{{if eq $.Municipality.Slug "all"}}<th scope="col">Municipality</th>{{end}}<th scope="col">Officer</th><th scope="col">Designation</th><th scope="col">Branch</th><th scope="col">Wards</th><th scope="col">Contact</th></tr></thead>
+        <tbody>{{range .Officers}}
+          <tr data-row data-panel="officers" data-wards="{{joinInts .Wards ","}}" data-terms="{{.Municipality}} {{.Name}} {{.Designation}} {{.Branch}} {{joinInts .Wards " "}} {{.Zone}} {{.Division}}">
+            {{if eq $.Municipality.Slug "all"}}<td><span class="pill pill-city">{{categoryLabel .Municipality}}</span></td>{{end}}
+            <td>{{.Name}}</td><td>{{.Designation}}</td><td>{{.Branch}}</td><td>{{joinInts .Wards ", "}}</td>
+            <td>{{with .Phone}}<a href="tel:{{.}}">{{.}}</a>{{end}} {{with .Email}}<a href="mailto:{{.}}">{{.}}</a>{{end}}{{if not (or .Phone .Email)}}Not recorded{{end}}</td>
+          </tr>
+        {{end}}</tbody>
+      </table>
+    </div>
+    <p class="empty-inline" data-empty-officers{{if .Officers}} hidden{{end}}>No officers match this search.</p>
+  </section>
+</main>{{template "footer" .}}{{end}}

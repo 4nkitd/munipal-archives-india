@@ -1,0 +1,285 @@
+{{define "cite"}}
+  {{- if .DocID -}}
+    <a class="cite" data-open-doc href="/doc/{{.Municipality}}/{{.DocID}}" title="{{.Title}}" aria-label="Source {{.Index}}: {{.Title}}">[{{.Index}}]</a>
+  {{- else if safeURL .SourceURL -}}
+    <a class="cite" href="{{safeURL .SourceURL}}" title="{{.Title}}" aria-label="Source {{.Index}}: {{.Title}}">[{{.Index}}]</a>
+  {{- else -}}
+    <span class="cite">[{{.Index}}]</span>
+  {{- end -}}
+{{end}}
+
+{{define "brief-citation"}}
+  {{- range .sources -}}
+    {{- if eq .Index $.number}}{{template "cite" .}}{{end -}}
+  {{- end -}}
+{{end}}
+
+{{define "search.html"}}
+{{template "header" .}}
+<main id="main">
+  <div class="dock">
+    <div class="wrap">{{template "search-form" .}}</div>
+  </div>
+  <div class="wrap workspace">
+    <aside class="rail-col">
+      <details class="rail-drawer" data-rail-drawer open>
+        <summary class="rail-toggle">
+          Filters {{if or .SelectedCat .SelectedDocType .SelectedWard}}<span class="pill active-count">Active</span>{{end}}
+        </summary>
+        {{template "search-facets" .}}
+      </details>
+    </aside>
+    <div class="stream">
+      {{if .ErrorMessage}}
+        <section class="empty">
+          <h1>Search could not finish</h1>
+          <p>{{.ErrorMessage}}</p>
+          <a href="">Retry this search</a>
+        </section>
+      {{else if .AskResult}}
+        {{if and .AskResult.Brief.Headline (ne .AskResult.Brief.Headline "No matching evidence")}}
+          {{template "archive-brief" .}}
+        {{else}}
+          <h1>Search results</h1>
+        {{end}}
+        {{template "search-results" .}}
+      {{else}}
+        {{template "no-matches" .}}
+      {{end}}
+    </div>
+  </div>
+</main>
+{{template "footer" .}}
+{{end}}
+
+{{define "search-facets"}}
+<form class="rail-form" method="get" action="/search" data-facet-form>
+  <input type="hidden" name="municipality" value="{{.Municipality.Slug}}">
+  <input type="hidden" name="q" value="{{.Query}}">
+  <input type="hidden" name="mode" value="{{.Mode}}">
+
+  <label>Collection
+    <select name="category">
+      <option value="">All collections</option>
+      {{$catFound := false}}
+      {{with .AskResult}}{{range .Facets.Categories}}
+        {{if eq $.SelectedCat .Value}}{{$catFound = true}}{{end}}
+        <option value="{{.Value}}"{{if eq $.SelectedCat .Value}} selected{{end}}>{{categoryLabel .Value}} ({{.Count}})</option>
+      {{end}}{{end}}
+      {{if and .SelectedCat (not $catFound)}}
+        <option value="{{.SelectedCat}}" selected>{{categoryLabel .SelectedCat}}</option>
+      {{end}}
+    </select>
+  </label>
+  <label>Document type
+    <select name="doc_type">
+      <option value="">All types</option>
+      {{$typeFound := false}}
+      {{with .AskResult}}{{range .Facets.DocTypes}}
+        {{if eq $.SelectedDocType .Value}}{{$typeFound = true}}{{end}}
+        <option value="{{.Value}}"{{if eq $.SelectedDocType .Value}} selected{{end}}>{{categoryLabel .Value}} ({{.Count}})</option>
+      {{end}}{{end}}
+      {{if and .SelectedDocType (not $typeFound)}}
+        <option value="{{.SelectedDocType}}" selected>{{categoryLabel .SelectedDocType}}</option>
+      {{end}}
+    </select>
+  </label>
+  <fieldset>
+    <legend>Ward</legend>
+    <div class="facet-pills">
+      <label><input type="radio" name="ward" value=""{{if not .SelectedWard}} checked{{end}}><span>All</span></label>
+      {{$wardFound := false}}
+      {{with .AskResult}}{{range .Facets.Wards}}
+        {{if eq $.SelectedWard .Value}}{{$wardFound = true}}{{end}}
+        <label>
+          <input type="radio" name="ward" value="{{.Value}}"{{if eq $.SelectedWard .Value}} checked{{end}}>
+          <span>Ward {{.Value}} ({{.Count}})</span>
+        </label>
+      {{end}}{{end}}
+      {{if and .SelectedWard (not $wardFound)}}
+        <label><input type="radio" name="ward" value="{{.SelectedWard}}" checked><span>Ward {{.SelectedWard}}</span></label>
+      {{end}}
+    </div>
+  </fieldset>
+  <label>Sort order
+    <select name="sort">
+      <option value="relevance"{{if or (eq .Sort "") (eq .Sort "relevance")}} selected{{end}}>Relevance</option>
+      <option value="date_desc"{{if eq .Sort "date_desc"}} selected{{end}}>Newest first</option>
+      <option value="date_asc"{{if eq .Sort "date_asc"}} selected{{end}}>Oldest first</option>
+    </select>
+  </label>
+  <button type="submit" class="btn-secondary">Apply filters</button>
+  <a class="clear-filters" href="/search?q={{urlquery .Query}}&amp;municipality={{.Municipality.Slug}}&amp;mode={{.Mode}}&amp;sort={{.Sort}}">Clear filters</a>
+</form>
+{{end}}
+
+{{define "archive-brief"}}
+{{with .AskResult.Brief}}
+<section class="brief" aria-label="Summary from archive records">
+  <div class="brief-head">
+    <span class="brief-kicker">Summary from archive records</span>
+    <span class="badge-confidence badge-{{.Confidence}}">{{.Confidence}} confidence</span>
+    <span class="badge-latency" title="Search time">{{if gt $.AskResult.TookMs 0}}{{$.AskResult.TookMs}} ms{{else}}&lt;1 ms{{end}}</span>
+    <a class="jump-records" href="#results">Jump to {{$.AskResult.Total}} records</a>
+  </div>
+  <h1>{{.Headline}}</h1>
+  {{$sources := .Citations}}
+  {{range .AnswerParagraphs}}
+    <p class="answer">{{renderParagraph . $sources}}</p>
+  {{end}}
+  {{with .KeyPoints}}
+    <ul class="brief-points">
+      {{range .}}
+        <li><span>{{.Text}}</span> {{template "brief-citation" (dict "sources" $sources "number" .CitationIndex)}}</li>
+      {{end}}
+    </ul>
+  {{end}}
+
+  {{if or .Contacts .ActionLinks .Facts}}
+    <h2 class="subhead">Contacts, portals &amp; extracted facts</h2>
+    <div class="action-grid">
+      {{range .Contacts}}
+        <div class="contact-card">
+          {{with .Role}}<span class="pill">{{.}}</span>{{end}}
+          <strong>{{.Name}}</strong>
+          {{template "brief-citation" (dict "sources" $sources "number" .CitationIndex)}}
+          {{with .Phone}}
+            <a href="tel:{{.}}">
+              <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round">
+                <path d="M4 3h4l2 5-3 2a15 15 0 0 0 7 7l2-3 5 2v4c0 1-1 2-2 2A20 20 0 0 1 2 5c0-1 1-2 2-2Z"/>
+              </svg>
+              {{.}}
+            </a>
+          {{end}}
+          {{with .Email}}
+            <a href="mailto:{{.}}">
+              <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+                <rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/>
+              </svg>
+              {{.}}
+            </a>
+          {{end}}
+        </div>
+      {{end}}
+      {{range .ActionLinks}}
+        {{if safeURL .URL}}
+          <div class="portal-item">
+            <a class="portal-btn" href="{{safeURL .URL}}" target="_blank" rel="noopener noreferrer" aria-label="{{.Label}} (opens in a new tab)">
+              {{.Label}}
+              <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 3h7v7m0-7L10 14m0-9H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"/>
+              </svg>
+            </a>
+            {{template "brief-citation" (dict "sources" $sources "number" .CitationIndex)}}
+          </div>
+        {{end}}
+      {{end}}
+      {{range .Facts}}
+        <div class="fact-tile">
+          <span>{{.Label}}</span>
+          <strong>{{if safeURL .Href}}<a href="{{safeURL .Href}}">{{.Value}}</a>{{else}}{{.Value}}{{end}}</strong>
+          {{template "brief-citation" (dict "sources" $sources "number" .CitationIndex)}}
+        </div>
+      {{end}}
+    </div>
+  {{end}}
+
+  {{with .Citations}}
+    <div class="brief-sources">
+      <span class="sources-label">Sources</span>
+      {{range .}}{{template "cite" .}} {{end}}
+    </div>
+  {{end}}
+  {{with .FollowUpQueries}}
+    <div class="followup-block">
+      <h2 class="subhead">Follow-up questions</h2>
+      <div class="followup-list">
+        {{range .}}
+          <a class="followup-chip" href="/search?q={{urlquery .}}&amp;municipality={{$.Municipality.Slug}}&amp;mode={{$.Mode}}&amp;sort={{$.Sort}}">{{.}}</a>
+        {{end}}
+      </div>
+    </div>
+  {{end}}
+</section>
+{{end}}
+{{end}}
+
+{{define "search-sort-link"}}
+{{with .page}}
+  <a href="/search?q={{urlquery .Query}}&amp;municipality={{.Municipality.Slug}}&amp;mode={{.Mode}}&amp;category={{.SelectedCat}}&amp;doc_type={{.SelectedDocType}}&amp;ward={{if .SelectedWard}}{{.SelectedWard}}{{end}}&amp;sort={{$.sort}}"
+    {{if eq (or .Sort "relevance") $.sort}}aria-current="true"{{end}}>{{$.label}}</a>
+{{end}}
+{{end}}
+
+{{define "search-results"}}
+{{with .AskResult}}
+<section id="results" class="results-section">
+  <div class="results-bar">
+    <div>
+      <h2>{{if eq $.Sort "date_desc"}}Archival matches (newest first){{else if eq $.Sort "date_asc"}}Archival matches (oldest first){{else}}Ranked archival matches{{end}}</h2>
+      <span class="match-count">{{if ne (len .Hits) .Total}}Showing {{len .Hits}} of {{end}}{{.Total}} matches</span>
+    </div>
+    <nav class="sort-pills" aria-label="Sort results by">
+      {{template "search-sort-link" (dict "page" $ "sort" "relevance" "label" "Relevance")}}
+      {{template "search-sort-link" (dict "page" $ "sort" "date_desc" "label" "Newest first")}}
+      {{template "search-sort-link" (dict "page" $ "sort" "date_asc" "label" "Oldest first")}}
+    </nav>
+  </div>
+  {{if .Hits}}
+    <div class="match-list">
+      {{range .Hits}}
+        <article class="match-card">
+          <div class="match-top">
+            <h3><a data-open-doc href="/doc/{{.Municipality}}/{{.DocID}}">{{.Title}}</a></h3>
+            {{if .Date}}<time class="date-pill{{if and (publicationDay .Date) (ne $.Sort "relevance")}} date-active{{end}}" datetime="{{.Date}}">{{formatDate .Date}}</time>
+            {{else}}<span class="date-pill">Undated</span>{{end}}
+          </div>
+          <div class="match-meta">
+            {{if eq $.Municipality.Slug "all"}}<span class="pill pill-city">{{categoryLabel .Municipality}}</span>{{end}}
+            <span class="pill">{{categoryLabel .Category}}</span>
+            {{range $i, $ward := .Wards}}
+              {{if lt $i 4}}<span class="pill">Ward {{$ward}}</span>{{end}}
+            {{end}}
+            {{if gt (len .Wards) 4}}<span class="pill">+{{add (len .Wards) -4}} more</span>{{end}}
+            {{if and .Heading (ne .Heading .Title)}}<span class="match-section">Section: {{.Heading}}</span>{{end}}
+          </div>
+          <p class="match-snippet" data-snippet>{{or .Snippet .Summary}}</p>
+          <div class="match-foot">
+            {{with .SourcePortal}}<span class="source-host">{{.}}</span>{{end}}
+            {{$vector := false}}{{$keyword := false}}
+            {{range .MatchSources}}
+              {{if eq . "vector"}}{{$vector = true}}{{else if eq . "keyword"}}{{$keyword = true}}{{end}}
+            {{end}}
+            {{if or $vector $keyword}}
+              <span class="signal-pill">{{if and $vector $keyword}}Hybrid · {{pct .VectorScore}} semantic{{else if $vector}}Semantic · {{pct .VectorScore}}{{else}}Keyword match{{end}}</span>
+            {{end}}
+          </div>
+        </article>
+      {{end}}
+    </div>
+  {{else}}
+    {{template "no-matches" $}}
+  {{end}}
+</section>
+{{end}}
+{{end}}
+
+{{define "no-matches"}}
+<section class="empty">
+  {{if .Query}}
+    <h2>No matching documents</h2>
+    <p>No indexed passage matched “{{.Query}}” with these settings. Try a broader term, such as a service name or ward number.</p>
+  {{else}}
+     <h1>Search the archive</h1>
+    <p>Enter a service, ward number or document title, or start with one of the searches below.</p>
+  {{end}}
+  <div class="followup-list">
+    <a class="clear-filters" href="/search?q={{urlquery .Query}}&amp;municipality={{.Municipality.Slug}}&amp;mode={{.Mode}}&amp;sort={{.Sort}}">Clear filters</a>
+    {{if and .Query (ne .Mode "vector")}}
+      <a class="followup-chip" href="/search?q={{urlquery .Query}}&amp;municipality={{.Municipality.Slug}}&amp;mode=vector&amp;sort={{.Sort}}">Try semantic search</a>
+    {{end}}
+    <a class="followup-chip" href="/search?q=property+tax&amp;municipality={{.Municipality.Slug}}&amp;mode={{.Mode}}&amp;sort={{.Sort}}">Property tax</a>
+    <a class="followup-chip" href="/search?q=ward+boundaries&amp;municipality={{.Municipality.Slug}}&amp;mode={{.Mode}}&amp;sort={{.Sort}}">Ward boundaries</a>
+  </div>
+</section>
+{{end}}

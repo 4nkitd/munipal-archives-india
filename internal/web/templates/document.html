@@ -1,0 +1,52 @@
+{{define "document.html"}}{{template "header" .}}
+<main id="main" class="wrap page">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/?municipality={{.Municipality.Slug}}">Search</a> / <a href="/index?municipality={{.Municipality.Slug}}">Archive index</a> / <span>Record</span></nav>
+  {{with .Document}}
+  <article class="record">
+    <header>
+      <div class="record-toolbar">
+        <code class="doc-id">{{.ID}}</code>
+        <button class="btn-secondary" type="button" data-copy data-js hidden>Copy text</button>
+        {{with safeURL .SourceURL}}{{if or (hasPrefix (printf "%s" .) "https://") (hasPrefix (printf "%s" .) "http://")}}<a class="btn-secondary" href="{{.}}" target="_blank" rel="noopener noreferrer">View official source</a>{{end}}{{end}}
+      </div>
+      <h1>{{.Title}}</h1>
+    </header>
+    <dl class="meta-card">
+      <div><dt>Collection</dt><dd>{{categoryLabel .Category}}</dd></div>
+      <div><dt>Document type</dt><dd>{{.DocType}}</dd></div>
+      <div><dt>Date</dt><dd><time datetime="{{.Date}}">{{formatDate .Date}}</time></dd></div>
+      <div><dt>Department</dt><dd>{{or .Department "Not recorded"}}</dd></div>
+    </dl>
+    <div class="record-disclosures">
+      <details class="provenance-more">
+        <summary>Full provenance &amp; geography</summary>
+        <dl class="meta-card">
+          {{with .Wards}}<div><dt>Wards</dt><dd>{{joinInts . ", "}}</dd></div>{{end}}
+          {{with .Villages}}<div><dt>Villages</dt><dd>{{join . ", "}}</dd></div>{{end}}
+          {{with .Sectors}}<div><dt>Sectors</dt><dd>{{join . ", "}}</dd></div>{{end}}
+          {{with .SourcePortal}}<div><dt>Source portal</dt><dd>{{.}}</dd></div>{{end}}
+          {{with .OriginalFilename}}<div><dt>Original filename</dt><dd>{{.}}</dd></div>{{end}}
+          {{if .VerifiedAt}}<div><dt>Verified date</dt><dd><time datetime="{{.VerifiedAt}}">{{formatDate .VerifiedAt}}</time></dd></div>{{end}}
+        </dl>
+      </details>
+      {{with .Headings}}<details class="contents"><summary>Contents ({{len .}})</summary><ul>{{range .}}<li class="toc-l{{.Level}}"><a href="#{{.ID}}">{{.Text}}</a></li>{{end}}</ul></details>{{end}}
+    </div>
+    <div class="prose" data-prose>{{$.RenderedHTML}}</div>
+    <section class="related-section">
+      <h2>Related records</h2>
+      {{with .Related}}
+      <p>Matched by text similarity</p>
+      <ul class="related-grid">
+        {{range .}}<li><a class="related-card" data-open-doc href="/doc/{{.Municipality}}/{{.ID}}">
+          <strong>{{.Title}}</strong>
+          {{if ne .Municipality $.Document.Municipality}}<span class="pill pill-city">{{categoryLabel .Municipality}}</span>{{end}}
+          <span>{{categoryLabel .Category}}</span>
+          <time datetime="{{.Date}}">{{formatDate .Date}}</time>
+          <span class="signal-pill" title="Text similarity">{{pct .Similarity}} similarity</span>
+        </a></li>{{end}}
+      </ul>
+      {{else}}<p>No related records indexed.</p>{{end}}
+    </section>
+  </article>
+  {{end}}
+</main>{{template "footer" .}}{{end}}

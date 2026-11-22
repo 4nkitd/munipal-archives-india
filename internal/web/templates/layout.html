@@ -1,0 +1,91 @@
+{{define "header"}}<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{if .PageTitle}}{{.PageTitle}} | {{end}}Nagar Archive</title>
+<script>try { const v = localStorage.getItem("nagar.theme"); if (v === "light" || v === "dark") document.documentElement.dataset.theme = v; } catch {}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..700;1,14..32,400..700&amp;family=JetBrains+Mono:wght@500&amp;family=Plus+Jakarta+Sans:wght@600..700&amp;display=swap">
+<link rel="stylesheet" href="/static/styles.css?v=3">
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="mast"><div class="wrap mast-inner">
+  <a class="brand" href="/?municipality={{.Municipality.Slug}}"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M2 2h8v20H2zM12 2h10v8H12zM12 12h10v10H12z"/></svg>Nagar Archive</a>
+  <details class="municipality" data-city-switcher>
+    <summary class="city-trigger" aria-label="Switch municipality, current: {{.Municipality.ShortName}}"><span class="city-name">{{.Municipality.ShortName}}</span><svg class="chevron" aria-hidden="true" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6l4 4 4-4"/></svg></summary>
+    <div class="city-menu">
+      <div class="city-search-wrap" data-js hidden><input type="search" class="city-filter" data-city-filter placeholder="Filter {{len .Municipalities}} municipalities..." aria-label="Filter municipalities"></div>
+      <a class="city-option city-pinned{{if eq .Municipality.Slug "all"}} active{{end}}" data-city-link data-city-slug="all" href="/?municipality=all"{{if eq .Municipality.Slug "all"}} aria-current="true"{{end}}><strong>All {{len .Municipalities}} municipalities</strong><span class="pill">Haryana &amp; NCR</span></a>
+      <div class="city-list" data-city-list>
+        {{template "city-group" (dict "Page" . "Group" "primary" "Title" "Primary NCR Corporations")}}
+        {{template "city-group" (dict "Page" . "Group" "border" "Title" "Manesar-Bordering Councils")}}
+        {{template "city-group" (dict "Page" . "Group" "other" "Title" "Haryana Municipal Corporations")}}
+      </div>
+      <p class="city-empty" data-city-empty hidden>No municipalities match your filter.</p>
+    </div>
+  </details>
+  <nav class="mast-nav" aria-label="Main navigation">
+    <a href="/?municipality={{.Municipality.Slug}}"{{if eq .ActiveNav "home"}} aria-current="page"{{else if eq .ActiveNav "search"}} aria-current="location"{{end}}>Search</a>
+    <a href="/wards?municipality={{.Municipality.Slug}}"{{if eq .ActiveNav "wards"}} aria-current="page"{{end}}>Wards &amp; officers</a>
+    <a href="/index?municipality={{.Municipality.Slug}}"{{if eq .ActiveNav "index"}} aria-current="page"{{end}}>Archive index</a>
+  </nav>
+  <button type="button" class="theme-toggle" data-theme-toggle data-js hidden aria-label="Switch color theme" title="Switch color theme"><svg class="icon-sun" aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41m11.32-11.32l1.41-1.41"/></svg><svg class="icon-moon" aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><span class="theme-label" data-theme-label>Theme</span></button>
+</div></header>
+{{with .ErrorMessage}}<p class="wrap alert" role="alert">{{.}}</p>{{end}}{{end}}
+
+{{define "city-group"}}
+  <div class="city-group" data-city-group>
+  {{$started := false}}
+  {{range .Page.Municipalities}}
+    {{$group := "other"}}
+    {{if eq .Slug "manesar" "gurugram" "faridabad"}}{{$group = "primary"}}{{else if eq .Slug "bahadurgarh" "bhiwadi" "dharuhera" "farrukhnagar" "jhajjar" "nuh" "palwal" "pataudi-jatoli-mandi" "rewari" "sohna"}}{{$group = "border"}}{{end}}
+    {{if eq $group $.Group}}
+      {{if not $started}}<p class="city-group-title">{{$.Title}}</p>{{$started = true}}{{end}}
+      <a class="city-option{{if eq $.Page.Municipality.Slug .Slug}} active{{end}}" href="/?municipality={{.Slug}}" data-city-item data-city-link data-city-slug="{{.Slug}}" data-city-terms="{{.Name}} {{.ShortName}} {{.Slug}} {{.State}}"{{if eq $.Page.Municipality.Slug .Slug}} aria-current="true"{{end}}>
+        <strong>{{.Name}}</strong>{{if eq .Slug "bhiwadi"}}<span class="pill">Rajasthan</span>{{end}}{{if .WardsCount}}<span class="pill">{{.WardsCount}} wards</span>{{end}}
+      </a>
+    {{end}}
+  {{end}}
+  </div>
+{{end}}
+
+{{define "footer"}}
+<dialog id="reader" class="reader-dialog" aria-labelledby="drawer-title"><div class="drawer-toolbar" data-drawer-toolbar><span class="drawer-label">Document reader</span><div class="drawer-actions" data-drawer-actions></div><button type="button" class="icon-btn" data-close aria-label="Close document reader"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div><div class="drawer-scroll"><article id="drawer-body"></article></div></dialog>
+<footer class="foot"><div class="wrap">
+  <a class="brand" href="/?municipality={{.Municipality.Slug}}">Nagar Archive</a>
+  <span>Official source: {{with .Municipality.OfficialWebsite}}<a href="{{safeURL .}}" target="_blank" rel="noopener noreferrer">{{$.Municipality.Name}}</a>{{else}}<a href="https://ulbharyana.gov.in/" target="_blank" rel="noopener noreferrer">Urban Local Bodies, Haryana</a>{{end}}</span>
+</div></footer>
+<script src="/static/app.js?v=2" defer></script></body></html>{{end}}
+
+{{define "mode-options"}}<option value="hybrid"{{if eq .Mode "hybrid" ""}} selected{{end}}>Hybrid</option><option value="vector"{{if eq .Mode "vector"}} selected{{end}}>Semantic</option><option value="keyword"{{if eq .Mode "keyword"}} selected{{end}}>Exact</option>{{end}}
+
+{{define "search-form"}}
+<form class="command" action="/search" method="get" role="search" data-search-form>
+  <input type="hidden" name="municipality" value="{{.Municipality.Slug}}">
+  {{with .SelectedCat}}<input type="hidden" name="category" value="{{.}}">{{end}}
+  {{with .SelectedDocType}}<input type="hidden" name="doc_type" value="{{.}}">{{end}}
+  {{with .SelectedWard}}<input type="hidden" name="ward" value="{{.}}">{{end}}
+  <div class="search-line">
+    <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="10" cy="10" r="7"/><path d="m15 15 6 6"/></svg>
+    <input id="archive-query" name="q" type="search" data-focus aria-label="Search the archive" placeholder="Search records, wards, officers or services" value="{{.Query}}" autocomplete="off" role="combobox" aria-autocomplete="list" aria-controls="suggestions" aria-expanded="false">
+    <button type="button" class="clear-btn" data-clear-query aria-label="Clear search" hidden>×</button>
+    <kbd class="shortcut" data-shortcut>⌘K</kbd><button type="submit" class="btn-primary">Search</button>
+  </div>
+  <div id="suggestions" class="suggestions" role="listbox" aria-label="Suggested searches" hidden></div>
+  <div class="command-controls">
+    <div class="segmented" role="radiogroup" aria-label="Search mode">
+      <label><input type="radio" name="mode" value="hybrid"{{if eq .Mode "hybrid" ""}} checked{{end}}><span>Hybrid</span></label>
+      <label><input type="radio" name="mode" value="vector"{{if eq .Mode "vector"}} checked{{end}}><span>Semantic</span></label>
+      <label><input type="radio" name="mode" value="keyword"{{if eq .Mode "keyword"}} checked{{end}}><span>Exact</span></label>
+    </div>
+    {{if and (not .AskResult) (eq .Query "")}}
+    <div class="segmented" role="radiogroup" aria-label="Sort records">
+      <label><input type="radio" name="sort" value="relevance"{{if eq .Sort "relevance" ""}} checked{{end}}><span>Relevance</span></label>
+      <label><input type="radio" name="sort" value="date_desc"{{if eq .Sort "date_desc"}} checked{{end}}><span>Newest first</span></label>
+      <label><input type="radio" name="sort" value="date_asc"{{if eq .Sort "date_asc"}} checked{{end}}><span>Oldest first</span></label>
+    </div>
+    {{else}}{{with .Sort}}<input type="hidden" name="sort" value="{{.}}">{{end}}{{end}}
+  </div>
+</form>{{end}}
+
+{{define "contact"}}<strong>{{.Name}}</strong>{{with .Phone}} <a href="tel:{{.}}">{{.}}</a>{{end}}{{with .Email}} <a href="mailto:{{.}}">{{.}}</a>{{end}}{{end}}
