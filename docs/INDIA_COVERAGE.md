@@ -28,3 +28,7 @@ The seven jurisdictions without a statutory municipal corporation are Andaman an
 A corporation needs a profile and a substantive record grounded in an official source. A directory row or a link alone is not coverage. Add separate ward, service, and finance or notice records where the evidence supports them. Leave unverified publication dates and structured rows unset. A published ward count does not establish ward boundaries or officeholders' current tenure.
 
 Before deployment, reconcile every state and UT against the accepted roster, compare the exact archive and indexed slug sets, verify each municipality has searchable records, and exercise citations and hybrid retrieval against the packaged binary. An unresolved legal classification or a missing corporation blocks the national release.
+
+## Contact coverage
+
+The public contact directory includes each of the 289 archived bodies. Contact rows link to official publications for municipal offices, helplines, councillors, and other public duties. A directory can be present even when the authority publishes only a phone, only an email, or a shared service line. Ward and officer coverage varies by municipality. Source checks do not test whether anyone answers a call or receives mail.
