@@ -1,0 +1,18 @@
+[
+  {
+    "ward_number": 1,
+    "name": "Ward 1",
+    "zone": "Zone 1",
+    "colonies": ["Gandhi Nagar Awasiya Yojana", "Kaliberi"],
+    "boundary_summary": "The 2025 schedule starts at Soorsagar Chaupar and includes Gandhi Nagar Awasiya Yojana. Consult the full description for road sides and exclusions.",
+    "source_urls": ["https://jankalyanfile.rajasthan.gov.in/Files/Content/UploadFolder/DepartmentMaster/215/2026/Apr/30409/2156e398105-3193-44fc-a07d-0ca9f74c86bd.pdf", "https://jankalyanfile.rajasthan.gov.in/Files/Content/UploadFolder/OrderEntry/LSG/2026/Notification/O_230126_a719d275-36ec-4a86-8a40-57ec6904028f.pdf"]
+  },
+  {
+    "ward_number": 100,
+    "name": "Ward 100",
+    "zone": "Zone 5",
+    "colonies": ["Kishore Bagh", "Virendra Nagar", "Maa Bhagwati Colony"],
+    "boundary_summary": "These places appear in the locality list for ward 100 on printed page 1172 of the 2025 schedule.",
+    "source_urls": ["https://jankalyanfile.rajasthan.gov.in/Files/Content/UploadFolder/DepartmentMaster/215/2026/Apr/30409/2156e398105-3193-44fc-a07d-0ca9f74c86bd.pdf", "https://jankalyanfile.rajasthan.gov.in/Files/Content/UploadFolder/OrderEntry/LSG/2026/Notification/O_230126_a719d275-36ec-4a86-8a40-57ec6904028f.pdf"]
+  }
+]
