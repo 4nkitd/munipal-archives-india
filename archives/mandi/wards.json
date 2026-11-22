@@ -1,0 +1,17 @@
+[
+  {"ward_number": 1, "name": "Khaliyar", "villages": [], "sectors": [], "colonies": []},
+  {"ward_number": 2, "name": "Purani mandi", "villages": [], "sectors": [], "colonies": []},
+  {"ward_number": 3, "name": "Paddal", "villages": [], "sectors": [], "colonies": []},
+  {"ward_number": 4, "name": "Nela", "villages": [], "sectors": [], "colonies": []},
+  {"ward_number": 5, "name": "Mangwain", "villages": [], "sectors": [], "colonies": []},
+  {"ward_number": 6, "name": "Sanyahrad", "villages": [], "sectors": [], "colonies": []},
+  {"ward_number": 7, "name": "Talyahar", "villages": [], "sectors": [], "colonies": []},
+  {"ward_number": 8, "name": "Palace Colony-I", "villages": [], "sectors": [], "colonies": []},
+  {"ward_number": 9, "name": "Palace Colony-II", "villages": [], "sectors": [], "colonies": []},
+  {"ward_number": 10, "name": "Suhra", "villages": [], "sectors": [], "colonies": []},
+  {"ward_number": 11, "name": "Samkhetar", "villages": [], "sectors": [], "colonies": []},
+  {"ward_number": 12, "name": "Bhagwahan", "villages": [], "sectors": [], "colonies": []},
+  {"ward_number": 13, "name": "Thanehra", "villages": [], "sectors": [], "colonies": []},
+  {"ward_number": 14, "name": "Behna", "villages": [], "sectors": [], "colonies": []},
+  {"ward_number": 15, "name": "Doundhi", "villages": [], "sectors": [], "colonies": []}
+]

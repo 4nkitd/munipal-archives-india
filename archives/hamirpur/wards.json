@@ -1,0 +1,17 @@
+[
+  {"ward_number":1,"name":"NIT","villages":[],"sectors":[],"colonies":[]},
+  {"ward_number":2,"name":"Mati Tihra","villages":[],"sectors":[],"colonies":[]},
+  {"ward_number":3,"name":"Jhaniara","villages":[],"sectors":[],"colonies":[]},
+  {"ward_number":4,"name":"Krishana-Nagar","villages":[],"sectors":[],"colonies":[]},
+  {"ward_number":5,"name":"Daruhi","villages":[],"sectors":[],"colonies":[]},
+  {"ward_number":6,"name":"Dev-Nagar","villages":[],"sectors":[],"colonies":[]},
+  {"ward_number":7,"name":"Anu Kalan","villages":[],"sectors":[],"colonies":[]},
+  {"ward_number":8,"name":"Bahal","villages":[],"sectors":[],"colonies":[]},
+  {"ward_number":9,"name":"Brij Nagar","villages":[],"sectors":[],"colonies":[]},
+  {"ward_number":10,"name":"Naya Nagar","villages":[],"sectors":[],"colonies":[]},
+  {"ward_number":11,"name":"Bajuri","villages":["Rada","Dugnehri","Bajuri Khas","Ghirtheri","Padal","Nijhar","Jhareri","Bhater Khurd","Lahar","Jasaur"],"sectors":[],"colonies":[]},
+  {"ward_number":12,"name":"Ram-Nagar","villages":["Loharara","Baral"],"sectors":[],"colonies":[]},
+  {"ward_number":13,"name":"Baroha","villages":["Bohni","Tropka","Baroha","Panjahali"],"sectors":[],"colonies":[]},
+  {"ward_number":14,"name":"Halana","villages":[],"sectors":[],"colonies":[]},
+  {"ward_number":15,"name":"Subhash Nagar","villages":[],"sectors":[],"colonies":[]}
+]
