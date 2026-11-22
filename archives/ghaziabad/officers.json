@@ -1,0 +1,8 @@
+[
+  {"sr_no":1,"name":"Sunita Dayal","designation":"Mayor","branch":"Elected leadership","wards":[]},
+  {"sr_no":2,"name":"Himanshu Nagpal","designation":"Municipal Commissioner","branch":"Administration","wards":[]},
+  {"sr_no":3,"name":"Anurag Singh","designation":"Accounts Officer","branch":"Accounts","wards":[]},
+  {"sr_no":4,"name":"Ghaziabad Nagar Nigam","designation":"General enquiries","branch":"Public helpdesk","phone":"1800-1803-012","email":"gzb.nagar.nigam@gmail.com","wards":[]},
+  {"sr_no":5,"name":"Ghaziabad Nagar Nigam","designation":"Municipal complaints short code","branch":"Public helpdesk","phone":"1533","wards":[]},
+  {"sr_no":6,"name":"Ghaziabad Nagar Nigam","designation":"Sewer and septic tank cleaning helpline","branch":"Public helpdesk","phone":"14420","wards":[]}
+]
