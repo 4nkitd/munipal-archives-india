@@ -6,11 +6,11 @@ category: "wards-geography"
 subcategory: "ward-delimitation-and-localities"
 doc_type: "ward-record"
 date: "2025-12-26"
-source_url: "https://mcsonipat.in/elections/notifications"
+source_url: "https://mcsonipat.in/sites/default/files/2026-04/Final%20order%20of%20wardbandi%20of%20Municipal%20Corporation%2C%20Sonepat.pdf"
 source_portal: "mcsonipat.in"
 original_filename: "Final order of wardbandi of Municipal Corporation, Sonepat.pdf"
 department: "Urban Local Bodies Department, Haryana"
-wards: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+wards: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
 sectors: ["Sector 8", "Sector 10", "Sector 12", "Sector 14", "Sector 15", "Sector 19", "Sector 23"]
 villages: ["Devru", "Fazilpur", "Garh Shahjanpur", "Kumaspur", "Lahrara", "Tharru", "Jamalpur Kalan", "Sultanpur", "Ahmedpur", "Sonipat Rural", "Shadipur", "Kabirpur", "Bandepur"]
 tags: ["wardbandi", "historical-20-ward-index", "22-ward-delimitation", "hsvp", "merged-villages", "regularized-colonies"]
@@ -20,7 +20,7 @@ contacts:
     phone: "0130-2243032"
     email: "cmc-sonipat@ulbharyana.gov.in"
 action_url: "https://mcsonipat.in/elections/notifications"
-summary: "Locality and sector reference with an explicit distinction between the legacy 20-ward directory and the official 22-ward delimitation dated 26 December 2025. Unverified historical ward allocations remain empty."
+summary: "The 22-ward final schedule dated 26 December 2025 and its published drawing, with boundary landmarks and a separate historical 20-ward index."
 verified_at: "2026-11-22"
 ---
 
@@ -28,11 +28,11 @@ verified_at: "2026-11-22"
 
 ## Ward count and the historical index
 
-The requested 20-ward structure is not the current complete ward schedule. Haryana's final order No. 6/58/2025-4CI dated 26 December 2025 lists Wards 1 through 22. It refers to the preliminary notification dated 11 December 2025 and requires the boundary schedule to be read with drawing MCS/2025/SPL-1 dated 23 December 2025. The municipal website also explicitly reports 22 wards.
+Haryana's final order No. 6/58/2025-4CI, dated 26 December 2025 and issued under rule 10 of the Haryana Municipal Corporation Delimitation of Ward Rules, 1994, lists Wards 1 through 22. It refers to the preliminary notification dated 11 December 2025 and requires the boundary schedule to be read with drawing MCS/2025/SPL-1 dated 23 December 2025. The final drawing appears on PDF page 44. Page 21 forwards the order for publication in the Haryana Government Extraordinary Gazette, but this archive has not verified the issue number or publication date. The State Election Commission's results show the 22 wards were in use by 10 May 2026.
 
 A secondary directory derived from Local Government Directory data still reports 20 wards under local body code 248529. That directory is evidence of a conflicting directory snapshot, not authority to override the final government order.
 
-The companion `wards.json` therefore retains exactly 20 numbered records as a legacy index. It does not claim that those records form today's council geography. Historical ward-to-village, sector, colony, zone and engineering-division mappings were not verified. Empty arrays mean unknown, not that a ward contains no settlements. Null zones and divisions mean unverified. The newer Ward 4 or Ward 19 must not silently replace an older ward with the same number.
+The companion [wards.json](../wards.json) records the 22 numbered wards and gives boundary landmarks with page references. These summaries do not assign entire localities to wards. Empty locality arrays and null zones and divisions mean unverified, not absent. The separate [historical 20-ward index](../wards-legacy-20.json) belongs with the December 2020 election era. No crosswalk was verified: a ward number in that index cannot be used to identify the same territory in the current schedule. [Officer assignments](../03-officers-directory/officers-and-helplines.md#sanitation-responsibility) are not established for the 22-ward layout.
 
 ## Localities and road corridors
 
@@ -79,8 +79,8 @@ For address searches, retain historical names. A 28 May 2025 report says Khan Co
 
 ## Sources and verification limits
 
-1. [Municipal election notifications](https://mcsonipat.in/elections/notifications), official index and current 22-ward website count.
-2. [Final delimitation order dated 26 December 2025](https://mcsonipat.in/sites/default/files/2026-04/Final%20order%20of%20wardbandi%20of%20Municipal%20Corporation%2C%20Sonepat.pdf), No. 6/58/2025-4CI. Boundary descriptions were available in indexed text. Coordinates were not independently checked and no GIS polygon was reconstructed.
+1. [Municipal election notifications](https://mcsonipat.in/elections/notifications), official index and current 22-ward website count. The [state Wardbandi index](https://www.ulbharyana.gov.in/Home/WardBandiNewNotification) lists the same final order with a portal date of 29 December 2025.
+2. [Final delimitation order dated 26 December 2025](https://mcsonipat.in/sites/default/files/2026-04/Final%20order%20of%20wardbandi%20of%20Municipal%20Corporation%2C%20Sonepat.pdf), No. 6/58/2025-4CI. The English schedule and the attached drawing were checked. Coordinates were not independently validated and no GIS polygons were reconstructed.
 3. [LGD-derived 20-ward directory](https://bharatsurvey.org/urban-local-bodies/haryana/sonipat), secondary snapshot, not the latest legal boundary authority.
 4. [District Census Handbook, Sonipat, 2011, Part B](https://censusindia.mha.gov.in/nada/index.php/catalog/433/download/1380/DH_2011_0608_PART_B_DCHB_SONIPAT.pdf), historical jurisdictional changes.
 5. [Municipal corporation history](https://mcsonipat.in/about-us), corporation constitution date.
@@ -92,3 +92,4 @@ For address searches, retain historical names. A 28 May 2025 report says Khan Co
 11. [Statewide regularization report, 1 February 2024](https://www.hindustantimes.com/cities/chandigarh-news/haryana-regularise-264-unauthorised-colonies-101706807436124.html), district-level count.
 12. [Reported colony name changes, 28 May 2025](https://www.amarujala.com/haryana/sonipat/municipal-corporation-changed-the-names-of-two-colonies-sonipat-news-c-197-1-snp1003-137215-2025-05-28).
 13. [Village opposition to proposed merger, 29 June 2015](https://www.tribuneindia.com/news/archive/community/28-villages-averse-to-merger-with-sonepat-civic-body-99771/).
+14. [State Election Commission results, 21 May 2026](https://cdnbbsr.s3waas.gov.in/s31c6a0198177bfcc9bd93f6aab94aad3c/uploads/2026/05/20260521432943498.pdf), No. SEC/1ME/2026/2368, PDF page 2. Names all 22 ward winners separately from the mayor.

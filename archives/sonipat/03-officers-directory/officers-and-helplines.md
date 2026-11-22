@@ -89,7 +89,7 @@ The clerk contacts are branch contacts and are not substitutes for the Chief Acc
 
 ## Sanitation responsibility
 
-| Officer | Published designation | Published wards | Mobile |
+| Officer | Published designation | Published ward range, boundary version unverified | Mobile |
 | --- | --- | --- | --- |
 | Sh. Saheb Singh | CSI | 1 to 10 | Not published |
 | Sh. Satender Dahiya | CSI | 11 to 20 | Not published |
@@ -100,7 +100,7 @@ The clerk contacts are branch contacts and are not substitutes for the Chief Acc
 
 CSI and SI are expanded as Chief Sanitary Inspector and Sanitary Inspector in the companion JSON. Sh. Saheb Singh's listed responsibilities include Kumaspur Nandishala, stray cattle, dog sterilization, SBM and NGT. Sh. Satender Dahiya's include Harsana Nandishala and the MIS/SBM portal. Sh. Poshan Kumar's branch and ward assignment are blank in the source.
 
-The site footer states 22 municipal wards, while this staff roster assigns sanitation responsibility only through Ward 20. These assignments are preserved as published. No responsibility for Wards 21 or 22 has been inferred.
+The site footer states 22 municipal wards, while the staff table assigns sanitation responsibility only through Ward 20. The directory does not date those assignments or identify the boundary schedule they use. The ranges above are a transcription of what the portal showed on 22 November 2026, not directions for the current wards. They are excluded from the structured officer-to-ward assignments. Ask the municipal office to confirm responsibility for a specific address.
 
 ## Source and data notes
 

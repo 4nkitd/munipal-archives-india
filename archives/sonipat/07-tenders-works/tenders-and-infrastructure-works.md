@@ -10,7 +10,7 @@ source_url: "https://mcsonipat.in/tenders"
 source_portal: "mcsonipat.in"
 original_filename: ""
 department: "Municipal Corporation Sonipat, Engineering Branch"
-wards: [1, 7, 10, 11, 20]
+wards: [1, 7, 10, 11]
 sectors: []
 villages: ["Murthal", "Tajpur", "Rathdhana", "Liwaspur", "Baiyanpur Khurd"]
 tags: ["tenders", "HEWP", "roads", "water-supply", "sewerage", "drainage", "LED-lighting", "solid-waste", "waste-to-energy", "Sonipat-Panipat-cluster"]
@@ -50,6 +50,8 @@ The following entries were visible in the MC register when checked on 22 Novembe
 The work 1402 title expressly combines street construction with sewerage and water-supply infrastructure. It does not give pipeline lengths or diameters in the register. None are inferred here.
 
 ### Earlier tender references, 2024 and 2025
+
+The ward numbers in these notices predate the 26 December 2025 delimitation and do not establish current ward assignments.
 
 The official NIC [2024_HRY_385547_1 tender page](https://etenders.hry.nic.in/nicgep/app?component=%24DirectLink&page=FrontEndViewTender&service=direct&sp=SG%2BUdH7IivLpGs8eZbw9dqQ%3D%3D) identifies "Construction of branch street no.1 of Ashok vihar Street no. 1 in Ward No. 20 in MC Sonipat-Recall". It records publication on 2 July 2024, bid opening on 12 July 2024, a tender value of ₹3,25,065 and a work period of 60 days. Its reference is `2024CCA77E47 794C 4F46 A6F9 23EE0421D521292ULB`.
 

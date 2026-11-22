@@ -10,7 +10,7 @@ source_url: "https://cdnbbsr.s3waas.gov.in/s31c6a0198177bfcc9bd93f6aab94aad3c/up
 source_portal: "secharyana.gov.in"
 original_filename: "2022061018.pdf"
 department: "State Election Commission, Haryana"
-wards: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+wards: []
 sectors: []
 villages: []
 tags: ["elected-council", "councillors", "municipal-election", "mayoral-by-election", "house-meetings"]
@@ -48,7 +48,7 @@ Sonipat voted for its first directly elected Mayor and 20 ward councillors on 27
 | 19 | Bijender Malik | Indian National Congress |
 | 20 | Neetu Dahiya | Indian National Congress |
 
-The notification names winners for all 20 wards. The table and [council.json](../council.json) record party affiliation at the 2020 poll, not at the end of the term. [Punjab Kesari reported in May 2025](https://haryana.punjabkesari.in/haryana/news/sonipat-congress-councillors-joined-bjp-senior-and-deputy-mayor-in-minority-2153587) that Nayyar and Naveen, whom it names as Naveen Tanwar, had joined the BJP. It reported that the Ward 6 councillor, whom it names as Renu Saini, had switched earlier.
+The notification names winners for all 20 wards. The table and [council-2020.json](../council-2020.json) record party affiliation at the 2020 poll, not at the end of the term. [Punjab Kesari reported in May 2025](https://haryana.punjabkesari.in/haryana/news/sonipat-congress-councillors-joined-bjp-senior-and-deputy-mayor-in-minority-2153587) that Nayyar and Naveen, whom it names as Naveen Tanwar, had joined the BJP. It reported that the Ward 6 councillor, whom it names as Renu Saini, had switched earlier.
 
 ## Senior Deputy Mayor and Deputy Mayor
 
@@ -74,4 +74,4 @@ Section 52 of the [Haryana Municipal Corporation Act, 1994](https://cdnbbsr.s3wa
 
 ## The successor House
 
-This is a historical 20-ward roster. Sonipat voted again on 10 May 2026, this time for a Mayor and 22 ward councillors. The [21 May 2026 result notification, No. SEC/1ME/2026/2368](https://cdnbbsr.s3waas.gov.in/s31c6a0198177bfcc9bd93f6aab94aad3c/uploads/2026/05/20260521432943498.pdf) records Jain's re-election as Mayor and names the successor councillors. Consult the [corporation's elected members page](https://mcsonipat.in/elected-members) for the new roster. The [notice for the 16 July 2026 House meeting](https://mcsonipat.in/sites/default/files/2026-07/General%20House%20meeting%2016.07.2026.pdf) lists the formation of ward committees for all 22 wards as an agenda item. The notice does not establish that the House approved it.
+This is a historical 20-ward roster. Sonipat voted again on 10 May 2026, this time for a Mayor and 22 ward councillors. The [21 May 2026 result notification, No. SEC/1ME/2026/2368](https://cdnbbsr.s3waas.gov.in/s31c6a0198177bfcc9bd93f6aab94aad3c/uploads/2026/05/20260521432943498.pdf) records Jain's re-election as Mayor and names the successor councillors. [Council.json](../council.json) records the 22 ward winners and their parties at the 2026 election, using the commission's spellings. The [corporation's elected members page](https://mcsonipat.in/elected-members) agrees on the ward assignments but uses some spelling variants. The [notice for the 16 July 2026 House meeting](https://mcsonipat.in/sites/default/files/2026-07/General%20House%20meeting%2016.07.2026.pdf) lists the formation of ward committees for all 22 wards as an agenda item. The notice does not establish that the House approved it.
