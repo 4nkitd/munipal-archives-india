@@ -68,3 +68,27 @@ func TestIndiaCorporationCoverage(t *testing.T) {
 	}
 	t.Logf("reconciled %d archive profiles with 279 corporations and 10 retained councils across 36 audited jurisdictions", len(profiles))
 }
+
+func TestIndiaPublicContactCoverage(t *testing.T) {
+	profiles, err := indexer.ScanMunicipalities("../archives")
+	check(t, err)
+	var rows, phoneCities, emailCities int
+	for _, p := range profiles {
+		if len(p.PublicContacts) == 0 {
+			t.Errorf("%s: missing public contact directory", p.Slug)
+		}
+		rows += len(p.PublicContacts)
+		var phone, email bool
+		for _, c := range p.PublicContacts {
+			phone = phone || c.Number != ""
+			email = email || c.Email != ""
+		}
+		if phone {
+			phoneCities++
+		}
+		if email {
+			emailCities++
+		}
+	}
+	t.Logf("%d public contact rows; %d municipalities with phones and %d with emails", rows, phoneCities, emailCities)
+}
