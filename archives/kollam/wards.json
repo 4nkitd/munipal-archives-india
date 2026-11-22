@@ -1,0 +1,562 @@
+[
+  {
+    "ward_number": 1,
+    "name": "SAKTHIKULANGARA HARBOUR",
+    "ward_code": "C02002001",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 2,
+    "name": "SAKTHIKULANGARA",
+    "ward_code": "C02002002",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 3,
+    "name": "MEENATHUCHERY",
+    "ward_code": "C02002003",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 4,
+    "name": "KAVANAD",
+    "ward_code": "C02002004",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 5,
+    "name": "VALLIKEEZHU",
+    "ward_code": "C02002005",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 6,
+    "name": "KUREEPUZHA WEST",
+    "ward_code": "C02002006",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 7,
+    "name": "KUREEPUZHA",
+    "ward_code": "C02002007",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 8,
+    "name": "NEERAVIL",
+    "ward_code": "C02002008",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 9,
+    "name": "ANCHALUMMOODU WEST",
+    "ward_code": "C02002009",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 10,
+    "name": "ANCHALUMMOODU EAST",
+    "ward_code": "C02002010",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 11,
+    "name": "KADAVOOR",
+    "ward_code": "C02002011",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 12,
+    "name": "MATHILIL",
+    "ward_code": "C02002012",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 13,
+    "name": "THEVALLY",
+    "ward_code": "C02002013",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 14,
+    "name": "VADAKKUMBHAGAM",
+    "ward_code": "C02002014",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 15,
+    "name": "ASRAMAM",
+    "ward_code": "C02002015",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 16,
+    "name": "ULIYAKOVIL",
+    "ward_code": "C02002016",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 17,
+    "name": "ULIYAKOVIL EAST",
+    "ward_code": "C02002017",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 18,
+    "name": "KADAPPAKADA",
+    "ward_code": "C02002018",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 19,
+    "name": "KOYIKKAL",
+    "ward_code": "C02002019",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 20,
+    "name": "KALLUMTHAZHAM",
+    "ward_code": "C02002020",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 21,
+    "name": "MANGADU",
+    "ward_code": "C02002021",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 22,
+    "name": "ARUNNOOTTIMANGALAM",
+    "ward_code": "C02002022",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 23,
+    "name": "CHATHINAMKULAM",
+    "ward_code": "C02002023",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 24,
+    "name": "KARIKODE",
+    "ward_code": "C02002024",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 25,
+    "name": "COLLEGE DIVISION",
+    "ward_code": "C02002025",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 26,
+    "name": "PALKULANGARA",
+    "ward_code": "C02002026",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 27,
+    "name": "AMMANNADA",
+    "ward_code": "C02002027",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 28,
+    "name": "VADAKKEVILA",
+    "ward_code": "C02002028",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 29,
+    "name": "PALLIMUKKU",
+    "ward_code": "C02002029",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 30,
+    "name": "AYATHIL",
+    "ward_code": "C02002030",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 31,
+    "name": "KILIKOLLOOR",
+    "ward_code": "C02002031",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 32,
+    "name": "PUNTHALATHAZHAM",
+    "ward_code": "C02002032",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 33,
+    "name": "PALATHARA",
+    "ward_code": "C02002033",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 34,
+    "name": "MANACADU",
+    "ward_code": "C02002034",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 35,
+    "name": "KOLLOORVILA",
+    "ward_code": "C02002035",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 36,
+    "name": "KAYYALAKKAL",
+    "ward_code": "C02002036",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 37,
+    "name": "VALATHUNGAL",
+    "ward_code": "C02002037",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 38,
+    "name": "AKKOLIL",
+    "ward_code": "C02002038",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 39,
+    "name": "THEKKUMBHAGAM",
+    "ward_code": "C02002039",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 40,
+    "name": "ERAVIPUARAM",
+    "ward_code": "C02002040",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 41,
+    "name": "BHARANIKKAVU",
+    "ward_code": "C02002041",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 42,
+    "name": "THEKKEVILA",
+    "ward_code": "C02002042",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 43,
+    "name": "MUNDAKKAL",
+    "ward_code": "C02002043",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 44,
+    "name": "PATTATHANAM",
+    "ward_code": "C02002044",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 45,
+    "name": "CONTONMENT",
+    "ward_code": "C02002045",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 46,
+    "name": "UDAYAMARTHANDAPUARAM",
+    "ward_code": "C02002046",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 47,
+    "name": "THAMARAKULAM",
+    "ward_code": "C02002047",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 48,
+    "name": "PORT",
+    "ward_code": "C02002048",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 49,
+    "name": "KAIKULANGARA",
+    "ward_code": "C02002049",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 50,
+    "name": "CUTCHERY",
+    "ward_code": "C02002050",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 51,
+    "name": "THANGASSERY",
+    "ward_code": "C02002051",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 52,
+    "name": "THIRUMULLAVARAM",
+    "ward_code": "C02002052",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 53,
+    "name": "MULANKADAKAM",
+    "ward_code": "C02002053",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 54,
+    "name": "ALATTUKAVU",
+    "ward_code": "C02002054",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 55,
+    "name": "KANNIMEL WEST",
+    "ward_code": "C02002055",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 56,
+    "name": "KANNIMEL",
+    "ward_code": "C02002056",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/ed32ac4e-4495-4b4f-a7e2-68066270caee",
+    "verified_at": "2026-11-22"
+  }
+]

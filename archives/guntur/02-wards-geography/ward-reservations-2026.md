@@ -23,6 +23,8 @@ verified_at: "2026-11-22"
 
 ## Seat reservation schedule
 
+[Scanned map/PDF — visual source linked at source_url]
+
 The Guntur District Collector published the ward reservations in District Extraordinary Gazette No. 176 on 13 October 2026. The [APSEC election returns](https://sec.ap.gov.in/Uploads/Doc26/Rsls/Results%20-%20Ward%20Members%20Municpal%20Corporations-2026.pdf#page=60) also enumerate Guntur wards 1 through 76, with the poll dated 1 November 2026.
 
 | Category in the gazette | Seats | Example ward |

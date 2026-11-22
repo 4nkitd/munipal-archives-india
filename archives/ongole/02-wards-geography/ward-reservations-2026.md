@@ -23,6 +23,8 @@ verified_at: "2026-11-22"
 
 ## Seat reservation schedule
 
+[Scanned map/PDF — visual source linked at source_url]
+
 The Prakasam District Collector published the reservation schedule in District Extraordinary Gazette No. 168 dated 13 October 2026, reference Roc.No.2306/2026/G1. The [APSEC election returns](https://sec.ap.gov.in/Uploads/Doc26/Rsls/Results%20-%20Ward%20Members%20Municpal%20Corporations-2026.pdf#page=74) also list wards 1 through 62. Wards 25, 57 and 58 are marked as unanimous elections with no poll date; the remaining 59 ward entries give 1 November 2026 as the date of poll.
 
 | Category in the gazette | Seats | Example ward |

@@ -23,7 +23,9 @@ verified_at: "2026-11-22"
 
 ## Seat reservation schedule
 
-The Guntur District Collector published the ward reservations for MTMC in District Extraordinary Gazette No. 184 on 31 October 2026. The [APSEC phase II statistics](https://sec.ap.gov.in/Uploads/Doc26/Vital%20Statistics%20-%20Phase%20II%20Elections%20-%2023%20ULBs.pdf#page=4) independently confirm 62 wards and identify MTMC separately from Guntur Municipal Corporation.
+[Scanned map/PDF — visual source linked at source_url]
+
+The Guntur District Collector published the ward reservations for MTMC in District Extraordinary Gazette No. 184 on 31 October 2026. The [APSEC phase II statistics](https://sec.ap.gov.in/Uploads/Doc26/Vital%20Statistics%20-%20Phase%20II%20Elections%20-%2023%20ULBs.pdf#page=4) independently confirm 62 wards and list MTMC as a corporation in Guntur district.
 
 | Category in the gazette | Seats | Example ward |
 | --- | ---: | ---: |

@@ -23,6 +23,6 @@ verified_at: "2026-11-22"
 
 ## Search by property details
 
-On the [Guntur municipal portal](https://guntur.cdma.ap.gov.in/ulbprofile/guntur/home), open Property Tax and select **Know Your Dues**. The search form has fields for Assessment Number, Old Assessment Number, Owner Name and Door Number. If the property has been assessed, use the assessment number from a municipal notice or receipt to identify the record. Check the property details before using the result to pay.
+Select **Know Your Dues** under Municipal Services on the [Guntur municipal portal](https://guntur.cdma.ap.gov.in/ulbprofile/guntur/home). The search form has fields for Assessment Number, Old Assessment Number, Owner Name and Door Number. If the property has been assessed, use the assessment number from a municipal notice or receipt to identify the record. Check the property details before using the result to pay.
 
 The same municipal portal lists separate services for Self Assessment, Revision Petition, Mutation, Vacancy Remission and Download Proceedings. A lookup does not file any of those requests. Select the appropriate service when the assessment needs to be created, revised or transferred.

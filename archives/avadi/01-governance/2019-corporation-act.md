@@ -22,6 +22,6 @@ verified_at: "2026-11-22"
 
 ## Establishment and district
 
-Tamil Nadu published Act 24 of 2019 in Government Gazette Extraordinary No. 315, Part IV, Section 2, on 30 July 2019. Section 1(3) deems the Act to have come into force on **17 June 2019**. That is the commencement date, not the date of publication.
+Tamil Nadu published Act 24 of 2019 in Government Gazette Extraordinary No. 315, Part IV, Section 2, on 30 July 2019. Section 1(3) deems the Act to have come into force on **17 June 2019**. That is the commencement date, not the date of publication. Section 2(1)(a) starts with the area of the former Avadi Municipality and allows for later inclusions and exclusions.
 
 The [Tiruvallur district administration's local bodies directory](https://tiruvallur.nic.in/administrative-setup/local-bodies/) lists Avadi under Corporation. The [city portal](https://www.tnurbantree.tn.gov.in/avadi/) gives an area of 65 sq km and a 2011 Census population of 344,701. It also describes the predecessor municipality; those historical references do not change Avadi's corporation status.

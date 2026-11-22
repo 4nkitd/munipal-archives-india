@@ -31,4 +31,4 @@ The [corporation's budget register](https://www.tnurbantree.tn.gov.in/kancheepur
 | Education | ₹13,04,36,000 | ₹12,65,26,000 |
 | Total | ₹6,73,20,75,400 | ₹6,72,35,33,400 |
 
-The abstract is a budget estimate. It does not report audited outturn or allocate these totals to individual wards.
+The PDF cover, budget register and detailed schedules identify FY 2025-2026. The extracted abstract heading reads `2023-2026`; the table reproduces the abstract amounts without treating that heading as a separate fiscal period. The abstract does not report audited outturn or allocate these totals to individual wards.

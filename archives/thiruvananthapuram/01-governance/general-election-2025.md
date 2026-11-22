@@ -8,7 +8,7 @@ doc_type: "public-notice"
 date: "2025-11-10"
 source_url: "https://sec.kerala.gov.in/public/ic/download/0da59b73-669c-4b42-9184-731185c8ef10"
 source_portal: "sec.kerala.gov.in"
-original_filename: ""
+original_filename: "0da59b73-669c-4b42-9184-731185c8ef10.pdf"
 department: "State Election Commission, Kerala"
 wards: []
 sectors: []
