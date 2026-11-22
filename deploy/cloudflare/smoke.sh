@@ -12,7 +12,8 @@ curl -fsS --max-time 40 "$base/api/health" | jq -e 'select(.status=="ok")'
 curl -fsS --max-time 15 "$base/api/stats" |
   jq -e --arg indexed "$indexed" 'select(.indexed_at==$indexed and .municipalities_indexed==289 and .embedding_dimensions==384)
     | {municipalities_indexed,total_documents,total_chunks,indexed_at}'
-curl -fsS --max-time 15 "$base/?municipality=all" | grep -Fq 'Search all 289 municipal archives'
+home=$(curl -fsS --max-time 15 "$base/?municipality=all")
+printf '%s\n' "$home" | grep -F 'Search all 289 municipal archives' >/dev/null
 curl -fsS --max-time 15 -o /dev/null "$base/static/styles.css"
 
 for mode in keyword vector hybrid; do
