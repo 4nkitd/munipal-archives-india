@@ -1,4 +1,4 @@
-import { bindings, defineConfig, defineContainer, defineWorker, exports as cfExports } from "cf/config";
+import { defineConfig, defineContainer, defineWorker, exports as cfExports } from "cf/config";
 
 const container = defineContainer({
   name: "nagar-archive",
@@ -9,11 +9,11 @@ const container = defineContainer({
 const worker = defineWorker({
   name: "nagar-archive",
   entrypoint: "./worker.js",
-  compatibilityDate: "2026-11-22",
+  compatibilityDate: "2026-10-07",
+  compatibilityFlags: ["enable_ctx_exports"],
   workersDev: true,
   previewUrls: false,
   exports: { Archive: cfExports.durableObject({ storage: "sqlite", container }) },
-  env: { ARCHIVE: bindings.durableObject({ worker: "nagar-archive", exportName: "Archive" }) },
 });
 
 export default defineConfig({ worker, containers: [container] });

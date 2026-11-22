@@ -1,6 +1,6 @@
 # Nagar Archive
 
-Nagar Archive is a search-first, plain-text civic archive built in Go. The original collection covers Haryana's 11 municipal corporations and 10 neighboring councils and committees. See the [northwest coverage plan](docs/NORTHWEST_COVERAGE.md) for the regional expansion boundary and evidence criteria.
+Nagar Archive is a search-first, plain-text civic archive built in Go. The nationwide source corpus contains records for [279 municipal corporations](docs/INDIA_COVERAGE.md) and the ten original councils and committees. The roster records all 36 states and union territories, including those without municipal corporations.
 
 The [municipal archive directories](archives/) hold the source corpus; `/api/stats` reports what the running index contains. Records preserve source URLs, dates, jurisdictions, and citations. They are archival references, not a substitute for current official notices.
 
@@ -48,7 +48,7 @@ go build -o ./bin/archive ./cmd/archive
 
 Open <http://localhost:8080>. The server embeds its HTML templates and static assets. It reads the index from `data/` and caches the model under `.cache/hugot-models/`. `serve` automatically indexes the archive if no complete index exists.
 
-Rebuild an older index with `./bin/archive index` to pick up the northwest collections and the updated Hindi and Gujarati keyword tokenizer. Keyword search uses the archived spelling. The local embedding model is English-oriented.
+Rebuild an older index with `./bin/archive index` to pick up the nationwide collections. Keyword search uses the archived spelling. The local embedding model is English-oriented. See the [Cloudflare deployment guide](docs/CLOUDFLARE_DEPLOYMENT.md) for the separate public index.
 
 Query from another terminal:
 

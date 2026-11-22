@@ -23,10 +23,11 @@ Before publication, send a cold `/api/health` request through a local Worker wit
 
 ## Publish and verify
 
-Cloudflare Containers require Workers Paid and a working Docker builder. Use the installed `cf` CLI. Check the deployment account and whether `nagar-archive` already exists before creating or replacing anything. Do not deploy the sandbox Worker or upload the repository.
+Cloudflare Containers require Workers Paid and a working Docker builder. Use the installed `cf` CLI. The staged `package.json` declares Cloudflare's Worker build tools only. Neither those tools nor a JavaScript web server run in the image. Check the deployment account and whether `nagar-archive` already exists before creating or replacing anything. Do not deploy the sandbox Worker or upload the repository.
 
 ```sh
 cd "$RELEASE/worker" &&
+bun install &&
 cf deploy --dry-run &&
 cf deploy
 ```

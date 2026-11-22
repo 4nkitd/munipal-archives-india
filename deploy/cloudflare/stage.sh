@@ -33,7 +33,8 @@ test "$(sqlite3 "$source/archive.db" "SELECT value FROM index_meta WHERE key='em
 test "$(sqlite3 "$source/archive.db" "SELECT value FROM index_meta WHERE key='embedding_dimensions'")" = 384
 
 mkdir "$stage"
-cp deploy/cloudflare/cloudflare.config.ts deploy/cloudflare/worker.js deploy/cloudflare/Dockerfile deploy/cloudflare/.dockerignore "$stage/"
+cp deploy/cloudflare/cloudflare.config.ts deploy/cloudflare/worker.js deploy/cloudflare/package.json \
+  deploy/cloudflare/Dockerfile deploy/cloudflare/.dockerignore "$stage/"
 mkdir -p "$stage/data/$generation" "$stage/models"
 cp "$source/COMPLETE" "$stage/data/$generation/"
 cp -R "$source/vectors" "$stage/data/$generation/"
@@ -61,6 +62,7 @@ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GOAMD64=v1 go build -trimpath -o "$stage/a
 CGO_ENABLED=0 go run ./cmd/public-corpus audit "$public" "$stage/data" > "$stage/records.tsv"
 (
   cd "$stage"
-  find archive data models -type f -exec shasum -a 256 {} + | LC_ALL=C sort > release.sha256
+  find archive data models cloudflare.config.ts worker.js Dockerfile .dockerignore package.json records.tsv \
+    -type f -exec shasum -a 256 {} + | LC_ALL=C sort > release.sha256
 )
 printf 'Staged %s in %s\n' "$generation" "$stage"

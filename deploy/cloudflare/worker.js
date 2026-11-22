@@ -4,8 +4,8 @@ const port = 8080;
 const idleMs = 5 * 60 * 1000;
 
 export default {
-  fetch(request, env) {
-    return env.ARCHIVE.getByName("archive").fetch(request);
+  fetch(request, _env, ctx) {
+    return ctx.exports.Archive.getByName("archive").fetch(request);
   },
 };
 

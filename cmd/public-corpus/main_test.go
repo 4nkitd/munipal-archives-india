@@ -18,6 +18,8 @@ func TestContactScreen(t *testing.T) {
 		"Contact: office &#64; example.org",
 		"office [at] example [dot] org",
 		"https://example.org/contact/office%40example.org",
+		"100% and office%40example.org",
+		"020–2000–0000",
 		"[direct chat](https://web.whatsapp.com/send?phone=1234)",
 	} {
 		if !contactLike(s) {
@@ -28,6 +30,8 @@ func TestContactScreen(t *testing.T) {
 		"Budget signed on 2026-11-22.",
 		"Read the public helpline directory.\n2026-11-22",
 		"https://example.org/public/whatsapp-image-2026-06-15.jpeg",
+		"https://sec.kerala.gov.in/public/ic/download/0da59b73-669c-4b42-9184-731185c8ef10",
+		"https://municipalcorporationdurg.in/Upload_Tender/100420251744266686783@0.pdf#page=2",
 	} {
 		if contactLike(s) {
 			t.Errorf("incorrectly detected %q", s)
@@ -45,7 +49,7 @@ func TestExport(t *testing.T) {
 	for name, data := range map[string]string{
 		"municipality.json": `{"slug":"demo","name":"Demo City","helpdeskPhone":"7000000000","email":"example@invalid.example","officialWebsite":"https://example.org"}`,
 		"wards.json":        `[{"ward_number":1,"name":"First Ward","councillor":{"name":"Demo Councillor","phone":"7000000000"}}]`,
-		"officers.json":     `[{"sr_no":1,"name":"Demo Officer","designation":"Junior Engineer","email":"example@invalid.example","wards":[1]}]`,
+		"officers.json":     `[{"sr_no":1,"name":"Demo Officer","designation":"Junior Engineer","email":"example@invalid.example","phone":"2345678","wards":[1]}]`,
 		"record.md": `---
 id: demo-record
 municipality: demo
@@ -61,6 +65,7 @@ contacts:
 
 There are 15 territorial wards.
 Contact the officer at example [at] invalid.example.
+Demo Officer | 234-5678
 `,
 	} {
 		if err := os.WriteFile(filepath.Join(city, name), []byte(data), 0644); err != nil {
@@ -73,11 +78,12 @@ Contact the officer at example [at] invalid.example.
 	}
 	out := filepath.Join(target, "demo")
 	doc, err := indexer.ParseMarkdownFile(filepath.Join(out, "record.md"), target)
-	if err != nil || len(doc.Contacts) != 0 || !strings.Contains(doc.Content, "15 territorial wards") || strings.Contains(doc.Content, "[at]") {
+	if err != nil || len(doc.Contacts) != 0 || !strings.Contains(doc.Content, "15 territorial wards") ||
+		strings.Contains(doc.Content, "[at]") || strings.Contains(doc.Content, "234-5678") {
 		t.Fatalf("unexpected public record: %+v, %v", doc, err)
 	}
 	wards, err := indexer.LoadMunicipalityWards(out)
-	if err != nil || len(wards) != 1 || wards[0].Councillor.Phone != "" || wards[0].JuniorEngineer.Email != "" {
+	if err != nil || len(wards) != 1 || wards[0].Councillor.Phone != "" || wards[0].JuniorEngineer.Email != "" || len(wards[0].JuniorEngineers) != 1 {
 		t.Fatalf("unexpected public wards: %+v, %v", wards, err)
 	}
 	if _, _, err := export(source, target); err == nil {
