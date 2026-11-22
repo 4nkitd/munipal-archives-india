@@ -1,0 +1,15 @@
+{
+  "slug": "tiruchirappalli",
+  "name": "Tiruchirappalli City Municipal Corporation",
+  "state": "Tamil Nadu",
+  "district": "Tiruchirappalli",
+  "wardsCount": 65,
+  "headquarters": "Bharathidasan Salai, Cantonment, Tiruchirappalli 620001",
+  "officialWebsite": "https://www.trichycorporation.gov.in/",
+  "status": "indexed",
+  "description": "The corporation groups 65 council wards into five administrative zones.",
+  "verified_at": "2026-11-22",
+  "zonesCount": 5,
+  "email": "commr.trichy@tn.gov.in",
+  "source_url": "https://www.trichycorporation.gov.in/about"
+}

@@ -1,0 +1,534 @@
+[
+  {
+    "ward_number": 1,
+    "name": "FORT KOCHI",
+    "ward_code": "C07003001",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 2,
+    "name": "KALVATHY",
+    "ward_code": "C07003002",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 3,
+    "name": "EARAVELY",
+    "ward_code": "C07003003",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 4,
+    "name": "KARIPPALAM",
+    "ward_code": "C07003004",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 5,
+    "name": "CHERALAYI",
+    "ward_code": "C07003005",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 6,
+    "name": "MATTANCHERY",
+    "ward_code": "C07003006",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 7,
+    "name": "CHAKKAMADAM",
+    "ward_code": "C07003007",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 8,
+    "name": "KARUVELIPPADY",
+    "ward_code": "C07003008",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 9,
+    "name": "ISLAND NORTH",
+    "ward_code": "C07003009",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 10,
+    "name": "RAVIPURAM",
+    "ward_code": "C07003010",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 11,
+    "name": "ERNAKULAM SOUTH",
+    "ward_code": "C07003011",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 12,
+    "name": "GANDHI NAGAR",
+    "ward_code": "C07003012",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 13,
+    "name": "KATHRIKADAVU",
+    "ward_code": "C07003013",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 14,
+    "name": "ERNAKULAM CENTRAL",
+    "ward_code": "C07003014",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 15,
+    "name": "ERNAKULAM NORTH",
+    "ward_code": "C07003015",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 16,
+    "name": "KALOOR SOUTH",
+    "ward_code": "C07003016",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 17,
+    "name": "KALOOR-NORTH",
+    "ward_code": "C07003017",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 18,
+    "name": "THRIKKANARVATTOM",
+    "ward_code": "C07003018",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 19,
+    "name": "AYYAPPANKAVU",
+    "ward_code": "C07003019",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 20,
+    "name": "POTTAKUZHY",
+    "ward_code": "C07003020",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 21,
+    "name": "ELAMAKKARA SOUTH",
+    "ward_code": "C07003021",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 22,
+    "name": "PACHALAM",
+    "ward_code": "C07003022",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 23,
+    "name": "THATTAZHAM",
+    "ward_code": "C07003023",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 24,
+    "name": "VADUTHALA WEST",
+    "ward_code": "C07003024",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 25,
+    "name": "VADUTHALA EAST",
+    "ward_code": "C07003025",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 26,
+    "name": "ELAMAKKARA NORTH",
+    "ward_code": "C07003026",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 27,
+    "name": "PUTHUKKALAVATTAM",
+    "ward_code": "C07003027",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 28,
+    "name": "KUNNUMPURAM",
+    "ward_code": "C07003028",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 29,
+    "name": "PONEKKARA",
+    "ward_code": "C07003029",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 30,
+    "name": "EDAPPALLY",
+    "ward_code": "C07003030",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 31,
+    "name": "CHANGAMPUZHA",
+    "ward_code": "C07003031",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 32,
+    "name": "DHEVANKULANGARA",
+    "ward_code": "C07003032",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 33,
+    "name": "PALARIVATTAM",
+    "ward_code": "C07003033",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 34,
+    "name": "STADIUM",
+    "ward_code": "C07003034",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 35,
+    "name": "KARANAKKODAM",
+    "ward_code": "C07003035",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 36,
+    "name": "PUTHIYAROAD",
+    "ward_code": "C07003036",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 37,
+    "name": "PADIVATTAM",
+    "ward_code": "C07003037",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 38,
+    "name": "VENNALA",
+    "ward_code": "C07003038",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 39,
+    "name": "CHAKKARAPARAMBU",
+    "ward_code": "C07003039",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 40,
+    "name": "CHALIKKAVATTAM",
+    "ward_code": "C07003040",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 41,
+    "name": "THAMMANAM",
+    "ward_code": "C07003041",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 42,
+    "name": "ELAMKULAM",
+    "ward_code": "C07003042",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 43,
+    "name": "GIRINAGAR",
+    "ward_code": "C07003043",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 44,
+    "name": "PONNURUNNI",
+    "ward_code": "C07003044",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 45,
+    "name": "PONNURUNNI EAST",
+    "ward_code": "C07003045",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 46,
+    "name": "VYTTILA",
+    "ward_code": "C07003046",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 47,
+    "name": "POONITHURA",
+    "ward_code": "C07003047",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 48,
+    "name": "VYTTILA JANATHA",
+    "ward_code": "C07003048",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 49,
+    "name": "KADAVANTHRA",
+    "ward_code": "C07003049",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 50,
+    "name": "PANAMPILLI NAGAR",
+    "ward_code": "C07003050",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 51,
+    "name": "PERUMANOOR",
+    "ward_code": "C07003051",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 52,
+    "name": "KONTHURUTHY",
+    "ward_code": "C07003052",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 53,
+    "name": "THEVARA",
+    "ward_code": "C07003053",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 54,
+    "name": "ISLAND SOUTH",
+    "ward_code": "C07003054",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 55,
+    "name": "KADEBHAGAM",
+    "ward_code": "C07003055",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 56,
+    "name": "PALLURUTHY EAST",
+    "ward_code": "C07003056",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 57,
+    "name": "THAZHUPPU",
+    "ward_code": "C07003057",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 58,
+    "name": "EADAKOCHI NORTH",
+    "ward_code": "C07003058",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 59,
+    "name": "EDAKOCHI SOUTH",
+    "ward_code": "C07003059",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 60,
+    "name": "PERUMBADAPPU",
+    "ward_code": "C07003060",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 61,
+    "name": "KONAM",
+    "ward_code": "C07003061",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 62,
+    "name": "PALLURUTHY-KACHERIPADY",
+    "ward_code": "C07003062",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 63,
+    "name": "NAMBYAPURAM",
+    "ward_code": "C07003063",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 64,
+    "name": "PALLURUTHY",
+    "ward_code": "C07003064",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 65,
+    "name": "PULLARDESAM",
+    "ward_code": "C07003065",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 66,
+    "name": "THAREBHAGAM",
+    "ward_code": "C07003066",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 67,
+    "name": "THOPPUMPADY",
+    "ward_code": "C07003067",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 68,
+    "name": "MUNDAMVELY EAST",
+    "ward_code": "C07003068",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 69,
+    "name": "MUNDAMVELY",
+    "ward_code": "C07003069",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 70,
+    "name": "MANASSERY",
+    "ward_code": "C07003070",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 71,
+    "name": "MOOLAMKUZHY",
+    "ward_code": "C07003071",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 72,
+    "name": "CHULLICKAL",
+    "ward_code": "C07003072",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 73,
+    "name": "NASRATHU",
+    "ward_code": "C07003073",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 74,
+    "name": "PANAYAPPILLY",
+    "ward_code": "C07003074",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 75,
+    "name": "AMARAVATHY",
+    "ward_code": "C07003075",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 76,
+    "name": "FORTKOCHI VELI",
+    "ward_code": "C07003076",
+    "source_url": "https://sec.kerala.gov.in/public/cnstncy/wd/d0f41644-754b-4b6e-a8dc-97ecbf5fee16",
+    "verified_at": "2026-11-22"
+  }
+]

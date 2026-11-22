@@ -1,0 +1,13 @@
+{
+  "slug": "bhopal",
+  "name": "Bhopal Municipal Corporation",
+  "shortName": "BMC",
+  "state": "Madhya Pradesh",
+  "district": "Bhopal",
+  "wardsCount": 85,
+  "headquarters": "Harshwardhan complex, Mata Mandir, Bhopal 462001",
+  "email": "commoffice@bmconline.gov.in",
+  "officialWebsite": "https://www.bmconline.gov.in/sap/bc/ui5_ui5/sap/zbmcprdhome/index.html",
+  "status": "indexed",
+  "description": "Municipal corporation for the Bhopal municipal area, LGD 250946. City Finance lists 85 wards as reported by the local body."
+}

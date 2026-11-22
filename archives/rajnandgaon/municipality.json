@@ -1,0 +1,19 @@
+{
+  "slug": "rajnandgaon",
+  "name": "Rajnandgaon Municipal Corporation",
+  "state": "Chhattisgarh",
+  "district": "Rajnandgaon",
+  "wardsCount": 51,
+  "lgdCode": "250629",
+  "headquarters": "Nagar Palik Nigam, Rajnandgaon",
+  "phone": "07744-404893",
+  "officialWebsite": "https://rajnandgaon.nic.in/en/public-utility-category/municipality/",
+  "status": "indexed",
+  "description": "Rajnandgaon Municipal Corporation in Rajnandgaon district had 51 numbered wards in the 2025 municipal election. City Finance identifies the corporation by LGD code 250629 and Census 2011 code 801991.",
+  "sourceUrls": [
+    "https://rajnandgaon.nic.in/en/public-utility-category/municipality/",
+    "https://cgsec.gov.in/Notification2025/election/Councillor%202025.pdf#page=44",
+    "https://www.cityfinance.in/api/v1/ulb"
+  ],
+  "verified_at": "2026-11-22"
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "chirimiri",
+  "name": "Chirimiri Municipal Corporation",
+  "state": "Chhattisgarh",
+  "district": "Manendragarh-Chirmiri-Bharatpur",
+  "wardsCount": 40,
+  "lgdCode": "250578",
+  "headquarters": "Office of Nagar Nigam Chirimiri, Manendragarh-Chirmiri-Bharatpur, Chhattisgarh 497449",
+  "helpdeskPhone": "07771-263213",
+  "email": "nagarnigam_chirmiri@yahoo.com",
+  "officialWebsite": "https://manendragarh-chirmiri-bharatpur.cg.gov.in/en/public-utility/office-of-municipal-corporation-chirimiri/",
+  "status": "indexed",
+  "description": "The district lists Chirimiri, also spelled Chirmiri, as a municipal corporation distinct from Manendragarh Municipal Council. Chirimiri had 40 wards in the 2025 municipal election. City Finance identifies it by Census 2011 town code 801916 and records a 2011 population of 85,317.",
+  "sourceUrls": [
+    "https://manendragarh-chirmiri-bharatpur.cg.gov.in/en/public-utility/office-of-municipal-corporation-chirimiri/",
+    "https://manendragarh-chirmiri-bharatpur.cg.gov.in/en/about-district/",
+    "https://cgsec.gov.in/Notification2025/election/Councillor%202025.pdf#page=17",
+    "https://www.cityfinance.in/api/v1/ulb"
+  ],
+  "verified_at": "2026-11-22"
+}

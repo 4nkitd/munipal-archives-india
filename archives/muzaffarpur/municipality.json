@@ -1,0 +1,13 @@
+{
+  "slug": "muzaffarpur",
+  "name": "Muzaffarpur Municipal Corporation",
+  "shortName": "MMC",
+  "state": "Bihar",
+  "district": "Muzaffarpur",
+  "areaSqKm": 26.88,
+  "populationApprox": "3,54,462 (2011 Census, as reported by City Finance)",
+  "wardsCount": 49,
+  "email": "mmc-muz-bih@nic.in",
+  "status": "indexed",
+  "description": "Municipal corporation for Muzaffarpur city, distinct from the district administration and the district's other urban local bodies. City Finance reports 49 municipal wards."
+}

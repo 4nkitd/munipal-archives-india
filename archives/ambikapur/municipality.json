@@ -1,0 +1,19 @@
+{
+  "slug": "ambikapur",
+  "name": "Ambikapur Municipal Corporation",
+  "state": "Chhattisgarh",
+  "district": "Surguja",
+  "wardsCount": 48,
+  "lgdCode": "250588",
+  "headquarters": "Opposite Government Kedarpur School, Ghadi Chowk, Ambikapur, Chhattisgarh 497001",
+  "helpdeskPhone": "07774-236396",
+  "officialWebsite": "https://surguja.gov.in/en/public-utility/municipal-corporation-ambikapur/",
+  "status": "indexed",
+  "description": "Ambikapur Municipal Corporation in Surguja district had 48 wards in the 2025 municipal election. City Finance identifies it by Census 2011 town code 801927 and records a 2011 population of 112,449.",
+  "sourceUrls": [
+    "https://surguja.gov.in/en/public-utility/municipal-corporation-ambikapur/",
+    "https://cgsec.gov.in/Notification2025/election/Councillor%202025.pdf#page=22",
+    "https://www.cityfinance.in/api/v1/ulb"
+  ],
+  "verified_at": "2026-11-22"
+}

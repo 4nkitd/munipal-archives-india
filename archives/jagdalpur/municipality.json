@@ -1,0 +1,20 @@
+{
+  "slug": "jagdalpur",
+  "name": "Jagdalpur Municipal Corporation",
+  "state": "Chhattisgarh",
+  "district": "Bastar",
+  "wardsCount": 48,
+  "lgdCode": "250665",
+  "headquarters": "Nagar Palik Nigam, near Indira Priyadarshani Stadium, Jagdalpur, Bastar 494001",
+  "phone": "07782-221055",
+  "officialWebsite": "https://bastar.gov.in/en/public-utility-category/municipality/",
+  "status": "indexed",
+  "description": "Jagdalpur Municipal Corporation in Bastar district had 48 numbered wards in the 2025 municipal election. City Finance identifies the corporation by LGD code 250665 and Census 2011 code 802064.",
+  "sourceUrls": [
+    "https://bastar.gov.in/en/public-utility-category/municipality/",
+    "https://cgsec.gov.in/Notification2025/election/Councillor%202025.pdf#page=49",
+    "https://www.cityfinance.in/api/v1/ulb"
+  ],
+  "verified_at": "2026-11-22",
+  "email": "jagdalpurnagarnigam@yahoo.com"
+}

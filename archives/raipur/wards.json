@@ -1,0 +1,632 @@
+[
+  {
+    "ward_number": 1,
+    "name": "VEER SAWARKAR NAGAR WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 2,
+    "name": "PT. JAWAHAR LAL NEHRU WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 3,
+    "name": "SANT KABEER DAS WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 4,
+    "name": "YATIYATAN LAL WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 5,
+    "name": "BANJARI MATA WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 6,
+    "name": "VEERANGANA AVANTI BAI WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 7,
+    "name": "KUSHABHAU THAKARE WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 8,
+    "name": "MAHATMA GANDHI WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 9,
+    "name": "PT. MOTILAL NEHRU WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 10,
+    "name": "RANI LAXMI BAI WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 11,
+    "name": "DR. BHEEMRAO AMBEDKAR WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 12,
+    "name": "KALI MATA WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 13,
+    "name": "RAJIV GANDHI WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 14,
+    "name": "RAMAN MANDIR WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 15,
+    "name": "KANHAIYA LAL BAJARI WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 16,
+    "name": "VEER SHIVAJI WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 17,
+    "name": "THAKKAR BAPA WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 18,
+    "name": "BALGANGADHAR TILAK WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 19,
+    "name": "DR. A.P.J. ABDUL KALAM WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 20,
+    "name": "RAMKRISHNA PARAMHANS WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 21,
+    "name": "SHD. BHAGATSINGH WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 22,
+    "name": "PT. ESHWARICHARAN SHUKLA WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 23,
+    "name": "SHD. MANMOHAN SINGH BAKSHI WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 24,
+    "name": "SARDAR VALLABH BHAI PATEL WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 25,
+    "name": "SANT RAMDAS WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 26,
+    "name": "DANVEER BHAMASHAH WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 27,
+    "name": "INDIRA GANDHI WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 28,
+    "name": "SHD. HEMUKALANI WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 29,
+    "name": "GURU GOVIND SINGH WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 30,
+    "name": "SHANKAR NAGAR WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 31,
+    "name": "NETAJI SUBHASHCHANDRA BOSE WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 32,
+    "name": "MAHRSHI VALMIKI WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 33,
+    "name": "SHAHID VEERNARAYAN WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 34,
+    "name": "PT. RAVISHANKAR SHUKLA WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 35,
+    "name": "HAVALDAR ABDUL HAMID WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 36,
+    "name": "TATYAPARA WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 37,
+    "name": "SHAHID CHUDAMANI NAYAK WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 38,
+    "name": "SWAMI ATMANAND WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 39,
+    "name": "THAKUR PYARELAL WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 40,
+    "name": "PT. DINDYAL UPADHYAY WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 41,
+    "name": "PT. SUNDAR LAL SHARMA WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 42,
+    "name": "MAHANT LAXMINARAYAN DAS WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 43,
+    "name": "BRAMHANPARA WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 44,
+    "name": "SWAMI VIVEKANAND SADAR BAZAR WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 45,
+    "name": "MAULANA ABDUL RAUF WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 46,
+    "name": "CIVIL LINE WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 47,
+    "name": "MOTHER TERESA WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 48,
+    "name": "GURU GHASIDAS WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 49,
+    "name": "RANI DURGAVATI WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 50,
+    "name": "PT. VIDYACHARAN SHUKLA WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 51,
+    "name": "LAL BAHADUR SHASTRI WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 52,
+    "name": "DR. RAJENDRA PRASHAD WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 53,
+    "name": "BABU JAGJIVAN RAM WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 54,
+    "name": "KAMRED SUDHIR MUKHARJEE WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 55,
+    "name": "RAVINDRANATH TAIGOR WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 56,
+    "name": "LT. ARVIND DIKSHIT WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 57,
+    "name": "BHAGWATICHARAN SHUKLA WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 58,
+    "name": "SHD. PANKAJ VIKRAM WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 59,
+    "name": "MORESHWAR RAO GADRE WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 60,
+    "name": "CHANDRA SHEKHAR AZAD WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 61,
+    "name": "SHYAMA PRASAD MUKHARJI WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 62,
+    "name": "SHD. RAJIV PANDEY WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 63,
+    "name": "BRIGEDIER USMAN WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 64,
+    "name": "DR. VIPIN BIHARI SUR WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 65,
+    "name": "MAHAMAYA MANDIR WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 66,
+    "name": "VAMANRAO LAKHE WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 67,
+    "name": "BHAKTMATA KARMA WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 68,
+    "name": "DR. KHUBCHAND BAGHEL WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 69,
+    "name": "MADHAVRAO SAPRE WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 70,
+    "name": "SANT RAVIDAS WARD",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "source_url": "https://mcraipur.in/",
+    "verified_at": "2026-11-22"
+  }
+]

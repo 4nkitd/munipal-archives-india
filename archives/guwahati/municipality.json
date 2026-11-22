@@ -1,0 +1,13 @@
+{
+  "slug": "guwahati",
+  "name": "Guwahati Municipal Corporation",
+  "shortName": "GMC",
+  "state": "Assam",
+  "district": "Kamrup Metropolitan",
+  "headquarters": "GMC Head Office, Betkuchi, Guwahati 781035",
+  "email": "guwahaticom@gmail.com",
+  "officialWebsite": "https://gmc.assam.gov.in/",
+  "status": "indexed",
+  "description": "Municipal corporation for the Guwahati municipal area. Its six revenue zones cover 60 wards for assessment, property tax and trade licensing.",
+  "wardsCount": 60
+}

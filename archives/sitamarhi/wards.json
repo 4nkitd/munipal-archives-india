@@ -1,0 +1,462 @@
+[
+  {
+    "ward_number": 1,
+    "name": "Ward 1",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - मोहनपुर एवं मेहसौल का राजस्व सीमा , पo - कपरौल रोड , उo - लखनदेई नदी , दo - रेलवे लाइन",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 2,
+    "name": "Ward 2",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - रिंग बांध , पo - रीगा रोड व भवदेपुर का राजस्व सीमा , उo - रेलवे लाइन , दo - रीगा रोड",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 3,
+    "name": "Ward 3",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - चंडीहा (भवदेपुर) , पo - खैरवा का राजस्व सीमा , उo - खैरवा का राजस्व सीमा , दo - पुनौरा का राजस्व गांव (खैरवा का राजस्व सीमा)",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 4,
+    "name": "Ward 4",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - एन एच 104 से जानकी नगर सीतानगर होते हुए हाथी बाजार तक , पo - मारर (ग्रामीण क्षेत्र) या पुनौरा का राजस्व सीमा , उo - खैरवा व रामनगर (ग्रामीण क्षेत्र) , दo - एन एच 104 से मारर जाने वाली सड़क",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 5,
+    "name": "Ward 5",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - एन एच 104 से मध्य विद्यालय के बगल से मारड़ रोड तक , पo - अन्हारी ग्रामीण क्षेत्र , उo - मेन रोड एन एच 104 से पश्चिम मारड़ जाने वाली सड़क , दo - भोरहा ग्रामीण क्षेत्र (राजस्व सीमा पुनौरा)",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 6,
+    "name": "Ward 6",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - बनचौरी , पo - मेन रोड एन एच 104 , उo - गौशाला चौक (एन एच 104 से विश्वकर्मा टोला हेतु खडका सीमान तक) , दo - करनहिया (भोरहा चौक से दक्षिण 250 मी० जाने के बाद पूरब जाने वाली सड़क)",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 7,
+    "name": "Ward 7",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - एन एच 104 , पo - मध्य विद्यालय के बगल से जाने वाली सड़क जानकी नगर होते हुए सीतानगर तक , उo - गौशाला चौक (रीगा जाने वाली सड़क खैरवा रोड) , दo - मध्य विद्यालय के बगल से एन एच 104 तक",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 8,
+    "name": "Ward 8",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - मधुबन (खडका का राजस्व सीमा) , पo - खडका का सीमा , उo - मुरलिया चक (खडका का सीमान) , दo - रामपुर परोरी का राजस्व गांव",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 9,
+    "name": "Ward 9",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - राम घाट नदी से बाई पास पूल से बस स्टैंड से पश्चिम वाली सड़क से मधुबन हनुमान मंदिर तक व राजस्व सिमा , पo - बर्तमान वार्ड नंबर 3 का सीमा , उo - बांध सह सरक (रिंग बांध एवं पासवान चौक से सुलिस गेट एवं मंदिर तक) , दo - गौशाला रोड (मधुबन से गौशाला जाने वाला पथ)",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 10,
+    "name": "Ward 10",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - चकमहिला (ईदगाह के पास) , पo - पुनौरा राजस्व सिमा एवं घोरा बाजार , उo - मुरलिया चक राजस्व सीमा , दo - खरका का राजस्व सीमा",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 11,
+    "name": "Ward 11",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - कोट बाजार बालू टोला , पo - जानकी मंदिर पुरानी मठ , उo - जानकी मंदिर रोड (कोट बाजार जाने वाली सरक) , दo - मुरलिया चक (वार्ड नंबर 3, 4 का पुराना सीमा)",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 12,
+    "name": "Ward 12",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - पुरानी मठ रोड (नुनिया टोली रोड सहित) , पo - पुनौरा खैरवा का राजस्व गांव , उo - रीगा रोड पुलिया से जानकी मंदिर चौक सटे पूरब जानकी मंदिर पुरानी मठ , दo - पुनौरा (गौशाला से खैरवा जाने वाली पथ)",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 13,
+    "name": "Ward 13",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - गुदरी बाजार रोड , पo - नुनिया टोली (पथ) , उo - महावीर स्थान रोड , दo - कोट बाजार रोड",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 14,
+    "name": "Ward 14",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - कपरौल रोड , पo - रिंग बांध , उo - मिरचाई पट्टी रोड , दo - जानकी मंदिर रोड (एन एच 104) एवं रिगा रोड रिंग बांध तक",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 15,
+    "name": "Ward 15",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - सिनेमा रोड (नूतन एवं शंकर टॉकीज) , पo - कपरौल रोड , उo - रघुनाथ झा कालेज रोड , दo - गुदरी बाजार रोड कोट बाजार",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 16,
+    "name": "Ward 16",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - थाना रोड , पo - रिंग बांध , उo - मेला रोड (सुभाष चौक से डॉ अंजू सिन्हा रिंग बांध) , दo - रघुनाथ झा कालेज रोड",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 17,
+    "name": "Ward 17",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - भवदेपुर गुमटी , पo - रिंग बांध , उo - रेलवे लाइन , दo - मेला रोड",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 18,
+    "name": "Ward 18",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - पानी टंकी रोड एवं पासवान चौक , पo - नुनिया टोली , उo - महारानी स्थान रोड , दo - चकमहिला एवं मुरलिया चक",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 19,
+    "name": "Ward 19",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - रिंग बांध , पo - कोट बाजार , उo - चकमहिला बांध से नासी होते हुए गुदरी रोड तक , दo - रिंग बांध चकमहिला नासी",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 20,
+    "name": "Ward 20",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - लखनदेई नदी , पo - थाना रोड (भवदेपुर) से भारतीया धर्मशाला , उo - रेलवे लाइन , दo - चकमहिला बांध सीमान एवं नासी",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 21,
+    "name": "Ward 21",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - जय शंकर ठाकुर के घर से अमर सिंह के घर होते हुए आदर्श नगर राजोपट्टी सीमान , पo - मेन रोड जय प्रकाश पथ से कारगिल चौक से आदर्श नगर गली , उo - मेन रोड डुमरा जय प्रकाश पथ से प्रो० बाल्मीकि सिंह घर, रघुनाथपूरी सीमा, मझौलिया हाउस से जय शंकर ठाकुर एवं अमर सिंह के घर से नेता जी किराना दुकान , दo - राजोपट्टी एवं मेन रोड आदर्श नगर गली",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 22,
+    "name": "Ward 22",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - रेलवे गुमटी से युगल सिंह कालेज से रणधीर किराना से जयशंकर ठाकुर के घर तक , पo - रेलवे पूल से मेहसौल पूल से मेहसौल चौक से डुमरा मुख्य पथ में जय प्रकाश पथ तक , उo - रेलवे पूल से मेहसौल रेलवे गुमटी तक , दo - मेन रोड डुमरा जय प्रकाश पथ से प्रो० बाल्मीकि सिंह घर रघुनाथ पूरी सीमा मझौलिया हाउस से जयशंकर ठाकुर एवं अमर सिंह के घर से नेता जी किराना दुकान",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 23,
+    "name": "Ward 23",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - एन एच 104 (पुराना सोनबरसा रोड) , पo - नदी , उo - राजदेव राय के घर से मिश्रा जी के घर होते हुए नदी तक , दo - रेलवे",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 24,
+    "name": "Ward 24",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - एन एच 104 (पुराना सोनबरसा रोड) , पo - भवदेपुर , उo - नासी , दo - राजदेव राय के घर से मिश्रा जी के घर होते हुए नदी तक",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 25,
+    "name": "Ward 25",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - बरियारपुर सीमा , पo - मोहनपुर का राजस्व सीमा , उo - मोहनपुर का राजस्व सीमा , दo - नासी",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 26,
+    "name": "Ward 26",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - मंगुरहा रोड (पुपरी रोड से पुराना सोनबरसा रोड में मिलने वाली) , पo - सुरसंड रोड (पुरानी सोनबरसा रोड) , उo - मोहनपुर नासी , दo - पुपरी रोड (आज़ाद चौक से पूरब की ओर)",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 27,
+    "name": "Ward 27",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - रेलवे लाइन से लाला शर्मा व मोहम्मद मुर्तुज़ा के घर होते हुवे पुपरी रोड तक , पo - आज़ाद चौक , उo - पुपरी रोड , दo - रेलवे लाइन",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 28,
+    "name": "Ward 28",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - अमघट्टा रोड , पo - रेलवे लाइन से लाला शर्मा व मोहम्मद मुर्तुज़ा के घर होते हुए पुपरी रोड तक , उo - पुपरी रोड , दo - रेलवे लाइन",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 29,
+    "name": "Ward 29",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - हुसैना रोड व टंडसपुर , पo - मेहसौल एवं मोहनपुर का राजस्व सीमा , उo - बरियारपुर का राजस्व सीमा , दo - भैरोकोठी की सीमा (नासी)",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 30,
+    "name": "Ward 30",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - हुसैना रोड , पo - मंगुरहा रोड (पुपरी रोड से पुराना सोनबरसा रोड में मिलने वाली) , उo - नासी , दo - पुपरी रोड",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 31,
+    "name": "Ward 31",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - एन एच 77 , पo - हुसैना रोड से वार्ड-03 के मध्य में पी.सी.सी. रोड से लेकर बरियारपुर मठ तक , उo - एन एच 104 , दo - भैरोकोठी व नासी",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 32,
+    "name": "Ward 32",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - मोहम्मदपुर ग्रामीण क्षेत्र , पo - एन एच 77 , उo - रुपौली (रुपहरा ग्रामीण क्षेत्र) , दo - राजस्व सीमा भैरोकोठी",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 33,
+    "name": "Ward 33",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - भूपभैरो व परसौनी ग्रामीण क्षेत्र , पo - एन एच 77 व आमघट्टा रोड , उo - भैरोकोठी का राजस्व सीमा , दo - रेलवे लाइन",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 34,
+    "name": "Ward 34",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - अमघट्टा रोड , पo - नाहर , उo - रेलवे लाइन , दo - मेन रोड (डुमरा-सीतामढ़ी)",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 35,
+    "name": "Ward 35",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - एन एच 77 , पo - हुसैना रोड , उo - बरियारपुर का राजस्व सीमा , दo - पुपरी रोड",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 36,
+    "name": "Ward 36",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - नाहर , पo - कालेज रोड (ठाकुर युगल सिंह) , उo - रेलवे लाइन , दo - मेन रोड (डुमरा-सीतामढ़ी)",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 37,
+    "name": "Ward 37",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - नाहर , पo - मेन रोड (डुमरा-सीतामढ़ी) मास्टर साहेब व शदाब आलम व मंजूर अंसारी के घर होते हुए नदी तक , उo - मेन रोड (डुमरा-सीतामढ़ी) , दo - नदी",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 38,
+    "name": "Ward 38",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - मेन रोड (डुमरा-सीतामढ़ी) मास्टर साहेब व शदाब आलम व मंजूर अंसारी के घर होते हुए नदी तक , पo - नदी , उo - मेन रोड (डुमरा-सीतामढ़ी) , दo - नदी",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 39,
+    "name": "Ward 39",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - नदी , पo - बस स्टेण्ड से पश्चिम वाली सड़क से मधुबन हनुमान मंदिर तक व राजस्व सीमा , उo - बाईपास पूल से बाईपास बस स्टेण्ड से पश्चिम वाली सड़क तक , दo - रामपुर परोरी ग्रामीण क्षेत्र",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 40,
+    "name": "Ward 40",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - शंकर चौक से कोठी जाने वाली ऊचांगल विद्यालय से तलखापुर पुलिया तक , पo - नाहर चौक से लखनदेई नदी तक , उo - शंकर चौक से मेन रोड में नाहर चौक तक , दo - नदी",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 41,
+    "name": "Ward 41",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - संजय चौक से विश्नाथपुर चौक होते हुए जानकी विहार होटल तक , पo - नदी , उo - संजय चौक से शंकर चौक तक , दo - नदी",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 42,
+    "name": "Ward 42",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - संजय चौक से रेलवे लाइन तक , पo - शंकर चौक से रेलवे लाइन तक , उo - रेलवे लाइन , दo - संजय चौक से पूर्वे जी के घर होते हुए अमघट्टा रोड तक",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 43,
+    "name": "Ward 43",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - सीमान (विश्नाथपुर) , पo - भिसा रोड (विश्नाथपुर चौक से जेल रोड होते हुए रेलवे लाइन तक) , उo - रेलवे लाइन , दo - विश्नाथपुर चौक से पुपरी रोड में सीमान तक",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 44,
+    "name": "Ward 44",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - एन एच 77 , पo - मेन रोड (पुराना सीतामढ़ी-मुजफ्फरपुर) , उo - विश्नाथपुर चौक से पुपरी रोड सीमान तक , दo - सिमरा चौक से परसपट्टी गाव होते हुए एन एच 77 तक",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 45,
+    "name": "Ward 45",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - नदी , पo - नदी , उo - नदी , दo - नदी",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  },
+  {
+    "ward_number": 46,
+    "name": "Ward 46",
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_description_hi": "पूo - मेन रोड व परसपट्टी जाने वाली सड़क , पo - नदी , उo - नदी , दo - मुरादपुर ग्रामीण क्षेत्र",
+    "source_url": "https://sec.bihar.gov.in/ForPublic/NagarNikayPopulationReport.aspx?DID=4&SID=1&SN=137",
+    "verified_at": "2026-11-22"
+  }
+]

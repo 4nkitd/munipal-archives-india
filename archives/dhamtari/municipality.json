@@ -1,0 +1,20 @@
+{
+  "slug": "dhamtari",
+  "name": "Dhamtari Municipal Corporation",
+  "state": "Chhattisgarh",
+  "district": "Dhamtari",
+  "wardsCount": 40,
+  "lgdCode": "248062",
+  "headquarters": "Municipal Office, Itwari Bazar, Dhamtari",
+  "phone": "07722-2241603",
+  "officialWebsite": "https://dhamtari.gov.in/en/public-utility-category/municipality/",
+  "status": "indexed",
+  "description": "Dhamtari Municipal Corporation in Dhamtari district had 40 numbered wards in the 2025 municipal election. City Finance identifies the corporation by LGD code 248062 and Census 2011 code 802052.",
+  "sourceUrls": [
+    "https://dhamtari.gov.in/en/public-utility-category/municipality/",
+    "https://cgsec.gov.in/Notification2025/election/Councillor%202025.pdf#page=35",
+    "https://www.cityfinance.in/api/v1/ulb"
+  ],
+  "verified_at": "2026-11-22",
+  "email": "commissionerdhamtari@gmail.com"
+}
