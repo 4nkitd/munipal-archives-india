@@ -1,0 +1,18 @@
+{
+  "slug": "delhi",
+  "name": "Municipal Corporation of Delhi",
+  "shortName": "MCD",
+  "state": "Delhi",
+  "district": "",
+  "formationDate": "2022-05-22",
+  "areaSqKm": 1397.3,
+  "populationApprox": "Approximately 20 million served (MCD portal estimate; reference year not stated)",
+  "wardsCount": 250,
+  "zonesCount": 12,
+  "headquarters": "Dr. S.P. Mukherjee Civic Centre, Minto Road, New Delhi 110002",
+  "helpdeskPhone": "155305",
+  "email": "mcd-ithelpdesk@mcd.nic.in",
+  "officialWebsite": "https://mcdonline.nic.in/portal/",
+  "status": "indexed",
+  "description": "The unified Municipal Corporation of Delhi, constituted on 22 May 2022, covers 250 electoral wards and 12 administrative zones. It does not include the New Delhi Municipal Council area or Delhi Cantonment. The phone number is for MCD's Citizen's Call Centre; the email address is for its IT Helpdesk."
+}

@@ -1,0 +1,587 @@
+[
+  {
+    "municipality": "chandigarh",
+    "ward_number": 1,
+    "name": "Ward 1",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Jaswinder Kaur",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Kaimbala, Khuda Alisher, Lahora, Khuda Jassu and Khuda Lahora Colony."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 2,
+    "name": "Ward 2",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 1",
+      "Sector 2",
+      "Sector 3",
+      "Sector 4",
+      "Sector 5",
+      "Sector 6",
+      "Sector 7",
+      "Sector 8",
+      "Sector 9",
+      "Sector 10"
+    ],
+    "councillor": {
+      "name": "Maheshinder Singh Sidhu",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sectors 1 to 10."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 3,
+    "name": "Ward 3",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 26",
+      "Sector 26E"
+    ],
+    "councillor": {
+      "name": "Dalip Sharma",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sector 26, 26E, Bapu Dham Colony phases I–III, Police Line and Madrasi Colony."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 4,
+    "name": "Ward 4",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Suman Devi",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Manimajra Basti Kishangarh, Basti Bhagwanpura, Indira Colony, IT Park and Shastri Nagar."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 5,
+    "name": "Ward 5",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Darshana",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Old Manimajra (NAC), Pipli Wala Town, Thakur Dwara, Darshini Bagh, Subhash Nagar, Dhillon Complex and Motor Market."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 6,
+    "name": "Ward 6",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Sarbjit Kaur",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Shivalik Enclave, Govindpura, Mari Wala Town, Shanti Nagar, Housing Board Duplex Manimajra, Modern Housing Complex and Rajiv Vihar."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 7,
+    "name": "Ward 7",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Manoj Kumar",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Ambedkar Colony, Charan Singh Colony and Vikas Nagar in Mauli Jagran."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 8,
+    "name": "Ward 8",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Harjeet Singh",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Mauli Jagran, Raipur Kalan, Makhan Majra and Raipur Khurd."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 9,
+    "name": "Ward 9",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Bimla Dubey",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Industrial Area Phase I, Sanjay Colony, Kabari Colony, Colony No. 4, Daria and Small Flats Mauli Jagran Part II."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 10,
+    "name": "Ward 10",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 27",
+      "Sector 28",
+      "Sector 29"
+    ],
+    "councillor": {
+      "name": "Harpreet Kaur Babla",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sectors 27, 28 and 29."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 11,
+    "name": "Ward 11",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 18",
+      "Sector 19",
+      "Sector 21"
+    ],
+    "councillor": {
+      "name": "Anup Gupta",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sectors 18, 19 and 21."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 12,
+    "name": "Ward 12",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 15",
+      "Sector 16",
+      "Sector 17",
+      "Sector 24"
+    ],
+    "councillor": {
+      "name": "Saurabh Joshi",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sectors 15, 16, 17 and 24."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 13,
+    "name": "Ward 13",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 11",
+      "Sector 12",
+      "Sector 14",
+      "Sector 25"
+    ],
+    "councillor": {
+      "name": "Sachin Galav",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sectors 11, 12, 14 and the UIET and Dental College area of Sector 25."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 14,
+    "name": "Ward 14",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Kuljeet Singh Sandhu",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Dhanas, LIG Colony, Milkman Colony and Aman Chaman Ambedkar Colony."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 15,
+    "name": "Ward 15",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Ram Chander Yadav",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sarangpur and Rehabilitation Colony Dhanas."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 16,
+    "name": "Ward 16",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 25",
+      "Sector 25 West"
+    ],
+    "councillor": {
+      "name": "Poonam",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sector 25 Bhaskar Colony, Sector 25 and Sector 25 West, and Chandigarh Armed Police Complex Dhanas."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 17,
+    "name": "Ward 17",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 22",
+      "Sector 23"
+    ],
+    "councillor": {
+      "name": "Daman Preet Singh",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sectors 22 and 23."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 18,
+    "name": "Ward 18",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 20",
+      "Sector 30"
+    ],
+    "councillor": {
+      "name": "Taruna Mehta",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sectors 20 and 30."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 19,
+    "name": "Ward 19",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Neha",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Industrial Area Phase II and Ramdarbar."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 20,
+    "name": "Ward 20",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Gurcharanjit Singh",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Hallo Majra and Behlana."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 21,
+    "name": "Ward 21",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 47"
+    ],
+    "councillor": {
+      "name": "Jasbir Singh",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sector 47, Bair-Majra, Faidan Burail and Chahar Taraf Burail."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 22,
+    "name": "Ward 22",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 31",
+      "Sector 32",
+      "Sector 33"
+    ],
+    "councillor": {
+      "name": "Anju Katyal",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sectors 31, 32 and 33."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 23,
+    "name": "Ward 23",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 34",
+      "Sector 35",
+      "Sector 43"
+    ],
+    "councillor": {
+      "name": "Prem Lata",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sectors 34, 35 and 43."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 24,
+    "name": "Ward 24",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 36",
+      "Sector 42",
+      "Sector 53",
+      "Sector 54"
+    ],
+    "councillor": {
+      "name": "Jasbir Singh",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sectors 36 and 42 (including Attawa in Sector 42), Nehru Colony in Sector 53, Sector 53–54 Furniture Market and Adarsh Colony in Sector 54."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 25,
+    "name": "Ward 25",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 37",
+      "Sector 38"
+    ],
+    "councillor": {
+      "name": "Yogesh Dhingra",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sectors 37 and 38."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 26,
+    "name": "Ward 26",
+    "zone": "",
+    "division": "",
+    "villages": [
+      "Dadu Majra",
+      "Shah Pur"
+    ],
+    "sectors": [
+      "Sector 38 West"
+    ],
+    "councillor": {
+      "name": "Kuldeep Kumar",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Dadu Majra Colony and village, Shah Pur Colony and village, and Rehabilitation Colony Sector 38 West."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 27,
+    "name": "Ward 27",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 38 West",
+      "Sector 39",
+      "Sector 40"
+    ],
+    "councillor": {
+      "name": "Gurbax Rawat",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sector 38 West excluding its Rehabilitation Colony; Sectors 39 and 40."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 28,
+    "name": "Ward 28",
+    "zone": "",
+    "division": "",
+    "villages": [
+      "Maloya"
+    ],
+    "sectors": [
+      "Sector 39 West"
+    ],
+    "councillor": {
+      "name": "Nirmla Devi",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Maloya village, EWS Maloya, Sector 39 West and colonies in Maloya."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 29,
+    "name": "Ward 29",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 55",
+      "Sector 56"
+    ],
+    "councillor": {
+      "name": "Manaur",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Housing Board and Palsora in Sector 55; Bapu Dham, Ambedkar, Sweeper and LBS colonies in Sector 56."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 30,
+    "name": "Ward 30",
+    "zone": "",
+    "division": "",
+    "villages": [
+      "Badheri"
+    ],
+    "sectors": [
+      "Sector 41"
+    ],
+    "councillor": {
+      "name": "Hardeep Singh",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sector 41, including Buterla and Badheri Village."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 31,
+    "name": "Ward 31",
+    "zone": "",
+    "division": "",
+    "villages": [
+      "Kajheri"
+    ],
+    "sectors": [
+      "Sector 52",
+      "Sector 61"
+    ],
+    "councillor": {
+      "name": "Lakhbir Singh",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Kajheri village and colonies, Sector 52 including Transit Camp and Karsan Colony, and Sector 61."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 32,
+    "name": "Ward 32",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 44",
+      "Sector 51"
+    ],
+    "councillor": {
+      "name": "Jasmanpreet Singh",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sectors 44 and 51 and Sector 51 Colony No. 5."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 33,
+    "name": "Ward 33",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Kanwarjeet Singh",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Burail."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 34,
+    "name": "Ward 34",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 45",
+      "Sector 46"
+    ],
+    "councillor": {
+      "name": "Gurpreet Singh",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sector 45 excluding Burail, and Sector 46."
+  },
+  {
+    "municipality": "chandigarh",
+    "ward_number": 35,
+    "name": "Ward 35",
+    "zone": "",
+    "division": "",
+    "villages": [],
+    "sectors": [
+      "Sector 48",
+      "Sector 49",
+      "Sector 50",
+      "Sector 63"
+    ],
+    "councillor": {
+      "name": "Rajinder Kumar Sharma",
+      "notes": "MCC ward-wise directory, cross-referenced to the 2025 area list."
+    },
+    "boundary_summary": "Sectors 48, 49, 50 and 63."
+  }
+]

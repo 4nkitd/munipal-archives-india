@@ -1,0 +1,9 @@
+[
+  {"sr_no": 1, "name": "Ayushi Sudan, IAS", "designation": "Municipal Commissioner", "branch": "Administration", "email": "jmcjammu@rediffmail.com", "wards": []},
+  {"sr_no": 2, "name": "Rajeev Khajuria, JKAS", "designation": "Joint Commissioner (Administration)", "branch": "Administration", "email": "jmc_jca@rediffmail.com", "wards": []},
+  {"sr_no": 3, "name": "Kulbhushan Khajuria, JKAS", "designation": "Joint Commissioner (R&E)", "branch": "Revenue and Enforcement", "email": "jcrejmc@gmail.com", "wards": []},
+  {"sr_no": 4, "name": "Abdul Star, JKAS", "designation": "Joint Commissioner (Health and Sanitation)", "branch": "Health and Sanitation", "email": "jointcommissioner.hs@gmail.com", "wards": []},
+  {"sr_no": 8, "name": "Amit Kumar, JKAS", "designation": "Financial Advisor/Chief Accounts Officer", "branch": "Accounts", "email": "caojmc@gmail.com", "wards": []},
+  {"sr_no": 10, "name": "Shahid Hussain", "designation": "Health Officer", "branch": "Health and Sanitation", "email": "hojmc01@gmail.com", "wards": []},
+  {"sr_no": 12, "name": "Manoj Kumar", "designation": "Senior Town Planner", "branch": "Building", "email": "jmc.stp10@gmail.com", "wards": []}
+]

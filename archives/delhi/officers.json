@@ -1,0 +1,22 @@
+{
+  "officers": [
+    {
+      "municipality": "delhi",
+      "sr_no": 1,
+      "name": "Sanjeev Khirwar, IAS",
+      "designation": "Commissioner",
+      "branch": "Commissioner's Office",
+      "phone": "011-23225901",
+      "wards": []
+    },
+    {
+      "municipality": "delhi",
+      "sr_no": 2,
+      "name": "Sumit Kumar, IOFS",
+      "designation": "Secretary to Commissioner",
+      "branch": "Commissioner's Office",
+      "phone": "011-23225901",
+      "wards": []
+    }
+  ]
+}

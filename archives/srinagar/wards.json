@@ -1,0 +1,520 @@
+[
+  {
+    "ward_number": 1,
+    "name": "Harwan",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 2,
+    "name": "Nishat",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 3,
+    "name": "Brane",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 4,
+    "name": "Dalgate",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 5,
+    "name": "Pantha Chowk",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 6,
+    "name": "Lal Chowk",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 7,
+    "name": "Rajbagh",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 8,
+    "name": "Ikhrajpora",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 9,
+    "name": "Mehjoor Nagar",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 10,
+    "name": "Natipora",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 11,
+    "name": "Chanapora",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 12,
+    "name": "Budshah Nagar",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 13,
+    "name": "Baghat Barzulla",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 14,
+    "name": "Rawapora",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 15,
+    "name": "Hyderpora",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 16,
+    "name": "Humhama",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 17,
+    "name": "Hamdania Colony Bemina",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 18,
+    "name": "Solina",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 19,
+    "name": "Allochi Bagh",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 20,
+    "name": "Sheikh Dawood Colony",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 21,
+    "name": "Ziyarat Batamaloo",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 22,
+    "name": "Shaheed Gunj",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 23,
+    "name": "Karan Nagar",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 24,
+    "name": "Chattabal",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 25,
+    "name": "Qamarwari",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 26,
+    "name": "Bemina East",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 27,
+    "name": "Bemina West",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 28,
+    "name": "Nund Resh Colony",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 29,
+    "name": "Parimpora",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 30,
+    "name": "Zainakote",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 31,
+    "name": "Lawaypora",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 32,
+    "name": "Mujgund",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 33,
+    "name": "Tankipora",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 34,
+    "name": "Syed Ali Akbar",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 35,
+    "name": "Basant Bagh",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 36,
+    "name": "Fateh Kadal",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 37,
+    "name": "Munwarabad",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 38,
+    "name": "Khankahi-Moulla",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 39,
+    "name": "Mahraj Gunj",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 40,
+    "name": "Jamia Masjid",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 41,
+    "name": "Makhdoom Sahib",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 42,
+    "name": "Khawja Bazar",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 43,
+    "name": "Aquilmir Khanyar",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 44,
+    "name": "Rozabal",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 45,
+    "name": "Daulatabad",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 46,
+    "name": "Islamyarbal",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 47,
+    "name": "Nawab Bazar",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 48,
+    "name": "Nawakadal",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 49,
+    "name": "Safa Kadal",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 50,
+    "name": "Rathpora",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 51,
+    "name": "Eidgah",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 52,
+    "name": "Palapora",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 53,
+    "name": "Tarabal",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 54,
+    "name": "Kawdara",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 55,
+    "name": "Hawal",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 56,
+    "name": "Alamgari Bazar",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 57,
+    "name": "Gili Kadal",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 58,
+    "name": "Nowshara",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 59,
+    "name": "Lal Bazaar",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 60,
+    "name": "Botshah Mohalla",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 61,
+    "name": "Umer Colony",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 62,
+    "name": "Jogi Lanker",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 63,
+    "name": "Kathi Darwaza",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 64,
+    "name": "Locut Dal",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 65,
+    "name": "Bud Dal",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 66,
+    "name": "Hazratbal",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 67,
+    "name": "Tailbal",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 68,
+    "name": "Habak",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 69,
+    "name": "Soura",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 70,
+    "name": "Buchpora",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 71,
+    "name": "Ahmad Nagar",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 72,
+    "name": "Zakura",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 73,
+    "name": "Chatterhama",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  },
+  {
+    "ward_number": 74,
+    "name": "Bagh-e-Mehtaab",
+    "villages": [],
+    "sectors": [],
+    "colonies": []
+  }
+]
