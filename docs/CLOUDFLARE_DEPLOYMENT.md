@@ -32,4 +32,11 @@ cf deploy --dry-run &&
 cf deploy
 ```
 
-Use the assigned HTTPS hostname for a test from outside the Cloudflare CLI. Check the home page, a static asset, exact municipality set, statistics, keyword and vector search, and citations. Repeat a search after the idle timeout to test a cold start. After an update, make sure the running container loaded the new generation rather than a previous image. Keep the prior Worker version and image digest for rollback.
+Use the assigned HTTPS hostname for a test from outside the Cloudflare CLI. From the repository root, set `PUBLIC_URL` to that hostname and `INDEXED_AT` to the audited candidate's `/api/stats` timestamp:
+
+```sh
+sh deploy/cloudflare/smoke.sh "$PUBLIC_URL" "$INDEXED_AT"
+sh deploy/cloudflare/verify.sh "$RELEASE/public" "$PUBLIC_URL" "$RELEASE/worker/records.tsv"
+```
+
+Repeat a search after the idle timeout to test a cold start. The timestamp check catches a container still running a previous generation. Keep the prior Worker version and image digest for rollback.
