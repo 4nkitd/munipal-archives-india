@@ -1,0 +1,24 @@
+[
+  {
+    "label": "Mangalagiri municipal office",
+    "number": "08645231079",
+    "email": "mangalagiri_mplty@rediffmail.com",
+    "source_url": "https://mangalagiri.emunicipal.ap.gov.in/egi/login/secure"
+  },
+  {
+    "label": "Tadepalli municipal office",
+    "number": "08645272719",
+    "email": "commissioner_tdpl@yahoo.com",
+    "source_url": "https://tadepalli.emunicipal.ap.gov.in/egi/login/secure"
+  },
+  {
+    "label": "Municipal office mobile",
+    "number": "7093912653",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/all/ulbcontacts/43"
+  },
+  {
+    "label": "Municipal commissioner duty mobile",
+    "number": "9849907301",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/ulbdetails/ulbprofiles"
+  }
+]

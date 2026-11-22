@@ -1,0 +1,23 @@
+[
+  {
+    "label": "Municipal office",
+    "number": "08572232314",
+    "email": "ctrmpl@yahoo.com",
+    "source_url": "https://chittoor.emunicipal.ap.gov.in/egi/login/secure"
+  },
+  {
+    "label": "Municipal helpline",
+    "number": "9849907885",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/all/ulbcontacts/13"
+  },
+  {
+    "label": "Municipal office email",
+    "email": "ctrmpl@gmail.com",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/all/ulbcontacts/13"
+  },
+  {
+    "label": "Municipal commissioner duty mobile",
+    "number": "9849905864",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/ulbdetails/ulbprofiles"
+  }
+]

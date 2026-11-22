@@ -1,0 +1,28 @@
+[
+  {
+    "label": "Municipal office",
+    "number": "08612316777",
+    "email": "commissioner_nellore@yahoo.co.in",
+    "source_url": "https://spsnellore.ap.gov.in/public-utility/nellore-municipal-corporation/"
+  },
+  {
+    "label": "Municipal toll-free helpline",
+    "number": "18004251113",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/all/ulbcontacts/64"
+  },
+  {
+    "label": "Municipal office alternate line",
+    "number": "08612331226",
+    "source_url": "https://nellore.emunicipal.ap.gov.in/egi/login/secure"
+  },
+  {
+    "label": "Municipal office alternate email",
+    "email": "mc.nellore@cdma.gov.in",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/all/ulbcontacts/64"
+  },
+  {
+    "label": "Municipal commissioner duty mobile",
+    "number": "9849906609",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/ulbdetails/ulbprofiles"
+  }
+]

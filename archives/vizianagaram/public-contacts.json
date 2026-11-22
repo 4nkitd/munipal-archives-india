@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Municipal office",
+    "number": "08922224793",
+    "email": "commvzm@yahoo.com",
+    "source_url": "https://vijayanagaram.emunicipal.ap.gov.in/egi/login/secure"
+  },
+  {
+    "label": "Municipal office mobile",
+    "number": "7032138926",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/all/ulbcontacts/110"
+  },
+  {
+    "label": "Municipal commissioner duty mobile",
+    "number": "9849905791",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/ulbdetails/ulbprofiles"
+  }
+]

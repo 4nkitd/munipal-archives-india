@@ -1,0 +1,23 @@
+[
+  {
+    "label": "Municipal office",
+    "number": "08832479993",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/all/ulbcontacts/74"
+  },
+  {
+    "label": "Municipal office alternate contact",
+    "number": "08832479995",
+    "email": "comm_rmc@rediffmail.com",
+    "source_url": "https://rajahmundry.emunicipal.ap.gov.in/egi/login/secure"
+  },
+  {
+    "label": "Municipal office mobile",
+    "number": "9494060060",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/all/ulbcontacts/74"
+  },
+  {
+    "label": "Municipal commissioner duty mobile",
+    "number": "9866657600",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/ulbdetails/ulbprofiles"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "label": "Municipal office",
+    "number": "08632345103",
+    "email": "mc.guntur@cdma.gov.in",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/all/ulbcontacts/41"
+  },
+  {
+    "label": "Municipal office alternate contact",
+    "number": "08632224202",
+    "email": "commissioner@gunturcorporation.org",
+    "source_url": "https://guntur.emunicipal.ap.gov.in/egi/login/secure"
+  },
+  {
+    "label": "Municipal office alternate email",
+    "email": "ac.gunturcorporation@gmail.com",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/all/ulbcontacts/41"
+  },
+  {
+    "label": "Municipal commissioner duty mobile",
+    "number": "9440268888",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/ulbdetails/ulbprofiles"
+  }
+]

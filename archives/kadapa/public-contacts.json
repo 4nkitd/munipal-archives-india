@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Municipal office",
+    "number": "08562242293",
+    "email": "apusp5@rediffmail.com",
+    "source_url": "https://kadapa.emunicipal.ap.gov.in/egi/login/secure"
+  },
+  {
+    "label": "Municipal office alternate email",
+    "email": "apusp11@gmail.com",
+    "source_url": "https://kadapa.ap.gov.in/public-utility/kadapa-municipal-corporation/"
+  },
+  {
+    "label": "Municipal commissioner duty mobile",
+    "number": "9849905862",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/ulbdetails/ulbprofiles"
+  }
+]

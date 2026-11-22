@@ -1,0 +1,23 @@
+[
+  {
+    "label": "Municipal office",
+    "number": "08592233072",
+    "email": "mc.ongole@cdma.gov.in",
+    "source_url": "https://ongole.emunicipal.ap.gov.in/egi/login/secure"
+  },
+  {
+    "label": "Municipal helpline",
+    "number": "08592227766",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/all/ulbcontacts/59"
+  },
+  {
+    "label": "Municipal office alternate email",
+    "email": "apusp24@rediffmail.com",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/all/ulbcontacts/59"
+  },
+  {
+    "label": "Municipal commissioner duty mobile",
+    "number": "9849905839",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/ulbdetails/ulbprofiles"
+  }
+]

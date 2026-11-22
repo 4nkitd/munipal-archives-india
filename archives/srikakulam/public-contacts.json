@@ -1,0 +1,28 @@
+[
+  {
+    "label": "Municipal office",
+    "number": "08942222544",
+    "email": "commissionersklm@yahoo.co.in",
+    "source_url": "https://srikakulam.emunicipal.ap.gov.in/egi/login/secure"
+  },
+  {
+    "label": "Municipal helpline",
+    "number": "08942229080",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/all/ulbcontacts/102"
+  },
+  {
+    "label": "Municipal commissioner office",
+    "number": "08942222334",
+    "source_url": "https://srikakulam.ap.gov.in/directory/"
+  },
+  {
+    "label": "Municipal office alternate email",
+    "email": "mc.srikakulam@cdma.gov.in",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/all/ulbcontacts/102"
+  },
+  {
+    "label": "Municipal commissioner duty mobile",
+    "number": "9949068444",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/ulbdetails/ulbprofiles"
+  }
+]

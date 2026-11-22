@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Municipal office",
+    "number": "08812232101",
+    "email": "elurumc@gmail.com",
+    "source_url": "https://eluru.emunicipal.ap.gov.in/egi/login/secure"
+  },
+  {
+    "label": "Municipal office alternate line",
+    "number": "08812230026",
+    "source_url": "https://eluru.ap.gov.in/public-utility-category/municipality/"
+  },
+  {
+    "label": "Municipal commissioner duty mobile",
+    "number": "9849908154",
+    "source_url": "https://apcmms.ap.gov.in/apiv1/public/web/ulbdetails/ulbprofiles"
+  }
+]
