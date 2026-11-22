@@ -12,6 +12,7 @@
 <main id="main" class="wrap page" data-filter-page>
   <h1>Wards, localities &amp; officers</h1>
   <p class="lead">{{if eq .Municipality.Slug "all"}}Browse ward and officer entries across the archive.{{else}}Find published ward and officer entries for {{.MunicipalityLabel}}.{{end}}</p>
+  <p><a href="/contacts?municipality={{.Municipality.Slug}}">Find municipal phone numbers and email addresses</a></p>
   <div class="filter-bar-row" data-js hidden>
     <div class="filter-input-wrap"><input type="search" data-filter data-focus placeholder="Search ward number, village, sector, or officer name..." aria-label="Find a ward or officer"><button type="button" class="clear-btn" data-clear-filter aria-label="Clear filter" hidden>×</button></div>
     <span class="match-pill" role="status" data-filter-status>{{len .Wards}} wards · {{len .Officers}} officers</span>

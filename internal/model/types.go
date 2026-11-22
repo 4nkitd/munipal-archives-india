@@ -23,29 +23,37 @@ type ContactInfo struct {
 	Email string `json:"email,omitempty" yaml:"email,omitempty"`
 }
 
+type PublicContact struct {
+	Label     string `json:"label"`
+	Number    string `json:"number,omitempty"`
+	Email     string `json:"email,omitempty"`
+	SourceURL string `json:"source_url"`
+}
+
 type MunicipalityProfile struct {
-	Slug             string  `json:"slug"`
-	Name             string  `json:"name"`
-	ShortName        string  `json:"shortName"`
-	State            string  `json:"state"`
-	District         string  `json:"district"`
-	FormationDate    string  `json:"formationDate"`
-	AreaSqKm         float64 `json:"areaSqKm"`
-	PopulationApprox string  `json:"populationApprox"`
-	Households       int     `json:"households"`
-	WardsCount       int     `json:"wardsCount"`
-	ZonesCount       int     `json:"zonesCount"`
-	DivisionsCount   int     `json:"divisionsCount"`
-	VillagesCount    string  `json:"villagesCount"`
-	SectorsCount     int     `json:"sectorsCount"`
-	Headquarters     string  `json:"headquarters"`
-	HelpdeskPhone    string  `json:"helpdeskPhone"`
-	TollFree         string  `json:"tollFree"`
-	WhatsApp         string  `json:"whatsapp,omitempty"`
-	Email            string  `json:"email"`
-	OfficialWebsite  string  `json:"officialWebsite"`
-	Status           string  `json:"status"`
-	Description      string  `json:"description"`
+	Slug             string          `json:"slug"`
+	Name             string          `json:"name"`
+	ShortName        string          `json:"shortName"`
+	State            string          `json:"state"`
+	District         string          `json:"district"`
+	FormationDate    string          `json:"formationDate"`
+	AreaSqKm         float64         `json:"areaSqKm"`
+	PopulationApprox string          `json:"populationApprox"`
+	Households       int             `json:"households"`
+	WardsCount       int             `json:"wardsCount"`
+	ZonesCount       int             `json:"zonesCount"`
+	DivisionsCount   int             `json:"divisionsCount"`
+	VillagesCount    string          `json:"villagesCount"`
+	SectorsCount     int             `json:"sectorsCount"`
+	Headquarters     string          `json:"headquarters"`
+	HelpdeskPhone    string          `json:"helpdeskPhone"`
+	TollFree         string          `json:"tollFree"`
+	WhatsApp         string          `json:"whatsapp,omitempty"`
+	Email            string          `json:"email"`
+	OfficialWebsite  string          `json:"officialWebsite"`
+	Status           string          `json:"status"`
+	Description      string          `json:"description"`
+	PublicContacts   []PublicContact `json:"public_contacts,omitempty"`
 }
 
 type DocumentFrontmatter struct {

@@ -81,6 +81,10 @@ func ScanMunicipalities(archivesDir string) ([]model.MunicipalityProfile, error)
 		if p.Slug != entry.Name() {
 			return nil, fmt.Errorf("%s: slug %q does not match directory", path, p.Slug)
 		}
+		p.PublicContacts, err = LoadPublicContacts(filepath.Dir(path))
+		if err != nil {
+			return nil, err
+		}
 		out = append(out, p)
 	}
 	return out, nil

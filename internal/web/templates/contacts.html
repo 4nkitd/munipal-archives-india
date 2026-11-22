@@ -1,0 +1,35 @@
+{{define "contacts.html"}}{{template "header" .}}
+<main id="main" class="wrap page">
+  {{if eq .Municipality.Slug "all"}}
+  <h1>Municipal public contacts</h1>
+  <p class="lead">Choose a municipality to find phone numbers and email addresses published for civic services and public duties.</p>
+  {{range .MunicipalityGroups}}
+    <section class="coverage-state">
+      <h2>{{.State}}</h2>
+      <div class="city-grid">
+        {{range .Profiles}}<a class="city-card" href="/contacts?municipality={{.Slug}}"><span>{{.Name}}</span><span class="pill">{{if .PublicContacts}}{{len .PublicContacts}} {{if eq (len .PublicContacts) 1}}contact{{else}}contacts{{end}}{{else}}Not yet verified{{end}}</span></a>{{end}}
+      </div>
+    </section>
+  {{end}}
+  {{else}}
+  <h1>Public contacts for {{.MunicipalityLabel}}</h1>
+  <p class="lead">Phone numbers and email addresses published for municipal services or public duties.</p>
+  <p><a href="/contacts?municipality=all">See all municipalities</a></p>
+  {{with .Municipality.PublicContacts}}
+    <div class="table-scroll" tabindex="0" role="region" aria-label="Municipal contacts">
+      <table class="register-table">
+        <thead><tr><th scope="col">Office or role</th><th scope="col">Phone</th><th scope="col">Email</th><th scope="col">Source</th></tr></thead>
+        <tbody>{{range .}}
+          <tr><th scope="row">{{.Label}}</th>
+            <td>{{with .Number}}<a href="tel:{{.}}">{{.}}</a>{{else}}Not listed{{end}}</td>
+            <td>{{with .Email}}<a href="mailto:{{.}}">{{.}}</a>{{else}}Not listed{{end}}</td>
+            <td><a href="{{.SourceURL}}" aria-label="Official source for {{.Label}}">Official source</a></td>
+          </tr>
+        {{end}}</tbody>
+      </table>
+    </div>
+  {{else}}
+    <p>No public contacts have been verified for this municipality yet.{{with safeURL .Municipality.OfficialWebsite}} <a href="{{.}}">Check the official website.</a>{{end}}</p>
+  {{end}}
+  {{end}}
+</main>{{template "footer" .}}{{end}}

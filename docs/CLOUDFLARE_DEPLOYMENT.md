@@ -4,7 +4,7 @@ Deploy only after [nationwide coverage](INDIA_COVERAGE.md) passes its checks. Th
 
 ## Build the candidate
 
-Run this from the repository root. Set `RELEASE` to a new empty directory outside the checkout and build `bin/archive` from the release source. The public export removes direct contact fields and screens prose while keeping citations, municipal records and directory roles. The screen is not a guarantee: review the export for contact details and material text loss before indexing it. Do not use the private, currently served index. The staging script uses SQLite's backup command to include committed data still in the source WAL without copying that WAL into the image.
+Run this from the repository root. Set `RELEASE` to a new empty directory outside the checkout and build `bin/archive` from the release source. The export keeps only the separately sourced `public-contacts.json` directory. It strips other direct contact fields and screens prose while keeping citations, municipal records and directory roles. Review the export for contact details and material text loss before indexing it. Do not use the private index. The staging script uses SQLite's backup command to include committed data still in the source WAL without copying that WAL into the image.
 
 Short public service codes can remain in civic instructions. The public ward directory preserves councillor names only where there is a matching mapped ward. For details omitted from the public version, follow the record's citation.
 
@@ -42,3 +42,5 @@ sh deploy/cloudflare/verify.sh "$RELEASE/public" "$PUBLIC_URL" "$RELEASE/worker/
 ```
 
 Repeat a search after the idle timeout to test a cold start. The timestamp check catches a container still running a previous generation. Keep the prior Worker version and image digest for rollback.
+
+Check `/contacts` and a city page at `/contacts?municipality=SLUG`. The HTTP verifier compares the labels, numbers, email addresses and citations in `/api/municipalities` with the approved files and reports coverage. The staging audit checks the same directory in SQLite.

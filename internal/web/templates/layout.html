@@ -34,6 +34,7 @@
   <nav class="mast-nav" aria-label="Main navigation">
     <a href="/?municipality={{.Municipality.Slug}}"{{if eq .ActiveNav "home"}} aria-current="page"{{else if eq .ActiveNav "search"}} aria-current="location"{{end}}>Search</a>
     <a href="/wards?municipality={{.Municipality.Slug}}"{{if eq .ActiveNav "wards"}} aria-current="page"{{end}}>Wards &amp; officers</a>
+    <a href="/contacts?municipality={{.Municipality.Slug}}"{{if eq .ActiveNav "contacts"}} aria-current="page"{{end}}>Public contacts</a>
     <a href="/index?municipality={{.Municipality.Slug}}"{{if eq .ActiveNav "index"}} aria-current="page"{{end}}>Archive index</a>
   </nav>
   <button type="button" class="theme-toggle" data-theme-toggle data-js hidden aria-label="Switch color theme" title="Switch color theme"><svg class="icon-sun" aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41m11.32-11.32l1.41-1.41"/></svg><svg class="icon-moon" aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><span class="theme-label" data-theme-label>Theme</span></button>

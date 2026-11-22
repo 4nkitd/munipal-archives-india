@@ -1,6 +1,9 @@
 package main
 
 import (
+	"context"
+	"encoding/json"
+	"fmt"
 	"os"
 	"path/filepath"
 	"strings"
@@ -47,9 +50,10 @@ func TestExport(t *testing.T) {
 		t.Fatal(err)
 	}
 	for name, data := range map[string]string{
-		"municipality.json": `{"slug":"demo","name":"Demo City","helpdeskPhone":"02020000000","email":"example@invalid.example","officialWebsite":"https://example.org"}`,
-		"wards.json":        `[{"ward_number":1,"name":"First Ward","councillor":{"name":"Demo Councillor","phone":"7000000000"}}]`,
-		"officers.json":     `[{"sr_no":1,"name":"Demo Officer","designation":"Junior Engineer","email":"example@invalid.example","phone":"2345678","wards":[1]}]`,
+		"municipality.json":    `{"slug":"demo","name":"Demo City","helpdeskPhone":"02020000000","email":"example@invalid.example","officialWebsite":"https://example.org"}`,
+		"public-contacts.json": `[{"label":"Civic & service desk","number":"02020000000","email":"civic@example.org","source_url":"https://example.org/contact?view=public&lang=en"}]`,
+		"wards.json":           `[{"ward_number":1,"name":"First Ward","councillor":{"name":"Demo Councillor","phone":"7000000000"}}]`,
+		"officers.json":        `[{"sr_no":1,"name":"Demo Officer","designation":"Junior Engineer","email":"example@invalid.example","phone":"2345678","wards":[1]}]`,
 		"record.md": `---
 id: demo-record
 municipality: demo
@@ -79,6 +83,12 @@ Local desk | 2020000000
 		t.Fatalf("export: %d profiles, %d records, %v", profiles, records, err)
 	}
 	out := filepath.Join(target, "demo")
+	approved, err := indexer.ScanMunicipalities(target)
+	if err != nil || len(approved) != 1 || approved[0].HelpdeskPhone != "" || approved[0].Email != "" ||
+		len(approved[0].PublicContacts) != 1 || approved[0].PublicContacts[0].Number != "02020000000" ||
+		approved[0].PublicContacts[0].Email != "civic@example.org" {
+		t.Fatalf("explicit contact not preserved or legacy contact leaked: %v", err)
+	}
 	doc, err := indexer.ParseMarkdownFile(filepath.Join(out, "record.md"), target)
 	if err != nil || len(doc.Contacts) != 0 || !strings.Contains(doc.Content, "15 territorial wards") ||
 		strings.Contains(doc.Content, "[at]") || strings.Contains(doc.Content, "234-5678") || strings.Contains(doc.Content, "2020000000") ||
@@ -91,5 +101,56 @@ Local desk | 2020000000
 	}
 	if _, _, err := export(source, target); err == nil {
 		t.Fatal("export overwrote its destination")
+	}
+	for i, row := range []string{
+		`[{"label":"Wrong label 234-5678","number":"01234567890","source_url":"https://example.org/contact"}]`,
+		`[{"label":"Desk","number":"01234567890","source_url":"https://example.org/contact/234%2D5678"}]`,
+	} {
+		if err := os.WriteFile(filepath.Join(city, indexer.PublicContactsFilename), []byte(row), 0644); err != nil {
+			t.Fatal(err)
+		}
+		if _, _, err := export(source, filepath.Join(base, fmt.Sprintf("bad-%d", i))); err == nil {
+			t.Fatal("export accepted legacy contact data outside the approved fields")
+		}
+	}
+}
+
+func TestAuditPublicContacts(t *testing.T) {
+	root := t.TempDir()
+	city := filepath.Join(root, "demo")
+	if err := os.Mkdir(city, 0755); err != nil {
+		t.Fatal(err)
+	}
+	rows := `[{"label":"Civic desk","number":"01234567890","email":"desk@example.org","source_url":"https://example.org/contact?dept=civic&lang=en"}]`
+	for name, data := range map[string]string{"municipality.json": `{"slug":"demo"}`, indexer.PublicContactsFilename: rows} {
+		if err := os.WriteFile(filepath.Join(city, name), []byte(data), 0644); err != nil {
+			t.Fatal(err)
+		}
+	}
+	db, err := indexer.OpenSQLite(filepath.Join(t.TempDir(), "audit.db"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	defer db.Close()
+	doubleEncoded, err := json.Marshal(rows)
+	if err != nil {
+		t.Fatal(err)
+	}
+	for _, tc := range []struct {
+		fields string
+		ok     bool
+	}{
+		{`"public_contacts":` + strings.ReplaceAll(rows, "&", `\u0026`), true},
+		{`"public_contacts":` + strings.ReplaceAll(rows, "desk@example.org", "unapproved@example.org"), false},
+		{`"public_contacts":` + rows + `,"PUBLIC_CONTACTS":[]`, false},
+		{`"public_contacts":` + string(doubleEncoded), false},
+		{`"public_contacts":[]`, false},
+	} {
+		if _, err := db.Exec(`INSERT OR REPLACE INTO municipalities VALUES ('demo', ?)`, `{"slug":"demo",`+tc.fields+`}`); err != nil {
+			t.Fatal(err)
+		}
+		if err := auditPublicContacts(context.Background(), db, root); (err == nil) != tc.ok {
+			t.Fatalf("audit acceptance = %v, want %v (%v)", err == nil, tc.ok, err)
+		}
 	}
 }

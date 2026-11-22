@@ -10,7 +10,7 @@ root=$1
 target=$2
 export LC_ALL=C
 scratch=$(mktemp -d "${TMPDIR:-/tmp}/nagar-verify.XXXXXX")
-trap 'rm -f "$scratch/expected" "$scratch/actual" "$scratch/source" "$scratch/indexed" "$scratch/http-records"; rmdir "$scratch"' EXIT
+trap 'rm -f "$scratch/expected" "$scratch/actual" "$scratch/source" "$scratch/indexed" "$scratch/http-records" "$scratch/api-profiles" "$scratch/source-contacts" "$scratch/live-contacts"; rmdir "$scratch"' EXIT
 
 {
   awk -F '\t' 'NR > 1 && NF == 3 {n = split($3, slugs, " "); for (i = 1; i <= n; i++) print slugs[i] "\t" $1}' docs/india-roster.tsv
@@ -29,9 +29,35 @@ case "$target" in
   http://*|https://*)
     manifest=${3:?The HTTP check requires the staged records.tsv}
     test -s "$manifest"
-    curl -fsS --max-time 40 "$target/api/municipalities" |
-      jq -er '.municipalities[] | [.slug, .state] | @tsv' | sort > "$scratch/actual"
+    curl -fsS --max-time 40 -o "$scratch/api-profiles" "$target/api/municipalities"
+    jq -er '.municipalities[] | [.slug, .state] | @tsv' "$scratch/api-profiles" | sort > "$scratch/actual"
     diff -u "$scratch/expected" "$scratch/actual"
+    legacy=$(jq -r '.municipalities[] | . as $profile |
+      ("helpdeskPhone", "tollFree", "whatsapp", "email") as $key |
+      select(($profile[$key] // "") != "") | [$profile.slug, $key] | @tsv' "$scratch/api-profiles")
+    if [ -n "$legacy" ]; then
+      printf 'Unexpected legacy contact fields (municipality and field):\n%s\n' "$legacy" >&2
+      exit 1
+    fi
+    while IFS="$(printf '\t')" read -r slug state; do
+      contacts="$root/$slug/public-contacts.json"
+      if [ -f "$contacts" ]; then
+        jq -ceS --arg slug "$slug" '[$slug, .]' "$contacts"
+      else
+        jq -cn --arg slug "$slug" '[$slug, []]'
+      fi
+    done < "$scratch/expected" > "$scratch/source-contacts"
+    jq -ceS '.municipalities | sort_by(.slug)[] | [.slug, (.public_contacts // [])]' \
+      "$scratch/api-profiles" > "$scratch/live-contacts"
+    if ! cmp -s "$scratch/source-contacts" "$scratch/live-contacts"; then
+      echo "Published contacts differ from the approved files" >&2
+      exit 1
+    fi
+    jq -e '.municipalities | {
+      municipalities_with_phones: map(select(any(.public_contacts[]?; .number))) | length,
+      municipalities_with_emails: map(select(any(.public_contacts[]?; .email))) | length,
+      public_contact_rows: map((.public_contacts // []) | length) | add
+    }' "$scratch/api-profiles"
     while IFS="$(printf '\t')" read -r slug state; do
       curl -fsS --max-time 15 "$target/api/documents?municipality=$slug" |
         jq -er --arg slug "$slug" '.documents[] | select(.municipality == $slug and .chunk_count > 0) | [.municipality, .id] | @tsv'

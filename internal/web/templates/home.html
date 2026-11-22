@@ -4,6 +4,7 @@
     <h1 class="hero-title">{{if eq .Municipality.Slug "all"}}Search all {{.MunicipalityCount}} municipal archives{{else}}Search the {{.MunicipalityLabel}} civic archive{{end}}</h1>
     <p class="hero-lead">Find official notices and tenders, check ward boundaries, or look up officer contacts, property tax guidance and citizen services.</p>
     {{template "search-form" .}}
+    <p><a href="/contacts?municipality={{.Municipality.Slug}}">Find municipal phone numbers and email addresses</a></p>
     {{with .PromptExamples}}
     <h2 class="small-title">Example civic questions</h2>
     <div class="prompt-grid">{{range .}}

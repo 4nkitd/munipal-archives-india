@@ -119,6 +119,10 @@ func (s *Server) pageData(name string, r *http.Request) (*model.PageData, error)
 		req.Sort, err = indexSort(req.Sort)
 	case "document":
 		req.Municipality = r.PathValue("municipality")
+	case "contacts":
+		if !r.URL.Query().Has("municipality") {
+			req.Municipality = "all"
+		}
 	}
 	if err != nil {
 		return nil, err
@@ -152,6 +156,10 @@ func (s *Server) pageData(name string, r *http.Request) (*model.PageData, error)
 		return nil, fs.ErrNotExist
 	}
 	data.MunicipalityLabel = municipalityLabel(data.Municipality.Slug)
+	if name == "contacts" {
+		data.PageTitle = "Public contacts"
+		return data, nil
+	}
 	globalStats, err := s.svc.Stats(ctx)
 	if err != nil {
 		return nil, err

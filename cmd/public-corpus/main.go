@@ -124,13 +124,29 @@ func (c contactSet) matches(s string) bool {
 			return true
 		}
 	}
-	text = webURL.ReplaceAllString(text, " ")
+	return c.matchesPhone(webURL.ReplaceAllString(text, " "))
+}
+
+func (c contactSet) matchesPhone(text string) bool {
 	for _, token := range phoneToken.FindAllString(text, -1) {
 		if c.phones[digits(token)] {
 			return true
 		}
 	}
 	return false
+}
+
+func (c contactSet) matchesLink(link string) bool {
+	u, err := url.Parse(link)
+	if err != nil {
+		return true
+	}
+	query, err := url.QueryUnescape(u.RawQuery)
+	if err != nil {
+		query = u.RawQuery
+	}
+	return c.matches(link) || c.matchesPhone(screenText(u.Path)) ||
+		c.matchesPhone(screenText(query)) || c.matchesPhone(screenText(u.Fragment))
 }
 
 func publicBody(body string, known contactSet) string {
@@ -154,7 +170,22 @@ func writeJSON(path string, value any) error {
 	return os.WriteFile(path, append(data, '\n'), 0644)
 }
 
-func exportProfile(dst string, p model.MunicipalityProfile) error {
+func exportProfile(dst string, p model.MunicipalityProfile, known contactSet) error {
+	if len(p.PublicContacts) != 0 {
+		for i, row := range p.PublicContacts {
+			if known.matches(row.Label) || publicLink(row.SourceURL) == "" || known.matchesLink(row.SourceURL) {
+				return fmt.Errorf("%s: public contact row %d has contact-like text outside number and email", p.Slug, i+1)
+			}
+		}
+		data, err := json.MarshalIndent(p.PublicContacts, "", "  ")
+		if err != nil {
+			return err
+		}
+		if err := os.WriteFile(filepath.Join(dst, indexer.PublicContactsFilename), append(data, '\n'), 0644); err != nil {
+			return err
+		}
+	}
+	p.PublicContacts = nil
 	p.HelpdeskPhone, p.TollFree, p.WhatsApp, p.Email = "", "", "", ""
 	p.Headquarters, p.Description = safeText(p.Headquarters), safeText(p.Description)
 	p.OfficialWebsite = publicLink(p.OfficialWebsite)
@@ -300,9 +331,6 @@ func export(root, dest string) (int, int, error) {
 		if err := os.Mkdir(dst, 0755); err != nil {
 			return 0, 0, err
 		}
-		if err := exportProfile(dst, p); err != nil {
-			return 0, 0, err
-		}
 		if err := exportDirectory(src, dst, known); err != nil {
 			return 0, 0, err
 		}
@@ -312,6 +340,9 @@ func export(root, dest string) (int, int, error) {
 		}
 		if n == 0 {
 			return 0, 0, fmt.Errorf("%s: no public records", p.Slug)
+		}
+		if err := exportProfile(dst, p, known); err != nil {
+			return 0, 0, err
 		}
 		records += n
 	}
@@ -335,5 +366,5 @@ func main() {
 		fmt.Fprintln(os.Stderr, err)
 		os.Exit(1)
 	}
-	fmt.Printf("Exported %d profiles and %d records without direct contact fields.\n", profiles, records)
+	fmt.Printf("Exported %d profiles and %d records, with approved contacts kept separately.\n", profiles, records)
 }

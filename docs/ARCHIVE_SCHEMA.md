@@ -10,6 +10,7 @@ Every municipality lives under `archives/<municipality_slug>/`:
 archives/
   manesar/
     municipality.json               # Municipality profile & metadata
+    public-contacts.json            # Optional, cited phones and email addresses for public duties
     wards.json                      # Canonical Ward 1..20 -> villages/sectors/zone/division/councillor mapping
     officers.json                   # Canonical Officers & Ward Engineering responsibility directory
     01-governance/                  # Formation, city profile, leadership, elected council, elections
@@ -82,6 +83,8 @@ verified_at: "2026-11-22"
 - `action_url`: Optional official online portal URL where a citizen completes the service or views the source.
 
 Individual `wards.json` rows may include `source_url` and `verified_at`. Link the official ward source, including a page fragment if known. Do not infer a boundary from an office list, an election result, or a GIS label alone.
+
+`public-contacts.json`, when present, is a nonempty array of `{ "label", "number"?, "email"?, "source_url" }` rows. Each row needs at least one phone or email and an HTTPS link to the official page or directory that publishes it for that municipality and public duty. Use a role or service label, adding the officer's name, ward, or zone only where the source supports it. Keep phone numbers as strings with 3 to 15 ASCII digits and an optional leading `+`. Keep the published dial code and any leading zero. Do not guess missing prefixes. Include duty mobiles and emails only where the authority publishes them as a public contact. Do not copy personal, historical, or unofficial contact data. A checked source confirms publication, not that a line was called or an email was delivered.
 
 ### Markdown Body Standards
 

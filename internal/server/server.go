@@ -64,6 +64,7 @@ func New(svc model.SearchService, opts Options) (*Server, error) {
 		"GET /search":                  "search",
 		"GET /doc/{municipality}/{id}": "document",
 		"GET /wards":                   "wards",
+		"GET /contacts":                "contacts",
 		"GET /index":                   "index",
 	} {
 		s.mux.HandleFunc(pattern, s.page(name))

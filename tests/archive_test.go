@@ -317,6 +317,7 @@ func fixture(t *testing.T) *search.Engine {
 		write := func(name, s string) { t.Helper(); check(t, os.WriteFile(filepath.Join(dir, name), []byte(s), 0600)) }
 		write("municipality.json", fmt.Sprintf(`{"slug":%q,"name":%q,"state":"Haryana","district":"Gurugram"}`, m, m))
 		if m == "manesar" {
+			write("public-contacts.json", `[{"label":"Public duty desk","number":"01234567890","email":"contact@example.org","source_url":"https://example.org/contact"}]`)
 			write("wards.json", `[{"ward_number":9,"name":"Bhangrola","villages":["Bhangrola"],"sectors":["83"],"source_url":"https://example.org/wards.pdf#page=9","verified_at":"2026-11-22"}]`)
 			write("officers.json", `[{"sr_no":1,"name":"Asha Fixture","designation":"Junior Engineer","wards":[9]},{"sr_no":2,"name":"Leela Dummyfield","designation":"Commissioner","wards":[]}]`)
 		} else {
@@ -478,6 +479,27 @@ func TestHTTPServerRoutesAndSecurity(t *testing.T) {
 		!strings.Contains(html, `href="https://example.org/wards.pdf#page=9"`) ||
 		!strings.Contains(html, "22 Nov 2026") {
 		t.Error("scoped directory missing Manesar engineer or ward source")
+	}
+	contacts := get("/contacts?municipality=manesar", 200, "text/html")
+	for _, want := range []string{`href="tel:01234567890"`, `href="mailto:contact@example.org"`, `href="https://example.org/contact"`, "Public duty desk"} {
+		if !strings.Contains(contacts, want) {
+			t.Errorf("public contacts page missing %s", want)
+		}
+	}
+	if html := get("/contacts?municipality=gurugram", 200, "text/html"); strings.Contains(html, "Public duty desk") ||
+		!strings.Contains(html, "No public contacts have been verified") {
+		t.Error("empty contact directory shows the wrong city or no empty state")
+	}
+	if html := get("/contacts", 200, "text/html"); !strings.Contains(html, `href="/contacts?municipality=manesar"`) ||
+		strings.Contains(html, `href="tel:01234567890"`) {
+		t.Error("national contact directory should link to city pages")
+	}
+	var municipalities struct{ Municipalities []model.MunicipalityProfile }
+	check(t, json.Unmarshal([]byte(get("/api/municipalities", 200, "application/json")), &municipalities))
+	if !slices.ContainsFunc(municipalities.Municipalities, func(p model.MunicipalityProfile) bool {
+		return p.Slug == "manesar" && len(p.PublicContacts) == 1 && p.PublicContacts[0].Email == "contact@example.org"
+	}) {
+		t.Error("public contacts missing from municipalities API")
 	}
 	html := get("/search?q=pond&municipality=all", 200, "text/html")
 	for _, m := range []string{"manesar", "gurugram"} {

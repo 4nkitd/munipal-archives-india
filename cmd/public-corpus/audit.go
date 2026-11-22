@@ -14,6 +14,7 @@ import (
 	"slices"
 
 	"github.com/municipal-archives-india/manesar/internal/indexer"
+	"github.com/municipal-archives-india/manesar/internal/model"
 	"golang.org/x/text/unicode/norm"
 )
 
@@ -33,6 +34,9 @@ func audit(root, data string, manifest io.Writer) error {
 	}
 	defer db.Close()
 	ctx := context.Background()
+	if err := auditPublicContacts(ctx, db, root); err != nil {
+		return err
+	}
 	vectorDB, err := indexer.OpenVectorDB(vectors)
 	if err != nil {
 		return err
@@ -102,7 +106,7 @@ func audit(root, data string, manifest io.Writer) error {
 	var docCount, chunkCount, ftsCount, filledContacts int
 	if err := db.QueryRow(`SELECT (SELECT count(*) FROM documents), (SELECT count(*) FROM chunks),
 		(SELECT count(*) FROM chunks_fts), (SELECT count(*) FROM (
-			SELECT profile_json AS payload FROM municipalities UNION ALL
+			SELECT json_remove(profile_json, '$.public_contacts') AS payload FROM municipalities UNION ALL
 			SELECT record_json FROM wards UNION ALL SELECT record_json FROM officers
 		) a, json_tree(a.payload) j WHERE lower(j.key) IN ('phone', 'email', 'helpdeskphone', 'tollfree', 'whatsapp')
 		AND j.type='text' AND trim(j.value) != '')`).Scan(&docCount, &chunkCount, &ftsCount, &filledContacts); err != nil {
@@ -113,5 +117,40 @@ func audit(root, data string, manifest io.Writer) error {
 			nDocs, docCount, nChunks, chunkCount, ftsCount, collection.Count(), filledContacts)
 	}
 	fmt.Fprintf(os.Stderr, "Audited %d public records and %d passages in SQLite, FTS and vectors.\n", nDocs, nChunks)
+	return nil
+}
+
+func auditPublicContacts(ctx context.Context, db *sql.DB, root string) error {
+	profiles, err := indexer.ScanMunicipalities(root)
+	if err != nil {
+		return err
+	}
+	var count int
+	if err := db.QueryRowContext(ctx, `SELECT count(*) FROM municipalities`).Scan(&count); err != nil {
+		return err
+	}
+	if count != len(profiles) {
+		return errors.New("indexed municipality count differs from public source")
+	}
+	for _, p := range profiles {
+		var indexed string
+		err := db.QueryRowContext(ctx, `SELECT profile_json
+			FROM municipalities WHERE slug=?`, p.Slug).Scan(&indexed)
+		if err != nil {
+			return fmt.Errorf("%s: %w", p.Slug, err)
+		}
+		for i, row := range p.PublicContacts {
+			if contactLike(row.Label) || publicLink(row.SourceURL) == "" {
+				return fmt.Errorf("%s: unsafe contact label or source in row %d", p.Slug, i+1)
+			}
+		}
+		var stored model.MunicipalityProfile
+		if err := json.Unmarshal([]byte(indexed), &stored); err != nil {
+			return fmt.Errorf("%s: invalid indexed municipality profile: %w", p.Slug, err)
+		}
+		if stored.Slug != p.Slug || !slices.Equal(stored.PublicContacts, p.PublicContacts) {
+			return fmt.Errorf("%s: indexed public contacts differ from approved rows", p.Slug)
+		}
+	}
 	return nil
 }
