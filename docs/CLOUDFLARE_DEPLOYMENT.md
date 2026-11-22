@@ -19,7 +19,7 @@ sh deploy/cloudflare/stage.sh "$RELEASE/public" "$RELEASE/data" .cache/hugot-mod
 sh deploy/cloudflare/verify.sh "$RELEASE/public" "$RELEASE/worker/data"
 ```
 
-On a Linux builder, build the staged `linux/amd64` image and run it with outbound access disabled. The image runs as a non-root user. The generation directory must be writable for SQLite's WAL. Benchmark cold startup and concurrent hybrid requests at the container's configured CPU and memory before deciding on the instance size. Confirm that `/api/stats`, `/api/municipalities`, and queries return the expected generation and records. Check the public release for contact details that are not designated office or service channels.
+On a Linux builder, build the staged image with `docker build --platform linux/amd64` and run it with outbound access disabled. The staging command produces an amd64 Go binary, and the pinned Debian base has multiple architectures. The image runs as a non-root user. The generation directory must be writable for SQLite's WAL. Benchmark cold startup and concurrent hybrid requests at the container's configured CPU and memory before deciding on the instance size. Confirm that `/api/stats`, `/api/municipalities`, and queries return the expected generation and records. Check the public release for contact details that are not designated office or service channels.
 
 Before publication, send a cold `/api/health` request through a local Worker with a container runtime, then a second request for an actual search through the same binding. The direct container check and deployment dry run do not exercise the Worker proxy.
 

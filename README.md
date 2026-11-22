@@ -2,6 +2,8 @@
 
 Nagar Archive is a search-first, plain-text civic archive built in Go. The nationwide source corpus contains records for [279 municipal corporations](docs/INDIA_COVERAGE.md) and the ten original councils and committees. The roster records all 36 states and union territories, including those without municipal corporations.
 
+Browse the [live nationwide archive](https://nagar-archive.4nkitd.workers.dev/?municipality=all).
+
 The [municipal archive directories](archives/) hold the source corpus; `/api/stats` reports what the running index contains. Records preserve source URLs, dates, jurisdictions, and citations. They are archival references, not a substitute for current official notices.
 
 No Node.js, Python, Docker, or external API keys are required. Embeddings run locally. The first indexing run downloads the public embedding model; later runs reuse the model cache.
