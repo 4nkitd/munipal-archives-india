@@ -278,9 +278,9 @@ func fixture(t *testing.T) *search.Engine {
 		dir := filepath.Join(root, m)
 		check(t, os.Mkdir(dir, 0700))
 		write := func(name, s string) { t.Helper(); check(t, os.WriteFile(filepath.Join(dir, name), []byte(s), 0600)) }
-		write("municipality.json", fmt.Sprintf(`{"slug":%q,"name":%q,"shortName":%q}`, m, m, m))
+		write("municipality.json", fmt.Sprintf(`{"slug":%q,"name":%q,"state":"Haryana","district":"Gurugram"}`, m, m))
 		if m == "manesar" {
-			write("wards.json", `[{"ward_number":9,"name":"Bhangrola","villages":["Bhangrola"],"sectors":["83"]}]`)
+			write("wards.json", `[{"ward_number":9,"name":"Bhangrola","villages":["Bhangrola"],"sectors":["83"],"source_url":"https://example.org/wards.pdf#page=9","verified_at":"2026-11-22"}]`)
 			write("officers.json", `[{"sr_no":1,"name":"Asha Fixture","designation":"Junior Engineer","wards":[9]},{"sr_no":2,"name":"Leela Dummyfield","designation":"Commissioner","wards":[]}]`)
 		} else {
 			write("officers.json", `[{"sr_no":1,"name":"Leela Dummyfield","designation":"Commissioner","wards":[]}]`)
@@ -427,8 +427,20 @@ func TestHTTPServerRoutesAndSecurity(t *testing.T) {
 			}
 		}
 	}
-	if html := get("/wards?municipality=manesar", 200, "text/html"); !strings.Contains(html, "Asha Fixture") {
-		t.Error("scoped directory missing Manesar engineer")
+	home := get("/?municipality=all", 200, "text/html")
+	if !strings.Contains(home, `class="city-group-title">Haryana</p>`) ||
+		!strings.Contains(home, `data-city-terms="gurugram  gurugram Haryana Gurugram"`) ||
+		strings.Contains(home, `>Urban Local Bodies, Haryana</a>`) {
+		t.Error("aggregate home should group by state, support district search, and attribute sources on records")
+	}
+	home = get("/?municipality=gurugram", 200, "text/html")
+	if !strings.Contains(home, `class="city-name">Gurugram</span>`) || !strings.Contains(home, "Search the Gurugram civic archive") {
+		t.Error("city without a short name should have a visible, usable label")
+	}
+	if html := get("/wards?municipality=manesar", 200, "text/html"); !strings.Contains(html, "Asha Fixture") ||
+		!strings.Contains(html, `href="https://example.org/wards.pdf#page=9"`) ||
+		!strings.Contains(html, "22 Nov 2026") {
+		t.Error("scoped directory missing Manesar engineer or ward source")
 	}
 	html := get("/search?q=pond&municipality=all", 200, "text/html")
 	for _, m := range []string{"manesar", "gurugram"} {

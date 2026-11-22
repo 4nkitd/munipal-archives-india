@@ -1,7 +1,7 @@
 {{define "home.html"}}{{template "header" .}}
 <main id="main" class="wrap desk">
   <section class="desk-hero">
-    <h1 class="hero-title">{{if eq .Municipality.Slug "all"}}Search all {{len .Municipalities}} municipal archives{{else}}Search the {{.Municipality.ShortName}} civic archive{{end}}</h1>
+    <h1 class="hero-title">{{if eq .Municipality.Slug "all"}}Search all {{.MunicipalityCount}} municipal archives{{else}}Search the {{.MunicipalityLabel}} civic archive{{end}}</h1>
     <p class="hero-lead">Find official notices and tenders, check ward boundaries, or look up officer contacts, property tax guidance and citizen services.</p>
     {{template "search-form" .}}
     {{with .PromptExamples}}
@@ -15,7 +15,7 @@
     {{with .Stats}}
     <div><dt>Records</dt><dd>{{.TotalDocuments}}</dd></div>
     <div><dt>Indexed passages</dt><dd>{{.TotalChunks}}</dd></div>
-    <div><dt>Wards</dt><dd>{{if eq $.Municipality.Slug "all"}}{{.WardsMapped}}{{else}}{{or $.Municipality.WardsCount .WardsMapped}}{{end}}</dd></div>
+    <div><dt>Mapped wards</dt><dd>{{.WardsMapped}}</dd></div>
     <div><dt>Mapped officers</dt><dd>{{.OfficersMapped}}</dd></div>
     {{end}}
     {{with .Municipality.HelpdeskPhone}}<div><dt>Helpdesk</dt><dd><a href="tel:{{.}}">{{.}}</a></dd></div>{{end}}
@@ -28,12 +28,17 @@
       <a class="collection-card" href="/index?municipality={{$.Municipality.Slug}}&amp;category={{.Category}}"><span>{{categoryLabel .Category}}</span><b class="pill">{{.Count}} {{if eq .Count 1}}record{{else}}records{{end}}</b></a>
     {{else}}<p>No collections indexed yet.</p>{{end}}</div>
   </section>
-  {{if gt (len .Municipalities) 1}}
+  {{if gt .MunicipalityCount 1}}
   <section class="coverage">
-    <div class="section-head"><h2>{{len .Municipalities}} indexed municipalities</h2><a href="/?municipality=all">Search all {{len .Municipalities}} bodies</a></div>
-    <div class="city-grid">{{range .Municipalities}}
-      <a class="city-card" href="/?municipality={{.Slug}}"><span>{{.Name}}</span>{{if .WardsCount}}<span class="pill">{{.WardsCount}} wards</span>{{else if .State}}<span class="pill">{{.State}}</span>{{end}}</a>
-    {{end}}</div>
+    <div class="section-head"><h2>{{.MunicipalityCount}} indexed municipalities</h2><a href="/?municipality=all">Search all municipalities</a></div>
+    {{range .MunicipalityGroups}}
+      <div class="coverage-state">
+        <h3>{{.State}}</h3>
+        <div class="city-grid">{{range .Profiles}}
+          <a class="city-card" href="/?municipality={{.Slug}}"><span>{{.Name}}</span>{{if .WardsCount}}<span class="pill">{{.WardsCount}} wards</span>{{end}}</a>
+        {{end}}</div>
+      </div>
+    {{end}}
   </section>
   {{end}}
 </main>

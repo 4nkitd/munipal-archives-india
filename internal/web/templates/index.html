@@ -1,7 +1,7 @@
 {{define "index.html"}}{{template "header" .}}
 <main id="main" class="wrap page" data-filter-page>
   <h1>Archive corpus index</h1>
-  <p class="lead">Browse {{.Municipality.ShortName}} municipal records by title, collection, or publication date.</p>
+  <p class="lead">Browse {{if ne .Municipality.Slug "all"}}{{.MunicipalityLabel}} {{end}}municipal records by title, collection, or publication date.</p>
   {{with .Stats}}
   <div class="telemetry-strip">
     <span class="telemetry-pill">Vector DB: {{.VectorDBEngine}}</span>

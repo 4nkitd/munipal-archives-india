@@ -11,6 +11,8 @@ import (
 	"strings"
 
 	"github.com/municipal-archives-india/manesar/internal/model"
+	"golang.org/x/text/cases"
+	"golang.org/x/text/language"
 	"golang.org/x/text/unicode/norm"
 )
 
@@ -42,6 +44,50 @@ func matchesRegister(d model.ArchiveDocument, category string, terms []string) b
 		}
 	}
 	return true
+}
+
+func municipalityGroups(profiles []model.MunicipalityProfile) []model.MunicipalityGroup {
+	states := make(map[string][]model.MunicipalityProfile)
+	for _, p := range profiles {
+		state := strings.TrimSpace(p.State)
+		if state == "" {
+			state = "Other municipalities"
+		}
+		states[state] = append(states[state], p)
+	}
+	names := make([]string, 0, len(states))
+	for state := range states {
+		names = append(names, state)
+	}
+	sort.Strings(names)
+	groups := make([]model.MunicipalityGroup, 0, len(names))
+	for _, state := range names {
+		groups = append(groups, model.MunicipalityGroup{State: state, Profiles: states[state]})
+	}
+	return groups
+}
+
+func municipalityLabel(slug string) string {
+	switch slug {
+	case "all":
+		return "All municipalities"
+	case "anand":
+		return "Karamsad Anand"
+	case "navsari-vijalpore":
+		return "Navsari"
+	case "haldwani-kathgodam":
+		return "Haldwani-Kathgodam"
+	case "mathura-vrindavan":
+		return "Mathura-Vrindavan"
+	case "yamunanagar":
+		return "Yamunanagar-Jagadhri"
+	case "srinagar":
+		return "Srinagar, Jammu and Kashmir"
+	case "srinagar-uttarakhand":
+		return "Srinagar Garhwal"
+	default:
+		return cases.Title(language.English).String(strings.ReplaceAll(slug, "-", " "))
+	}
 }
 
 func (s *Server) page(name string) http.HandlerFunc {
@@ -83,18 +129,16 @@ func (s *Server) pageData(name string, r *http.Request) (*model.PageData, error)
 		return nil, err
 	}
 	data := &model.PageData{
-		ActiveNav: name, Municipalities: profiles,
+		ActiveNav: name, MunicipalityCount: len(profiles), MunicipalityGroups: municipalityGroups(profiles),
 		Query: req.Query, Mode: req.Mode, Sort: req.Sort,
 		SelectedCat: req.Category, SelectedDocType: req.DocType, SelectedWard: req.Ward,
 	}
 	if req.Municipality == "all" {
 		data.Municipality = model.MunicipalityProfile{
-			Slug:            "all",
-			Name:            "All indexed municipalities",
-			ShortName:       "All municipalities",
-			State:           "Haryana & NCR",
-			OfficialWebsite: "https://ulbharyana.gov.in/",
-			Status:          "indexed",
+			Slug:      "all",
+			Name:      "All indexed municipalities",
+			ShortName: "All municipalities",
+			Status:    "indexed",
 		}
 	} else {
 		for _, p := range profiles {
@@ -107,6 +151,7 @@ func (s *Server) pageData(name string, r *http.Request) (*model.PageData, error)
 	if data.Municipality.Slug == "" {
 		return nil, fs.ErrNotExist
 	}
+	data.MunicipalityLabel = municipalityLabel(data.Municipality.Slug)
 	globalStats, err := s.svc.Stats(ctx)
 	if err != nil {
 		return nil, err
@@ -183,14 +228,14 @@ func (s *Server) pageData(name string, r *http.Request) (*model.PageData, error)
 		}
 	case "all":
 		data.PromptExamples = []string{
-			"Compare property tax and Property ID rules across Haryana municipalities",
+			"Which municipal portals handle property tax and assessments?",
 			"Who is the Junior Engineer for Ward 9 in Manesar?",
 			"Bandhwari waste plant serving Gurugram and Faridabad",
 			"GRAP Stage 3 construction restrictions in NCR",
 			"Right to Service timelines for birth and marriage certificates",
 		}
 	default:
-		city := data.Municipality.ShortName
+		city := data.MunicipalityLabel
 		data.PromptExamples = []string{
 			"Wards and elected council of " + city,
 			"Officers directory and grievance helpline for " + city,
@@ -201,7 +246,7 @@ func (s *Server) pageData(name string, r *http.Request) (*model.PageData, error)
 
 	switch name {
 	case "home":
-		data.PageTitle = "Search the civic record of " + data.Municipality.ShortName
+		data.PageTitle = "Search the civic record of " + data.MunicipalityLabel
 	case "search":
 		data.PageTitle = "Search the archive"
 		if req.Query != "" {

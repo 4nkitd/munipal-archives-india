@@ -453,6 +453,8 @@ img { max-inline-size: 100%; height: auto; }
 .collection-grid, .city-grid, .related-grid { margin-top: 1rem; }
 .collection-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .city-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); }
+.coverage-state + .coverage-state { margin-top: 1.5rem; }
+.coverage-state h3 { margin: 1rem 0 .55rem; }
 .city-grid a { padding-block: .65rem; }
 
 .dock { padding-block: 1rem; background: var(--surface); border-bottom: 1px solid var(--border); }

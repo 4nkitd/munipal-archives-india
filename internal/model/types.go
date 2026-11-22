@@ -270,6 +270,8 @@ type WardRecord struct {
 	JuniorEngineer    *ContactInfo    `json:"junior_engineer,omitempty"`
 	JuniorEngineers   []ContactInfo   `json:"junior_engineers,omitempty"`
 	BoundarySummary   string          `json:"boundary_summary,omitempty"`
+	SourceURL         string          `json:"source_url,omitempty"`
+	VerifiedAt        string          `json:"verified_at,omitempty"`
 }
 
 type OfficerRecord struct {
