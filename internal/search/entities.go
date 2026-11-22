@@ -7,11 +7,12 @@ import (
 	"strings"
 
 	"github.com/municipal-archives-india/manesar/internal/model"
+	"golang.org/x/text/unicode/norm"
 )
 
-var wardPattern = regexp.MustCompile(`(?i)\b(?:ward(?:\s+no\.?)?|w)\s*[-#]?\s*([0-9]{1,3})\b`)
+var wardPattern = regexp.MustCompile(`(?i)\b(?:ward(?:\s+no\.?)?|w)\s*[-#]?\s*([0-9]{1,4})\b`)
 var sectorPattern = regexp.MustCompile(`(?i)\b(?:sector|sec)\s*[.-]?\s*([0-9]+[a-z]?)\b`)
-var words = regexp.MustCompile(`[\pL\pN]+`)
+var words = regexp.MustCompile(`[\pL\pM\pN]+`)
 var villages = strings.Split("Manesar,Kasan,Bhangrola,Hayatpur,Shikohpur,Naurangpur,Kankrola,Khoh,Badha,Sikanderpur Badha,Garhi Harsaru,Harsaru,Sihi,Dhorka,Wazirpur,Meoka,Nawada Fatehpur,Sehrawan,Baskushla,Basharia,Dhana,Fazalwas,Kukrola,Lakhnola,Nainwal,Jhund Sarai (Abad),Jhund Sarai (Viran),Bamroli,Naharpur Kasan,Bar Gujar,Rampura", ",")
 
 var villageAliases = map[string]string{
@@ -34,7 +35,7 @@ func unique[T comparable](v []T, x T) []T {
 }
 
 func normalized(s string) string {
-	return strings.Join(words.FindAllString(strings.ToLower(s), -1), " ")
+	return strings.Join(words.FindAllString(norm.NFC.String(strings.ToLower(s)), -1), " ")
 }
 
 func canonicalVillage(name string) string {
@@ -55,7 +56,7 @@ func DetectEntities(query string, wards []model.WardRecord) model.DetectedEntiti
 	e := model.DetectedEntities{Wards: []int{}, Sectors: []string{}, Villages: []string{}}
 	for _, m := range wardPattern.FindAllStringSubmatch(query, -1) {
 		n, _ := strconv.Atoi(m[1])
-		if n >= 1 && n <= 100 {
+		if n >= 1 {
 			e.Wards = unique(e.Wards, n)
 		}
 	}

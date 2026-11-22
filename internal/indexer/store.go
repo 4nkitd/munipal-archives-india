@@ -29,7 +29,7 @@ func ResolveDataPaths(dataDir string) (dbPath string, vectorDir string, ready bo
 			genDir := filepath.Join(dataDir, gen)
 			db := filepath.Join(genDir, SQLiteFilename)
 			vec := filepath.Join(genDir, VectorDirname)
-			if fileExists(filepath.Join(genDir, CompleteMarker)) && fileExists(db) && hasVectorData(vec) {
+			if fileExists(filepath.Join(genDir, CompleteMarker)) && fileExists(db) && hasVectorData(vec) && hasCommittedIndex(db) {
 				return db, vec, true
 			}
 		}
@@ -53,7 +53,12 @@ func hasVectorData(p string) bool {
 }
 
 func hasCommittedIndex(dbPath string) bool {
-	db, err := OpenSQLite(dbPath)
+	abs, err := filepath.Abs(dbPath)
+	if err != nil {
+		return false
+	}
+	u := url.URL{Scheme: "file", Path: abs, RawQuery: "mode=ro"}
+	db, err := sql.Open("sqlite", u.String())
 	if err != nil {
 		return false
 	}
@@ -62,8 +67,13 @@ func hasCommittedIndex(dbPath string) bool {
 	if err := db.QueryRow(`SELECT value FROM index_meta WHERE key='indexed_at'`).Scan(&indexedAt); err != nil {
 		return false
 	}
-	return strings.TrimSpace(indexedAt) != ""
+	var tokenizer string
+	return strings.TrimSpace(indexedAt) != "" &&
+		db.QueryRow(`SELECT value FROM index_meta WHERE key='fts_tokenizer'`).Scan(&tokenizer) == nil &&
+		tokenizer == ftsTokenizerVersion
 }
+
+const ftsTokenizerVersion = "porter-unicode61-nfc-marks"
 
 func OpenSQLite(dbPath string) (*sql.DB, error) {
 	dsn := dbPath
@@ -100,7 +110,7 @@ action_url TEXT NOT NULL, summary TEXT NOT NULL, verified_at TEXT NOT NULL, file
 chunk_count INTEGER NOT NULL, content TEXT NOT NULL, PRIMARY KEY(municipality,id));
 CREATE TABLE IF NOT EXISTS chunks(chunk_id TEXT PRIMARY KEY, doc_id TEXT NOT NULL, municipality TEXT NOT NULL, chunk_index INTEGER NOT NULL, heading TEXT NOT NULL, body TEXT NOT NULL, token_count INTEGER NOT NULL);
 CREATE INDEX IF NOT EXISTS chunks_by_document ON chunks(municipality,doc_id,chunk_index);
-CREATE VIRTUAL TABLE IF NOT EXISTS chunks_fts USING fts5(chunk_id UNINDEXED, doc_id UNINDEXED, municipality UNINDEXED, title, heading, body, entities, tokenize='porter unicode61');
+CREATE VIRTUAL TABLE IF NOT EXISTS chunks_fts USING fts5(chunk_id UNINDEXED, doc_id UNINDEXED, municipality UNINDEXED, title, heading, body, entities, tokenize="porter unicode61 categories 'L* N* Co M*'");
 CREATE TABLE IF NOT EXISTS wards(municipality TEXT NOT NULL, ward_number INTEGER NOT NULL, record_json TEXT NOT NULL, PRIMARY KEY(municipality,ward_number));
 CREATE TABLE IF NOT EXISTS officers(municipality TEXT NOT NULL, sr_no INTEGER NOT NULL, record_json TEXT NOT NULL, PRIMARY KEY(municipality,sr_no));
 CREATE TABLE IF NOT EXISTS index_meta(key TEXT PRIMARY KEY,value TEXT NOT NULL);`)

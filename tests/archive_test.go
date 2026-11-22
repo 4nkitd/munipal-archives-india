@@ -169,13 +169,52 @@ func TestParseAllMunicipalities(t *testing.T) {
 func TestEntityAliasesAndCityDisambiguation(t *testing.T) {
 	ws, err := indexer.LoadMunicipalityWards("../archives/manesar")
 	check(t, err)
-	for q, n := range map[string]int{"Bargujjar": 16, "Baskusla": 7, "Laknola": 15, "Rampur": 18, "Sikohpur": 17, "Ward 36": 36, "Ward 46": 46} {
+	for q, n := range map[string]int{"Bargujjar": 16, "Baskusla": 7, "Laknola": 15, "Rampur": 18, "Sikohpur": 17, "Ward 36": 36, "Ward 46": 46, "Ward 250": 250} {
 		if got := search.DetectEntities(q, ws); !slices.Equal(got.Wards, []int{n}) {
 			t.Errorf("%q: got %v, want ward %d", q, got, n)
 		}
 	}
 	if got := search.DetectEntities("How do I correct my property ID in Manesar?", ws); len(got.Wards) != 0 || len(got.Villages) != 0 {
 		t.Errorf("city incorrectly resolved as a village: %v", got)
+	}
+	local := []model.WardRecord{{WardNumber: 1, Villages: []string{"सहारनपुर"}}}
+	if got := search.DetectEntities("सहारनपुर", local); !slices.Equal(got.Wards, []int{1}) || !slices.Equal(got.Villages, []string{"सहारनपुर"}) {
+		t.Errorf("native-script locality was not resolved: %+v", got)
+	}
+}
+
+func TestLocalScriptKeywordSearch(t *testing.T) {
+	root, data := t.TempDir(), t.TempDir()
+	for _, d := range []struct{ slug, id, title, text string }{
+		{"surat", "gujarati", "Gujarati example", "કરવેરા"},
+		{"delhi", "hindi", "Hindi example", "किराया क़िला"},
+	} {
+		dir := filepath.Join(root, d.slug)
+		check(t, os.Mkdir(dir, 0700))
+		check(t, os.WriteFile(filepath.Join(dir, "municipality.json"), []byte(fmt.Sprintf(`{"slug":%q,"name":%q}`, d.slug, d.slug)), 0600))
+		check(t, os.WriteFile(filepath.Join(dir, d.id+".md"), []byte(fmt.Sprintf("---\nid: %s\nmunicipality: %s\ntitle: %s\ncategory: governance\ndoc_type: notice\n---\n%s\n", d.id, d.slug, d.title, d.text)), 0600))
+	}
+	_, err := indexer.BuildIndex(t.Context(), root, data, mockEmbedder{})
+	check(t, err)
+	e := openEngine(t, data, mockEmbedder{})
+	for _, tc := range []struct{ query, id string }{{"કરવેરા", "gujarati"}, {"કરવાર", ""}, {"किराया", "hindi"}, {"कराया", ""}, {"क़िला", "hindi"}, {"क़िला", "hindi"}} {
+		r, err := e.Search(t.Context(), model.SearchRequest{Municipality: "all", Mode: model.SearchModeKeyword, Query: tc.query})
+		check(t, err)
+		if tc.id == "" && len(r.Hits) != 0 || tc.id != "" && (len(r.Hits) != 1 || r.Hits[0].DocID != tc.id) {
+			t.Errorf("%q: hits=%+v; want %q", tc.query, r.Hits, tc.id)
+		}
+	}
+	dbPath, _, ready := indexer.ResolveDataPaths(data)
+	if !ready {
+		t.Fatal("fresh index was rejected")
+	}
+	db, err := indexer.OpenSQLite(dbPath)
+	check(t, err)
+	_, err = db.Exec(`DELETE FROM index_meta WHERE key='fts_tokenizer'`)
+	check(t, err)
+	check(t, db.Close())
+	if _, _, ready := indexer.ResolveDataPaths(data); ready {
+		t.Error("old index should require a rebuild")
 	}
 }
 

@@ -16,6 +16,7 @@ import (
 
 	"github.com/municipal-archives-india/manesar/internal/model"
 	chromem "github.com/philippgille/chromem-go"
+	"golang.org/x/text/unicode/norm"
 )
 
 const CollectionName = "archive_chunks"
@@ -99,7 +100,7 @@ func BuildIndex(ctx context.Context, archivesDir, dataDir string, embedder model
 		s.Categories = append(s.Categories, model.CategoryCount{Category: cat, Count: n})
 	}
 	sort.Slice(s.Categories, func(i, j int) bool { return s.Categories[i].Category < s.Categories[j].Category })
-	for k, v := range map[string]string{"embedding_model": s.EmbeddingModel, "embedding_dimensions": strconv.Itoa(s.EmbeddingDimensions), "vector_db_engine": s.VectorDBEngine, "fts_engine": s.FTSEngine, "indexed_at": s.IndexedAt} {
+	for k, v := range map[string]string{"embedding_model": s.EmbeddingModel, "embedding_dimensions": strconv.Itoa(s.EmbeddingDimensions), "vector_db_engine": s.VectorDBEngine, "fts_engine": s.FTSEngine, "fts_tokenizer": ftsTokenizerVersion, "indexed_at": s.IndexedAt} {
 		if err = b.exec(`INSERT INTO index_meta VALUES(?,?)`, k, v); err != nil {
 			_ = db.Close()
 			return nil, err
@@ -254,12 +255,13 @@ func (b *builder) document(d *model.ArchiveDocument) error {
 	for _, c := range d.Contacts {
 		entities = append(entities, c.Name, c.Role, c.Phone, c.Email)
 	}
-	et := strings.Join(entities, " ")
+	et := norm.NFC.String(strings.Join(entities, " "))
+	title := norm.NFC.String(d.Title)
 	for _, c := range chunks {
 		if err := b.exec(`INSERT INTO chunks VALUES(?,?,?,?,?,?,?)`, c.ChunkID, d.ID, d.Municipality, c.ChunkIndex, c.Heading, c.Body, c.TokenCount); err != nil {
 			return err
 		}
-		if err := b.exec(`INSERT INTO chunks_fts VALUES(?,?,?,?,?,?,?)`, c.ChunkID, d.ID, d.Municipality, d.Title, c.Heading, c.Body, et); err != nil {
+		if err := b.exec(`INSERT INTO chunks_fts VALUES(?,?,?,?,?,?,?)`, c.ChunkID, d.ID, d.Municipality, title, norm.NFC.String(c.Heading), norm.NFC.String(c.Body), et); err != nil {
 			return err
 		}
 		b.texts = append(b.texts, BuildEmbeddingText(d, c))

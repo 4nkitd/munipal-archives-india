@@ -18,6 +18,7 @@ import (
 	"github.com/yuin/goldmark/ast"
 	"github.com/yuin/goldmark/parser"
 	"github.com/yuin/goldmark/text"
+	"golang.org/x/text/unicode/norm"
 	_ "modernc.org/sqlite"
 )
 
@@ -249,7 +250,7 @@ func terms(q string) []string {
 	stop := " a an are as at and by can do does for from how i in is it me my of on or the to what when where which who with not near "
 	all := []string{}
 	filtered := []string{}
-	for _, s := range words.FindAllString(strings.ToLower(q), 64) {
+	for _, s := range words.FindAllString(norm.NFC.String(strings.ToLower(q)), 64) {
 		all = unique(all, s)
 		if !strings.Contains(stop, " "+s+" ") {
 			filtered = unique(filtered, s)

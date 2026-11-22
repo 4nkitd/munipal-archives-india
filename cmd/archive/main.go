@@ -89,7 +89,7 @@ func run(ctx context.Context, args []string) error {
 		if cmd == "serve" && auto {
 			build = true
 		} else {
-			return fmt.Errorf("no complete archive index found in %s (run `archive index` first)", *dataDir)
+			return fmt.Errorf("no complete, compatible archive index found in %s (run `archive index` first)", *dataDir)
 		}
 	}
 
