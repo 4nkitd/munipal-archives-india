@@ -166,6 +166,43 @@ func TestParseAllMunicipalities(t *testing.T) {
 	}
 }
 
+func TestNorthwestCorporationCoverage(t *testing.T) {
+	raw, err := os.ReadFile("../docs/NORTHWEST_COVERAGE.md")
+	check(t, err)
+	_, roster, ok := strings.Cut(string(raw), "## Roster for reconciliation")
+	if !ok {
+		t.Fatal("northwest roster missing")
+	}
+	profiles, err := indexer.ScanMunicipalities("../archives")
+	check(t, err)
+	slugs := map[string]bool{}
+	for _, p := range profiles {
+		slugs[p.Slug] = true
+	}
+	targets := regexp.MustCompile("`([a-z0-9-]+)`").FindAllStringSubmatch(roster, -1)
+	if len(targets) != 85 {
+		t.Fatalf("got %d targets, want 85", len(targets))
+	}
+	seen := map[string]bool{}
+	for _, target := range targets {
+		if seen[target[1]] || !slugs[target[1]] {
+			t.Errorf("duplicate or missing corporation %q", target[1])
+		}
+		seen[target[1]] = true
+	}
+	for _, slug := range strings.Fields("bahadurgarh bhiwadi dharuhera farrukhnagar jhajjar nuh palwal pataudi-jatoli-mandi rewari sohna") {
+		if seen[slug] || !slugs[slug] {
+			t.Errorf("missing or misclassified neighboring council/committee %q", slug)
+		}
+	}
+	check(t, filepath.WalkDir("../archives", func(path string, entry fs.DirEntry, err error) error {
+		if err == nil && !entry.IsDir() && !strings.EqualFold(filepath.Ext(path), ".md") && !strings.EqualFold(filepath.Ext(path), ".json") {
+			t.Errorf("non-text archive file %s", path)
+		}
+		return err
+	}))
+}
+
 func TestEntityAliasesAndCityDisambiguation(t *testing.T) {
 	ws, err := indexer.LoadMunicipalityWards("../archives/manesar")
 	check(t, err)

@@ -72,13 +72,16 @@ verified_at: "2026-11-22"
   - `urban-planning-imt`
 - `doc_type` (choose the closest fit):
   - `notification` | `order` | `policy` | `directory` | `service-guide` | `tender` | `rfp` | `act-bylaw` | `ward-record` | `property-record` | `rti-disclosure` | `rts-timeline` | `budget` | `map-index` | `public-notice` | `profile` | `report`
-- `id`: Globally unique kebab-case identifier prefixed with `mcm-`.
-- `date`: ISO `YYYY-MM-DD` (use best verified official date, or `"2025-01-01"` / `"2026-01-01"` if only year is known and state exact date context in body).
-- `wards`: Array of integers `1..20` (empty `[]` if municipality-wide or not ward-specific; include all relevant wards if a document lists them).
+- `id`: Globally unique kebab-case identifier. Use the municipality slug as a prefix for new municipalities. Keep existing IDs stable.
+- `date`: Official publication date at its actual precision: `YYYY-MM-DD`, `YYYY-MM`, or `YYYY`. Leave it empty if the publication date is unknown. Do not substitute the date checked or assume January 1.
+- `verified_at`: Date the official source was checked. A verification date does not make a historical ward list or officer appointment current.
+- `wards`: Positive ward numbers from the cited municipal source and its edition. Use `[]` when the record is municipality-wide or does not identify wards. Do not assume statewide numbering or infer ward boundaries from ward office addresses.
 - `sectors`: Array of normalized sector names (e.g. `"Sector 83"`, `"IMT Sector 8"`). Empty `[]` if none.
 - `villages`: Array of normalized village names (e.g. `"Bhangrola"`, `"Kasan"`, `"Manesar"`). Empty `[]` if none.
 - `contacts`: Optional array of `{ name, role, phone?, email? }` objects when the record names responsible officials, PIOs, helplines, or tender authorities.
 - `action_url`: Optional official online portal URL where a citizen completes the service or views the source.
+
+Individual `wards.json` rows may include `source_url` and `verified_at`. Link the official ward source, including a page fragment if known. Do not infer a boundary from an office list, an election result, or a GIS label alone.
 
 ### Markdown Body Standards
 

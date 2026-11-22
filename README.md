@@ -1,8 +1,8 @@
 # Nagar Archive
 
-Nagar Archive is a search-first, plain-text civic archive built 100% in Go. It covers Municipal Corporation Manesar, Municipal Corporation Gurugram, Municipal Corporation Faridabad, all 11 Haryana Municipal Corporations, and 10 direct neighboring municipal councils and committees around Manesar.
+Nagar Archive is a search-first, plain-text civic archive built in Go. The original collection covers Haryana's 11 municipal corporations and 10 neighboring councils and committees. See the [northwest coverage plan](docs/NORTHWEST_COVERAGE.md) for the regional expansion boundary and evidence criteria.
 
-The archive contains 21 municipalities, 261 parsed Markdown records, 481 wards, 374 officers, and zero stored PDFs. Records preserve source URLs, dates, municipal jurisdictions, and citations. They are archival references, not a substitute for current official notices.
+The [municipal archive directories](archives/) hold the source corpus; `/api/stats` reports what the running index contains. Records preserve source URLs, dates, jurisdictions, and citations. They are archival references, not a substitute for current official notices.
 
 No Node.js, Python, Docker, or external API keys are required. Embeddings run locally. The first indexing run downloads the public embedding model; later runs reuse the model cache.
 
@@ -48,6 +48,8 @@ go build -o ./bin/archive ./cmd/archive
 
 Open <http://localhost:8080>. The server embeds its HTML templates and static assets. It reads the index from `data/` and caches the model under `.cache/hugot-models/`. `serve` automatically indexes the archive if no complete index exists.
 
+Rebuild an older index with `./bin/archive index` to pick up the northwest collections and the updated Hindi and Gujarati keyword tokenizer. Keyword search uses the archived spelling. The local embedding model is English-oriented.
+
 Query from another terminal:
 
 ```sh
@@ -65,7 +67,7 @@ All commands accept `-data` and `-models`. `index` and `serve` accept `-archives
 ./bin/archive serve -addr 127.0.0.1:8080 -auto-index=false
 ```
 
-## Indexed municipalities
+## Original Haryana and NCR collection
 
 Jurisdiction identifies the local body and its district, not the entire district.
 
@@ -150,4 +152,4 @@ Restart a running server to load the newly published generation. No municipality
 
 Store parsed text, not source PDFs. Link the original document through `source_url` and identify scanned sources or missing information rather than inventing facts.
 
-The [design specification](docs/DESIGN_SPEC.md) describes the search, document reader, ward lookup, and archive index views. The implementation uses `chromem-go`, not the older LanceDB references in that specification.
+The [interface redesign](docs/UI_REDESIGN_SPEC.md) describes the search, document reader, ward lookup, and archive index views. The [original design](docs/DESIGN_SPEC.md) is retained for reference.
