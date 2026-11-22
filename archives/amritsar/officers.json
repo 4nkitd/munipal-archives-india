@@ -1,0 +1,20 @@
+[
+  {
+    "municipality": "amritsar",
+    "sr_no": 1,
+    "name": "Bikramjit Singh Shergill",
+    "designation": "Commissioner",
+    "branch": "Municipal Corporation Amritsar",
+    "phone": "0183-2505450",
+    "wards": []
+  },
+  {
+    "municipality": "amritsar",
+    "sr_no": 2,
+    "name": "Jai Inder Singh",
+    "designation": "Additional Commissioner",
+    "branch": "Municipal Corporation Amritsar",
+    "phone": "0183-2822226",
+    "wards": []
+  }
+]

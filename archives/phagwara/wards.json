@@ -1,0 +1,402 @@
+[
+  {
+    "municipality": "phagwara",
+    "ward_number": 1,
+    "name": "Ward 1",
+    "councillor": {
+      "name": "Sita Devi"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 2,
+    "name": "Ward 2",
+    "councillor": {
+      "name": "Padam Dev Sudhir"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 3,
+    "name": "Ward 3",
+    "councillor": {
+      "name": "Mamta Khosla"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 4,
+    "name": "Ward 4",
+    "councillor": {
+      "name": "Jatinder Vermani"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 5,
+    "name": "Ward 5",
+    "councillor": {
+      "name": "Deep Mala"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 6,
+    "name": "Ward 6",
+    "councillor": {
+      "name": "Bira Ram"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 7,
+    "name": "Ward 7",
+    "councillor": {
+      "name": "Pinky Bhatia"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 8,
+    "name": "Ward 8",
+    "councillor": {
+      "name": "Sanjeev Kumar"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 9,
+    "name": "Ward 9",
+    "councillor": {
+      "name": "Kamaljit Kaur"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 10,
+    "name": "Ward 10",
+    "councillor": {
+      "name": "Harpreet Singh Bhogal"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 11,
+    "name": "Ward 11",
+    "councillor": {
+      "name": "Daljit Kaur"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 12,
+    "name": "Ward 12",
+    "councillor": {
+      "name": "Davinder"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 13,
+    "name": "Ward 13",
+    "councillor": {
+      "name": "Rupali Sapra"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 14,
+    "name": "Ward 14",
+    "councillor": {
+      "name": "Tej Pal Basra"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 15,
+    "name": "Ward 15",
+    "councillor": {
+      "name": "Paramjit Kaur Walia"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 16,
+    "name": "Ward 16",
+    "councillor": {
+      "name": "Vipan Krishan Sood"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 17,
+    "name": "Ward 17",
+    "councillor": {
+      "name": "Neeraj"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 18,
+    "name": "Ward 18",
+    "councillor": {
+      "name": "Ram Pal Uppal"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 19,
+    "name": "Ward 19",
+    "councillor": {
+      "name": "Saira"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 20,
+    "name": "Ward 20",
+    "councillor": {
+      "name": "Munish Parbhakar"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 21,
+    "name": "Ward 21",
+    "councillor": {
+      "name": "Parwinder Kaur"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 22,
+    "name": "Ward 22",
+    "councillor": {
+      "name": "Anurag Kumar"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 23,
+    "name": "Ward 23",
+    "councillor": {
+      "name": "Sunita Handa"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 24,
+    "name": "Ward 24",
+    "councillor": {
+      "name": "Darshan Ram Kataria"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 25,
+    "name": "Ward 25",
+    "councillor": {
+      "name": "Amandeep"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 26,
+    "name": "Ward 26",
+    "councillor": {
+      "name": "Inderjit"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 27,
+    "name": "Ward 27",
+    "councillor": {
+      "name": "Praveen Thakur"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 28,
+    "name": "Ward 28",
+    "councillor": {
+      "name": "Gurpreet Kaur"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 29,
+    "name": "Ward 29",
+    "councillor": {
+      "name": "Anita Rani"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 30,
+    "name": "Ward 30",
+    "councillor": {
+      "name": "Ravi Kumar"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 31,
+    "name": "Ward 31",
+    "councillor": {
+      "name": "Anita Kumari"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 32,
+    "name": "Ward 32",
+    "councillor": {
+      "name": "Sushil Kumar Maini"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 33,
+    "name": "Ward 33",
+    "councillor": {
+      "name": "Veena Rani"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 34,
+    "name": "Ward 34",
+    "councillor": {
+      "name": "Churanji Lal"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 35,
+    "name": "Ward 35",
+    "councillor": {
+      "name": "Sonia Joshi"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 36,
+    "name": "Ward 36",
+    "councillor": {
+      "name": "Taranjit Singh Walia"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 37,
+    "name": "Ward 37",
+    "councillor": {
+      "name": "Jaswinder Kaur"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 38,
+    "name": "Ward 38",
+    "councillor": {
+      "name": "Ravinder Singh"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 39,
+    "name": "Ward 39",
+    "councillor": {
+      "name": "Reena Rani"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 40,
+    "name": "Ward 40",
+    "councillor": {
+      "name": "Pritpal Singh Ghator"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 41,
+    "name": "Ward 41",
+    "councillor": {
+      "name": "Pritpal Kaur"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 42,
+    "name": "Ward 42",
+    "councillor": {
+      "name": "Jasdev Singh"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 43,
+    "name": "Ward 43",
+    "councillor": {
+      "name": "Reeta Rani Mainka"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 44,
+    "name": "Ward 44",
+    "councillor": {
+      "name": "Balwant Rai"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 45,
+    "name": "Ward 45",
+    "councillor": {
+      "name": "Anita"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 46,
+    "name": "Ward 46",
+    "councillor": {
+      "name": "Sourav Joshi"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 47,
+    "name": "Ward 47",
+    "councillor": {
+      "name": "Monika Chadha"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 48,
+    "name": "Ward 48",
+    "councillor": {
+      "name": "Paramjit Singh Khurana"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 49,
+    "name": "Ward 49",
+    "councillor": {
+      "name": "Neha Ohri"
+    }
+  },
+  {
+    "municipality": "phagwara",
+    "ward_number": 50,
+    "name": "Ward 50",
+    "councillor": {
+      "name": "Bikram Singh"
+    }
+  }
+]

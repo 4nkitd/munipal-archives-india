@@ -1,0 +1,937 @@
+[
+  {
+    "municipality": "amritsar",
+    "ward_number": 1,
+    "name": "Ward 1",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Kuljit Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 2,
+    "name": "Ward 2",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Amarjit Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 3,
+    "name": "Ward 3",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Navdeep Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 4,
+    "name": "Ward 4",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Mandeep Singh Ahuja",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 5,
+    "name": "Ward 5",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Kriti Arora",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 6,
+    "name": "Ward 6",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Amandeep Aery",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 7,
+    "name": "Ward 7",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Kajal",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 8,
+    "name": "Ward 8",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Balwinder Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 9,
+    "name": "Ward 9",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Shobit Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 10,
+    "name": "Ward 10",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Shruti Vij",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 11,
+    "name": "Ward 11",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Priyanka Sharma",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 12,
+    "name": "Ward 12",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Narinder Singh Tung",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 13,
+    "name": "Ward 13",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Gurwinder Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 14,
+    "name": "Ward 14",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Rajkanwal Preetpal Singh Sandhu",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 15,
+    "name": "Ward 15",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Rama",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 16,
+    "name": "Ward 16",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Sandeep Sharma",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 17,
+    "name": "Ward 17",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Anita Kumari",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 18,
+    "name": "Ward 18",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Navdeep Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 19,
+    "name": "Ward 19",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Navjeet Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 20,
+    "name": "Ward 20",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Gurinder Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 21,
+    "name": "Ward 21",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Kulwinder Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 22,
+    "name": "Ward 22",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Sujinder Bidlan",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 23,
+    "name": "Ward 23",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Kulwinder Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 24,
+    "name": "Ward 24",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Satnam Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 25,
+    "name": "Ward 25",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Monika Sharma",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 26,
+    "name": "Ward 26",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Jatinder Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 27,
+    "name": "Ward 27",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Preet Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 28,
+    "name": "Ward 28",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Saurabh Madaan Mithu",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 29,
+    "name": "Ward 29",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Shweta",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 30,
+    "name": "Ward 30",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Avtar Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 31,
+    "name": "Ward 31",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Sukhbir Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 32,
+    "name": "Ward 32",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Jagmeet Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 33,
+    "name": "Ward 33",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Ashnoor Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 34,
+    "name": "Ward 34",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Amritpal Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 35,
+    "name": "Ward 35",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Amarji Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 36,
+    "name": "Ward 36",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Ashok Kumar",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 37,
+    "name": "Ward 37",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Gurjit Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 38,
+    "name": "Ward 38",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Bhagwant Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 39,
+    "name": "Ward 39",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Manpreet Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 40,
+    "name": "Ward 40",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Gurwinder Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 41,
+    "name": "Ward 41",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Sukhwinder Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 42,
+    "name": "Ward 42",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Gagandeep Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 43,
+    "name": "Ward 43",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Inderjit Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 44,
+    "name": "Ward 44",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Jaswinder Singh Gill",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council1.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 45,
+    "name": "Ward 45",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Sukhbir Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 46,
+    "name": "Ward 46",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Navpreet Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 47,
+    "name": "Ward 47",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Kiranjit Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 48,
+    "name": "Ward 48",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Ashwani Kumar",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 49,
+    "name": "Ward 49",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Ritu Kundra",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 50,
+    "name": "Ward 50",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Ritu",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 51,
+    "name": "Ward 51",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Sarita",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 52,
+    "name": "Ward 52",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Vikas Soni",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 53,
+    "name": "Ward 53",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Komal Shah",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 54,
+    "name": "Ward 54",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Amit Kumar",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 55,
+    "name": "Ward 55",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Kulbir Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 56,
+    "name": "Ward 56",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Varinder Vicky Datta",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 57,
+    "name": "Ward 57",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Manju Mehra Pappal",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 58,
+    "name": "Ward 58",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Jarnail Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 59,
+    "name": "Ward 59",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Gurmeet Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 60,
+    "name": "Ward 60",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Gaurav Gill",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 61,
+    "name": "Ward 61",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Rajni",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 62,
+    "name": "Ward 62",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Sameer Dutta",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 63,
+    "name": "Ward 63",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Usha Rani",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 64,
+    "name": "Ward 64",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Neetu Tangri",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 65,
+    "name": "Ward 65",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Neeraj Chaudhary",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 66,
+    "name": "Ward 66",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Virat Devgan",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council2.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 67,
+    "name": "Ward 67",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Anita",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 68,
+    "name": "Ward 68",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Vikas Gill",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 69,
+    "name": "Ward 69",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Gurpreet Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 70,
+    "name": "Ward 70",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Vijay Kumar",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 71,
+    "name": "Ward 71",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Surjit Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 72,
+    "name": "Ward 72",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Avtar Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 73,
+    "name": "Ward 73",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Kuldeep Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 74,
+    "name": "Ward 74",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Paramjit Kaur Dhillon",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 75,
+    "name": "Ward 75",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Kashmir Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 76,
+    "name": "Ward 76",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Sukhbir Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 77,
+    "name": "Ward 77",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Sunita",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 78,
+    "name": "Ward 78",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Anita Sharma",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 79,
+    "name": "Ward 79",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Shivali",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 80,
+    "name": "Ward 80",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Raman Kumar",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 81,
+    "name": "Ward 81",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Nisha Dhillon",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 82,
+    "name": "Ward 82",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Sandeep Singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 83,
+    "name": "Ward 83",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Nagwant Kaur",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 84,
+    "name": "Ward 84",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Rashpal singh",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  },
+  {
+    "municipality": "amritsar",
+    "ward_number": 85,
+    "name": "Ward 85",
+    "villages": [],
+    "sectors": [],
+    "councillor": {
+      "name": "Nitasha Gill",
+      "notes": "Listed in the undated corporation directory: https://amritsarcorp.com/council3.htm"
+    }
+  }
+]

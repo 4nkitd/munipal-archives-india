@@ -1,0 +1,402 @@
+[
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 1,
+    "name": "Ward 1",
+    "councillor": {
+      "name": "Rajni Bala"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 2,
+    "name": "Ward 2",
+    "councillor": {
+      "name": "Ramesh Kumar"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 3,
+    "name": "Ward 3",
+    "councillor": {
+      "name": "Rajni Kaur"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 4,
+    "name": "Ward 4",
+    "councillor": {
+      "name": "Jatinder Singh"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 5,
+    "name": "Ward 5",
+    "councillor": {
+      "name": "Parveen Lata Saini"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 6,
+    "name": "Ward 6",
+    "councillor": {
+      "name": "Ashok Kumar"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 7,
+    "name": "Ward 7",
+    "councillor": {
+      "name": "Narinder Kaur"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 8,
+    "name": "Ward 8",
+    "councillor": {
+      "name": "Mukhi Ram"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 9,
+    "name": "Ward 9",
+    "councillor": {
+      "name": "Gurbaksh Kaur"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 10,
+    "name": "Ward 10",
+    "councillor": {
+      "name": "Jaspal"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 11,
+    "name": "Ward 11",
+    "councillor": {
+      "name": "Rimpi rani"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 12,
+    "name": "Ward 12",
+    "councillor": {
+      "name": "Sandeep Chechi"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 13,
+    "name": "Ward 13",
+    "councillor": {
+      "name": "Jatinder Kaur"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 14,
+    "name": "Ward 14",
+    "councillor": {
+      "name": "Balwinder Kumar"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 15,
+    "name": "Ward 15",
+    "councillor": {
+      "name": "Chandervati Devi"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 16,
+    "name": "Ward 16",
+    "councillor": {
+      "name": "Kamaljit Singh"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 17,
+    "name": "Ward 17",
+    "councillor": {
+      "name": "Amanpreet Kaur"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 18,
+    "name": "Ward 18",
+    "councillor": {
+      "name": "Surinder Kumar"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 19,
+    "name": "Ward 19",
+    "councillor": {
+      "name": "Manmeet Kaur"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 20,
+    "name": "Ward 20",
+    "councillor": {
+      "name": "Jaswant Rai"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 21,
+    "name": "Ward 21",
+    "councillor": {
+      "name": "Raj Rani"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 22,
+    "name": "Ward 22",
+    "councillor": {
+      "name": "Harinder Singh"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 23,
+    "name": "Ward 23",
+    "councillor": {
+      "name": "Baljit Kaur"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 24,
+    "name": "Ward 24",
+    "councillor": {
+      "name": "Balwinder Kaur"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 25,
+    "name": "Ward 25",
+    "councillor": {
+      "name": "Baljit Kaur"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 26,
+    "name": "Ward 26",
+    "councillor": {
+      "name": "Ajay Kumar"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 27,
+    "name": "Ward 27",
+    "councillor": {
+      "name": "Manjot Kaur"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 28,
+    "name": "Ward 28",
+    "councillor": {
+      "name": "Kulwinder Singh"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 29,
+    "name": "Ward 29",
+    "councillor": {
+      "name": "Neeraj Rani"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 30,
+    "name": "Ward 30",
+    "councillor": {
+      "name": "Balwinder Kumar"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 31,
+    "name": "Ward 31",
+    "councillor": {
+      "name": "Navjot Katoch"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 32,
+    "name": "Ward 32",
+    "councillor": {
+      "name": "Alka"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 33,
+    "name": "Ward 33",
+    "councillor": {
+      "name": "Ranjit Chaudhry"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 34,
+    "name": "Ward 34",
+    "councillor": {
+      "name": "Rajeshwar Dyal Babbi"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 35,
+    "name": "Ward 35",
+    "councillor": {
+      "name": "Harpreet Kaur"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 36,
+    "name": "Ward 36",
+    "councillor": {
+      "name": "Meena Kumari"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 37,
+    "name": "Ward 37",
+    "councillor": {
+      "name": "Paramjit Kaur"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 38,
+    "name": "Ward 38",
+    "councillor": {
+      "name": "Dripon Saini"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 39,
+    "name": "Ward 39",
+    "councillor": {
+      "name": "Anjana Barmi"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 40,
+    "name": "Ward 40",
+    "councillor": {
+      "name": "Jagvinder Singh"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 41,
+    "name": "Ward 41",
+    "councillor": {
+      "name": "Geetika Arora"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 42,
+    "name": "Ward 42",
+    "councillor": {
+      "name": "Jaswinder Kaur"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 43,
+    "name": "Ward 43",
+    "councillor": {
+      "name": "Neelam Rani"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 44,
+    "name": "Ward 44",
+    "councillor": {
+      "name": "Pardeep Kumar"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 45,
+    "name": "Ward 45",
+    "councillor": {
+      "name": "Tanisha Sharma"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 46,
+    "name": "Ward 46",
+    "councillor": {
+      "name": "Ajay Kumar Verma"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 47,
+    "name": "Ward 47",
+    "councillor": {
+      "name": "Kamlesh Rani"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 48,
+    "name": "Ward 48",
+    "councillor": {
+      "name": "Tirath Ram"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 49,
+    "name": "Ward 49",
+    "councillor": {
+      "name": "Kamaljit"
+    }
+  },
+  {
+    "municipality": "hoshiarpur",
+    "ward_number": 50,
+    "name": "Ward 50",
+    "councillor": {
+      "name": "Sukhwinder Kaur"
+    }
+  }
+]

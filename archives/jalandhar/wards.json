@@ -1,0 +1,683 @@
+[
+  {
+    "municipality": "jalandhar",
+    "ward_number": 1,
+    "name": "Ward 1",
+    "councillor": {
+      "name": "Smt. Ashu Sharma"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 2,
+    "name": "Ward 2",
+    "councillor": {
+      "name": "Sh. Harpreet Kumar Walia"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 3,
+    "name": "Ward 3",
+    "councillor": {
+      "name": "Smt. Baljinder Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 4,
+    "name": "Ward 4",
+    "councillor": {
+      "name": "Sh. Jagir Singh"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 5,
+    "name": "Ward 5",
+    "councillor": {
+      "name": "Smt. Navdeep Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 6,
+    "name": "Ward 6",
+    "councillor": {
+      "name": "Sh. Gurnam Singh Multani"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 7,
+    "name": "Ward 7",
+    "councillor": {
+      "name": "Smt. Nirmal Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 8,
+    "name": "Ward 8",
+    "councillor": {
+      "name": "Sh. Amardeep Sandal Keenu"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 9,
+    "name": "Ward 9",
+    "councillor": {
+      "name": "Smt. Vandana"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 10,
+    "name": "Ward 10",
+    "councillor": {
+      "name": "Sh. Balbir Singh Dhillon"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 11,
+    "name": "Ward 11",
+    "councillor": {
+      "name": "Smt. Karmjeet Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 12,
+    "name": "Ward 12",
+    "councillor": {
+      "name": "Sh. Shivam Sharma"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 13,
+    "name": "Ward 13",
+    "councillor": {
+      "name": "Smt. Sunita Rani"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 14,
+    "name": "Ward 14",
+    "councillor": {
+      "name": "Sh. Gurminder Singh"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 15,
+    "name": "Ward 15",
+    "councillor": {
+      "name": "Smt. Manjit Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 16,
+    "name": "Ward 16",
+    "councillor": {
+      "name": "Sh. Rajinder Kumar Juneja"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 17,
+    "name": "Ward 17",
+    "councillor": {
+      "name": "Smt. Satya Devi"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 18,
+    "name": "Ward 18",
+    "councillor": {
+      "name": "Sh. Kanwar Sartaj Singh"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 19,
+    "name": "Ward 19",
+    "councillor": {
+      "name": "Smt. Manjit Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 20,
+    "name": "Ward 20",
+    "councillor": {
+      "name": "Sh. Manmohan Singh Raju"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 21,
+    "name": "Ward 21",
+    "councillor": {
+      "name": "Smt. Pinderjit Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 22,
+    "name": "Ward 22",
+    "councillor": {
+      "name": "Sh. Robin"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 23,
+    "name": "Ward 23",
+    "councillor": {
+      "name": "Smt. Paramjit Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 24,
+    "name": "Ward 24",
+    "councillor": {
+      "name": "Sh. Amit Dhall"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 25,
+    "name": "Ward 25",
+    "councillor": {
+      "name": "Smt. Uma Beri"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 26,
+    "name": "Ward 26",
+    "councillor": {
+      "name": "Sh. Vikas Kumar"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 27,
+    "name": "Ward 27",
+    "councillor": {
+      "name": "Smt. Prabhjot Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 28,
+    "name": "Ward 28",
+    "councillor": {
+      "name": "Sh. Paramjot Singh Chadha"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 29,
+    "name": "Ward 29",
+    "councillor": {
+      "name": "Smt. Meenu"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 30,
+    "name": "Ward 30",
+    "councillor": {
+      "name": "Dr. Jasleen Sethi"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 31,
+    "name": "Ward 31",
+    "councillor": {
+      "name": "Smt. Anup Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 32,
+    "name": "Ward 32",
+    "councillor": {
+      "name": "Balraj Thakur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 33,
+    "name": "Ward 33",
+    "councillor": {
+      "name": "Smt. Aruna Arora"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 34,
+    "name": "Ward 34",
+    "councillor": {
+      "name": "Sh. Davinder Sood"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 35,
+    "name": "Ward 35",
+    "councillor": {
+      "name": "Smt. Harsharan Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 36,
+    "name": "Ward 36",
+    "councillor": {
+      "name": "Sh. Pawan Kumar"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 37,
+    "name": "Ward 37",
+    "councillor": {
+      "name": "Smt. Sarabjit Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 38,
+    "name": "Ward 38",
+    "councillor": {
+      "name": "Sh. Malkeet Singh"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 39,
+    "name": "Ward 39",
+    "councillor": {
+      "name": "Smt. Manjeet Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 40,
+    "name": "Ward 40",
+    "councillor": {
+      "name": "Sh. Ajay Kumar Babbal"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 41,
+    "name": "Ward 41",
+    "councillor": {
+      "name": "Smt. Shabnam"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 42,
+    "name": "Ward 42",
+    "councillor": {
+      "name": "Sh. Rommy"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 43,
+    "name": "Ward 43",
+    "councillor": {
+      "name": "Smt. Sunita"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 44,
+    "name": "Ward 44",
+    "councillor": {
+      "name": "Sh. Raj Kumar"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 45,
+    "name": "Ward 45",
+    "councillor": {
+      "name": "Smt. Rupa Bhagat"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 46,
+    "name": "Ward 46",
+    "councillor": {
+      "name": "Sh. Tarsem Singh Lakhotra"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 47,
+    "name": "Ward 47",
+    "councillor": {
+      "name": "Smt. Manmeet Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 48,
+    "name": "Ward 48",
+    "councillor": {
+      "name": "Sh. Harjinder Singh Lada"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 49,
+    "name": "Ward 49",
+    "councillor": {
+      "name": "Smt. Neha"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 50,
+    "name": "Ward 50",
+    "councillor": {
+      "name": "Sh. Manit Singh"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 51,
+    "name": "Ward 51",
+    "councillor": {
+      "name": "Smt. Rani Devi"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 52,
+    "name": "Ward 52",
+    "councillor": {
+      "name": "Sh. Nirmal Kumar"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 53,
+    "name": "Ward 53",
+    "councillor": {
+      "name": "Smt. Jyoti"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 54,
+    "name": "Ward 54",
+    "councillor": {
+      "name": "Smt. Shobha"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 55,
+    "name": "Ward 55",
+    "councillor": {
+      "name": "Sh. Tarvinder Kumar Soi"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 56,
+    "name": "Ward 56",
+    "councillor": {
+      "name": "Sh. Mukesh Kumar Sethi"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 57,
+    "name": "Ward 57",
+    "councillor": {
+      "name": "Smt. Kavita"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 58,
+    "name": "Ward 58",
+    "councillor": {
+      "name": "Sh. Munish"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 59,
+    "name": "Ward 59",
+    "councillor": {
+      "name": "Smt. Chanderjit Kaur Sandha"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 60,
+    "name": "Ward 60",
+    "councillor": {
+      "name": "Sh. Gurjit Singh"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 61,
+    "name": "Ward 61",
+    "councillor": {
+      "name": "Smt. Madhu Sharma"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 62,
+    "name": "Ward 62",
+    "councillor": {
+      "name": "Sh. Vaneet Dhir"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 63,
+    "name": "Ward 63",
+    "councillor": {
+      "name": "Smt. Sulekha"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 64,
+    "name": "Ward 64",
+    "councillor": {
+      "name": "Sh. Rajeev Kumar Dhingra"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 65,
+    "name": "Ward 65",
+    "councillor": {
+      "name": "Smt. Parveen Wason"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 66,
+    "name": "Ward 66",
+    "councillor": {
+      "name": "Gurvinder Pal Singh Bunty Neelkanth",
+      "notes": "The MCJ directory shortens the name to Gurvinder Pal Singh Bunty."
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 67,
+    "name": "Ward 67",
+    "councillor": {
+      "name": "Smt. Kawaljit Kaur Gullu"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 68,
+    "name": "Ward 68",
+    "councillor": {
+      "name": "Sh. Avinash Kumar"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 69,
+    "name": "Ward 69",
+    "councillor": {
+      "name": "Smt. Harsimran Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 70,
+    "name": "Ward 70",
+    "councillor": {
+      "name": "Sh. Jatin Gulati"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 71,
+    "name": "Ward 71",
+    "councillor": {
+      "name": "Smt. Rajni Bahri"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 72,
+    "name": "Ward 72",
+    "councillor": {
+      "name": "Sh. Hitesh Grewal"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 73,
+    "name": "Ward 73",
+    "councillor": {
+      "name": "Smt. Ramandeep Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 74,
+    "name": "Ward 74",
+    "councillor": {
+      "name": "Sh. Ravi Kumar"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 75,
+    "name": "Ward 75",
+    "councillor": {
+      "name": "Smt. Reena Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 76,
+    "name": "Ward 76",
+    "councillor": {
+      "name": "Sh. Rajesh Thakur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 77,
+    "name": "Ward 77",
+    "councillor": {
+      "name": "Smt. Rimpi Prabhakar"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 78,
+    "name": "Ward 78",
+    "councillor": {
+      "name": "Sh. Deepak Sharda"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 79,
+    "name": "Ward 79",
+    "councillor": {
+      "name": "Smt. Maninder Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 80,
+    "name": "Ward 80",
+    "councillor": {
+      "name": "Sh. Ashwani Kumar Aggarwal"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 81,
+    "name": "Ward 81",
+    "councillor": {
+      "name": "Smt. Seema Rani"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 82,
+    "name": "Ward 82",
+    "councillor": {
+      "name": "Sh. Gurdip Singh"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 83,
+    "name": "Ward 83",
+    "councillor": {
+      "name": "Smt. Jaspal Kaur"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 84,
+    "name": "Ward 84",
+    "councillor": {
+      "name": "Sh. Neeraj Jassal"
+    }
+  },
+  {
+    "municipality": "jalandhar",
+    "ward_number": 85,
+    "name": "Ward 85",
+    "councillor": {
+      "name": "Smt. Davinder Pal Kaur"
+    }
+  }
+]
