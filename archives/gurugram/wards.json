@@ -1,0 +1,186 @@
+[
+  {
+    "ward_number": 1, "name": "Ward 1", "zone": "Zone 3", "division": "Division 8",
+    "villages": ["Nathupur", "Sikanderpur Ghosi"], "sectors": [],
+    "colonies": ["DLF Phase 3", "National Media Centre", "Ambience Island", "Garden Estate", "DLF Corporate Park", "Aravali Hills Sikanderpur Ghosi", "Global Business Park", "Dhanchiri Camp"],
+    "boundary_summary": "From NH-48 at the Delhi border, the line follows the state border past Nathupur and the Sikanderpur Ghosi estate to the Aravali hills. It passes Block G of DLF Phase 1 and Silver Oak Apartments, reaches Gurugram-Faridabad Road via Kusum Marg and returns via Golf Course Road, Shankar Chowk and NH-48."
+  },
+  {
+    "ward_number": 2, "name": "Ward 2", "zone": "Zone 3", "division": "Division 1",
+    "villages": ["Sarhaul", "Dundahera"], "sectors": [],
+    "colonies": ["DLF Cyber Hub", "DLF City Phase 2", "Mall Road", "Beverly Park 1", "Maruti Udyog", "Udyog Vihar Phases 1 to 5", "Surya Vihar"],
+    "boundary_summary": "From the Delhi border the line follows NH-48 to Shankar Chowk, then Raghavendra Marg to Gurugram-Faridabad Road. It passes the Bristol Hotel, MG Road Metro and Beverly Park, crosses NH-48 and follows the Sector 17/18 road, Old Delhi Road and Dundahera village perimeter back towards the state border."
+  },
+  {
+    "ward_number": 3, "name": "Ward 3", "zone": "Zone 3", "division": "Division 1",
+    "villages": ["Carterpuri", "Mollahera"], "sectors": ["Sector 21", "Sector 22 Pocket A", "Sector 22 Pocket B"],
+    "colonies": ["Noble Enclave", "Gurgaon One Apartment", "Palam Vihar Extension", "Chippy Colony"],
+    "boundary_summary": "The line runs from Shakti Mandir More to the Carterpuri estate at the state border, around Dundahera to Hanuman Mandir Chowk and down Old Delhi Road to Maruti Gate 2. On the return side it passes Krishna Chowk and follows the northern edge of Palam Vihar Extension."
+  },
+  {
+    "ward_number": 4, "name": "Ward 4", "zone": "Zone 3", "division": "Division 1",
+    "villages": ["Choma Khera"], "sectors": ["Sector 23", "Sector 23A", "Palam Vihar Sector 1", "Palam Vihar Sector 2", "Palam Vihar Sector 3"], "colonies": ["Palam Vihar"],
+    "boundary_summary": "The Delhi-Gurugram railway meets the state border at the starting point. The line follows the Choma and Carterpuri estates along the border, passes Krishna Chowk, then follows Rejangla Road and the Gurgaon village estate line back to the railway."
+  },
+  {
+    "ward_number": 5, "name": "Ward 5", "zone": "Zone 2", "division": "Division 1",
+    "villages": ["Sarai Alawardi", "Bajghera"], "sectors": ["Sector 109", "Sector 110", "Sector 110A", "Sector 111", "Sector 112", "Sector 113", "Sector 114", "Sector 115"],
+    "colonies": ["New Palam Vihar Phases 1 to 3", "Nihal Colony"],
+    "boundary_summary": "From the state border the line follows the railway south, then the Sarai Alawardi and Pawala Khusrupur estate boundaries to Dwarka Expressway. The Sector 109/112 road leads to the Delhi border, which closes the ward along Bajghera and Choma."
+  },
+  {
+    "ward_number": 6, "name": "Ward 6", "zone": "Zone 2", "division": "Division 2",
+    "villages": ["Daultabad", "Pawala Khusrupur", "Kherki Majra", "Mohammadheri", "Dhankot", "Babupur", "Dharampur"], "sectors": ["Sector 102", "Sector 102A", "Sector 103", "Sector 106", "Sector 107", "Sector 108", "Sector 109"], "colonies": [],
+    "boundary_summary": "At the Delhi border the Sector 109/112 road runs southeast to Dwarka Expressway. The outer boundary follows the estates of Dhankot, Kherki Majra, Daultabad and Dharampur, then the Babupur estate and the state border."
+  },
+  {
+    "ward_number": 7, "name": "Ward 7", "zone": "Zone 2", "division": "Division 3",
+    "villages": ["Dhanwapur", "Basai", "Gadauli Khurd", "Gadauli Kalan"], "sectors": ["Sector 9B", "Sector 37B", "Sector 37D", "Sector 100", "Sector 101", "Sector 104"], "colonies": ["Surat Nagar Phase 2", "Ram Vihar"],
+    "boundary_summary": "From the southern edge of Surat Nagar Phase 1 the line follows the railway to Dron Kunj Apartments and the Sector 9/9B road to Gurugram-Farrukhnagar Road. On the return side it follows Dwarka Expressway, the northern edge of Dhanwapur and Dhanwapur-Bajghera Road."
+  },
+  {
+    "ward_number": 8, "name": "Ward 8", "zone": "Zone 2", "division": "Division 3",
+    "villages": [], "sectors": ["Sector 9", "Sector 9A"], "colonies": ["Bhawani Enclave", "Ambedkar Nagar", "Devilal Colony", "Ravi Nagar", "Vishwakarma Colony"],
+    "boundary_summary": "From Basai Chowk the line follows Shaheed Sukhbir Yadav Marg to the Gurugram-Rewari railway and runs along Sector 9A. Near Enkay Factory it turns onto Basai Road and returns past the Sector 10 government hospital and Alpine Convent School."
+  },
+  {
+    "ward_number": 9, "name": "Ward 9", "zone": "Zone 1", "division": "Division 3",
+    "villages": ["Khandsa"], "sectors": ["Sector 10", "Sector 37C"], "colonies": ["Krishna Nagar", "Vikas Nagar", "Basai Enclave 1", "Basai Enclave 2", "Kadipur Enclave", "Kadipur Industrial Area", "Saraswati Enclave", "Pace City 2", "Udyog Vihar Phase 6"],
+    "boundary_summary": "From Enkay Factory the line skirts Krishna Nagar to Pataudi Road near the Rotary Club Blood Bank and follows the Kadipur village perimeter. The return passes Basai village, the Gurugram-Farrukhnagar road, Alpine Convent School and Basai Road."
+  },
+  {
+    "ward_number": 10, "name": "Ward 10", "zone": "Zone 1", "division": "Division 3",
+    "villages": ["Kadipur"], "sectors": ["Sector 10A"], "colonies": ["Shakti Park", "Hari Nagar", "Pace City 1", "Old Industrial Area Khandsa Road"],
+    "boundary_summary": "From the Rotary Club Blood Bank on Pataudi Road the line skirts Gandhi Nagar, Shakti Park and Hari Nagar, then follows the highway to Hero Honda Chowk. Shaheed Sukhbir Singh Yadav Marg leads to Captain Umang Bhardwaj Chowk; the Kadipur perimeter and Pataudi Road close the ward."
+  },
+  {
+    "ward_number": 11, "name": "Ward 11", "zone": "Zone 1", "division": "Division 6",
+    "villages": ["Naharpur Rupa", "Teekri"], "sectors": ["Sector 33", "Sector 47"], "colonies": ["Hans Enclave", "Nitin Vihar", "Shiv Colony", "Wireless Station Jharsa", "Infocity 2", "Malibu Towne"],
+    "boundary_summary": "From Rajiv Chowk follow Sohna Road to Subhash Chowk, then the Sector 38/47 road to Bakhtawar Chowk. The western side passes Hero Honda Chowk, Hari Nagar and the southern edge of Rajiv Colony before returning to NH-48 by Hans Enclave."
+  },
+  {
+    "ward_number": 12, "name": "Ward 12", "zone": "Zone 3", "division": "Division 7",
+    "villages": ["Jharsa", "Islampur"], "sectors": ["Sector 38", "Sector 39"], "colonies": ["Mohyal Colony", "South City Blocks I, J, K, L, M, N, O, P, Q and W", "Greenwood City", "Medicity"],
+    "boundary_summary": "The line runs from Rajiv Chowk via the Medicity junction and Bakhtawar Singh Road to Medicity Hospital. It skirts Greenwood City near Unitech Cyber Park, reaches Subhash Chowk and returns along Sohna Road beside Islampur."
+  },
+  {
+    "ward_number": 13, "name": "Ward 13", "zone": "Zone 3", "division": "Division 5",
+    "villages": [], "sectors": ["Sector 15 Part 1", "Sector 15 Part 2", "Sector 31", "Sector 40"], "colonies": ["Kirti Nagar", "Prem Puri Jharsa"],
+    "boundary_summary": "From Rajiv Chowk the boundary takes Civil Lines Road to the new PWD Rest House and follows Bandh Road towards Sector 15 Part 2. The return runs past Mohyal Colony, the Sector 39/32A road and Medicity Hospital to NH-48."
+  },
+  {
+    "ward_number": 14, "name": "Ward 14", "zone": "Zone 1", "division": "Division 7",
+    "villages": ["Tigra"], "sectors": ["Sector 46", "Sector 50", "Sector 51", "Sector 57"], "colonies": ["Jal Vihar Colony", "Indira Colony 1", "Indira Colony 2", "Mayfield Garden", "Sushant Lok 3", "Sushant Lok 3 Extension"],
+    "boundary_summary": "From Bakhtawar Chowk the line follows Netaji Subhash Chand Marg, skirts Greenwood City and reaches the Sector 45/46 road. It returns along Mayfield Garden, Vikas Marg and the Sector 46/47 road."
+  },
+  {
+    "ward_number": 15, "name": "Ward 15", "zone": "Zone 1", "division": "Division 7",
+    "villages": ["Nangli Umarpur", "Maidawas", "Dhumaspur", "Ghasola"], "sectors": ["Sector 49", "Sector 50", "Sector 65", "Sector 66"], "colonies": ["Malibu Towne (part)", "South City 2", "Nirwana Country", "Rosewood City"],
+    "boundary_summary": "The southeast edge of Malibu Towne meets the western boundary of Mayfield Garden. On the Sohna Road side the line skirts Badshahpur habitation, passes Vatika Chowk and follows Southern Peripheral Road and the edge of Uppal Southend to CD Chowk."
+  },
+  {
+    "ward_number": 16, "name": "Ward 16", "zone": "Zone 1", "division": "Division 6",
+    "villages": ["Fazilpur Jharsa", "Behrampur"], "sectors": ["Sector 34", "Sector 71", "Sector 72A", "Sector 73", "Sector 74"], "colonies": ["Uppal Southend"],
+    "boundary_summary": "From Vatika Chowk the line runs west on Southern Peripheral Road to Baba Jaharvir Goga Ji Chowk and follows the edge of Begumpur Khatola habitation. It crosses Badshahpur Drain on the Teekri side and returns past CD Chowk and Uppal Southend."
+  },
+  {
+    "ward_number": 17, "name": "Ward 17", "zone": "Zone 1", "division": "Division 6",
+    "villages": ["Mohammadpur Jharsa", "Narsingpur", "Begumpur Khatola", "Kherki Daula", "Sihi", "Darbaripur", "Palra"], "sectors": ["Sector 74A", "Sector 75", "Sector 75A"], "colonies": [],
+    "boundary_summary": "The line follows the 30-metre road towards Begumpur Khatola and the edge of its habitation towards Sector 35. On the Pataudi Road side it passes Prachin Hanuman Mandir, the Gadauli Khurd village perimeter and Badshahpur Drain, then returns along Pace City and Khandsa."
+  },
+  {
+    "ward_number": 18, "name": "Ward 18", "zone": "Zone 1", "division": "Division 6",
+    "villages": ["Badshahpur", "Ramgarh Ki Dhani", "Noorpur"], "sectors": ["Sector 67", "Sector 68", "Sector 69", "Sector 70"], "colonies": [],
+    "boundary_summary": "From Vatika Chowk the boundary follows Sohna Road and the Badshahpur estate near Hanuman Mandir. It follows the Noorpur Jharsa and Palra estates on the return side, then the Sector 75/70 road and Southern Peripheral Road."
+  },
+  {
+    "ward_number": 19, "name": "Ward 19", "zone": "Zone 4", "division": "Division 6",
+    "villages": ["Bhondsi", "Naya Gaon"], "sectors": [], "colonies": ["Mohan Nagar", "Vatika Kunj", "Maruti Kunj", "Defense Colony", "Shri Ram Colony", "Rayan Colony", "Shyam Kunj", "Ekta Enclave", "Mayur Enclave", "Nirmala Enclave", "Shanti Kunj"],
+    "boundary_summary": "From the southwest corner of the Kadarpur estate on the Badshahpur-Sohna constituency boundary the line runs southeast to the municipal limit. It returns along the Badshahpur and Bhondsi estates via Bhoop Nagar Colony and the Dhumaspur junction."
+  },
+  {
+    "ward_number": 20, "name": "Ward 20", "zone": "Zone 4", "division": "Division 7",
+    "villages": ["Kadarpur", "Ullahwas", "Behrampur", "Bandhwari", "Balola", "Gwal Pahari", "Ghata"], "sectors": ["Sector 55", "Sector 58", "Sector 61", "Sector 62"], "colonies": ["Sushant Lok 2"],
+    "boundary_summary": "From the southwest corner of Kadarpur the line follows the eastern edges of Maidawas and Nangli Umarpur. Its outer side reaches the Delhi border at Gwal Pahari and Haidarpur Viran, passes the Gurugram-Faridabad toll plaza and returns along Bandhwari, Behrampur and Kadarpur."
+  },
+  {
+    "ward_number": 21, "name": "Ward 21", "zone": "Zone 4", "division": "Division 8",
+    "villages": ["Wazirabad"], "sectors": ["Sector 52", "Sector 52A", "Sector 53", "Sector 54", "Sector 56", "Sector 57"], "colonies": ["Ardee City", "Sushant Lok 2", "Suncity", "Sushant Lok Block E"],
+    "boundary_summary": "From Arihant Hospital the line takes the Sector 45/52 and 44/52 roads to Ardee City, then St Thomas Marg and the edge of Sushant Lok Block E. It returns from Southern Peripheral Road along the Tigra and Wazirabad estates and Indira Colony."
+  },
+  {
+    "ward_number": 22, "name": "Ward 22", "zone": "Zone 4", "division": "Division 8",
+    "villages": [], "sectors": ["Sector 27", "Sector 42", "Sector 43"], "colonies": ["Sushant Lok Phase 1 Blocks A and B", "DLF Phase 4", "DLF Phase 5", "Harijan Colony Wazirabad"],
+    "boundary_summary": "From HUDA City Centre the line follows August Kranti Marg to Laburnum. The Golf Course Road side reaches South Point Mall; the return passes the DLF Phase 5 boundary, Paras Hospital and Vyapar Kendra before following the Sector 43/27 road."
+  },
+  {
+    "ward_number": 23, "name": "Ward 23", "zone": "Zone 4", "division": "Division 8",
+    "villages": ["Chakkarpur"], "sectors": ["Sector 28"], "colonies": ["Saraswati Vihar Colony", "Maruti Vihar", "DLF City Phase 1", "Aravali Hills Chakkarpur"],
+    "boundary_summary": "From behind the Bristol Hotel the line follows Gurugram-Faridabad Road past Qutub Plaza and the western edge of Silver Oak Apartments. The return passes Golf Course Road, Galleria Market Road, DLF Phase 4 and Maruti Vihar before reaching the Sikanderpur Ghosi estate."
+  },
+  {
+    "ward_number": 24, "name": "Ward 24", "zone": "Zone 4", "division": "Division 8",
+    "villages": ["Kanhai", "Saini Khera", "Silokhara"], "sectors": ["Sector 29", "Sector 30", "Sector 44", "Sector 45"], "colonies": ["Sushant Lok Phase 1", "Essel Towers", "Beverly Park", "Moti Vihar", "South City 1", "Vijay Vihar", "Jalvayu Vihar"],
+    "boundary_summary": "From HUDA City Centre the line takes the Sector 43/27 road and skirts Sushant Lok towards Paras Hospital. On the return side it skirts Maruti Vihar and Laburnum, then takes August Kranti Marg along the Sector 29/28 and 29/27 divisions."
+  },
+  {
+    "ward_number": 25, "name": "Ward 25", "zone": "Zone 4", "division": "Division 5",
+    "villages": ["Sukhrali"], "sectors": ["Sector 12A", "Sector 14", "Sector 16", "Sector 17"], "colonies": ["Air Force Station", "MDI", "IDC", "Canal Colony", "Old DLF", "Chander Nagar", "Anamika Enclave", "Police Line", "HVPNL Colony", "Prem Nagar 2"],
+    "boundary_summary": "From the Sector 17/18 junction the boundary follows NH-8 south to Signature Tower 2 and skirts Patel Nagar. On its return it passes Jyotiba Phule Chowk, Sector 12 Road and Old Delhi Road before turning onto the Sector 17/18 road."
+  },
+  {
+    "ward_number": 26, "name": "Ward 26", "zone": "Zone 4", "division": "Division 5",
+    "villages": [], "sectors": ["Sector 12A"], "colonies": ["Sanjay Gram", "Rajeev Nagar", "Rajeev Nagar West", "Acharya Puri", "Sheetla Colony Blocks A and B"],
+    "boundary_summary": "From Lt Atul Kataria Chowk follow Old Delhi Road to Chaupal Hotel and Sector 12 Road to Jyotiba Phule Chowk. The line passes the Roadways Workshop and Mianwali Colony, then returns via Sector 12A Road, Sheetla Mata Mandir and CRPF Camp Chowk."
+  },
+  {
+    "ward_number": 27, "name": "Ward 27", "zone": "Zone 3", "division": "Division 5",
+    "villages": [], "sectors": [], "colonies": ["Civil Lines", "Friends Colony", "Baraf Khana", "Roshanpura", "Gopal Nagar", "Adarsh Nagar", "Indira Puri", "Jacobpura", "Jacobpura West", "Patel Nagar", "Mini Secretariat"],
+    "boundary_summary": "Starting at Rajiv Chowk on NH-48, the line skirts Shanti Nagar and Shivaji Nagar to the police commissioner's office. It returns via Bus Stand Road, Maharaja Agrasen Chowk, Patel Nagar, Jharsa Bandh and the new PWD Rest House."
+  },
+  {
+    "ward_number": 28, "name": "Ward 28", "zone": "Zone 2", "division": "Division 4",
+    "villages": [], "sectors": [], "colonies": ["Rajeev Colony", "Shanti Nagar", "Om Nagar", "Raj Nagar", "Anaj Mandi", "Shivji Park", "Gandhi Nagar", "Shiv Nagar", "Heera Nagar", "Amar Colony"],
+    "boundary_summary": "From the Rotary Club Blood Bank the line reaches the police post on Pataudi Road along the constituency boundary. It crosses NH-48 on Berywala Bag Road and returns along the edges of Rajeev Colony, Hari Nagar, Shakti Park and Gandhi Nagar."
+  },
+  {
+    "ward_number": 29, "name": "Ward 29", "zone": "Zone 2", "division": "Division 4",
+    "villages": [], "sectors": [], "colonies": ["Nai Abadi", "Veer Nagar", "Manohar Nagar", "Baldev Nagar", "Feroz Gandhi Colony 1", "Auto Market", "Amar Colony (part)", "Shakti Nagar", "Laxmi Garden", "Aath Marla", "Shivaji Nagar"],
+    "boundary_summary": "From Enkay Factory on Basai Road the line skirts Feroz Gandhi Colony 1 and Nai Abadi to Sethi Hospital and Bhuteshwar Mandir Chowk. The return passes DAV School on Khandsa Road, the Pataudi Road police post and the northwest edge of Amar Colony."
+  },
+  {
+    "ward_number": 30, "name": "Ward 30", "zone": "Zone 2", "division": "Division 4",
+    "villages": [], "sectors": [], "colonies": ["Ram Nagar", "Arjun Nagar", "Vijay Park", "Nehru Lane", "Madanpuri", "Jyoti Park East"],
+    "boundary_summary": "From New Colony More the line takes Old Railway Road past Prem Mandir to Madanpuri Gali 1. It skirts Arjun Nagar and Madanpuri, passes Jyoti Park Gali 7 and Geeta Bhawan Mandir and returns along Main Madanpuri Road."
+  },
+  {
+    "ward_number": 31, "name": "Ward 31", "zone": "Zone 3", "division": "Division 4",
+    "villages": [], "sectors": [], "colonies": ["Dayanand Colony", "Ashok Puri", "Mahabir Pura", "Sanjay Colony", "Mianwali Colony", "Lajpat Nagar", "Jawahar Nagar", "Subhash Nagar", "Prem Nagar 1", "Nai Basti", "Partap Nagar", "Rattan Garden", "Bhim Nagar"],
+    "boundary_summary": "From Chintpurni Mata Mandir Chowk the line follows the Dayanand Colony edge on Sector 5 Road and skirts Gurgaon village habitation. It returns by Prem Mandir, New Colony More and the edge of Rattan Garden near Aryan Hospital on Old Railway Road."
+  },
+  {
+    "ward_number": 32, "name": "Ward 32", "zone": "Zone 2", "division": "Division 2",
+    "villages": [], "sectors": ["Sector 7", "Sector 7 Extension"], "colonies": ["Shivpuri", "New Colony", "Krishna Colony", "Jyoti Park", "Housing Board Colony", "Firoz Gandhi Colony 2", "Surya Vihar"],
+    "boundary_summary": "From Sector 4/7 Chowk the line follows Old Railway Road to Aryan Hospital and skirts Shivpuri and New Colony towards Geeta Bhawan Mandir Road. It passes Jyoti Park West and Housing Board, then returns from ESI Hospital via Surya Vihar and Sector 9 Chowk."
+  },
+  {
+    "ward_number": 33, "name": "Ward 33", "zone": "Zone 2", "division": "Division 2",
+    "villages": [], "sectors": ["Sector 4"], "colonies": ["Laxman Vihar Phase 1", "Laxman Vihar Phase 2", "Cancon Enclave"],
+    "boundary_summary": "From Sector 4/7 Chowk follow the dividing road to Sector 9 Chowk, then the Sector 4/9 road to the railway at the edge of Laxman Vihar Phase 2. Follow the railway along Laxman Vihar and return on New Railway Road."
+  },
+  {
+    "ward_number": 34, "name": "Ward 34", "zone": "Zone 2", "division": "Division 2",
+    "villages": [], "sectors": [], "colonies": ["Rajendra Park", "Daultabad Industrial Area", "Tek Chand Nagar", "Surat Nagar Phase 1"],
+    "boundary_summary": "The schedule traces the railway side of Surat Nagar Phase 1, the southern limits of Sarai Alawardi and Pawala Khusrupur and Dwarka Expressway beside Daultabad. It returns via the Gurugram-Dhanwapur-Tikampur estate junction and Dhanwapur-Bajghera Road."
+  },
+  {
+    "ward_number": 35, "name": "Ward 35", "zone": "Zone 3", "division": "Division 2",
+    "villages": [], "sectors": ["Sector 5", "Sector 6 (part)"], "colonies": ["Bhimgarh Kheri Phases 1 to 3", "Ashok Vihar", "Ashok Vihar 2", "Apna Enclave"],
+    "boundary_summary": "The schedule names the edge of Surat Nagar Phase 1 and Dhanwapur Road near Godrej Summit. It follows the Gurgaon-Dhanwapur-Tikampur estate junction, the Northern Peripheral Road at Daultabad and the southern limits of Pawala Khusrupur and Sarai Alawardi."
+  },
+  {
+    "ward_number": 36, "name": "Ward 36", "zone": "Zone 3", "division": "Division 5",
+    "villages": ["Gurgaon"], "sectors": [], "colonies": ["Ashok Vihar Phase 3", "Sheetla Colony", "Amanpura"],
+    "boundary_summary": "From Lt Atul Kataria Chowk the line follows Sheetla Mata Road to CRPF Camp Chowk, skirts Sheetla Colony Blocks A and B and Gurgaon village habitation, then reaches the railway beside Bhimgarh Kheri and Ashok Vihar 2. It returns via Krishna Chowk, Gaushala Road, the Carterpuri and Inayatpur estate lines, Maruti Gate 2 and Old Delhi Road."
+  }
+]

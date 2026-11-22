@@ -1,0 +1,211 @@
+[
+  {
+    "ward_number": 1,
+    "name": "Ward 1",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Kanwar Singh Colony", "Rishi Colony", "Shiv Colony"],
+    "boundary_summary": "Locality names occur in government enterprise or property address records. These are indicative address associations, not a verified ward boundary or complete locality list.",
+    "source_urls": ["http://harudhyam.edisha.gov.in/du/blmc_wise_detail.php?blk_mc_code=248562&dis_code=64&rural_urban_flag=urban&state_code=6", "https://ulbharyana.gov.in/Website/DynamicUploadContent/CONTENTFILES/36726863-32ff-44da-acbe-4d2cd764b6f4.pdf"]
+  },
+  {
+    "ward_number": 2,
+    "name": "Ward 2",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Beri Gate", "Sita Ram Gate"],
+    "boundary_summary": "Government enterprise addresses associate these localities with Ward 2. Sita Ram Gate also appears under other ward numbers. No legal boundary verified.",
+    "source_urls": ["http://harudhyam.edisha.gov.in/du/blmc_wise_detail.php?blk_mc_code=248562&dis_code=64&rural_urban_flag=urban&state_code=6"]
+  },
+  {
+    "ward_number": 3,
+    "name": "Ward 3",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_summary": "Ward number recorded in the LGD-derived directory. Locality coverage and legal boundary not verified.",
+    "source_urls": ["https://bharatsurvey.org/urban-local-bodies/haryana/jhajjar"]
+  },
+  {
+    "ward_number": 4,
+    "name": "Ward 4",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Ram Nagar Mohalla", "Mata Gate"],
+    "boundary_summary": "A government enterprise address associates Ram Nagar Mohalla near Mata Gate on Bahadurgarh Road with Ward 4. This is address evidence only, not a verified boundary.",
+    "source_urls": ["http://harudhyam.edisha.gov.in/du/blmc_wise_detail.php?blk_mc_code=248562&dis_code=64&rural_urban_flag=urban&state_code=6"]
+  },
+  {
+    "ward_number": 5,
+    "name": "Ward 5",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Dev Nagar", "Delhi Gate"],
+    "boundary_summary": "A government enterprise address associates Dev Nagar at Delhi Gate with Ward 5. This does not establish coverage of every Dev Nagar colony pocket or a legal boundary.",
+    "source_urls": ["http://harudhyam.edisha.gov.in/du/blmc_wise_detail.php?blk_mc_code=248562&dis_code=64&rural_urban_flag=urban&state_code=6"]
+  },
+  {
+    "ward_number": 6,
+    "name": "Ward 6",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Tilla Mohalla"],
+    "boundary_summary": "A government enterprise entry combines a Silani Gate, Ward 6 address with Tilla Mohalla. This is indicative address evidence only. Ward 6 is not HSVP Sector 6.",
+    "source_urls": ["http://harudhyam.edisha.gov.in/du/blmc_wise_detail.php?blk_mc_code=248562&dis_code=64&rural_urban_flag=urban&state_code=6"]
+  },
+  {
+    "ward_number": 7,
+    "name": "Ward 7",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Silani Gate", "Yadav Colony"],
+    "boundary_summary": "Enterprise and ULB property address records associate Silani Gate and Old Area Yadav Colony with Ward 7. No complete boundary or entire-colony allocation verified.",
+    "source_urls": ["http://harudhyam.edisha.gov.in/du/blmc_wise_detail.php?blk_mc_code=248562&dis_code=64&rural_urban_flag=urban&state_code=6", "https://ulbharyana.gov.in/Website/DynamicUploadContent/CONTENTFILES/36726863-32ff-44da-acbe-4d2cd764b6f4.pdf"]
+  },
+  {
+    "ward_number": 8,
+    "name": "Ward 8",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_summary": "Ward number recorded in the LGD-derived directory. Locality coverage and legal boundary not verified.",
+    "source_urls": ["https://bharatsurvey.org/urban-local-bodies/haryana/jhajjar"]
+  },
+  {
+    "ward_number": 9,
+    "name": "Ward 9",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Haripura Mohalla"],
+    "boundary_summary": "Government enterprise addresses associate Haripura Mohalla with Ward 9. No legal boundary verified. Ward 9 is not HSVP Sector 9.",
+    "source_urls": ["http://harudhyam.edisha.gov.in/du/blmc_wise_detail.php?blk_mc_code=248562&dis_code=64&rural_urban_flag=urban&state_code=6"]
+  },
+  {
+    "ward_number": 10,
+    "name": "Ward 10",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_summary": "Ward number recorded in the LGD-derived directory. Locality coverage and legal boundary not verified.",
+    "source_urls": ["https://bharatsurvey.org/urban-local-bodies/haryana/jhajjar"]
+  },
+  {
+    "ward_number": 11,
+    "name": "Ward 11",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_summary": "Ward number recorded in the LGD-derived directory. Locality coverage and legal boundary not verified.",
+    "source_urls": ["https://bharatsurvey.org/urban-local-bodies/haryana/jhajjar"]
+  },
+  {
+    "ward_number": 12,
+    "name": "Ward 12",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Kanugo Mohalla"],
+    "boundary_summary": "A government enterprise address associates Kanugo Mohalla near Primary School No. 2 with Ward 12. No legal boundary verified.",
+    "source_urls": ["http://harudhyam.edisha.gov.in/du/blmc_wise_detail.php?blk_mc_code=248562&dis_code=64&rural_urban_flag=urban&state_code=6"]
+  },
+  {
+    "ward_number": 13,
+    "name": "Ward 13",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Bhatti Gate Mohalla", "Adarsh Nagar"],
+    "boundary_summary": "Government enterprise addresses associate these localities with Ward 13. Bhatti Gate and nearby Damdama addresses also appear under other ward numbers. No legal boundary verified.",
+    "source_urls": ["http://harudhyam.edisha.gov.in/du/blmc_wise_detail.php?blk_mc_code=248562&dis_code=64&rural_urban_flag=urban&state_code=6"]
+  },
+  {
+    "ward_number": 14,
+    "name": "Ward 14",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Damdama Mohalla"],
+    "boundary_summary": "Government enterprise addresses associate Damdama Mohalla at Bhatti Gate with Ward 14. Other entries assign nearby addresses differently. No exclusive locality allocation or legal boundary verified.",
+    "source_urls": ["http://harudhyam.edisha.gov.in/du/blmc_wise_detail.php?blk_mc_code=248562&dis_code=64&rural_urban_flag=urban&state_code=6"]
+  },
+  {
+    "ward_number": 15,
+    "name": "Ward 15",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Chhawni Mohalla"],
+    "boundary_summary": "Government enterprise addresses associate Chhawni Mohalla with Ward 15. Chhawni also occurs in Ward 16 property and works records. No exclusive allocation or legal boundary verified.",
+    "source_urls": ["http://harudhyam.edisha.gov.in/du/blmc_wise_detail.php?blk_mc_code=248562&dis_code=64&rural_urban_flag=urban&state_code=6"]
+  },
+  {
+    "ward_number": 16,
+    "name": "Ward 16",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Chhawni Mohalla"],
+    "boundary_summary": "ULB property records use legacy JJR/W16 identifiers for Old Area Chawni Mohalla. A 2024 municipal works listing also names Chhawani Mohalla in Ward 16. No legal boundary verified.",
+    "source_urls": ["https://ulbharyana.gov.in/Website/DynamicUploadContent/CONTENTFILES/36726863-32ff-44da-acbe-4d2cd764b6f4.pdf", "https://www.globaltenders.com/tender-detail/construction-of-cc-street-from-ho-parmod-sa-90675615"]
+  },
+  {
+    "ward_number": 17,
+    "name": "Ward 17",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Arya Nagar"],
+    "boundary_summary": "Government enterprise addresses associate Arya Nagar near the LIC office and Old Tehsil Road with Ward 17. No legal boundary verified.",
+    "source_urls": ["http://harudhyam.edisha.gov.in/du/blmc_wise_detail.php?blk_mc_code=248562&dis_code=64&rural_urban_flag=urban&state_code=6"]
+  },
+  {
+    "ward_number": 18,
+    "name": "Ward 18",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Subhash Nagar"],
+    "boundary_summary": "A government enterprise address associates Subhash Nagar with Ward 18. Subhash Nagar also appears in Ward 19 addresses. No exclusive locality allocation or legal boundary verified.",
+    "source_urls": ["http://harudhyam.edisha.gov.in/du/blmc_wise_detail.php?blk_mc_code=248562&dis_code=64&rural_urban_flag=urban&state_code=6"]
+  },
+  {
+    "ward_number": 19,
+    "name": "Ward 19",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Subhash Nagar"],
+    "boundary_summary": "A government enterprise address associates Subhash Nagar with Ward 19. Subhash Nagar also appears in Ward 18 addresses. No exclusive locality allocation or legal boundary verified.",
+    "source_urls": ["http://harudhyam.edisha.gov.in/du/blmc_wise_detail.php?blk_mc_code=248562&dis_code=64&rural_urban_flag=urban&state_code=6"]
+  }
+]

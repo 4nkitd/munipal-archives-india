@@ -1,0 +1,222 @@
+[
+  {
+    "ward_number": 1,
+    "name": "Ward 1",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["JP Colony"],
+    "boundary_summary": "2024 schedule summary, not a legal polygon: municipal limit between the Rohtak-Bhiwani and Rohtak-Jind railway lines, Jind railway flyover, Hisar bypass chowk, Delhi road and JP Colony boundary. Starting property ID 1H769RG4."
+  },
+  {
+    "ward_number": 2,
+    "name": "Ward 2",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Anantpuram", "Nehru Colony", "Indira Colony", "Shyam Colony"],
+    "boundary_summary": "2024 schedule summary: Jind railway municipal limit, Chamaria road, 7-37 road chowk, Sunderpur road and northern bypass, Anantpuram road, Jind road, Nehru Colony, Gaukaran park, Gaur Brahman School, Indira Colony and Shyam Colony, returning via Hisar bypass and Jind railway. Localities are boundary references, not whole-colony assignments."
+  },
+  {
+    "ward_number": 3,
+    "name": "Ward 3",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Kartarpura", "Indira Colony", "Krishna Colony", "Balmiki Basti"],
+    "boundary_summary": "2024 schedule summary: Bhiwani road railway flyover, Jind railway, Kartarpura, Indira Colony 60-foot road, Gaur Brahman School, Bara Bazar, Pili Kothi and old vegetable market chowk, Delhi-Hisar road and Balmiki Basti in Krishna Colony. References may divide localities."
+  },
+  {
+    "ward_number": 4,
+    "name": "Ward 4",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Anantpuram", "Rainakpura", "Dairy Mohalla", "Khokhra Kot", "Salara Mohalla"],
+    "boundary_summary": "2024 schedule summary: Jat Dharmshala, Gaur College road, Gaukaran park and police post, 60-foot road, Jind road, Anantpuram road and northern bypass, Rainakpura, Sansi chowk, Dairy Mohalla, Khokhra Kot, Salara Mohalla and Mata Darwaja. Boundary references do not establish complete locality inclusion."
+  },
+  {
+    "ward_number": 5,
+    "name": "Ward 5",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Salara Mohalla", "Dairy Mohalla", "Rainakpura", "Peer Bodhi"],
+    "boundary_summary": "2024 schedule summary: old Gohana adda and Dayanand Math chowk, Mata Darwaja approach, Salara and Dairy mohallas, Sansi chowk, Rainakpura road, northern bypass, 7-37 road, Chamaria road municipal limit, Gohana road water works, Peer Bodhi, One City peripheral road and Sukhpura chowk."
+  },
+  {
+    "ward_number": 6,
+    "name": "Ward 6",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Dairy Mohalla", "Pithwara Mohalla"],
+    "boundary_summary": "2024 schedule summary: Jat Dharmshala, Mata Darwaja chowk, Chogan Mata Mandir in Dairy Mohalla, Patwarkhana road, Pithwara Mohalla, Killa road and Lal Masjid, Delhi-Hisar road, Pili Kothi, old vegetable market and Bara Bazar. Starting property ID 1H9RM458."
+  },
+  {
+    "ward_number": 7,
+    "name": "Ward 7",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Para Mohalla", "Salara Mohalla", "PWD Colony", "Mahavir Colony"],
+    "boundary_summary": "2024 schedule summary: Lal Masjid and Killa road, Bhagat Singh parking, Bara Bazar, Para Mohalla, Patwarkhana road and Chogan Mata Mandir, Dayanand Math chowk, Gohana road, PWD Colony wall, Mahavir Colony, Rahad road, Civil Hospital road and Chhotu Ram chowk. Localities may be split."
+  },
+  {
+    "ward_number": 8,
+    "name": "Ward 8",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Sainipura", "Sanjay Nagar", "Kirpal Colony", "Surya Nagar", "Basant Vihar", "Kailash Colony", "Prem Nagar", "Durga Colony"],
+    "boundary_summary": "2024 schedule summary: Chhotu Ram chowk, Civil and Subhash roads, Sainipura, Sanjay Nagar, Rahad road, Kirpal Colony, Sukhpura chowk, Gohana road near Surya Nagar and Basant Vihar, Ladhot road, Hafed chowk, northern bypass near Kailash Colony, Prem Nagar, jail road, Durga Colony and Government Women College wall."
+  },
+  {
+    "ward_number": 9,
+    "name": "Ward 9",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": ["Sector 3", "Sector 4", "Sector 4 Extension", "Sector 6"],
+    "colonies": [],
+    "boundary_summary": "2024 schedule summary: Vita Milk Plant chowk, sector dividing road, Gohana railway beside Sector 6, Sector 4 Extension, Sector 4 and Sector 3 electricity office, Sonipat road, Sheela bypass, northern bypass, Gohana railway and water works. Sector references identify boundary segments, not entire-sector allocation."
+  },
+  {
+    "ward_number": 10,
+    "name": "Ward 10",
+    "zone": null,
+    "division": null,
+    "villages": ["Bohar"],
+    "sectors": ["Sector 3", "Sector 4", "Sector 4 Extension", "Sector 5", "Sector 36", "IMT Sector 30", "IMT Sector 31B"],
+    "colonies": [],
+    "boundary_summary": "2024 schedule summary: Vita Milk Plant chowk north along Gohana road to Sector 36 and municipal limit; municipal limit and JLN canal to Shiv Mandir, Bohar; Sonipat road, IMT sectors 30 and 31B, Nandal Bhawan road, JLN canal, Sector 3 and Sector 4 roads, outer bypass, Sector 4 Extension, Sector 5 and Gohana railway. Bohar and sectors are boundary references, not assertions that their entire areas fall in Ward 10."
+  },
+  {
+    "ward_number": 11,
+    "name": "Ward 11",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_summary": "2024 schedule summary: main Sonipat road property ID 1HTF5W33 east to municipal limit; eastern and southern municipal limits, southern road, Karor-Kheri Sadh road, Delhi-Rohtak railway, JLN canal, Delhi road and sector dividing road. The schedule names Kheri Sadh road but does not provide a complete village or sector membership list."
+  },
+  {
+    "ward_number": 12,
+    "name": "Ward 12",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": ["Sector 3"],
+    "colonies": ["Tau Nagar Extension"],
+    "boundary_summary": "2024 schedule summary: Sonipat road at JLN canal, canal south to Delhi road, Rajiv chowk, northern bypass and sector joining road by Devi Lal Park and DTP office, Tau Nagar Extension, Sector 3 and Sonipat road. Starting property ID 1HUY3ET0. Locality and sector references may be partial."
+  },
+  {
+    "ward_number": 13,
+    "name": "Ward 13",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": ["Sector 3"],
+    "colonies": ["Adarsh Nagar", "Model Town", "Kamal Colony", "Bharat Colony", "Ram Gopal Colony", "Tau Nagar Extension"],
+    "boundary_summary": "2024 schedule summary: Delhi road at JLN canal, Delhi railway and PGI mortuary, Director office, Dean Park and Ranbir Singh OPD, Adarsh Nagar, D-Park, Neki Ram College chowk, Chhotu Ram Polytechnic, Model Town and Kamal Colony, Bharat Colony, Sonipat road, Gohana railway, northern bypass, Sheela bypass, Ram Gopal Colony, Tau Nagar Extension and Rajiv chowk. These are boundary references and do not assign the whole PGIMS campus or Model Town to this ward."
+  },
+  {
+    "ward_number": 14,
+    "name": "Ward 14",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Model Town", "Adarsh Nagar", "Shree Nagar Colony"],
+    "boundary_summary": "2024 schedule summary: Gohana elevated railway pillar 35, Sonipat road, Khurana Eye Hospital road, Model Town and Jain Mandir chowk, Chhotu Ram Polytechnic Society road, Neki Ram College chowk, Delhi road and D-Park, Adarsh Nagar, PGI wall, Civil Surgeon office, medical campus gate, PGI chowk, auditorium and pharmacy hostel, Delhi railway, Shree Nagar Colony, Matu Ram Community Centre road, Ashoka chowk, court chowk, Sonipat stand, women's college wall and old jail road. Ward 14 is not Sector 14."
+  },
+  {
+    "ward_number": 15,
+    "name": "Ward 15",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Gandhi Nagar", "Chinout Colony"],
+    "boundary_summary": "2024 schedule summary: Ashoka chowk east along Delhi road across Gohana railway, Gandhi Nagar, Gohana elevated railway and Chinout Colony, Delhi railway west to Double Fatak and circular road north to Ashoka chowk. Locality spellings follow the gazette transcription."
+  },
+  {
+    "ward_number": 16,
+    "name": "Ward 16",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Shivaji Colony", "Tek Nagar"],
+    "boundary_summary": "2024 schedule summary: Double Fatak, circular road past Shivaji Colony chowk to post office street, Mahavir park corner, Kath Mandi and Jhajjar road, Tek Nagar, railway, Zila Vikas Bhawan, Zila Sainik Board, Delhi road, Sonipat stand and Mini Secretariat, court chowk and Ashoka chowk."
+  },
+  {
+    "ward_number": 17,
+    "name": "Ward 17",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Railway Quarters"],
+    "boundary_summary": "2024 schedule summary: Chhotu Ram chowk, Civil road and Canal Rest House, Delhi railway west past railway station, Mall Godown road and Railway Quarters, Shori Market opposite Durga Bhawan Mandir and Delhi road east back to Chhotu Ram chowk."
+  },
+  {
+    "ward_number": 18,
+    "name": "Ward 18",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Janta Colony", "New Janta Colony", "Shree Ram Nagar", "Rajendra Colony"],
+    "boundary_summary": "2024 schedule summary: railway station and Vaish Institute wall, Janta Colony, main Shivaji Colony road, circular road in New Janta Colony, Shree Ram Nagar, old sugar mill beside Rajendra Colony, Bhiwani railway to Jind railway junction, Hisar-Delhi road, Durga Bhawan Mandir and station approach. Colony references may be partial."
+  },
+  {
+    "ward_number": 19,
+    "name": "Ward 19",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Kath Mandi", "Janta Colony"],
+    "boundary_summary": "2024 schedule summary: railway station east along Delhi railway past Double Fatak, Kath Mandi, Jhajjar road to Jhajjar Chungi, circular road, internal Janta Colony property-ID points and Vaish Institute back to the station. Starting property ID 1H2WLY44."
+  },
+  {
+    "ward_number": 20,
+    "name": "Ward 20",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Kath Mandi", "Sugar Mill Colony"],
+    "boundary_summary": "2024 schedule summary: Sunaria chowk on circular road, Jhajjar Chungi, Kath Mandi, circular road toward Double Fatak, Delhi railway, water works wall, Jhajjar road and property-ID segments west across Sunaria road to Sugar Mill Colony. Starting property ID 1HNDV5D7."
+  },
+  {
+    "ward_number": 21,
+    "name": "Ward 21",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": [],
+    "boundary_summary": "2024 schedule summary: Sunaria road near Sunaria chowk, internal property-ID turns to Jhajjar road and water works wall, Delhi railway southeast to municipal limit, southern municipal-limit segments, Jhajjar road, Balchand chowk and Sunaria road north. Starting property ID 1HACB7P7. No whole-village membership is inferred."
+  },
+  {
+    "ward_number": 22,
+    "name": "Ward 22",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": ["Sector 20A"],
+    "colonies": ["Shree Ram Nagar"],
+    "boundary_summary": "2024 schedule summary: Bhiwani railway property ID 1HUDEH74, Bandh road chowk across new jail road, rear of old sugar mill, Shree Ram Nagar on Sunaria road, Balchand chowk, Jhajjar road and Rupya chowk, municipal-limit segments south and west, Drain 8 beside Sector 20A, Bhiwani railway and return to starting point. Sunaria village boundaries require the notified plan."
+  }
+]

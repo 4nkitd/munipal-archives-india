@@ -1,0 +1,73 @@
+[
+  {
+    "sr_no": 1,
+    "name": "Sh. Rajesh Sharma",
+    "designation": "Secretary",
+    "branch": "Administration",
+    "phone": "",
+    "email": "secymcfarrukhnagar@gmail.com",
+    "wards": [],
+    "zone": "",
+    "division": "",
+    "source_url": "https://mcfarukhnagar.in/sh-rajesh-sharma",
+    "verified_at": "2026-11-22",
+    "verification_status": "Published on current municipal website; email is the municipal office contact, not a personal address.",
+    "notes": "The profile labels the role both Seceratory and Executive Officer. No personal phone is published on the profile."
+  },
+  {
+    "sr_no": 2,
+    "name": "Sh. Brijesh Hooda",
+    "designation": "Municipal Engineer",
+    "branch": "Engineering",
+    "phone": "7988081914",
+    "email": "",
+    "wards": [],
+    "zone": "",
+    "division": "",
+    "source_url": "https://ulbharyana.gov.in/Farukhnagar/2874",
+    "verified_at": "2026-11-22",
+    "verification_status": "Legacy official directory search-index record only; direct source returns a 404 page. Current posting and phone ownership unconfirmed."
+  },
+  {
+    "sr_no": 3,
+    "name": "Sh. Gulshan Kumar",
+    "designation": "Junior Engineer",
+    "branch": "Engineering",
+    "phone": "7015775754",
+    "email": "",
+    "wards": [],
+    "zone": "",
+    "division": "",
+    "source_url": "https://ulbharyana.gov.in/Farukhnagar/2874",
+    "verified_at": "2026-11-22",
+    "verification_status": "Legacy official directory search-index record only; direct source returns a 404 page. Current posting and phone ownership unconfirmed."
+  },
+  {
+    "sr_no": 4,
+    "name": "Sh. Naveen Kumar",
+    "designation": "Building Inspector",
+    "branch": "Building",
+    "phone": "9813551830",
+    "email": "",
+    "wards": [],
+    "zone": "",
+    "division": "",
+    "source_url": "https://ulbharyana.gov.in/Farukhnagar/2874",
+    "verified_at": "2026-11-22",
+    "verification_status": "Legacy official directory search-index record only; direct source returns a 404 page. Current posting and phone ownership unconfirmed."
+  },
+  {
+    "sr_no": 5,
+    "name": "",
+    "designation": "Sanitary Inspector",
+    "branch": "Sanitation",
+    "phone": "",
+    "email": "",
+    "wards": [],
+    "zone": "",
+    "division": "",
+    "source_url": "https://mcfarukhnagar.in/about-us/organizational-chart",
+    "verified_at": "2026-11-22",
+    "verification_status": "Role appears in municipal organizational chart; incumbent name and direct contact not established."
+  }
+]

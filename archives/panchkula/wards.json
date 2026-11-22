@@ -1,0 +1,204 @@
+[
+  {
+    "ward_number": 1,
+    "name": "Ward 1",
+    "zone": null,
+    "division": null,
+    "villages": ["Saketri", "Bhainsa Tibba"],
+    "sectors": ["MDC Sector 2", "MDC Sector 4", "MDC Sector 6"],
+    "colonies": ["Mahadev Colony"],
+    "boundary_summary": "MDC northern belt along the Chandigarh boundary, Saketri and the municipal eastern limit, returning along the MDC Sector 4/5 boundary and railway near Gandhi Colony. Locality summary of the final order dated 2025-12-30, not a cadastral boundary."
+  },
+  {
+    "ward_number": 2,
+    "name": "Ward 2",
+    "zone": null,
+    "division": null,
+    "villages": ["Majri"],
+    "sectors": ["MDC Sector 5", "Sector 1", "Sector 2", "Sector 6"],
+    "colonies": [],
+    "boundary_summary": "MDC Sector 5 and the Sector 1/2/6 belt bounded by Manimajra, Command Hospital, sector dividing roads and the national highway. Sector 6 is indicated by the boundary narrative but omitted from the order's closing locality sentence. Consult drawing 17647/MCPKL dated 2025-12-09."
+  },
+  {
+    "ward_number": 3,
+    "name": "Ward 3",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": ["Sector 7", "Sector 8"],
+    "colonies": [],
+    "boundary_summary": "Sectors 7 and 8, between the Chandigarh boundary and the dividing roads adjoining Sectors 5, 6, 9, 17 and 18. Final order dated 2025-12-30."
+  },
+  {
+    "ward_number": 4,
+    "name": "Ward 4",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": ["Sector 9", "Sector 10"],
+    "colonies": [],
+    "boundary_summary": "Sectors 9 and 10 enclosed by dividing roads adjoining Sectors 8, 16, 15, 11 and 5. Final order dated 2025-12-30."
+  },
+  {
+    "ward_number": 5,
+    "name": "Ward 5",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": ["Sector 15"],
+    "colonies": [],
+    "boundary_summary": "Sector 15 bounded by Sector 10, Sector 16, the industrial area and Sector 14 dividing roads. Final order dated 2025-12-30."
+  },
+  {
+    "ward_number": 6,
+    "name": "Ward 6",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": ["Sector 16", "Sector 17", "Sector 18"],
+    "colonies": [],
+    "boundary_summary": "Sectors 16, 17 and 18 adjoining Chandigarh, Rajiv Colony and Indira Colony, with sector-road boundaries towards Sectors 7, 8, 9 and 15. Final order dated 2025-12-30."
+  },
+  {
+    "ward_number": 7,
+    "name": "Ward 7",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Rajiv Colony"],
+    "boundary_summary": "Rajiv Colony between the Chandigarh boundary, Sector 17 and the Indira Colony boundary through Labour Chowk. Ward inclusion does not establish colony regularization. Final order dated 2025-12-30."
+  },
+  {
+    "ward_number": 8,
+    "name": "Ward 8",
+    "zone": null,
+    "division": null,
+    "villages": ["Budhanpur"],
+    "sectors": [],
+    "colonies": ["Indira Colony"],
+    "boundary_summary": "Indira Colony and Budhanpur between Rajiv Colony, Chandigarh, the industrial area and Sector 16. Ward inclusion does not establish colony regularization. Final order dated 2025-12-30."
+  },
+  {
+    "ward_number": 9,
+    "name": "Ward 9",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": ["Sector 19"],
+    "colonies": [],
+    "industrial_areas": ["Industrial Area Phase II"],
+    "boundary_summary": "Sector 19 and the industrial belt adjoining Chandigarh and Punjab, separated from Ward 10 by the industrial-phase boundary and railway. Phase II follows the Hindi schedule and contemporary reporting; the English closing sentence says Phase I. Confirm the attached statutory drawing for individual plots."
+  },
+  {
+    "ward_number": 10,
+    "name": "Ward 10",
+    "zone": null,
+    "division": null,
+    "villages": ["Abheypur"],
+    "sectors": ["Sector 14"],
+    "colonies": ["Aashiana Flats, Abheypur"],
+    "industrial_areas": ["Industrial Area Phase I"],
+    "boundary_summary": "Sector 14, Abheypur, Aashiana flats and Industrial Area Phase I between sector dividing roads, railway, Punjab boundary and the national highway. Final order dated 2025-12-30."
+  },
+  {
+    "ward_number": 11,
+    "name": "Ward 11",
+    "zone": null,
+    "division": null,
+    "villages": ["Rally", "Railla"],
+    "sectors": ["Sector 12", "Sector 12A"],
+    "colonies": [],
+    "boundary_summary": "Sectors 12 and 12A with Rally and Railla, between Sector 14, Industrial Area Phase I, the national highway and the Sector 4/12 and 11/12 dividing roads. Final order dated 2025-12-30."
+  },
+  {
+    "ward_number": 12,
+    "name": "Ward 12",
+    "zone": null,
+    "division": null,
+    "villages": ["Haripur"],
+    "sectors": ["Sector 4", "Sector 5", "Sector 11"],
+    "colonies": [],
+    "boundary_summary": "Sector 5, Sector 11, Haripur and part of Sector 4. The Sector 4 internal B-road, market-back road and Haripur boundary separate this ward from Ward 13. Sector 4 is not wholly included. Final order dated 2025-12-30."
+  },
+  {
+    "ward_number": 13,
+    "name": "Ward 13",
+    "zone": null,
+    "division": null,
+    "villages": ["Devi Nagar"],
+    "sectors": ["Sector 3", "Sector 4", "Sector 21"],
+    "colonies": ["Krishi Colony"],
+    "boundary_summary": "Sector 3, Devi Nagar, a large part of Sector 4, a major part of Sector 21 and Krishi Colony. The Ghaggar bridges, national highway, Sector 4 internal roads and Maheshpur/Madrasi Colony edge define the described limits. Sectors 4 and 21 are split. Final order dated 2025-12-30."
+  },
+  {
+    "ward_number": 14,
+    "name": "Ward 14",
+    "zone": null,
+    "division": null,
+    "villages": ["Maheshpur", "Fatehpur"],
+    "sectors": ["Sector 20", "Sector 21"],
+    "colonies": ["Madrasi Colony"],
+    "boundary_summary": "Maheshpur, Madrasi Colony, Fatehpur, part of Sector 21 and part of Sector 20, bounded by Ward 13, the national highway, Punjab and the internal line through Sector 20 towards the STP plot. Sectors 20 and 21 are split. Final order dated 2025-12-30."
+  },
+  {
+    "ward_number": 15,
+    "name": "Ward 15",
+    "zone": null,
+    "division": null,
+    "villages": ["Uperli Kundi", "Nichli Kundi"],
+    "sectors": ["Sector 20"],
+    "colonies": ["Aashiana Flats, Sector 20"],
+    "boundary_summary": "Part of Sector 20, Aashiana flats, Uperli Kundi and Nichli Kundi between the national highway, Punjab boundary and Ward 14's internal Sector 20 boundary near the STP plot. The English schedule spells Nichli Kundi as Nijhwali Kundi. Final order dated 2025-12-30."
+  },
+  {
+    "ward_number": 16,
+    "name": "Ward 16",
+    "zone": null,
+    "division": null,
+    "villages": ["Chandimandir", "Beed Ghaggar", "Kharak Mangoli"],
+    "sectors": [],
+    "colonies": [],
+    "boundary_summary": "Chandimandir, Beed Ghaggar and part of Kharak Mangoli along the northern municipal limit, military boundaries and national highway. Kharak Mangoli is divided between Wards 16 and 17. Final order dated 2025-12-30."
+  },
+  {
+    "ward_number": 17,
+    "name": "Ward 17",
+    "zone": null,
+    "division": null,
+    "villages": ["Kharak Mangoli", "Chowki", "Naggal", "Moginand", "Jhuriwala", "Nada"],
+    "sectors": ["Sector 23", "Sector 24", "Sector 25", "Sector 30", "Sector 31"],
+    "colonies": [],
+    "boundary_summary": "Part of Kharak Mangoli, Chowki, Naggal/Moginand, Jhuriwala, Nada and Sectors 23, 24, 25, 30 and 31. Described limits follow the Ghaggar, municipal/military edges and the Sector 25/26 dividing road. The English locality sentence separates Naggal and Moginand; the Hindi text groups their names. Final order dated 2025-12-30."
+  },
+  {
+    "ward_number": 18,
+    "name": "Ward 18",
+    "zone": null,
+    "division": null,
+    "villages": ["Madanpur", "Kishangarh"],
+    "sectors": ["Sector 26", "Sector 27", "Sector 28"],
+    "colonies": ["Tribune Mitra Vihar", "ITBP Colony"],
+    "boundary_summary": "Sectors 26, 27 and 28, Madanpur, Kishangarh, Tribune Mitra Vihar and ITBP Colony. Limits follow the Sector 25/26 road, Ghaggar/Punjab boundary, Ramgarh-Dera Bassi road, national highway and TBRL edge. Final order dated 2025-12-30."
+  },
+  {
+    "ward_number": 19,
+    "name": "Ward 19",
+    "zone": null,
+    "division": null,
+    "villages": ["Ramgarh", "Billa", "Bhanu", "Jaswantgarh", "Mankya", "Dabkori"],
+    "sectors": [],
+    "colonies": ["TBRL Colony"],
+    "boundary_summary": "Ramgarh, TBRL Colony, Billa, Bhanu, Jaswantgarh, Mankya and Dabkori along the Punjab and outer municipal boundaries, with Ward 18 to the west and Ward 20 towards Kot. Source spellings include Bila, Manakya and Dabkauri. Final order dated 2025-12-30."
+  },
+  {
+    "ward_number": 20,
+    "name": "Ward 20",
+    "zone": null,
+    "division": null,
+    "villages": ["Kot", "Mattawala", "Khangesara", "Sukhdarshanpur", "Toka", "Alipur", "Naggal", "Jalauli", "Khatauli"],
+    "sectors": [],
+    "colonies": [],
+    "boundary_summary": "Kot and the southeastern village belt through Mattawala, Khangesara, Sukhdarshanpur, Toka, Alipur, Naggal, Jalauli and Khatauli. The boundary begins at the Jalauli-Barwala municipal-limit junction and follows the outer municipal boundary and Ward 19. Barwala is a boundary reference, not an included village in the closing schedule. Final order dated 2025-12-30."
+  }
+]

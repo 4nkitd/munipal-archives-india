@@ -1,0 +1,222 @@
+[
+  {
+    "ward_number": 1,
+    "name": "Ward 1",
+    "zone": null,
+    "division": null,
+    "villages": ["Bhatauli", "Hundewala", "Khera", "Gulab Nagar", "Ratouli"],
+    "sectors": [],
+    "colonies": ["Dwarka Puri", "Gaushala Colony", "Shyam Sundar Puri", "Omaxe City", "Ansal Town"],
+    "boundary_summary": "Ambala Road municipal limit, Bilaspur Road, Rakshak Vihar, military ground, BDPO office, Sector 18 road, Town Park, Ratouli and Kansapur Road form principal boundary references. Sector 18 road is a boundary reference, not an assignment of the whole sector."
+  },
+  {
+    "ward_number": 2,
+    "name": "Ward 2",
+    "zone": null,
+    "division": null,
+    "villages": ["Jarauda"],
+    "sectors": [],
+    "colonies": ["Civil Lines", "Gauri Shankar Colony", "Gopal Nagar", "Malviya Nagar", "Ishapur Colony", "Vishnu Garden"],
+    "boundary_summary": "Rakshak Vihar on Bilaspur Road, Hanuman Gate Chowk, government school and Ambala Road define the main boundary circuit in Jagadhri. The municipal locality index also lists old-city markets including Khera Bazar and Pansari Bazar."
+  },
+  {
+    "ward_number": 3,
+    "name": "Ward 3",
+    "zone": null,
+    "division": null,
+    "villages": ["Manakpur", "Mukaribpur", "Telipura", "Udhamgarh", "Madhuwala", "Jarauda", "Garhi Banjara"],
+    "sectors": [],
+    "colonies": ["Kali Mandir Colony", "Kesar Nagar", "Netaji Subhash Nagar", "Amar Vihar", "Ganga Nagar", "HSIIDC Industrial Area Manakpur", "Timber Market Jagadhari"],
+    "boundary_summary": "Old Bilaspur Road runs north to the municipal limit, then along the limit to Kharwan Road, Chhachhrauli Road, Chaneti Chowk, Hanuman Gate and Gugga Madi before returning through Old Chhachhrauli Road."
+  },
+  {
+    "ward_number": 4,
+    "name": "Ward 4",
+    "zone": null,
+    "division": null,
+    "villages": ["Buria", "Buria Jagir", "Chaneti", "Bhagwangarh", "Garhi Banjara", "Nabh", "Udhamgarh"],
+    "sectors": [],
+    "colonies": ["Green Vihar", "Indira Puram", "Stupa Colony Chaneti", "Vishwakarma Colony", "Vijay Nagar"],
+    "boundary_summary": "Buria Chowk, Vishwakarma Dharamshala, Chaneti Chowk, Kharwan Chowk, the eastern municipal limit, Amadalpur Road, Bhagwangarh and Buria Road form the boundary circuit."
+  },
+  {
+    "ward_number": 5,
+    "name": "Ward 5",
+    "zone": null,
+    "division": null,
+    "villages": ["Bhagwangarh", "Bhojpur"],
+    "sectors": [],
+    "colonies": ["Buria Gate", "Aggarsen Nagar", "Bhagirath Colony", "Bharat Sewak Nagar", "Gobind Garh Colony", "Kalyan Nagar", "Manohar Colony", "Madhuban Colony"],
+    "boundary_summary": "Ambala Road near Jagadhri bus stand, Hanuman Gate, Vishwakarma Dharamshala, Buria Chowk, Bhagwangarh, the eastern municipal limit and Saharanpur Road bound this Jagadhri ward."
+  },
+  {
+    "ward_number": 6,
+    "name": "Ward 6",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": ["Sector 17"],
+    "colonies": ["Durga Garden", "Sawan Puri", "Jain Nagar", "New Jain Nagar", "Basant Nagar", "Ganesh Nagar", "Mohan Nagar", "Canal Colony"],
+    "boundary_summary": "Jagadhri bus stand, Saharanpur Road-side points, Tejli Road, Jagadhri Road and Sector 17 including its gurudwara are the main boundary references. Sector 17 is shared with Ward 7."
+  },
+  {
+    "ward_number": 7,
+    "name": "Ward 7",
+    "zone": null,
+    "division": null,
+    "villages": ["Garhi Mundo", "Gobindpura"],
+    "sectors": ["Sector 17", "Sector 18", "Sector 18A"],
+    "colonies": ["Gandhi Dham", "Roop Nagar", "Kamboj Colony", "Ravi Nagar Colony", "New Basti"],
+    "boundary_summary": "Military ground on Ambala Road, Jagadhri bus stand, Sector 17 gurudwara, Gobindpura, Spring Field Public School and the road toward Sector 18 form the main circuit. Sector 17 is shared with Ward 6; Sector 18 entries are shared with Ward 22."
+  },
+  {
+    "ward_number": 8,
+    "name": "Ward 8",
+    "zone": null,
+    "division": null,
+    "villages": ["Gobindpuri"],
+    "sectors": [],
+    "colonies": ["Model Town", "Prem Nagar", "Professor Colony", "Thapar Colony", "Sarojni Colony", "Shyam Nagar", "Yogesh Nagar"],
+    "boundary_summary": "Kanhaiya Sahib Chowk, Gobindpuri-side streets, Sector 17 Road, Honda agency, Railway Road, Bhagat Singh Chowk and Maharana Pratap Chowk define the boundary circuit. Some Professor Colony and Sarojni Colony entries are shared with other wards."
+  },
+  {
+    "ward_number": 9,
+    "name": "Ward 9",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Model Colony", "Shastri Colony", "Rampura", "Laldwara Colony", "Chandan Colony", "Green Park", "Bhatia Nagar East", "Madan Puri"],
+    "boundary_summary": "Bhagat Singh Chowk, Jagadhri Road, ESI Hospital, Tejli Road and Guru Nanak Khalsa College are the principal boundary references. Model Colony is distinct from Model Town in Ward 8."
+  },
+  {
+    "ward_number": 10,
+    "name": "Ward 10",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Golden Colony", "Hari Prasad Colony", "Sondhi Mohalla", "Dasmesh Colony Near Khalsa College", "Vishwakarma Mohalla", "Yamuna Gali"],
+    "boundary_summary": "Guru Nanak Khalsa College, Chitta Mandir Road, Yamuna canal bank, railway line, Railway Station Road and City Centre Road form the main circuit. Dasmesh Colony and Yamuna Gali entries include shared ward assignments."
+  },
+  {
+    "ward_number": 11,
+    "name": "Ward 11",
+    "zone": null,
+    "division": null,
+    "villages": ["Tejli", "Darwa", "Gadhauli", "Munda Majra"],
+    "sectors": ["Sector 15"],
+    "colonies": ["Azad Nagar", "Hanuman Colony", "Jyoti Nagar", "Tejli Colony", "Gadhauli Colony", "Sunder Nagar", "Lal Vihar Colony"],
+    "boundary_summary": "Yamuna canal, Chitta Mandir Road, Azad Nagar Chowk, Lal Dwara Road, Tejli Road, Saharanpur Road and the eastern municipal limit define the principal boundary circuit. The municipal locality index places Sector 15 Phase I and II in this ward."
+  },
+  {
+    "ward_number": 12,
+    "name": "Ward 12",
+    "zone": null,
+    "division": null,
+    "villages": ["Daulatpur", "Badhi Majra", "Kami Majra", "Pansara", "Raipur", "Shadipur", "Tajakpur", "Darwa", "Gadhauli", "Ishopur", "Mumidi"],
+    "sectors": [],
+    "colonies": ["Kailash Nagar", "Shambhu Colony", "Tirath Nagar", "Sharda Vihar Colony", "Hamida Colony", "Jammu Colony"],
+    "boundary_summary": "Starts at the railway line beside the Yamuna, follows the watercourse toward the municipal limit, continues along the municipal limit through Daulatpur and returns along the Yamuna to the railway. Several villages and colonies have split assignments in the municipal index."
+  },
+  {
+    "ward_number": 13,
+    "name": "Ward 13",
+    "zone": null,
+    "division": null,
+    "villages": ["Mumidi", "Garhi Gujran"],
+    "sectors": [],
+    "colonies": ["Palam Vihar", "Jain Colony", "Jammu Colony", "Mamidi Colony", "Camp Colony", "Industrial Area Radour Road"],
+    "boundary_summary": "Radaur Road, Garhi Road, the Yamuna bank and Mumidi village define the principal circuit with street-level turns north of Radaur Road. The Radaur Road industrial area is indexed across Wards 13 and 18."
+  },
+  {
+    "ward_number": 14,
+    "name": "Ward 14",
+    "zone": null,
+    "division": null,
+    "villages": ["Garhi Gujran", "Habibpur"],
+    "sectors": [],
+    "colonies": ["Sugar Mill Colony", "Hamida Colony", "Alisher Colony", "Atma Puri Colony", "Beni Prasad Mohalla", "Lakkar Mandi", "ISGEC"],
+    "boundary_summary": "Saharanpur Road, Saraswati Sugar Mill Colony boundary, railway line, Yamuna bank and Garhi Road enclose the principal circuit. Sugar Mill Colony and Hamida Colony have entries assigned to more than one ward."
+  },
+  {
+    "ward_number": 15,
+    "name": "Ward 15",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Old Industrial Area", "Industrial Estate Phase I & II", "Lajpat Nagar", "Hari Nagar", "Mishra Colony", "Vijay Colony", "Vishwakarma Mohalla"],
+    "boundary_summary": "Maharana Pratap Chowk, Khalsa College, Satya Narayan Dharamshala, Railway Road, railway station, railway line and bypass bridge form the circuit. The municipal index places the old Radaur Road bazaar and Workshop Road municipal shops in this ward."
+  },
+  {
+    "ward_number": 16,
+    "name": "Ward 16",
+    "zone": null,
+    "division": null,
+    "villages": ["Chandpur"],
+    "sectors": [],
+    "colonies": ["Bawa Colony", "Dharampura", "Harbans Pura", "Gandhi Nagar", "Labour Colony Workshop Road", "Raja Garden", "Joginder Nagar", "Laxmi Garden"],
+    "boundary_summary": "Maharana Pratap Chowk south to the bypass bridge, west along the railway line, north to Workshop Road at Guru Teg Bahadur Chowk and east along Workshop Road back to the start."
+  },
+  {
+    "ward_number": 17,
+    "name": "Ward 17",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Adarsh Nagar Camp", "Camp Colony", "Bishan Das Colony", "Gulab Nagar", "Patel Nagar", "Veena Nagar", "Shiv Nagar", "Sugar Mill Colony"],
+    "boundary_summary": "Radaur Road north through intermediate points to the railway line, east along the railway, south along Saraswati Sugar Mill Colony boundary to Saharanpur Road and west back to Radaur Road."
+  },
+  {
+    "ward_number": 18,
+    "name": "Ward 18",
+    "zone": null,
+    "division": null,
+    "villages": ["Aurangabad", "Farakpur", "Bhut Majra", "Ishopur", "Jampur", "Jorian", "Mandebar", "Patas Garh", "Mumidi"],
+    "sectors": [],
+    "colonies": ["Prithvi Nagar", "Ambedkar Nagar", "Jawahar Nagar", "Nanak Nagar", "Nanda Colony", "Majri Colony", "Industrial Area Radour Road"],
+    "boundary_summary": "Railway line near Prithvi Nagar, Radaur Road, Mumidi village, Yamuna canal and the southwestern municipal limit form the principal circuit. The municipal index assigns Mandebar to Ward 18, although a separate outside-Lal-Dora Mandebar entry is labelled Ward 13."
+  },
+  {
+    "ward_number": 19,
+    "name": "Ward 19",
+    "zone": null,
+    "division": null,
+    "villages": ["Kheri Rangran", "Mandebari", "Ratouli", "Sasauli", "Peer Majra", "Phoosgarh"],
+    "sectors": ["Sector 12"],
+    "colonies": ["Vishnu Nagar", "Ram Nagar Railway Workshop", "Simru Colony", "Jawahar Nagar", "Railway Workshop"],
+    "boundary_summary": "Guru Teg Bahadur Chowk, railway line, western municipal limit, Ratouli village phirni, Shivanand School, Sasauli Road, DAV School and Railway Workshop boundary define the principal circuit."
+  },
+  {
+    "ward_number": 20,
+    "name": "Ward 20",
+    "zone": null,
+    "division": null,
+    "villages": ["Sasauli", "Sasoli Majri"],
+    "sectors": [],
+    "colonies": ["Amar Puri", "Modern Colony", "GTB Nagar", "Ishwar Nagar Workshop Road", "Prahlad Puri", "Shiv Puri", "Tilak Nagar", "Arya Nagar"],
+    "boundary_summary": "Railway Workshop Road, Railway Colony boundary, DAV School, Sasauli Road, ITI Yamunanagar boundary, Arjun Park, Jagadhri Road and Maharana Pratap Chowk form the main circuit."
+  },
+  {
+    "ward_number": 21,
+    "name": "Ward 21",
+    "zone": null,
+    "division": null,
+    "villages": ["Kansapur", "Kansali", "Sasauli"],
+    "sectors": [],
+    "colonies": ["Anand Vihar", "Ashok Vihar", "Bank Colony", "Bhagwati Colony", "Booter Vihar", "Ekta Vihar", "Rajeev Garden", "Saraswati Vihar"],
+    "boundary_summary": "Sharma Karyana Store in Sasauli, Ratouli Road, Rama Krishna School and ITI Yamunanagar boundary are principal references in a detailed street-level circuit. Several Bank Colony, Bhagwati Colony and Rajiv Garden entries are shared with neighbouring wards."
+  },
+  {
+    "ward_number": 22,
+    "name": "Ward 22",
+    "zone": null,
+    "division": null,
+    "villages": ["Gobindpura", "Gobindpuri", "Ratouli", "Kansali"],
+    "sectors": ["Sector 18", "Sector 18A"],
+    "colonies": ["Adarsh Nagar", "Anand Colony", "Chopra Garden", "Golden Puri", "Sanjay Vihar", "Tyagi Garden", "Vasant Vihar", "Vivek Vihar"],
+    "boundary_summary": "Hanuman Mandir on Jagadhri Road, Arjun Park, New Rama Krishna School, Ratouli Road, Sector 18 road, Gobindpura phirni, Jagadhri Main Road, Gobindpuri Road and Kanhaiya Sahib Chowk form the main circuit. Sector 18 and Sector 18A are shared with Ward 7."
+  }
+]

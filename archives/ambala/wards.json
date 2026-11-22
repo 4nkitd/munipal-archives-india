@@ -1,0 +1,202 @@
+[
+  {
+    "ward_number": 1,
+    "name": "Ward 1",
+    "zone": null,
+    "division": null,
+    "villages": ["Ghel Khurd", "Devi Nagar", "Dadiyana", "Manakpur", "Dangdehri", "Lohgarh"],
+    "sectors": [],
+    "colonies": [],
+    "boundary_summary": "2025 final delimitation, abbreviated boundary references: railway point (30.39223, 76.74159), municipal limit at (30.39717, 76.73336), Ghel Khurd, Devi Nagar, Dadiyana, Manakpur and Dangdehri, Chandigarh railway, M.M. Hospital, Lohgarh revenue boundary, NH-152, Devi Nagar STP, Panjokhra Minor Canal and Ghel Road underpass. Revenue names identify boundary references, not necessarily whole-village inclusion."
+  },
+  {
+    "ward_number": 2,
+    "name": "Ward 2",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Basant Vihar", "Geeta Nagari", "Sultanpur", "Sundar Nagar", "Jaggi Garden", "Bijli Board Colony, Dhulkot"],
+    "boundary_summary": "2025 final delimitation, abbreviated: Veer Ji Ki Kutiya railway, Sanatan Charitable Trust, Geeta Chowk, Basant Vihar house 2456, Sultanpur Community Center, Panch Peer Dargah, Radha Sawami Satsang Bhawan, M.M. Hospital Sadopur, municipal limit, Sundar Nagar, Jaggi Garden houses 779A, 679 and 649, Bijli Board Colony Dhulkot, Era Hotel, Maruti showroom and BBMB office. Listed colonies are boundary references and may be split."
+  },
+  {
+    "ward_number": 3,
+    "name": "Ward 3",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Bijli Board Colony, Dhulkot", "Jaggi Garden", "Sundar Nagar"],
+    "boundary_summary": "2025 final delimitation, abbreviated: BBMB office, Maruti showroom, Delhi-Chandigarh highway, Era Hotel, Bijli Board Colony Dhulkot at (30.40288, 76.79663), Jaggi Garden houses 649, 679 and 779A, Sundar Nagar V Trans hub, municipal limit, Saini Furniture House, Saini Medicos, point (30.389658, 76.797315) and railway. Jaggi Garden and other listed colonies are boundary references, not exclusive whole-colony assignments."
+  },
+  {
+    "ward_number": 4,
+    "name": "Ward 4",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Paras Ram Nagar", "Subhash Nagar"],
+    "boundary_summary": "2025 final delimitation, abbreviated: Pooja Saree Complex, Goel Fashion, Mangat house 98, H.S. Sethi house 4, point (30.389658, 76.797315), Saini Medicos, municipal limit via Paras Ram Nagar/Subhash Nagar, railway near Shiv Mandir, Hanuman Mandir and Vita Milk Plant boundary. Baldev Nagar is a wider locality label; this is not a claim that the whole locality belongs to Ward 4."
+  },
+  {
+    "ward_number": 5,
+    "name": "Ward 5",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Sethi Nagar", "Manmohan Nagar", "Sultanpur", "Geeta Nagari", "Basant Vihar"],
+    "boundary_summary": "2025 final delimitation, abbreviated: Veer Ji Ki Kutiya, railway to Shiv Bagh cremation ground, H.S. Sethi house 4, Mangat house 98, Goel Fashion Sethi Nagar, Delhi-Jalandhar highway, Manmohan Nagar cremation ground, Shani Dev Mandir, Radha Sawami Satsang Bhawan, Sultanpur Community Center, Geeta Nagari petrol pump, Basant Vihar house 2456, Geeta Chowk and Sanatan Charitable Trust. Colony references may straddle wards."
+  },
+  {
+    "ward_number": 6,
+    "name": "Ward 6",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Navneet Nagar", "Jawahar Nagar", "Preet Nagar", "Civil Lines", "Partap Nagar"],
+    "boundary_summary": "2025 final delimitation, abbreviated: Pari Kariyana Store railway crossing, Herbal Park, Session Drain, Home Guard office, Navneet Nagar Park, Jawahar Nagar/Preet Nagar house 490/153-B, Civil Lines, Shaurya Chowk, Police Line Shiv Mandir, PKR Jain School, Arya Chowk, Jagadhari Gate MC office, Bhagwan Valmiki Chowk, national highway, Pooja Complex, Vita Milk Plant and Partap Nagar Hanuman Mandir. Localities are boundary references."
+  },
+  {
+    "ward_number": 7,
+    "name": "Ward 7",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Nahan House"],
+    "boundary_summary": "2025 final delimitation, abbreviated: national highway at Pammi Car Shop, Bhagwan Shri Valmiki Chowk in Nahan House, shop opposite Guru Nanak Tyre, Batra house 2222, Narender Pali shop, Miri Piri Chowk, Gee Ess Timber Store, Gurudwara Sri Manji Sahib, Saini Samosa Wala and Dhiman Kariyana Store on the highway."
+  },
+  {
+    "ward_number": 8,
+    "name": "Ward 8",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Kumhar Mohalla", "Guru Nanak Pura"],
+    "boundary_summary": "2025 final delimitation, abbreviated: Jagadhari Gate MC office, Arya Chowk, Beti Bachao Beti Padhao Chowk, Mahavir Park, Shiva Suit, Shukul Kund Road, Ram Bagh Road Shiv Mandir, Kumhar Mohalla, Malhotra Bakeries near Devi Ambika Mata Mandir, Patel Road, Old Sabji Mandi Road, Guru Nanak Pura and Guru Nanak Tyre. This is an old-city boundary description, not a complete market inventory."
+  },
+  {
+    "ward_number": 9,
+    "name": "Ward 9",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Naya Bans"],
+    "boundary_summary": "2025 final delimitation, abbreviated: Bhalla Dairy on Old Sabji Mandi Road, Patel Road, Malhotra Bakeries, Gurudwara Sahib Sarafa Bazar, Naya Bans house 5864/5, Dr. B.R. Ambedkar Chowk, S.A. Jain Model School and College, tobacco factory, RLG Vidhya Mandir, Yuvraj Palace, Miglani Gaushala, national highway near TPS Banuari Nakka, Gurudwara Shri Manji Sahib and Gee Ess Timber Store."
+  },
+  {
+    "ward_number": 10,
+    "name": "Ward 10",
+    "zone": null,
+    "division": null,
+    "villages": ["Patti Jattan"],
+    "sectors": [],
+    "colonies": ["Moti Nagar", "Devi Nagar", "Manmohan Nagar"],
+    "boundary_summary": "2025 final delimitation, abbreviated: Amritsar railway near Moti Nagar STP, Ghel Drain, Ghel Road underpass, Vishav Manav Ruhani Kendar in Devi Nagar, Ghaggar bank, Delhi-Amritsar highway, Devi Nagar STP, Patti Jattan revenue boundary, Chandigarh railway, Sadhopur underbridge, Manmohan Nagar cremation ground, TPS Banauri Nakka, Mughlani Gaushala, Yuvraj Palace, RLG Vidhya Mandir and S.A. Jain institutions. Names indicate boundary references."
+  },
+  {
+    "ward_number": 11,
+    "name": "Ward 11",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Moti Nagar", "Naya Bans"],
+    "boundary_summary": "2025 final delimitation, abbreviated: Old Civil Hospital Chowk, Punjabi Chicken, Shiva Suits, Aggarsain Chowk, UHBVN, Haryana Roadways Workshop, Kusht Ashram railway boundary, Court Road railway underbridge, SG Electronics, Empire Dental Clinic, Moti Nagar STP, Amritsar railway, S.A. Jain Model School, Naya Bans house 5864/5, Sarafa Bazar Gurudwara and Malhotra Bakeries. Listed localities may be split."
+  },
+  {
+    "ward_number": 12,
+    "name": "Ward 12",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": ["Sector 1", "Sector 7"],
+    "colonies": ["Jawahar Nagar", "Navneet Nagar", "Mathura Nagari", "Mathura Enclave", "Kailash Nagar"],
+    "boundary_summary": "2025 final delimitation, abbreviated: Police Line Road Shiv Mandir, Shourya Chowk, Jawahar Nagar, Navneet Nagar Park, Mathura Nagari and Mathura Enclave, Delhi-Ludhiana highway, Prithvi Raj Chauhan Chowk, Central Jail/railway boundary, Kailash Nagar houses 666/12 and 632/C, Sector 1 houses 40/41, 182, 203/204, 261, 271 and 283, Community Centre, SMV Public School, Police DAV auditorium, Sector 7 plot 86 and Gate 10, Angels Public School, railway and Roadways Workshop. Sectors are shared boundary references."
+  },
+  {
+    "ward_number": 13,
+    "name": "Ward 13",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Model Town", "Dhulkot", "Sena Colony"],
+    "boundary_summary": "2025 final delimitation, abbreviated: INCO railway underpass, Parshuram Chowk, Elegant Honda, Model Town house 97/Uma Health Club, railway, Shiv Mandir, municipal limit via Dhulkot and Sena Colony to Jaggi City Center, railway point (30.379235, 76.791867), Mata Rani Chowk, Manjit Cycle Work, Malhotra Medical Store, Eyes Hospital and Krishna Hospital. Model Town is a boundary reference shared with Ward 14."
+  },
+  {
+    "ward_number": 14,
+    "name": "Ward 14",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": ["Sector 1", "Sector 7"],
+    "colonies": ["Manauli House", "Kailash Nagar", "Model Town"],
+    "boundary_summary": "2025 final delimitation, abbreviated: Police DAV auditorium/Anant Hotel, Manauli House 18, Unique Industry, SMV Public School, Sector 1 Community Centre and houses 283, 271, 261, 203/204, 182 and 40/41, Kailash Nagar house 632/C, railway, Model Town house 97/Uma Health Club, Elegant Honda, Parshuram Chowk, INCO underbridge, Angels Public School and Sector 7 plot 86. Sector and locality references do not imply whole-area inclusion."
+  },
+  {
+    "ward_number": 15,
+    "name": "Ward 15",
+    "zone": null,
+    "division": null,
+    "villages": ["Liharsa", "Kalu Majra", "Nizampur"],
+    "sectors": [],
+    "colonies": ["Badshahi Bagh", "Ram Dass Nagar", "Moti Nagar"],
+    "boundary_summary": "2025 final delimitation, abbreviated: SG Electronics, Adesh Complex Gate 2 Court Road, Badshahi Bagh house 1299/14, Animal Husbandry office, Ram Dass Nagar, STP wall, Ambala Dwar on Ghanaur Road, municipal limit via Liharsa, Kalu Majra and Nizampur to railway point (30.39717, 76.73336), Ghel Drain, Moti Nagar STP and Empire Dental Clinic. Village names identify the municipal-limit route, not whole-village assignments."
+  },
+  {
+    "ward_number": 16,
+    "name": "Ward 16",
+    "zone": null,
+    "division": null,
+    "villages": ["Nasirpur", "Singhawala"],
+    "sectors": [],
+    "colonies": ["Ram Dass Nagar"],
+    "boundary_summary": "2025 final delimitation, abbreviated: Maa Sharda Kariyana Store/Max Dental Clinic, Jalbera Road point (30.35171, 76.76888), municipal limit at (30.34615, 76.75450), Nasirpur and Nasirpur STP, Ghanaur Road furniture shop, Ambala Dwar, STP wall to Ram Dass Nagar, point (30.36890, 76.75711), Diksha house and Singhawala Barat Ghar. Village names are boundary references."
+  },
+  {
+    "ward_number": 17,
+    "name": "Ward 17",
+    "zone": null,
+    "division": null,
+    "villages": ["Singhawala"],
+    "sectors": ["Sector 8"],
+    "colonies": ["Housing Board Colony, Sector 8"],
+    "boundary_summary": "2025 final delimitation, abbreviated: Maa Sharda Kariyana Store/Max Dental Clinic, Singhawala Barat Ghar, point (30.36878800, 76.75739100), Animal Husbandry office, Tara Devi house 1299/14, Adesh Complex Gate 2 Court Road, railway underbridge, railway to Sector 8 boundary, Session Drain, Sector 8 houses 544, 763 and 778, central verge, Housing Board market shop 1 Guru Properties and Moon Palace. Sector 8 is split along specified landmarks."
+  },
+  {
+    "ward_number": 18,
+    "name": "Ward 18",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": ["Sector 8", "Sector 9", "Sector 10"],
+    "colonies": ["Housing Board Colony, Sector 8"],
+    "boundary_summary": "2025 final delimitation, abbreviated: Satija Photostat at Sector 9 railway underpass, Rajiv Gandhi Stadium boundary, Sector 10 boundary, Shaheed Udham Singh Chowk, Moon Palace, Sector 8 Housing Board boundary, HBC market shop 1 Guru Properties, central verge, Sector 8 houses 778 and 763, Sanjay Rohilla house near Session Drain and railway. Sector 9 and Sector 10 names include boundary landmarks, not necessarily entire sectors."
+  },
+  {
+    "ward_number": 19,
+    "name": "Ward 19",
+    "zone": null,
+    "division": null,
+    "villages": ["Kanwala"],
+    "sectors": ["Sector 10"],
+    "colonies": ["Sawan Vihar", "Vatika"],
+    "boundary_summary": "2025 final delimitation, abbreviated: Satija Photostat/INCO railway underpass, Krishna Hospital, Eyes Hospital, Manjit Cycle, Mata Rani Chowk, railway point (30.379235, 76.791867), municipal limit to Raunak Bakery Sawan Vihar, Kanwala Gurudwara, Guga Maadi, Shiva Dairy Kanwala, Street G6 INCO Drain, Vatika house PKW/2, Vednata School and Sector 10 boundary. Kanwala is shared with Ward 20; Sector 10 is a boundary reference."
+  },
+  {
+    "ward_number": 20,
+    "name": "Ward 20",
+    "zone": null,
+    "division": null,
+    "villages": ["Kanwala", "Sounda"],
+    "sectors": ["Sector 8", "Sector 10"],
+    "colonies": ["Sawan Vihar", "Vatika"],
+    "boundary_summary": "2025 final delimitation, abbreviated: Raunak Bakery Sawan Vihar, municipal limit via Kanwala and Sounda to (30.34615, 76.75450), Jalbera Road, Maa Sharda Kariyana Store/Max Dental Clinic, Sector 8 Housing Board boundary, Shaheed Udham Singh Chowk, Sector 10 boundary, Rajiv Gandhi Stadium, TPS-3, Vatika PKW/2, Street G6 INCO Drain, Shiva Dairy Kanwala, Guga Maadi and Kanwala Gurudwara. Village and sector names are boundary references; Kanwala is shared with Ward 19."
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "ward_number": 1,
+    "name": "Ward 1",
+    "zone": null,
+    "division": null,
+    "villages": ["Baldi", "Jhanjari", "Kailash", "Uchani"],
+    "sectors": ["Sector 28", "Sector 28A", "Sector 29"],
+    "colonies": ["Basant Vihar", "Indira Vikas Colony (Jhanjhari)", "Lodhi Colony", "Alpha City"],
+    "boundary_summary": "Summary of the English schedule dated 29 December 2024. Northern municipal fringe between Jhanjari, the Western Jamuna Canal, Kailash-Danialpur Road and NH-44, with the railway-side extension near Bhaini Khurd. Includes Oasis Resort and NBAGR. Consult the notified plan for exact boundaries."
+  },
+  {
+    "ward_number": 2,
+    "name": "Ward 2",
+    "zone": null,
+    "division": null,
+    "villages": ["Mangalpur", "Budakhera"],
+    "sectors": ["Sector 32"],
+    "colonies": ["RK Puram", "Palm Colony", "Ashoka Nursery", "Arya Puram", "Shakti Puram", "Baljeet Enclave", "Pritampura", "Narsi Village Part 1", "Soni City"],
+    "boundary_summary": "Between Tikri-Kailash Road, the eastern municipal limit, the Sector 32/33 dividing road, Noor Mahal Chowk, the sector road to Kunjpura Road and ITI Chowk on NH-44. English schedule dated 29 December 2024; consult the notified plan for exact boundaries."
+  },
+  {
+    "ward_number": 3,
+    "name": "Ward 3",
+    "zone": null,
+    "division": null,
+    "villages": ["Phoosgarh"],
+    "sectors": ["Sector 33"],
+    "colonies": ["Rajiv Puram", "Old Durga Colony", "SP Colony", "DC Colony", "Uttam Nagar", "Bank Colony", "Narender Colony", "Vikas Nagar", "Nirmal Vihar", "Saraswati Vihar", "Narsi Village Part 2", "JD Greens"],
+    "boundary_summary": "East of the Sector 6/7 peripheral road, south of the Sector 32/33 dividing road and north of the road separating Durga Colony/Uttam Nagar from Karan Vihar, extending to the eastern municipal boundary. English schedule dated 29 December 2024; Vikas Nagar is described as part in the Hindi list."
+  },
+  {
+    "ward_number": 4,
+    "name": "Ward 4",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Karan Vihar", "Prithvi Vihar", "Sugar Mill Colony", "Vikas Colony", "MC Colony", "MITC Colony", "Durga Colony"],
+    "boundary_summary": "From Ranwar Road and the Sector 5 peripheral road, follows the Durga Colony/Karan Vihar dividing road to the eastern municipal limit, then the augmentation canal, Meerut Road and the eastern edge of Vikas Colony back to Ranwar Road. Summary of the 29 December 2024 English schedule."
+  },
+  {
+    "ward_number": 5,
+    "name": "Ward 5",
+    "zone": null,
+    "division": null,
+    "villages": ["Kambopura"],
+    "sectors": [],
+    "colonies": ["Kanika Vihar", "Parsvnath City", "Chamba Colony", "Ansal City", "Abadi Kata Bagh", "Suraj Nagar", "Ashok Vihar"],
+    "boundary_summary": "Southern corridor bounded through Ranwar Road, the Sector 4/5 dividing road, Mughal Canal, NH-44, Daha-Sirsi roads, the southern municipal limit and augmentation canal to Meerut Road. Includes Truck Union and Police Complex Madhuban. Sector roads are boundary references, not whole-sector assignments."
+  },
+  {
+    "ward_number": 6,
+    "name": "Ward 6",
+    "zone": null,
+    "division": null,
+    "villages": ["Daha Jagir", "Madanpur", "Sirsi"],
+    "sectors": ["Sector 16"],
+    "colonies": ["Indira Colony", "Rishi Nagar", "Ram Dev Colony", "Khera Colony", "Langur Basti", "Sham Nagar", "Saini Colony", "Mangal Colony", "Deha Colony"],
+    "boundary_summary": "From Namaste Chowk follows NH-44 south towards Daha, the Daha-Sirsi roads and municipal boundary, returning along the Anand Vihar edge, Sector 3 approach, Shivpuri and old-city peripheral roads. Includes New Sabzi Mandi and areas of Matak Majri and Chand Sarai. Consult the 2024 notified plan."
+  },
+  {
+    "ward_number": 7,
+    "name": "Ward 7",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Ashok Nagar", "Butta Colony", "Balmiki Basti", "Moti Nagar", "Rajinder Nagar", "Pritam Nagar", "Govind Nagar", "Meera Ghati"],
+    "boundary_summary": "Old GT Road and old-city edge around Namaste Chowk, Subhash Gate, Arjun Gate, Clock Tower, Old Tehsil, Kunjpura Road, Old Suvidha Vali Gali and Karan/Mughal Canal, returning by the Sector 14 edge and NH-44. Includes Meerut Road. Summary of the 29 December 2024 English schedule."
+  },
+  {
+    "ward_number": 8,
+    "name": "Ward 8",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": ["Sector 4", "Sector 5", "Sector 6", "Sector 14"],
+    "colonies": ["Housing Board"],
+    "boundary_summary": "Includes the notified areas of Sectors 4, 5, 6 and Sector 14 Parts 1 and 2. Boundary follows sector roads, Meerut Road, Mughal/Karan Canal and NH-44, closing along the Sector 13/14 and Sector 6/7 roads near Sai Mandir. Sector 4/5 boundary portions require the notified plan, not a whole-sector assumption."
+  },
+  {
+    "ward_number": 9,
+    "name": "Ward 9",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": ["Sector 7", "Sector 8", "Sector 9"],
+    "colonies": ["ITI Colony", "BSNL Colony"],
+    "boundary_summary": "East of NH-44 between ITI Chowk on Kunjpura Road and the Sector 6/7 dividing road; eastern edge follows the peripheral road of Sectors 9, 8 and 7 to Sai Mandir. Summary of the 29 December 2024 English schedule."
+  },
+  {
+    "ward_number": 10,
+    "name": "Ward 10",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": ["Sector 13", "Sector 13 Extension"],
+    "colonies": ["New Housing Board", "Old Housing Board"],
+    "boundary_summary": "Between NH-44 on the east, Mughal Canal on the west, the Sector 12/13 dividing road on the north and Sector 13/14 dividing road on the south. Includes Sector 13 Extension and both Housing Board areas. Summary of the 29 December 2024 English schedule."
+  },
+  {
+    "ward_number": 11,
+    "name": "Ward 11",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": ["Sector 12", "Sector 31"],
+    "colonies": ["Pratap Colony", "Dayanand Colony", "Model Town", "Balmiki Basti", "LIC Quarters", "Saini Colony", "New Wazir Chand Colony", "Nayapuri"],
+    "boundary_summary": "Between the Western Jamuna Canal and NH-44 from their northern intersection to the Sector 12/13 dividing road, Old GT Road and Mall/Kachawa Road. Includes Sector 12 Parts 1 and 2, NDRI, IARI, ICAR, DWR, CSSRI, KCMC Campus and FCI Godown. Summary of the 29 December 2024 English schedule."
+  },
+  {
+    "ward_number": 12,
+    "name": "Ward 12",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Diwan Colony", "Char Chaman", "Jarnally Colony", "Dayal Singh Colony", "Adarsh Nagar", "Randhir Colony", "Rambagh", "Purshotam Garden", "Avtar Colony", "Ashoka Colony", "Duggal Colony", "Arjun Nagar", "Azad Nagar", "Subhash Colony", "Indira Colony", "Chaudhary Colony", "Officers Colony", "Sant Nagar", "Chaman Garden", "Chaman Garden Extension", "Bank Colony", "Karam Singh Colony"],
+    "boundary_summary": "Central area bounded through Gandhi Chowk, Kalpana Chawla Road, Mughal Canal, Suvidha Vali Gali, Kunjpura Road, Old Tehsil, Clock Tower, Railway Road, Kaithal Road, the railway and Mall/Kachawa Road. Includes Old Sabzi Mandi and Mahila Ashram. Summary of the 2024 English schedule."
+  },
+  {
+    "ward_number": 13,
+    "name": "Ward 13",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Azad Nagar", "Upkar Colony", "Old Ramesh Nagar", "Ibrahim Mandi", "Drabi Line", "Topkhana", "Chappar Band Mohalla", "Gurunanak Pura", "Jivan Nagar", "Gadaria Mohalla"],
+    "boundary_summary": "From Clock Tower follows old-city peripheral streets, Dyalpura Gate, Chaura Bazar and Old Anaj Mandi to Gaushala Road, Ramesh Nagar Chowk, Hansi Road and Nirankari Chowk, returning on Railway Road. Includes Sadar Bazar, Javahar Market and Vakhilpura. Summary of the 2024 English schedule."
+  },
+  {
+    "ward_number": 14,
+    "name": "Ward 14",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Bhim Nagar", "Bhram Nagar", "Ambedkar Nagar", "Vakilpura", "Rangiya Mandi", "Goppu Wala Bagh", "Janakpuri", "Jawhar Nagar", "Bhagat Mandi", "Ravi Dass Pura", "New Ramesh Nagar"],
+    "boundary_summary": "Area around Kaithal Chowk, Hansi Road, Ramesh Nagar Chowk, Gaushala Road, Janakpuri, Shivpuri Road, Ravidas Pura and the Rajiv Colony/Bhram Nagar dividing road. Includes Sadar Bazar and Banso Gate portions named in the schedule. Summary of the 2024 English schedule."
+  },
+  {
+    "ward_number": 15,
+    "name": "Ward 15",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Kot Mohalla", "Gausi Mohalla", "Holi Mohalla"],
+    "boundary_summary": "Old-city core from the old municipal office at Clock Tower along Old GT Road to Arjun Gate and Subhash Gate, returning through peripheral streets, Chaura Bazar and Dyalpura Gate. Includes Jundla Gate, Banso Gate, Kalandri Gate, Jatto Gate and Karan Gate. Summary of the 2024 English schedule."
+  },
+  {
+    "ward_number": 16,
+    "name": "Ward 16",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Bhatt Colony", "Gobind Colony", "Indira Colony", "Bahadur Chand Colony", "New Bahadur Chand Colony", "Luv-Kush Colony", "Balmiki Colony", "Dinga Khera", "Gita Colony", "Shri Ram Colony", "Shalimar Colony", "Shiva G Colony", "Anand Vihar", "Rajiv Colony", "Kodhi Colony", "Hakikat Nagar", "Mahavir Colony", "Shastri Nagar"],
+    "boundary_summary": "Southwestern area bounded through the municipal limit, eastern bank of Western Jamuna Canal, Rajwaha Road, railway, Kaithal Road, Rajiv Colony/Bhram Nagar road, Hansi Road, Gita Colony, Shivpuri Road and the Sector 3 approach. Summary of the 2024 English schedule."
+  },
+  {
+    "ward_number": 17,
+    "name": "Ward 17",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Shiv Colony", "New Shiv Colony"],
+    "boundary_summary": "Between Western Jamuna Canal, Kaithal Road, Gali 1 of Shiv Colony, the western side of the railway and Rajwaha Road by the STP. Summary of the 29 December 2024 English schedule."
+  },
+  {
+    "ward_number": 18,
+    "name": "Ward 18",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Prem Nagar", "Jyoti Nagar", "Ekta Colony", "Prem Colony", "Mann Colony", "Deha Basti", "Friends Colony", "Shanti Nagar"],
+    "boundary_summary": "Between the Prem Nagar road, Kaithal Road, railway, Gali 1 of Shiv Colony, Western Jamuna Canal and the Gandhi Nagar/Shanti Nagar dividing road. Northern reference is Madaan Confectionery near Gandhi Nagar Gali 1. Summary of the 2024 English schedule."
+  },
+  {
+    "ward_number": 19,
+    "name": "Ward 19",
+    "zone": null,
+    "division": null,
+    "villages": [],
+    "sectors": [],
+    "colonies": ["Ram Nagar", "Madarsi Colony", "New Prem Nagar"],
+    "boundary_summary": "Bounded by Kachawa Road on the north, the railway on the east, Kaithal Road on the south and main Ram Nagar/Prem Nagar Road on the west. Summary of the 29 December 2024 English schedule."
+  },
+  {
+    "ward_number": 20,
+    "name": "Ward 20",
+    "zone": null,
+    "division": null,
+    "villages": ["Dholgarh", "Zarifa Viran", "Saidpura", "Uchana"],
+    "sectors": [],
+    "colonies": ["CHD City", "Gandhi Nagar", "New Nasib Puram", "Pal Nagar", "Vijay Nagar", "Yamuna Vihar", "Bala G Colony", "Gurunanak Pura"],
+    "boundary_summary": "Western and northwestern municipal fringe, following NH-44, Western Jamuna Canal, Kachawa Road, Ram Nagar/Prem Nagar Road, Gandhi Nagar/Shanti Nagar road and the outer municipal/revenue boundaries near Saidpura, Bhakra Canal, Pundrak, Zarifa Viran, Dholgarh and Uchana. Includes District Jail. Summary of the 2024 English schedule."
+  }
+]

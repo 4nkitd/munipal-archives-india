@@ -1,0 +1,779 @@
+[
+  {
+    "ward_number": 1,
+    "name": "Ward 1",
+    "zone": "Ballabgarh",
+    "division": "Not verified",
+    "villages": [
+      "Ranhera Khera"
+    ],
+    "sectors": [
+      "Sector 25"
+    ],
+    "colonies": [],
+    "boundary_summary": "Global Company on Delhi-Mathura Road, the Gurgaon Canal siphon, Pratapgarh bridge and the Sector 25 bridge mark the circuit."
+  },
+  {
+    "ward_number": 2,
+    "name": "Ward 2",
+    "zone": "NIT",
+    "division": "Not verified",
+    "villages": [
+      "Gaunchi"
+    ],
+    "sectors": [
+      "Sector 25",
+      "Sector 55",
+      "Sector 56"
+    ],
+    "colonies": [
+      "Sanjay Colony"
+    ],
+    "boundary_summary": "The line follows the north bank of the Gurgaon Canal to the Sector 56 bridge, passes through Gaunchi and Sanjay Colony, and returns via the fire station."
+  },
+  {
+    "ward_number": 3,
+    "name": "Ward 3",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [
+      "Mujessar",
+      "Saran"
+    ],
+    "sectors": [
+      "Sector 22",
+      "Sector 23",
+      "Sector 25",
+      "Sector 55"
+    ],
+    "colonies": [
+      "Azad Colony",
+      "Sanjay Colony",
+      "Jawahar Colony",
+      "CISF Colony"
+    ],
+    "boundary_summary": "From Hardware Chowk the boundary reaches the railway near Bata station. At its other end it follows the CISF Colony wall back to BK-Hardware Road."
+  },
+  {
+    "ward_number": 4,
+    "name": "Ward 4",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [],
+    "colonies": [
+      "Jawahar Colony",
+      "Sanjay Colony"
+    ],
+    "boundary_summary": "From the old disposal works on Gurdwara Road the line follows the Gaunchi drain to the culvert near Krishna Choley Bhature and turns through Sanjay Colony."
+  },
+  {
+    "ward_number": 5,
+    "name": "Ward 5",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [
+      "Sector 23"
+    ],
+    "colonies": [
+      "Sanjay Colony"
+    ],
+    "boundary_summary": "Rajendra Chowk is the starting point. The boundary runs southwest to the police post on Sohna Road and then west along that road."
+  },
+  {
+    "ward_number": 6,
+    "name": "Ward 6",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [
+      "Sector 52"
+    ],
+    "colonies": [
+      "Jawahar Colony",
+      "Parvatiya Colony"
+    ],
+    "boundary_summary": "The circuit starts on Gurdwara Road, crosses the Gaunchi drain on Vaidh Road and passes Sector 52, Sohna Road and Hanuman Marg."
+  },
+  {
+    "ward_number": 7,
+    "name": "Ward 7",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [],
+    "colonies": [
+      "Sunder Colony"
+    ],
+    "boundary_summary": "From shop 190 on Nangla Road the line reaches the municipal limit near Sunder Colony and returns via Subhash Chowk on Nangla-Gazipur Road."
+  },
+  {
+    "ward_number": 8,
+    "name": "Ward 8",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [],
+    "colonies": [
+      "Parvatiya Colony II",
+      "Dabua Colony",
+      "Jawahar Colony"
+    ],
+    "boundary_summary": "The line starts at the MCF booster near Aggarwal School in Parvatiya Colony II and follows streets in Dabua and Jawahar colonies."
+  },
+  {
+    "ward_number": 9,
+    "name": "Ward 9",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [],
+    "colonies": [
+      "Jawahar Colony"
+    ],
+    "boundary_summary": "The line starts at Old Disposal Chowk on Gurdwara Road beside the Gaunchi drain and runs north to Shivam Juice Corner before turning west to house 777."
+  },
+  {
+    "ward_number": 10,
+    "name": "Ward 10",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [],
+    "colonies": [
+      "Inder Nagar"
+    ],
+    "boundary_summary": "The boundary runs from the Jain temple on the NIT outer road to Pyali Chowk, Dabua Chowk and the Air Force station wall, returning via the NH 3 culvert."
+  },
+  {
+    "ward_number": 11,
+    "name": "Ward 11",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [
+      "Bhankri"
+    ],
+    "sectors": [],
+    "colonies": [
+      "Nehru Colony",
+      "Dabua Colony"
+    ],
+    "boundary_summary": "The route starts at Dev Properties on Badkhal-Pali Road. It uses a field survey point, streets in Nehru and Dabua colonies and the Bhankri village area."
+  },
+  {
+    "ward_number": 12,
+    "name": "Ward 12",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [],
+    "colonies": [
+      "CISF Colony",
+      "Nehru Colony",
+      "Sainik Colony",
+      "SGM Nagar"
+    ],
+    "boundary_summary": "From the NIT 1 and 2 junction the line passes Raj Trading Company and follows the northern wall of CISF Colony. Other landmarks lie in Nehru Colony and SGM Nagar."
+  },
+  {
+    "ward_number": 13,
+    "name": "Ward 13",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [],
+    "colonies": [
+      "MCF Colony",
+      "AC Nagar"
+    ],
+    "boundary_summary": "From Delhi Chicken Corner below Bata flyover the line runs west to Hardware Chowk and north on the road between NH 1 and NH 2."
+  },
+  {
+    "ward_number": 14,
+    "name": "Ward 14",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [],
+    "colonies": [
+      "Sant Nagar",
+      "AC Nagar"
+    ],
+    "boundary_summary": "From Neelam flyover the boundary follows the railway north to the Old Faridabad underpass and reaches Lohia Dairy in Sant Nagar."
+  },
+  {
+    "ward_number": 15,
+    "name": "Ward 15",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [],
+    "colonies": [
+      "MCF Colony",
+      "Adarsh Colony",
+      "Gandhi Colony"
+    ],
+    "boundary_summary": "From the centre of Neelam flyover the route runs west through Neelam Chowk to BK Chowk, then northwest on KL Mehta Road."
+  },
+  {
+    "ward_number": 16,
+    "name": "Ward 16",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [],
+    "colonies": [
+      "SGM Nagar"
+    ],
+    "boundary_summary": "From Vrinda Public School the line heads east to Awana Chowk and north to Jain Depot in Gali 5 before turning east."
+  },
+  {
+    "ward_number": 17,
+    "name": "Ward 17",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [
+      "Sector 21A",
+      "Sector 21D"
+    ],
+    "colonies": [
+      "SGM Nagar",
+      "Gandhi Colony"
+    ],
+    "boundary_summary": "The route starts on 25 Foot Road in SGM Nagar and uses 22 Foot Road, Sector 21D and Gandhi Colony landmarks."
+  },
+  {
+    "ward_number": 18,
+    "name": "Ward 18",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [
+      "Badkhal"
+    ],
+    "sectors": [
+      "Sector 48"
+    ],
+    "colonies": [
+      "SGM Nagar"
+    ],
+    "boundary_summary": "From Kumhar Wali Pulia on Badkhal-Pali Road the line turns into Gali 9 in Badkhal village. Sector 48 and SGM Nagar also appear on the boundary."
+  },
+  {
+    "ward_number": 19,
+    "name": "Ward 19",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [
+      "Badkhal",
+      "Bhankri",
+      "Nawada"
+    ],
+    "sectors": [
+      "Sector 48"
+    ],
+    "colonies": [
+      "SGM Nagar",
+      "Nehru Colony",
+      "Nawada Colony"
+    ],
+    "boundary_summary": "The circuit starts in Gali 14 of Block C, SGM Nagar. It uses landmarks in Nehru Colony, Badkhal village and Sector 48."
+  },
+  {
+    "ward_number": 20,
+    "name": "Ward 20",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [
+      "Sector 21D",
+      "Sector 46"
+    ],
+    "colonies": [
+      "Green Field Colony"
+    ],
+    "boundary_summary": "From Badkhal Chowk on Mathura Road the line reaches Sector 21D, Badkhal Lake and the Delhi-Haryana border before returning via the Budhiya drain railway crossing."
+  },
+  {
+    "ward_number": 21,
+    "name": "Ward 21",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [
+      "Anangpur"
+    ],
+    "sectors": [],
+    "colonies": [
+      "Green Field Colony",
+      "NHPC Colony"
+    ],
+    "boundary_summary": "The railway beside Raja Masjid and the Budhiya drain define the opening stretch. The route also names Anangpur and the NHPC Colony boundary."
+  },
+  {
+    "ward_number": 22,
+    "name": "Ward 22",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [],
+    "colonies": [
+      "Green Valley Colony",
+      "NHPC Colony"
+    ],
+    "boundary_summary": "From the state border the line follows Delhi-Mathura Road to the footbridge opposite Crown Interiorz Mall before turning west."
+  },
+  {
+    "ward_number": 23,
+    "name": "Ward 23",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [
+      "Lakkarpur"
+    ],
+    "sectors": [],
+    "colonies": [
+      "Dayalbagh Colony"
+    ],
+    "boundary_summary": "The boundary starts at the Delhi-Mathura railway crossing on the state revenue boundary and runs west across the tracks towards Fatak Road."
+  },
+  {
+    "ward_number": 24,
+    "name": "Ward 24",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [
+      "Sarai"
+    ],
+    "sectors": [
+      "Sector 37"
+    ],
+    "colonies": [
+      "Ashoka Enclave Part 1"
+    ],
+    "boundary_summary": "The line starts at Deshraj Market, follows the state border opposite Sector 37, crosses the Gurgaon and Agra canals and returns via Sher Shah Suri Road."
+  },
+  {
+    "ward_number": 25,
+    "name": "Ward 25",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [
+      "Sector 91"
+    ],
+    "colonies": [
+      "Krishna Colony",
+      "Surya Colony",
+      "Surya Nagar",
+      "Surya Vihar",
+      "Vinay Nagar",
+      "Surdas Colony",
+      "Sona Colony"
+    ],
+    "boundary_summary": "From Aggarwal Sweets at the Palla-Sehatpur Road and Dam Road junction the line runs northwest to the new Agra Canal bridge."
+  },
+  {
+    "ward_number": 26,
+    "name": "Ward 26",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [
+      "Ismailpur"
+    ],
+    "sectors": [],
+    "colonies": [
+      "Ajay Nagar",
+      "Vinay Nagar",
+      "Surya Vihar",
+      "Surya Nagar",
+      "Krishna Colony"
+    ],
+    "boundary_summary": "The boundary starts at Bansal Property Dealer on the state border and reaches Shri Balaji Medical Store. Ismailpur and Ajay Nagar mark other stretches."
+  },
+  {
+    "ward_number": 27,
+    "name": "Ward 27",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [
+      "Dadsia",
+      "Ismailpur"
+    ],
+    "sectors": [],
+    "colonies": [
+      "Om Enclave",
+      "Ajay Nagar"
+    ],
+    "boundary_summary": "The route follows the state boundary from Om Enclave to the Yamuna and Pusta Road near Dadsia. It returns via Ajay Nagar and the Ismailpur gurdwara."
+  },
+  {
+    "ward_number": 28,
+    "name": "Ward 28",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [
+      "Aitmadpur"
+    ],
+    "sectors": [],
+    "colonies": [
+      "Sona Colony",
+      "Surya Nagar",
+      "Surdas Colony",
+      "Dheeraj Nagar",
+      "Adarsh Nagar",
+      "Chhajjan Nagar",
+      "New Tilpat Colony"
+    ],
+    "boundary_summary": "From the Palla-Sehatpur and Dam Road junction this line goes northeast to Divanshi Automobile, unlike Ward 25, which turns towards the canal bridge."
+  },
+  {
+    "ward_number": 29,
+    "name": "Ward 29",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [
+      "Sector 31"
+    ],
+    "colonies": [
+      "Chhajjan Nagar",
+      "Adarsh Nagar",
+      "Dheeraj Nagar",
+      "IP Colony"
+    ],
+    "boundary_summary": "The route starts at HSIDC shed plot 134-A, runs north to NHPC Chowk on Mathura Road and returns from the Sector 31 junction at plot 92B."
+  },
+  {
+    "ward_number": 30,
+    "name": "Ward 30",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [
+      "Sector 29",
+      "Sector 31"
+    ],
+    "colonies": [],
+    "boundary_summary": "The line starts opposite HSIDC plot 134-A and goes south towards plot 92B. The route names Sector 29 and Sector 31."
+  },
+  {
+    "ward_number": 31,
+    "name": "Ward 31",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [
+      "Sector 15A",
+      "Sector 16",
+      "Sector 16A",
+      "Sector 19",
+      "Sector 28"
+    ],
+    "colonies": [
+      "Shastri Colony",
+      "Pathwari Colony",
+      "Sant Nagar"
+    ],
+    "boundary_summary": "From the Sector 28/19 junction the line turns south on Shastri Colony Road to Sheetla Mata Temple. It returns via the Old Faridabad underpass and Delhi-Mathura Road."
+  },
+  {
+    "ward_number": 32,
+    "name": "Ward 32",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [
+      "Sector 19",
+      "Sector 28"
+    ],
+    "colonies": [
+      "Baselwa Colony",
+      "Pathwari Colony",
+      "Shastri Colony"
+    ],
+    "boundary_summary": "From the same Sector 28/19 junction the line heads east on Badkhal-Bypass Road. It reaches Kheri Pul police post and returns via Main Bazar and Sheetla Mata Temple."
+  },
+  {
+    "ward_number": 33,
+    "name": "Ward 33",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [
+      "Mawai",
+      "Baselwa"
+    ],
+    "sectors": [
+      "Sector 17",
+      "Sector 86",
+      "Sector 87"
+    ],
+    "colonies": [],
+    "boundary_summary": "From the canal bridge opposite Sector 17 the line follows the Gurgaon Canal towards Kheri Pul. Other markers include Mawai bridge, the Baselwa revenue boundary and the Sector 86/87 road."
+  },
+  {
+    "ward_number": 34,
+    "name": "Ward 34",
+    "zone": "Not verified",
+    "division": "Division IV (Ballabgarh, municipal solid waste)",
+    "villages": [
+      "Dadhar",
+      "Bhupani",
+      "Mahavatpur",
+      "Fattupura",
+      "Kheri Kalan",
+      "Wazirpur"
+    ],
+    "sectors": [],
+    "colonies": [],
+    "boundary_summary": "The line leaves Munshi Farm on Mawai Road, follows the Tilpat shooting range wall and reaches the Bhupani well and Mahavatpur embankment. It returns via the Kheri Kalan revenue line, Amrita Hospital gate 4 and Gopi Chand Chowk."
+  },
+  {
+    "ward_number": 35,
+    "name": "Ward 35",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [
+      "Budhena"
+    ],
+    "sectors": [
+      "Sector 12",
+      "Sector 14",
+      "Sector 15",
+      "Sector 16",
+      "Sector 17",
+      "Sector 18",
+      "Sector 85",
+      "Sector 86",
+      "Sector 87"
+    ],
+    "colonies": [
+      "Hari Nagar"
+    ],
+    "boundary_summary": "From the Sector 12/15 and 14/15 road junction the line reaches Kheri Pul and Sai Park Apartments. It follows the Budhena revenue boundary to BPTP Park Elite Floors in Sector 85 and returns via BPTP bridge."
+  },
+  {
+    "ward_number": 36,
+    "name": "Ward 36",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [
+      "Sector 12",
+      "Sector 14",
+      "Sector 15",
+      "Sector 15A",
+      "Sector 16",
+      "Sector 16A",
+      "Sector 17",
+      "Sector 18",
+      "Sector 18A"
+    ],
+    "colonies": [],
+    "boundary_summary": "The circuit links the Sector 16/17/18 junction, Delhi-Mathura Road near metro pillar 755, Sunflag Chowk, Metro Hospital and Lala Lajpat Rai Chowk."
+  },
+  {
+    "ward_number": 37,
+    "name": "Ward 37",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [
+      "Sector 3",
+      "Sector 4",
+      "Sector 6",
+      "Sector 7",
+      "Sector 7A",
+      "Sector 8",
+      "Sector 12",
+      "Sector 15A"
+    ],
+    "colonies": [
+      "Prem Nagar"
+    ],
+    "boundary_summary": "The line runs from BPTP Chowk to the west bank of the Agra Canal and along YMCA Road to Sector 7A. It crosses the Gurgaon Canal at Sector 3 and returns via Delhi-Mathura Road."
+  },
+  {
+    "ward_number": 38,
+    "name": "Ward 38",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [
+      "Bhataula",
+      "Mirzapur"
+    ],
+    "sectors": [
+      "Sector 75",
+      "Sector 76",
+      "Sector 78",
+      "Sector 79"
+    ],
+    "colonies": [
+      "Sapera Basti"
+    ],
+    "boundary_summary": "The route leaves BPTP bridge on the east bank of the Agra Canal, passes Bhataula, Sector 76 BPL flats and houses in Mirzapur, then returns via Resort Chowk."
+  },
+  {
+    "ward_number": 39,
+    "name": "Ward 39",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [],
+    "sectors": [
+      "Sector 3",
+      "Sector 4",
+      "Sector 6",
+      "Sector 7",
+      "Sector 7A",
+      "Sector 8",
+      "Sector 10"
+    ],
+    "colonies": [
+      "Housing Board Colony",
+      "Prem Nagar"
+    ],
+    "boundary_summary": "From the Sector 7 ward office the line runs through Sector 7A to YMCA Road, reaches the Agra Canal and returns along the Gurgaon Canal and Prem Nagar school."
+  },
+  {
+    "ward_number": 40,
+    "name": "Ward 40",
+    "zone": "Not verified",
+    "division": "Division IV (Ballabgarh, municipal solid waste)",
+    "villages": [],
+    "sectors": [
+      "Sector 3"
+    ],
+    "colonies": [
+      "Bhagat Singh Colony"
+    ],
+    "boundary_summary": "From the cremation ground on Tigaon Road the route follows streets in Bhagat Singh Colony to the Sector 3 canal bridge. It follows the Agra Canal south to the Tigaon Road flyover."
+  },
+  {
+    "ward_number": 41,
+    "name": "Ward 41",
+    "zone": "Not verified",
+    "division": "Division IV (Ballabgarh, municipal solid waste)",
+    "villages": [],
+    "sectors": [
+      "Sector 3",
+      "Sector 25",
+      "Sector 55"
+    ],
+    "colonies": [
+      "Bhagat Singh Colony",
+      "Bhikam Colony",
+      "Azad Nagar",
+      "Shyam Colony",
+      "Chawla Colony"
+    ],
+    "boundary_summary": "From Ambedkar Chowk the line crosses the highway towards Ballabgarh metro and railway stations. It reaches Sector 25 and follows the Gurgaon Canal to the Sector 3 bridge."
+  },
+  {
+    "ward_number": 42,
+    "name": "Ward 42",
+    "zone": "Not verified",
+    "division": "Division IV (Ballabgarh, municipal solid waste)",
+    "villages": [],
+    "sectors": [
+      "Sector 2",
+      "Sector 64C",
+      "Sector 64D"
+    ],
+    "colonies": [
+      "Shyam Colony",
+      "Raj Bagh Colony",
+      "Bhim Sain Colony",
+      "Bhatia Colony",
+      "Arya Nagar",
+      "Mahavir Colony",
+      "Mukesh Colony"
+    ],
+    "boundary_summary": "From Ambedkar Chowk the route runs northeast on Tigaon Road to the government girls school and then north past Pathwari Temple."
+  },
+  {
+    "ward_number": 43,
+    "name": "Ward 43",
+    "zone": "Not verified",
+    "division": "Division IV (Ballabgarh, municipal solid waste)",
+    "villages": [],
+    "sectors": [
+      "Sector 2",
+      "Sector 3",
+      "Sector 64",
+      "Sector 64C",
+      "Sector 64D"
+    ],
+    "colonies": [
+      "Arya Nagar",
+      "Bhatia Colony",
+      "Bhim Sain Colony"
+    ],
+    "boundary_summary": "The route starts at the Sector 3 disposal works on Tigaon Road and runs to the IMT bypass bridge. It reaches the Sector 64 waterworks and turns towards Mohna Road and Arya Nagar."
+  },
+  {
+    "ward_number": 44,
+    "name": "Ward 44",
+    "zone": "Not verified",
+    "division": "Not verified",
+    "villages": [
+      "Mirzapur",
+      "Chandawali",
+      "Bukharpur",
+      "Dayalpur",
+      "Machhgar",
+      "Sotai",
+      "Behbalpur",
+      "Shahpur",
+      "Sagarpur",
+      "Malerna",
+      "Jajru"
+    ],
+    "sectors": [
+      "Sector 62",
+      "Sector 64",
+      "Sector 65",
+      "Sector 73",
+      "Sector 74",
+      "Sector 75",
+      "Sector 76",
+      "Sector 77",
+      "Sector 78",
+      "Sector 79"
+    ],
+    "colonies": [
+      "Sapera Basti"
+    ],
+    "boundary_summary": "From the bypass railway flyover the route reaches the Agra Canal, Mirzapur's Lal Dora and Sapera Basti. It follows the municipal perimeter along village revenue boundaries before returning to the flyover."
+  },
+  {
+    "ward_number": 45,
+    "name": "Ward 45",
+    "zone": "Not verified",
+    "division": "Division IV (Ballabgarh, municipal solid waste)",
+    "villages": [],
+    "sectors": [
+      "Sector 62"
+    ],
+    "colonies": [
+      "Subhash Colony"
+    ],
+    "boundary_summary": "From the Malerna Road flyover the line follows the railway north, reaches Subhash Colony Main Road and passes the Ballabgarh women's police station and Sector 62."
+  },
+  {
+    "ward_number": 46,
+    "name": "Ward 46",
+    "zone": "Not verified",
+    "division": "Division IV (Ballabgarh, municipal solid waste)",
+    "villages": [],
+    "sectors": [],
+    "colonies": [
+      "Mukesh Colony",
+      "Mahavir Colony",
+      "Adarsh Nagar",
+      "Subhash Colony",
+      "Pragati Vihar",
+      "Bapu Nagar"
+    ],
+    "boundary_summary": "From Hospital Road on the highway the line follows City Park to Mohna Road and reaches the Mukesh and Mahavir colony culverts. It passes the Malerna flyover and returns via Ballabgarh railway and metro stations."
+  }
+]

@@ -1,0 +1,81 @@
+---
+id: "mcf-tenders-infra-smartcity"
+municipality: "faridabad"
+title: "Faridabad water, sewerage, drainage, roads and Smart City tenders, 2024 to 2026"
+category: "tenders-works"
+subcategory: "infrastructure-and-smart-city"
+doc_type: "tender"
+date: "2024-03-15"
+source_url: "https://etenders.hry.nic.in/nicgep/app?component=%24DirectLink&page=FrontEndViewTender&service=direct&sp=S5iz8%2Bz7lgXqDtMMiF6npnw%3D%3D"
+source_portal: "etenders.hry.nic.in"
+original_filename: "Tendernotice_1.pdf"
+department: "Municipal Corporation Faridabad Engineering; Faridabad Smart City Limited; Faridabad Metropolitan Development Authority Infrastructure II"
+wards: []
+sectors: ["Sector 20A", "Sector 21A", "Sector 25"]
+villages: ["Manjhawali", "Mothuka"]
+tags: ["ranney-wells", "water-supply", "sewerage", "stp", "stormwater", "waterlogging", "road-carpeting", "led-streetlights", "iccc", "hewp", "etenders"]
+action_url: "https://etenders.hry.nic.in/nicgep/app"
+summary: "Dated infrastructure and procurement records for municipal and metropolitan utility works, road surfacing, lighting and the Faridabad Smart City command centre. Includes tender IDs, project status at the time of each source and instructions for checking or submitting bids."
+verified_at: "2026-11-22"
+---
+
+# Faridabad water, sewerage, drainage, roads and Smart City tenders, 2024 to 2026
+
+This is a citywide index of selected works, not a live tender list or an award register. The frontmatter date and source identify the 15 March 2024 Smart City road notice; the other entries have their own sources and dates. In Haryana eTenders, Municipal Corporation Faridabad (MCF) appears under `Urban Local Bodies > Faridabad`, Faridabad Smart City Limited (FSCL) under `Faridabad Smart City > Engineering`, and Faridabad Metropolitan Development Authority (FMDA) master utility works under `FMDA > Infra-II`. Check the organisation chain on each notice rather than assuming MCF owns every road, drain or pipe within the city.
+
+## Ranney wells and water supply
+
+Ranney wells draw groundwater through collector wells in the Yamuna floodplain. On 14 August 2024, the Press Information Bureau announced a [Central Ground Water Board and FMDA agreement](https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2045434) to assess groundwater potential and quality and prepare a management plan covering artificial recharge and further development. The agreement ran to 31 March 2025; it was a study, not a construction contract.
+
+In January 2025, [The Tribune](https://www.tribuneindia.com/news/haryana/mc-plans-to-focus-on-ranneywell-scheme-to-meet-drinking-water-demand-in-faridabad/) reported 22 working wells, 12 more then under tender at a reported cost of about ₹180 crore, and a further 32 proposed by 2041. It put city supply at about 325 million litres per day (MLD) against demand of about 450 MLD. FMDA manages bulk supply from the source to municipal storage or boosting points; MCF handles local distribution in its network. A municipal example is the [2025 notice for one year of operation and maintenance at Fawra Singh and 1-B Rainy Well boosting stations](https://www.tendershark.com/details/haryana-tender/haryana-government/31c1303a-c843-46a9-8b0b-322816aa053f), `2025_HRY_454657_1`, Ward 13 (new), estimated at ₹10,85,148, as indexed by TenderShark.
+
+On 20 July 2026, the [High-Powered Purchase Committee approval reported by ANI](https://www.latestly.com/agency-news/india-news-haryana-cm-chairs-high-powered-purchase-committee-meeting-projects-approved-in-kaithal-faridabad-7524865.html) covered five wells near Manjhawali and Mothuka, each rated at 10 MLD, at an estimated ₹164.75 crore. The approval called for testing the water for drinking-water suitability. Do not add those five to the earlier 12 as though they were confirmed separate packages. A separate [FMDA tender mirrored by TenderDekho](https://tenderdekho.com/tender-detail/td-0EGCR46PGU), `2026_HRY_542123_1`, published 19 August 2026, covered treatment plants at Manjhawali (10 MLD) and Dadasiya (20 MLD) for removal of contaminants including arsenic and manganese from Ranney well water. The mirrored estimate was ₹29,37,80,418. Neither the well approval nor the treatment notice establishes that the capacity entered service.
+
+## Sewage treatment plants and sewer networks
+
+The [Haryana State Pollution Control Board's September 2025 progress report](https://nmcg.nic.in/writereaddata/fileupload/ngtmpr/43_Haryana%20-%20MPR%20September%202025.pdf) listed 299.5 MLD of existing sewage treatment capacity for Faridabad, of which 197 MLD was being used. It listed FMDA proposals at Badshahpur (45 MLD and a separate 15 MLD proposal) and Mirzapur (20 MLD). The [11 August 2026 state review](https://prms.prharyana.gov.in/press-release/4017) targeted a 30 August start for the 20 MLD Mirzapur plant and scheduled technical bid opening for the 20 MLD Surajkund plant by 24 August. At the [10 September 2026 review](https://prms.prharyana.gov.in/press-release/5589), the state reported the Badshahpur STP under construction at 25% as of 9 September. The same review described a separate 50 MLD common effluent treatment plant (CETP) tender at Partapgarh, examination of the detailed project report and estimate for a 25 MLD CETP at Mirzapur, and a prepared estimate for a 15 MLD CETP at Badshahpur. CETPs treat industrial effluent; those figures should not be counted as municipal STP capacity.
+
+| Authority and tender ID | Network or treatment work | Notice details |
+| --- | --- | --- |
+| MCF, [`2024_HRY_350139_1`](https://etenders.hry.nic.in/nicgep/app?component=%24DirectLink&page=FrontEndViewTender&service=direct&sp=Su7X1f2t6xMP%2FJ3RJpsYu7w%3D%3D) | 300 mm stoneware sewer in Gali 5, Anangpur Dairy, Ward 22 as numbered in the notice | Published 2 February 2024; ₹3,67,044; portal lists a retender corrigendum |
+| MCF, [`2026_HRY_523963_1`](https://etenders.hry.nic.in/nicgep/app?component=%24DirectLink&page=FrontEndViewTender&service=direct&sp=SPOk2PFdIbBV%2BRLhvCBLoqw%3D%3D) | 300 mm sewer and 100 mm PVC water line in Shiv Park Pocket, Saran School Road, Jawahar Colony, Ward 8, NIT | Published 23 May 2026; ₹55,39,976; 180-day work period; portal lists a retender corrigendum |
+| FMDA, [`2026_HRY_519650_1`](https://etenders.hry.nic.in/nicgep/app?component=%24DirectLink&page=FrontEndViewTender&service=direct&sp=SitI5TEpNoXmfDOp7028Y%2Fg%3D%3D) | Desilting of remaining master sewers in Mirzapur zone, with 2.5 years of sewer operation and maintenance | Published 5 May 2026; ₹4,23,79,822; 915-day work period |
+| FMDA, [`2026_HRY_506883_1`](https://etenders.hry.nic.in/nicgep/app?component=%24DirectLink&page=FrontEndViewTender&service=direct&sp=St02HwnhLhroIfmid%2FOxxOQ%3D%3D) | Six micro STPs of 500 KL capacity each, with connections for parks and green belts in listed sectors | Published 7 March 2026; 180-day work period; no estimate shown on the listing |
+
+## Stormwater, NIT, Bata and Old Faridabad
+
+| Hotspot or package | Dated evidence |
+| --- | --- |
+| Old Faridabad railway underpass | Two people died after their vehicle became trapped in floodwater on 13 September 2024. On 23 July 2025, [Hindustan quoted MCF's executive engineer](https://www.livehindustan.com/ncr/faridabad/story-new-pumping-station-in-faridabad-to-alleviate-rainwater-drainage-issues-201753280355332.html) saying the AMRUT pumping station in Sector 21A was operating. It had five 35 HP motors and discharged to the Sector 19/28 dividing-road drain. [Hindustan Times reported renewed flooding](https://www.hindustantimes.com/cities/gurugram-news/waterlogging-traffic-snarls-persist-in-gurugram-faridabad-after-rain-101786212605688.html) and traffic closures on 7 and 8 August 2026 at the Old Railway Station, NHPC and Mewala Maharajpur underpasses. |
+| NIT, Neelam Chowk to Bata Chowk | On 24 September 2026, [Amar Ujala reported](https://www.amarujala.com/delhi-ncr/faridabad/drainage-system-in-the-nit-area-will-be-strengthened-faridabad-news-c-26-1-fbd1023-80805-2026-09-24) that FMDA had finished the 1,800 mm reinforced concrete drain between Neelam and Bata and had desilted about 80% of the AC Nagar drain. A further roughly 500 m connection to that drain and a sump and pumping system were still planned. This is the Bata Chowk and Neelam-Bata Road hotspot, not the Old Faridabad railway underpass. |
+| Master stormwater operation and maintenance | FMDA published [`2026_HRY_519407_1`](https://etenders.hry.nic.in/nicgep/app?component=%24DirectLink&page=FrontEndViewTender&service=direct&sp=SVZuUyeG4XMk%2BfFi8t7ARiw%3D%3D) on 4 May 2026. The ₹2,77,84,156 estimate covered three years of operation and maintenance at Sector 13, Alson Chowk, Old Underpass, NHPC Underpass and Sector 8. MCF separately listed [`2026_HRY_524548_1`](https://etenders.hry.nic.in/nicgep/app?component=view&page=WebTenderStatusLists&service=direct&sp=SI03C1CJVVnpsXXPpbFe%2Fwg%3D%3D) for three years of operation and maintenance and existing SCADA-based monitoring of Sector 8 stormwater disposal in Ward 39, Division III. The notices alone do not settle how the two scopes overlap. |
+
+MCF's [Dabua Colony notice, `2025_HRY_471162_1`](https://etenders.hry.nic.in/nicgep/app?component=%24DirectLink&page=FrontEndLatestActiveTenders&service=direct&sp=S6GKS0MU0mVSU6VvPp9ylhA%3D%3D), shows how ward drainage and road reinstatement may be packaged together. The ₹21,33,342 notice, published 9 September 2025, called for a drain and 80 mm interlocking-tile road repair after laying sewer and water lines at D Block, Ward 10, NIT.
+
+## Road carpeting and streetlights
+
+On road notices, check whether the bill of quantities (BOQ) covers bituminous surfacing, spot patching, ready-mix concrete (RMC) or interlocking blocks. These are different scopes. Likewise, a fixture supply and installation tender does not by itself show that a corridor has been lit.
+
+| Authority and tender ID | Scope and notice details |
+| --- | --- |
+| MCF, [`2026_HRY_529840_1`](https://www.tendershark.com/details/haryana-tender/haryana-government/f48918d2-6c11-4d7c-8dd2-eecf56fe1821) | Adarsh Colony, Ward 15: dense bituminous macadam (DBM) with bituminous concrete (BC) from Mullah Hotel to Hanuman Mandir. The mirrored recall notice is dated 18 June 2026, with an estimated value of ₹1,97,55,170 and a 365-day work period. |
+| MCF, [`2025_HRY_462523_1`](https://etenders.hry.nic.in/nicgep/app?component=%24DirectLink&page=FrontEndLatestActiveTenders&service=direct&sp=SJd5GOxF5V%2BsR3%2FGPMTfBkg%3D%3D) | Gaunchi main road, Ward 2, NIT: M25 RMC and 80 mm M40 interlocking tiles on the remaining side, not bituminous carpeting. Published 2 August 2025; ₹80,68,274. |
+| MCF, [`2025_HRY_478312_1`](https://etenders.hry.nic.in/nicgep/app?component=%24DirectLink&page=FrontEndLatestActiveTenders&service=direct&sp=Sz%2BDio1x4U3%2BTCNTqixJVbA%3D%3D) | New LED streetlights and poles on Shooting Range Road, Surajkund Gol Chakkar to the Haryana-Delhi border, Badkhal constituency. Published 15 October 2025; ₹26,83,947; 120-day work period. |
+| FSCL, [`2024_HRY_369010_1`](https://etenders.hry.nic.in/nicgep/app?component=%24DirectLink&page=FrontEndViewTender&service=direct&sp=S5iz8%2Bz7lgXqDtMMiF6npnw%3D%3D) | Badkhal Smart Tiranga Road and three collateral roads: additional civil and electrical works, including underground electrical infrastructure and decorative lighting. Published 15 March 2024; ₹54,86,000 earnest money deposit (EMD); 100-day work period. No tender estimate is shown and the portal lists date, other and retender corrigenda. |
+
+## Integrated Command and Control Centre (ICCC)
+
+FSCL's [project descriptions](https://www.smartcityfaridabad.co.in/wp-content/uploads/2022/10/Projects-Details.pdf) identify city surveillance and traffic management as ICCC functions. Its [tender archive](https://www.smartcityfaridabad.co.in/tenders/) distinguishes the systems integrator contract, the shared ICCC, FSCL and city transport building contract, and a water-line SCADA contract for monitoring the trunk supply system. SCADA is supervisory control and data acquisition; the water project description lists flow, level and pressure among the measurements.
+
+In April 2025, [Hindustan reported](https://www.livehindustan.com/ncr/faridabad/story-faridabad-smart-city-building-construction-to-complete-in-3-months-upgrading-command-and-control-center-201743795648027.html) that the traffic monitoring centre was operating in rented Sector 20A premises and was due to move to the new building at the MCF headquarters near B.K. Chowk. FSCL's next systems-integrator procurement, [`2026_HRY_496229_1`, reference `FSCL/2026/IT/10`](https://www.tendersontime.com/india/details/corrigendum-selection-msi-o-and-m-iccc-three-years-825ed9b/), covered installation, commissioning, shifting and three years of operation and maintenance for CCTV surveillance, smart traffic and other ICCC systems. The mirrored corrigendum gives 5 March 2026 as the revised bid deadline and 9 March as the scheduled opening date. [May 2026 reporting](https://www.livehindustan.com/ncr/faridabad/story-smart-city-building-construction-accelerates-in-faridabad-201779803837321.html) still described the new building as under construction. The tender does not verify award or relocation.
+
+The [6 August 2026 Lok Sabha reply, unstarred question 3075](https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU3075_b4SzXO.pdf), counted 35 completed Faridabad Smart Cities Mission projects worth ₹763 crore out of 44 projects worth ₹929 crore as of 31 March 2026. That is a city programme total, not a commissioning record for the new ICCC building.
+
+## HEWP registration and Haryana eTenders bidding
+
+The [Haryana Finance Department's 1 September 2025 notice](https://finhry.gov.in/regarding-implementation-of-haryana-engineering-works-portal-hwep-in-urban-local-bodies-department/) records implementation of the Haryana Engineering Works Portal (HEWP) in Urban Local Bodies. HEWP provides the contractor ID and registration functions. Tenders floated through HEWP are published for bidding on [Haryana eTenders](https://etenders.hry.nic.in/nicgep/app), as described on the [HEWP live tenders page](https://works.haryana.gov.in/LiveTender.aspx).
+
+1. For HEWP-covered works, create the free contractor login. The [HEWP FAQ](https://works.haryana.gov.in/FAQs.aspx) distinguishes this account from contractor registration. A contractor with an ID but without registration can still bid if the notice permits and the contractor meets its qualifications and pays the specified EMD. Check the [current contractor rules](https://works.haryana.gov.in/HEWP_Login/downloads.aspx) and the notice for class, enlistment and exemption conditions.
+2. If claiming EMD exemption, check that it is allowed for the package and upload the bid-specific Earnest Money Declaration generated in HEWP, with the registration evidence required by the bid. Otherwise, pay EMD in the prescribed mode. Tender fees and processing fees have separate rules. See clauses 16 and 19 of the [Haryana common bidding document](https://works.haryana.gov.in/home/docs/Common_Bid_Document.pdf) and the applicable detailed notice or request for proposals.
+3. Enrol separately on eTenders and map a valid Digital Signature Certificate (DSC) to the bidder account. Search by tender ID and organisation chain. Read the notice inviting tender (NIT), the detailed notice (DNIT), the BOQ and every corrigendum. In a two-cover bid, upload fee, qualification and technical documents in the first cover and the priced BOQ in the financial cover. Fill only the allowed fields; do not replace or restructure the spreadsheet.
+4. Select **Freeze Bid** before the portal's server deadline in Indian Standard Time and keep the system-generated bid summary. Uploading a file is not submission. The [official bidder instructions](https://etenders.hry.nic.in/nicgep/app?page=HelpForContractors&service=page) explain the acknowledgement and the [bidder manuals](https://etenders.hry.nic.in/nicgep/app?page=BiddersManualKit&service=page) show how to submit the covers. After closing, look for the Award of Contract (AOC) under Tender Status or Tender Results. For physical completion, look for a completion, commissioning or handover record rather than relying on an estimate, opening date or award.

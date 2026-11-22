@@ -1,0 +1,343 @@
+[
+  {
+    "ward_number": 1,
+    "name": "Ward 1",
+    "zone": "Zone 1",
+    "division": "Division 1",
+    "villages": [
+      "Garhi Harsaru",
+      "Gopalpur"
+    ],
+    "sectors": [
+      "Sector 99A"
+    ],
+    "colonies": [],
+    "boundary_summary": "From the northwest corner of Grace Centre, follow the northern municipal limit east along Gurugram-Farukhnagar Road to Pakora Wala Shop (28.472272, 76.949746). Go southeast along the limit and the Sector 99/99A road to the Gurugram-Rewari railway. Follow the railway southwest to the Wazirpur-Dhanawas boundary at the municipal limit. Go north along the limit via the Wazirpur-Hamirpur line, the Wazirpur-Garhi Harsaru-Sadhrana junction and the Garhi Harsaru-Sadhrana line to the Garhi Harsaru-Sadhrana-Chandu junction. Follow the municipal limit northeast along Gopalpur-Dhankot to the starting road."
+  },
+  {
+    "ward_number": 2,
+    "name": "Ward 2",
+    "zone": "Zone 1, Zone 2",
+    "division": "Division 1",
+    "villages": [
+      "Harsaru"
+    ],
+    "sectors": [
+      "Sector 88A",
+      "Sector 88B",
+      "Sector 89A",
+      "Sector 89B"
+    ],
+    "colonies": [
+      "BPL/SC Colony, Harsaru"
+    ],
+    "boundary_summary": "From the Gurugram-Rewari railway at Dwarka Expressway, go south along the expressway and municipal limit to Harsaru-Bamroli at CPR Road. Follow Bamroli-Harsaru northwest to the Sector 88/89 road; go north to Pataudi Road, then east to (28.428282, 76.954525). Go north to (28.433191, 76.954565), west to (28.433068, 76.945248), south to (28.431596, 76.94521), west to (28.431914, 76.942301), and south to (28.428637, 76.939335), on the west side of Vatika Seven Elements Society. Continue south to Hayatpur-Harsaru. Go northwest along Hayatpur-Harsaru, Wazirpur-Harsaru and Wazirpur-Garhi Harsaru via the Hayatpur-Harsaru-Wazirpur junction to the railway. Follow it northeast to the expressway."
+  },
+  {
+    "ward_number": 3,
+    "name": "Ward 3",
+    "zone": "Zone 1, Zone 2",
+    "division": "Division 1",
+    "villages": [
+      "Hayatpur"
+    ],
+    "sectors": [
+      "Sector 88",
+      "Sector 89",
+      "Sector 93",
+      "Sector 94"
+    ],
+    "colonies": [
+      "Saheed Bhagat Singh Colony, Hayatpur"
+    ],
+    "boundary_summary": "From Sihi-Hayatpur at Dwarka Expressway go southwest along Hayatpur-Bamroli-Sikanderpur Badha to the Sihi-Hayatpur-Bamroli-Badha intersection. Go northwest along Bada-Hayatpur-Bamroli to the Sector 89/93 road. Go southwest on Hayatpur-Badha across the Sector 90/93 road via Hayatpur-Badha-Nawada Fatehpur; continue on Hayatpur-Nawada Fatehpur to Nawada Fatehpur-Meoka-Hayatpur. Go north on Hayatpur-Wazirpur across the Sector 90/93 road and Pataudi Road to Wazirpur-Hayatpur-Harsaru. Turn southeast along Hayatpur-Harsaru to the southwest corner of Vatika Seven Elements Society. Follow its west wall north to (28.431914, 76.942301); go east to (28.431596, 76.94521), north to (28.433068, 76.94548), east along the north side of Godrej Icon Society to (28.433151, 76.954565), then south to (28.428282, 76.954535) on Pataudi Road. Go west to the Sector 88/89 road, south to Hayatpur-Harsaru and southeast along that boundary to Hayatpur-Sihi at Dwarka Expressway."
+  },
+  {
+    "ward_number": 4,
+    "name": "Ward 4",
+    "zone": "Zone 1",
+    "division": "Division 1",
+    "villages": [
+      "Wazirpur",
+      "Meoka",
+      "Dhorka"
+    ],
+    "sectors": [
+      "Sector 91",
+      "Sector 92",
+      "Sector 95",
+      "Sector 95A",
+      "Sector 95B"
+    ],
+    "colonies": [
+      "B-44 Wazirpur Enclave"
+    ],
+    "boundary_summary": "Start at Wazirpur-Garhi Harsaru on the Gurgaon-Rewari railway. Go southeast via Wazirpur-Garhi Harsaru-Harsaru, then along Wazirpur-Harsaru to Wazirpur-Harsaru-Hayatpur. Follow Wazirpur-Hayatpur south across the Sector 90/93 road via Wazirpur-Hayatpur-Meoka and Hayatpur-Nawada Fatehpur-Meoka. Follow Meoka-Nawada Fatehpur to Kankrola; go west on Meoka-Kankrola to the Bhangrola junction, then along Meoka-Bhangrola to the Sector 91/92 road. Go northwest through Dhorka to the Sector 92/95 road. Follow that road northeast to Wazirpur, then go north on Wazirpur-Dhorka across Pataudi Road via Dhorka-Wazirpur-Dhanawas to the railway. Follow it northeast to the start."
+  },
+  {
+    "ward_number": 5,
+    "name": "Ward 5",
+    "zone": "Zone 4",
+    "division": "Division 1",
+    "villages": [
+      "Kankrola"
+    ],
+    "sectors": [
+      "Sector 87",
+      "IMT Sector 15"
+    ],
+    "colonies": [],
+    "boundary_summary": "From Kankrola-Bhangrola-Meoka follow Kankrola-Meoka east to Nawada Fatehpur. Follow Kankrola-Nawada Fatehpur southeast to Naharpur Kasan; go southwest on Kankrola-Naharpur Kasan to Kasan. Go northwest via Kankrola-Kasan and Kankrola-Kasan-Baskushla to Kankrola-Bhangrola-Baskushla. Turn north on Kankrola-Bhangrola to the starting junction."
+  },
+  {
+    "ward_number": 6,
+    "name": "Ward 6",
+    "zone": "Zone 1, Zone 4",
+    "division": "Division 1",
+    "villages": [
+      "Bhangrola",
+      "Dhorka",
+      "Jhund Sarai (Viran)"
+    ],
+    "sectors": [
+      "IMT Sector 10",
+      "IMT Sector 12",
+      "IMT Sector 14"
+    ],
+    "colonies": [
+      "B7 Bhangrola"
+    ],
+    "boundary_summary": "From Bhangrola-Kankrola-Meoka follow Bhangrola-Kankrola south to Baskushla. Go southwest along Bhangrola-Baskushla via the Basharia junction, Bhangrola-Basharia and the Jhund Sarai Abad junction. Follow Bhangrola-Jhund Sarai Abad to Jhund Sarai Viran. Go northwest on the Abad-Viran boundary to (28.399444, 76.875972), then southwest to (28.395358, 76.87335) at the municipal limit. Follow the limit north along Jhund Sarai Viran-Patli Hajipur, crossing Pataudi Road to Wazirpur-Dhorka-Dhanawas. Go southeast on Dhorka-Wazirpur to the Sector 92/95 road; follow it southwest to (28.40755, 76.898578). Go southeast by road to the junction of the Sector 91-Bhangrola line with Meoka-Bhangrola, then northeast along Meoka-Bhangrola to the starting junction."
+  },
+  {
+    "ward_number": 7,
+    "name": "Ward 7",
+    "zone": "Zone 4, Zone 5",
+    "division": "Division 1",
+    "villages": [
+      "Baskushla",
+      "Basharia",
+      "Dhana",
+      "Jhund Sarai (Abad)"
+    ],
+    "sectors": [
+      "Sector 96",
+      "IMT Sector 8",
+      "IMT Sector 9",
+      "IMT Sector 11"
+    ],
+    "colonies": [],
+    "boundary_summary": "From Baskushla-Kankrola-Bhangrola go southeast on Baskushla-Kankrola to Kasan. Follow Kasan-Baskushla southwest to Baskushla-Kasan-Dhana; continue southwest on Dhana-Kasan across Kundli-Manesar-Palwal Expressway to the municipal limit. Follow the limit north to (28.395358, 76.87335), then go northeast to (28.399444, 76.875972). Turn southeast via Jhund Sarai Abad-Jhund Sarai Viran, Jhund Sarai Abad-Bhangrola and Bhangrola-Basharia to the starting junction."
+  },
+  {
+    "ward_number": 8,
+    "name": "Ward 8",
+    "zone": "Zone 5, Zone 7",
+    "division": "Division 2",
+    "villages": [
+      "Kasan"
+    ],
+    "sectors": [
+      "IMT Sector 3",
+      "IMT Sector 3A",
+      "IMT Sector 4",
+      "IMT Sector 7"
+    ],
+    "colonies": [],
+    "boundary_summary": "From Kasan-Kankrola-Baskushla go east on Kankrola-Kasan via Naharpur Kasan, then along Kasan-Naharpur Kasan to Khoh. Go south on Kasan-Khoh to (28.341595, 76.907248). Go north by the Sector P2/P6 boundary to (28.347094, 76.906903), west to (28.347127, 76.90484), north by the P3/M3A boundary to (28.355268, 76.898594), then north to (28.358484, 76.897821). Go west to (28.356391, 76.892262) and southwest via (28.353322, 76.890437) to (28.350032, 76.880983) at Kundli Manesar Expressway. Go north to the municipal limit and northeast along it to Kasan-Dhana-Babra Bankipur. Turn southeast along Kasan-Dhana to Baskushla and northeast along Kasan-Baskushla to the start."
+  },
+  {
+    "ward_number": 9,
+    "name": "Ward 9",
+    "zone": "Zone 7",
+    "division": "Division 2",
+    "villages": [
+      "Kasan",
+      "Sehrawan",
+      "Kukrola",
+      "Fazalwas"
+    ],
+    "sectors": [
+      "Sector P-1",
+      "Sector P-2",
+      "Sector P-3",
+      "Sector P-4",
+      "Sector P-5",
+      "Sector P-6",
+      "Sector P-7"
+    ],
+    "colonies": [],
+    "boundary_summary": "From Sehrawan-Khoh-Kasan follow Sehrawan-Khoh east to Manesar. Follow Sehrawan-Manesar south across the Delhi-Jaipur National Highway via Sehrawan-Kukdaula-Manesar to the municipal limit. Turn southwest along the limit via Fazalwas and Fazalwas-Kukdaula-Fakarpur, then north along it to (28.351214, 76.880551) at Kundli-Manesar-Palwal Expressway. Go south to (28.350032, 76.880983), northeast along M3A/P4 to (28.358484, 76.897821), south to (28.355268, 76.898594), southwest on the P3/M3A road to (28.347127, 76.90484), east to (28.347094, 76.906903) and south to (28.341595, 76.907248). Follow Sehrawan-Kasan northeast to the start."
+  },
+  {
+    "ward_number": 10,
+    "name": "Ward 10",
+    "zone": "Zone 6",
+    "division": "Division 2",
+    "villages": [
+      "Manesar"
+    ],
+    "sectors": [
+      "IMT Sector 1",
+      "IMT Sector 1A",
+      "IMT Sector 1B",
+      "IMT Sector 1C"
+    ],
+    "colonies": [],
+    "boundary_summary": "From the northwest corner of the NSG Campus on the Delhi-Jaipur National Highway go northwest along its wall and the M1B boundary to (28.353032, 76.954761). Go west to (28.352603, 76.945115) on M1A/M1B, north to (28.358065, 76.945027), west to (28.358018, 76.942813), then southwest to the point printed as \"(28.356303, 76. to 911624)\". Go west along a street to (28.356337, 76.939276), north to (28.356979, 76.939295), then southwest to the highway. Follow it north to Manesar-Lakhnola, southeast along that line via Manesar-Lakhnaula-Naurangpur, then along Manesar-Naurangpur to Bargurjar. Go southwest along Manesar-Bargurjar to Manesar-Nainwal-Bargujjar, then west along Nainwal-Manesar to (28.326163, 76.931676) on the municipal limit. Go northwest via (28.330597, 76.918947) on the limit to the highway. Follow the highway northeast, including the NSG Campus, to its northwest corner."
+  },
+  {
+    "ward_number": 11,
+    "name": "Ward 11",
+    "zone": "Zone 6",
+    "division": "Division 2",
+    "villages": [
+      "Manesar"
+    ],
+    "sectors": [
+      "IMT Sector 1B"
+    ],
+    "colonies": [],
+    "boundary_summary": "From (28.355718, 76.938035) on the Delhi-Jaipur National Highway take the street northeast to (28.356989, 76.939295). Go south along the street to (28.356337, 76.939276), east to (28.356303, 76.941624), northeast by road to (28.358018, 76.942813), then east by street to (28.358065, 76.945027). Go south along the M1A/M1B road to (28.352603, 76.945115), then east to (28.353032, 76.954761). Follow the M1B boundary and NSG Campus wall southwest to the highway, then follow the highway north past the ESIC Dispensary and Aravali Hospital to the start."
+  },
+  {
+    "ward_number": 12,
+    "name": "Ward 12",
+    "zone": "Zone 6",
+    "division": "Division 2",
+    "villages": [
+      "Manesar"
+    ],
+    "sectors": [
+      "IMT Sector 2"
+    ],
+    "colonies": [],
+    "boundary_summary": "From Manesar-Naharpur Kasan-Lakhnaula follow Manesar-Nakhdaula east to the Delhi-Jaipur National Highway. Follow the highway south past IMT Chowk and Government Senior Secondary School, Manesar to Manesar-Sehrawan. Go north along that boundary via Khoh-Manesar-Sehrawan, then along Khoh-Manesar to the starting junction."
+  },
+  {
+    "ward_number": 13,
+    "name": "Ward 13",
+    "zone": "Zone 5, Zone 6",
+    "division": "Division 2",
+    "villages": [
+      "Khoh"
+    ],
+    "sectors": [
+      "IMT Sector 5"
+    ],
+    "colonies": [],
+    "boundary_summary": "From Khoh-Kasan-Naharpur Kasan go southeast along Naharpur Kasan-Khoh to Khoh-Naharpur Kasan-Manesar. Go south along Manesar-Khoh to Manesar-Khoh-Sehrawan, west along Khoh-Sehrawan to Khoh-Sehrawan-Kasan and north along Khoh-Kasan to the starting junction."
+  },
+  {
+    "ward_number": 14,
+    "name": "Ward 14",
+    "zone": "Zone 4, Zone 5",
+    "division": "Division 2",
+    "villages": [
+      "Naharpur Kasan"
+    ],
+    "sectors": [
+      "IMT Sector 6"
+    ],
+    "colonies": [],
+    "boundary_summary": "From Naharpur Kasan-Kankrola-Nawada Fatehpur go southeast on Naharpur Kasan-Nawada Fatehpur via the Lakhnaula junction. Continue along Lakhnaula-Naharpur Kasan to Naharpur Kasan-Manesar-Lakhnaula. Go south to Khoh-Manesar-Naharpur Kasan, then northwest via Khoh-Kasan-Naharpur Kasan and Kasan-Naharpur Kasan to Naharpur Kasan-Kankrola-Kasan. Go north along Naharpur Kasan-Kankrola to the start."
+  },
+  {
+    "ward_number": 15,
+    "name": "Ward 15",
+    "zone": "Zone 2",
+    "division": "Division 2",
+    "villages": [
+      "Lakhnola"
+    ],
+    "sectors": [
+      "Sector 81"
+    ],
+    "colonies": [],
+    "boundary_summary": "From Lakhnaula-Nawada Fatehpur-Bada go east on Lakhnaula-Bada to circle 04, Jaisingh Chowk. Go southeast by road past Sector 81 and D.L.F. Altima Society to Rampura Chowk on the Delhi-Jaipur National Highway. Follow the highway southwest to Lakhnaula-Manesar, then go north to Lakhnaula-Manesar-Naharpur Kasan. Go northwest along Lakhnaula-Naharpur Kasan to Lakhnaula-Nawada Fatehpur-Naharpur Kasan, then north along Nawada Fatehpur-Lakhnaula to the start."
+  },
+  {
+    "ward_number": 16,
+    "name": "Ward 16",
+    "zone": "Zone 3, Zone 6, Zone 7",
+    "division": "Division 2",
+    "villages": [
+      "Naurangpur",
+      "Bar Gujar",
+      "Nainwal"
+    ],
+    "sectors": [
+      "Sector 79",
+      "Sector 79B",
+      "Sector 80",
+      "IMT Sector 1D"
+    ],
+    "colonies": [],
+    "boundary_summary": "From Naurangpur-Shikohpur-Lakhnaula on the Delhi-Jaipur National Highway follow Naurangpur-Shikohpur southeast to the municipal limit. Follow the limit south to Naurangpur-Bargurjar-Gairatpur Bas and southwest to Nainwal-Manesar. Go northeast on Nainwal-Manesar to Nainwal-Manesar-Badgurjar; follow Badgurjar-Manesar north via Manesar-Badgurjar-Naurangpur and Manesar-Naurangpur to the Lakhnaula junction. Go northwest along Manesar-Nakhdaula to the highway, then northeast along the highway to the start."
+  },
+  {
+    "ward_number": 17,
+    "name": "Ward 17",
+    "zone": "Zone 3",
+    "division": "Division 1",
+    "villages": [
+      "Shikohpur"
+    ],
+    "sectors": [
+      "Sector 76",
+      "Sector 77",
+      "Sector 78",
+      "Sector 79A"
+    ],
+    "colonies": [],
+    "boundary_summary": "From Naurangpur-Shikohpur-Lakhnaula on the Delhi-Jaipur National Highway go north across Kherki Daula toll to the municipal limit. Go southeast along the limit and Sector 75/76 road to the Shikohpur boundary. Continue south to Hasanpur-Kherki Daula-Shikohpur and south along the limit to Shikohpur-Naurangpur-Sakatpur. Follow Naurangpur-Shikohpur northwest to the highway at the starting junction."
+  },
+  {
+    "ward_number": 18,
+    "name": "Ward 18",
+    "zone": "Zone 2",
+    "division": "Division 1",
+    "villages": [
+      "Rampura"
+    ],
+    "sectors": [
+      "Sector 82",
+      "Sector 82A"
+    ],
+    "colonies": [],
+    "boundary_summary": "From Rampura Chowk on the Delhi-Jaipur National Highway go northwest by road via Sectors 82 and 82A to circle 4, Jaisingh Chowk. Follow the road northeast to Sheetla Mata Mandir Chowk, then Vatika Road southeast via the Rampura revenue boundary to the highway. Go southwest along the highway via Vatika Chowk to the start."
+  },
+  {
+    "ward_number": 19,
+    "name": "Ward 19",
+    "zone": "Zone 2",
+    "division": "Division 2",
+    "villages": [
+      "Sikanderpur Badha",
+      "Sihi"
+    ],
+    "sectors": [
+      "Sector 83",
+      "Sector 84",
+      "Sector 85"
+    ],
+    "colonies": [],
+    "boundary_summary": "From Sihi-Hayatpur at Dwarka Expressway go southeast along the Sector 36A/84 road to the Delhi-Jaipur National Highway. Follow it southwest to Kherki Daula-Shikohpur-Rampura. Go south along that line to Kherki Daula-Shikohpur-Sihi and south along Sihi-Shikohpur to the Sector 82/83 road. Go northwest along it to Sheetla Mata Mandir Chowk, southwest on the Sector 82/85 road to Jaisingh Chowk, northwest on the Sector 85/86 road to Dadi Sati Chowk, then northeast on the Sector 85/89 road to Hayatpur-Bada. Follow Bada-Hayatpur southeast to Bada-Hayatpur-Sihi, then Sihi-Hayatpur north to Sihi-Hayatpur-Harsaru at Dwarka Expressway."
+  },
+  {
+    "ward_number": 20,
+    "name": "Ward 20",
+    "zone": "Zone 1, Zone 2",
+    "division": "Division 2",
+    "villages": [
+      "Nawada Fatehpur",
+      "Badha"
+    ],
+    "sectors": [
+      "Sector 86",
+      "Sector 90"
+    ],
+    "colonies": [],
+    "boundary_summary": "From Dadi Sati Chowk go southeast along the Sector 85/86 road to Badha-Sikanderpur Badha; go south along that boundary to Lakhnaula. Go northwest along Lakhnaula-Bada to Badha-Lakhnaula-Nawada Fatehpur, then south along Nawada Fatehpur-Nakhdaula to Naharpur Kasan. Go north along Nawada Fatehpur-Naharpur Kasan via Kankrola, then along Nawada Fatehpur-Kankrola to Meoka. Go northeast to Nawada Fatehpur-Meoka-Hayatpur, southeast to (28.402252, 76.930724), then northeast via Hayatpur-Nawada Fatehpur and the Bada junction. Continue on Bada-Hayatpur to the Sector 85/89 road and follow it to Dadi Sati Chowk."
+  }
+]
