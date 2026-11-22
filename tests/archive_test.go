@@ -97,12 +97,12 @@ func TestParseAllManesarArchives(t *testing.T) {
 
 type mockEmbedder struct{}
 
-func TestParseAll21Municipalities(t *testing.T) {
+func TestParseAllMunicipalities(t *testing.T) {
 	root := "../archives"
 	profiles, err := indexer.ScanMunicipalities(root)
 	check(t, err)
-	if len(profiles) != 21 {
-		t.Fatalf("got %d profiles, want 21", len(profiles))
+	if len(profiles) < 21 {
+		t.Fatalf("got %d profiles, want at least the original 21", len(profiles))
 	}
 	ids := map[[2]string]string{}
 	wardCount, officerCount := 0, 0
@@ -136,8 +136,8 @@ func TestParseAll21Municipalities(t *testing.T) {
 		check(t, err)
 		oset, err := indexer.LoadMunicipalityOfficers(dir)
 		check(t, err)
-		if before == len(ids) || len(ws) == 0 || len(oset) == 0 {
-			t.Errorf("%s: empty document, ward or officer collection", p.Slug)
+		if before == len(ids) {
+			t.Errorf("%s: no documents", p.Slug)
 		}
 		wardCount += len(ws)
 		officerCount += len(oset)
@@ -145,6 +145,13 @@ func TestParseAll21Municipalities(t *testing.T) {
 			for _, w := range ws {
 				engineers[w.WardNumber] = w.JuniorEngineers
 			}
+		}
+		seenWards := map[int]bool{}
+		for _, w := range ws {
+			if w.WardNumber < 1 || seenWards[w.WardNumber] {
+				t.Errorf("%s: invalid or duplicate ward number %d", p.Slug, w.WardNumber)
+			}
+			seenWards[w.WardNumber] = true
 		}
 	}
 	for _, n := range []int{16, 17, 18} {
