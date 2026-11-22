@@ -1,0 +1,28 @@
+[
+  {
+    "label": "Municipal call centre",
+    "number": "08702500781",
+    "source_url": "https://gwmc.gov.in/ContactUs_New.aspx"
+  },
+  {
+    "label": "Municipal toll-free helpline",
+    "number": "18004251980",
+    "source_url": "https://gwmc.gov.in/images/tollfree_new.png"
+  },
+  {
+    "label": "Municipal call centre",
+    "number": "9701999645",
+    "source_url": "https://gwmc.gov.in/images/tollfree_new.png"
+  },
+  {
+    "label": "Water supply helpline",
+    "number": "7207908583",
+    "source_url": "https://gwmc.gov.in/images/tollfree_new.png"
+  },
+  {
+    "label": "Municipal commissioner",
+    "number": "9701999645",
+    "email": "ourwmc@gmail.com",
+    "source_url": "https://gwmc.gov.in/ContactUs_New.aspx?status=99"
+  }
+]
