@@ -1,0 +1,8 @@
+_workspace/
+data/
+.cache/
+.ruff_cache/
+bin/
+/archive
+*.pdf
+.DS_Store
